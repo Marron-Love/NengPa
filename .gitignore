@@ -1,0 +1,20 @@
+# Ignore everything by default
+*
+
+# Allow directories
+!*/
+
+# Whitelist web hosting files
+!index.html
+!data.js
+!liked_videos.json
+!cooking_recipes.json
+!README.md
+!.gitignore
+
+# Explicitly ignore sensitive files (just in case)
+.env
+client_secret*.json
+token.json
+__pycache__/
+*.pyc
