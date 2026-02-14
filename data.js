@@ -92,6 +92,7 @@ window.RECIPE_DATA = {
         "또띠아",
         "뜨거운 물",
         "라멘",
+        "라면스프",
         "라이스페이퍼",
         "라이트 크림치즈",
         "라즈베리잼",
@@ -206,6 +207,7 @@ window.RECIPE_DATA = {
         "식빵",
         "식용유",
         "식초",
+        "신라면",
         "쌀",
         "쌀가루",
         "쌀소면",
@@ -214,6 +216,7 @@ window.RECIPE_DATA = {
         "쌍화탕",
         "쑥",
         "쑥가루",
+        "아몬드",
         "아몬드가루",
         "아몬드브리즈",
         "아몬드슬라이스",
@@ -543,6 +546,13 @@ window.RECIPE_DATA = {
             ]
         },
         {
+            "title": "이제 치킨 시켜 먹지 마세요! 집에서 10분이면 끝🍗| Don’t Order Grilled Chicken Again!  Make This at Home in 10 Minutes!",
+            "link": "https://www.youtube.com/watch?v=Qm8e8QIXo1Y",
+            "ingredients": [
+                "버터"
+            ]
+        },
+        {
             "title": "초간단 전자레인지 얼큰 국수",
             "link": "https://www.youtube.com/watch?v=zJRgsaPCvEw",
             "ingredients": [
@@ -607,6 +617,13 @@ window.RECIPE_DATA = {
                 "식초",
                 "설탕",
                 "물"
+            ]
+        },
+        {
+            "title": "쉬워보이지? 막상 해보면 스킬 필요해! #요리 #계란 #아침식사 #아이디어 #손맛",
+            "link": "https://www.youtube.com/watch?v=LzqScN5rUJs",
+            "ingredients": [
+                "계란"
             ]
         },
         {
@@ -1490,6 +1507,16 @@ window.RECIPE_DATA = {
             ]
         },
         {
+            "title": "속세맛..노밀가루❗️아몬드 버터 베이글? #shorts #다이어트레시피 #다이어트식단 #당뇨",
+            "link": "https://www.youtube.com/watch?v=qrBc3JY212A",
+            "ingredients": [
+                "밀가루",
+                "아몬드",
+                "버터",
+                "알룰로스"
+            ]
+        },
+        {
             "title": "⭐️150만뷰⭐️ 쿠팡에서 3만원대로 외식느낌 일주일집밥! #가성비 #식비절약 #쿠팡추천",
             "link": "https://www.youtube.com/watch?v=1PLVrEMn17Q",
             "ingredients": [
@@ -2322,6 +2349,17 @@ window.RECIPE_DATA = {
                 "라이스페이퍼",
                 "치즈볼",
                 "계란"
+            ]
+        },
+        {
+            "title": "그냥 신라면이 질린다면 신라면 알리오",
+            "link": "https://www.youtube.com/watch?v=hvm5F0X3kzo",
+            "ingredients": [
+                "신라면",
+                "올리브오일",
+                "라면스프",
+                "다진마늘",
+                "페페론치노"
             ]
         },
         {
@@ -3369,6 +3407,13 @@ window.RECIPE_DATA = {
                 "다진마늘",
                 "옥수수",
                 "치즈"
+            ]
+        },
+        {
+            "title": "이건 진짜 제 인생 버섯밥입니다…",
+            "link": "https://www.youtube.com/watch?v=GD7e8eLCOzE",
+            "ingredients": [
+                "버섯"
             ]
         },
         {
