@@ -292,38 +292,58 @@
         </div>
     </div>
 
-    <!-- Load Data First -->
-    <script src="data.js"></script>
-
+    <!-- Load Data Dynamically to prevent caching -->
     <script>
-        // App State
-        const state = {
-            allIngredients: [],
-            recipes: [],
-            selected: new Set(),
-            searchTerm: ''
-        };
+        const script = document.createElement('script');
+        script.src = "data.js?v=" + new Date().getTime();
+        document.body.appendChild(script);
 
-        // Initialize
-        document.addEventListener('DOMContentLoaded', () => {
+        script.onload = () => {
+            // App State
+            const state = {
+                allIngredients: [],
+                recipes: [],
+                selected: new Set(),
+                searchTerm: ''
+            };
+
+            // Initialize
             if (window.RECIPE_DATA) {
                 state.allIngredients = window.RECIPE_DATA.ingredients;
                 state.recipes = window.RECIPE_DATA.recipes;
-                renderIngredients();
-                renderRecipes(); // Initially show all or none? Let's show all or maybe random. Showing all is better.
+
+                // Expose functions to global scope or initialize UI here
+                renderIngredients(state);
+                renderRecipes(state);
+
+                // Search Listener
+                document.getElementById('searchInput').addEventListener('input', (e) => {
+                    state.searchTerm = e.target.value.toLowerCase();
+                    renderIngredients(state); // Pass state
+                });
+
+                // Global functions for onclick handlers need access to state
+                window.toggleIngredient = (ing) => {
+                    if (state.selected.has(ing)) {
+                        state.selected.delete(ing);
+                    } else {
+                        state.selected.add(ing);
+                    }
+                    updateUI(state);
+                };
+
+                window.clearSelection = () => {
+                    state.selected.clear();
+                    updateUI(state);
+                };
+
             } else {
-                alert('Error: data.js not found. Please run build_web_data.py first.');
+                alert('Error: data.js not found or empty.');
             }
+        };
 
-            // Search Listener
-            document.getElementById('searchInput').addEventListener('input', (e) => {
-                state.searchTerm = e.target.value.toLowerCase();
-                renderIngredients();
-            });
-        });
-
-        // Render Ingredients Chips
-        function renderIngredients() {
+        // UI Functions (Moved outside or adapted to accept state)
+        function renderIngredients(state) {
             const container = document.getElementById('ingredientsContainer');
             container.innerHTML = '';
 
@@ -335,56 +355,31 @@
                 const btn = document.createElement('div');
                 btn.className = `chip ${state.selected.has(ing) ? 'selected' : ''}`;
                 btn.textContent = ing;
-                btn.onclick = () => toggleIngredient(ing);
+                btn.onclick = () => window.toggleIngredient(ing);
                 container.appendChild(btn);
             });
         }
 
-        // Toggle Selection
-        function toggleIngredient(ing) {
-            if (state.selected.has(ing)) {
-                state.selected.delete(ing);
-            } else {
-                state.selected.add(ing);
-            }
-            updateUI();
-        }
-
-        // Clear Selection
-        function clearSelection() {
-            state.selected.clear();
-            updateUI();
-        }
-
-        function updateUI() {
+        function updateUI(state) {
             document.getElementById('countValue').textContent = state.selected.size;
-            // Re-render only chips to update class, or optimize by toggling class directly. 
-            // For simplicity re-render is fine for < 500 items.
-            renderIngredients();
-            renderRecipes();
+            renderIngredients(state);
+            renderRecipes(state);
         }
 
         // Render Recipes
-        function renderRecipes() {
+        function renderRecipes(state) {
             const container = document.getElementById('recipesContainer');
             const matchCountEl = document.getElementById('matchCount');
             container.innerHTML = '';
 
-            // Filter Logic:
-            // If no ingredients selected -> Show all (or maybe top 20 random?)
-            // If ingredients selected -> Show recipes that contain ALL selected ingredients.
-
             let displayRecipes = [];
 
             if (state.selected.size === 0) {
-                // Show all, maybe limited to prevent DOM overload if thousands
                 displayRecipes = state.recipes;
             } else {
                 const selectedArray = Array.from(state.selected);
                 displayRecipes = state.recipes.filter(recipe => {
-                    // Must contain ALL selected ingredients
-                    // Create a clean set of recipe ingredients for easy check
-                    const rIngs = new Set(recipe.ingredients); // The strings might vary slightly if cleaning wasn't perfect, but here we assume exact match from our generated data
+                    const rIngs = new Set(recipe.ingredients);
                     return selectedArray.every(sel => rIngs.has(sel));
                 });
             }
@@ -392,7 +387,7 @@
             matchCountEl.textContent = `(${displayRecipes.length})`;
 
             if (displayRecipes.length === 0) {
-                container.innerHTML = `<div class="empty-state">No recipes found with these ingredients. Try removing some.</div>`;
+                container.innerHTML = `<div class="empty-state">No recipes found with these ingredients.</div>`;
                 return;
             }
 
@@ -400,9 +395,8 @@
                 const card = document.createElement('a');
                 card.href = recipe.link;
                 card.className = 'recipe-card';
-                card.target = "_blank"; // Open in new tab
+                card.target = "_blank";
 
-                // Highlight matching ingredients
                 const ingHtml = recipe.ingredients.map(ing => {
                     const isMatch = state.selected.has(ing);
                     return `<span class="ing-tag ${isMatch ? 'match' : ''}">${ing}</span>`;
