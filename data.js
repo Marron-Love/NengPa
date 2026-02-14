@@ -16,6 +16,7 @@ window.RECIPE_DATA = {
         "계란",
         "계피가루",
         "고기",
+        "고추",
         "고추가루",
         "고추장",
         "고추참치",
@@ -68,11 +69,13 @@ window.RECIPE_DATA = {
         "두유",
         "들기름",
         "들깨",
+        "등심",
         "딸기",
         "딸기 시럽",
         "딸기잼",
         "땅콩버터",
         "떡",
+        "떡가루",
         "뜨거운 물",
         "라멘",
         "라이스페이퍼",
@@ -184,6 +187,7 @@ window.RECIPE_DATA = {
         "아몬드슬라이스",
         "아몬드우유",
         "아보카도 오일",
+        "안심",
         "알룰로스",
         "알배추",
         "앞다리살",
@@ -237,6 +241,7 @@ window.RECIPE_DATA = {
         "참치",
         "참치액",
         "참치캔",
+        "채소",
         "채소믹스",
         "청매실",
         "청양고추",
@@ -279,6 +284,7 @@ window.RECIPE_DATA = {
         "통마늘",
         "통항정살",
         "통후추",
+        "특등심",
         "파",
         "파마산 치즈 가루",
         "파마산치즈",
@@ -502,6 +508,15 @@ window.RECIPE_DATA = {
                 "카펠리니면",
                 "마늘",
                 "식초"
+            ]
+        },
+        {
+            "title": "-10kg 다이어터의 일주일 점심 도시락 🍱",
+            "link": "https://www.youtube.com/watch?v=oH79eDtDQVs",
+            "ingredients": [
+                "쌀",
+                "계란",
+                "채소"
             ]
         },
         {
@@ -767,6 +782,14 @@ window.RECIPE_DATA = {
             ]
         },
         {
+            "title": "미친 다이어트 떡을 만들어버렸습니다🍡",
+            "link": "https://www.youtube.com/watch?v=BNjcep4dIF0",
+            "ingredients": [
+                "떡가루",
+                "설탕"
+            ]
+        },
+        {
             "title": "입터짐방지 혈당방어 다이어트 카스테라💗 평생레시피⭐️",
             "link": "https://www.youtube.com/watch?v=zrqKba2BXoo",
             "ingredients": [
@@ -995,6 +1018,17 @@ window.RECIPE_DATA = {
                 "물",
                 "꿀",
                 "마늘"
+            ]
+        },
+        {
+            "title": "후다닥 끓이는 무근본 갈비없는 갈비탕맛탕 #자취요리 #집밥 Beef Soup with Thinly Sliced Brisket",
+            "link": "https://www.youtube.com/watch?v=kSRON_uQD-k",
+            "ingredients": [
+                "소고기",
+                "무",
+                "고추",
+                "마늘",
+                "파"
             ]
         },
         {
@@ -2215,6 +2249,15 @@ window.RECIPE_DATA = {
             ]
         },
         {
+            "title": "안 보면 평생 후회하는 궁극의 돈까스",
+            "link": "https://www.youtube.com/watch?v=e673Tbym_9M",
+            "ingredients": [
+                "등심",
+                "안심",
+                "특등심"
+            ]
+        },
+        {
             "title": "프랑스 치즈는 이렇게 드세요",
             "link": "https://www.youtube.com/watch?v=Pujcm6uK50U",
             "ingredients": [
@@ -2275,6 +2318,18 @@ window.RECIPE_DATA = {
                 "물",
                 "들기름",
                 "파"
+            ]
+        },
+        {
+            "title": "이게 가능하다고? #다이어터 #유지어터식단 #다이어트레시피",
+            "link": "https://www.youtube.com/watch?v=2JMj8qlkyXg",
+            "ingredients": [
+                "돼지고기",
+                "마늘",
+                "양파",
+                "대파",
+                "된장",
+                "생강"
             ]
         },
         {
