@@ -378,9 +378,22 @@
                 displayRecipes = state.recipes;
             } else {
                 const selectedArray = Array.from(state.selected);
+
+                // 1. Filter: OR condition (at least one ingredient matches)
                 displayRecipes = state.recipes.filter(recipe => {
                     const rIngs = new Set(recipe.ingredients);
-                    return selectedArray.every(sel => rIngs.has(sel));
+                    return selectedArray.some(sel => rIngs.has(sel));
+                });
+
+                // 2. Sort: By number of matching ingredients (Descending)
+                displayRecipes.sort((a, b) => {
+                    const aIngs = new Set(a.ingredients);
+                    const bIngs = new Set(b.ingredients);
+
+                    const aMatchCount = selectedArray.filter(sel => aIngs.has(sel)).length;
+                    const bMatchCount = selectedArray.filter(sel => bIngs.has(sel)).length;
+
+                    return bMatchCount - aMatchCount;
                 });
             }
 
