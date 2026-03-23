@@ -1,42 +1,12 @@
 window.RECIPE_DATA = {
     "ingredients": [
-        "bacon",
-        "bamboo shoots",
-        "basil",
-        "bell peppers",
-        "broccoli florets",
-        "carrots",
-        "chickpeas",
-        "chili flakes",
-        "cucumber slices",
-        "eggs",
-        "fish sauce",
-        "garlic",
-        "ginger",
-        "kimchi",
-        "kimchi fried rice noodles",
-        "lemongrass",
-        "mushrooms",
-        "onions",
-        "parsley",
-        "pickled radish",
-        "pineapple",
-        "pork belly",
-        "rice noodles",
-        "scallions",
-        "sesame oil",
-        "shrimp cocktail",
-        "soy sauce",
-        "spinach",
-        "sweet potato cubes",
-        "tofu",
-        "tomatoes",
         "가루육수",
         "가지",
         "간장",
         "감자",
         "건포도",
         "게맛살(크래미)",
+        "고구마 큐브",
         "견과류",
         "견과류(아몬드/호두)",
         "계란",
@@ -69,8 +39,7 @@ window.RECIPE_DATA = {
         "돈까스",
         "돈까스/스테이크소스",
         "돼지고기",
-        "돼지고기 Chop",
-        "돼지고기 belly",
+        "돼지고기(삼겹살)",
         "돼지고기불고기양념",
         "된장",
         "두부",
@@ -85,6 +54,7 @@ window.RECIPE_DATA = {
         "라이스페이퍼",
         "럼",
         "레몬",
+        "레몬그라스",
         "레몬(레몬즙)",
         "레몬즙",
         "렌틸콩",
@@ -108,6 +78,7 @@ window.RECIPE_DATA = {
         "바닐라 추출물",
         "바닐라엑스트랙",
         "바베큐소스",
+        "바질",
         "바질페스토",
         "밥",
         "밥(쌀)",
@@ -124,16 +95,17 @@ window.RECIPE_DATA = {
         "불고기소스",
         "불향소스",
         "브로콜리",
+        "브로콜리 꽃",
         "블루베리",
         "빨간고추",
         "살사",
         "상추",
         "새우",
-        "새우 skewers",
+        "새우꼬치",
         "새우전",
-        "생菜",
         "생강",
         "생선",
+        "생채소",
         "생크림",
         "설탕",
         "소고기",
@@ -150,6 +122,7 @@ window.RECIPE_DATA = {
         "식빵",
         "식용유",
         "식초",
+        "쌀국수",
         "쌈채소",
         "쑥",
         "쑥가루",
@@ -169,7 +142,7 @@ window.RECIPE_DATA = {
         "오리",
         "오이",
         "오징어",
-        "오징어 paste",
+        "오징어 페이스트",
         "오트밀",
         "옥수수콘",
         "옥수수콘(스위트콘)",
@@ -187,6 +160,7 @@ window.RECIPE_DATA = {
         "제누와즈",
         "젤라틴",
         "짜장면",
+        "죽순",
         "쪽파",
         "참기름",
         "참깨",
@@ -194,7 +168,7 @@ window.RECIPE_DATA = {
         "참치액",
         "찹쌀가루",
         "채소류",
-        "채소류( spinach",
+        "채소류(시금치)",
         "청양고추",
         "청포묵",
         "초콜릿",
@@ -222,9 +196,13 @@ window.RECIPE_DATA = {
         "파스타면",
         "파스타소스",
         "파슬리",
+        "파인애플",
         "파프리카",
         "패션후르츠",
+        "피망",
+        "피시소스",
         "피클",
+        "피클 무",
         "해산물",
         "햄",
         "홍고추",
@@ -604,7 +582,7 @@ window.RECIPE_DATA = {
             "title": "베이킹초보도 무조건 성공하는 레시피 #카스테라만들기 #빵만들기 #카스테라",
             "link": "https://www.youtube.com/watch?v=8d_5Eyc4TPg",
             "ingredients": [
-                "돼지고기 belly",
+                "돼지고기(삼겹살)",
                 "두부 김치",
                 "마늘",
                 "시금치"
@@ -1454,20 +1432,20 @@ window.RECIPE_DATA = {
                 "돼지고기",
                 "간장",
                 "참기름",
-                "rice noodles",
-                "pork belly",
-                "scallions"
+                "쌀국수",
+                "돼지고기(삼겹살)",
+                "쪽파"
             ]
         },
         {
             "title": "[초간단 다이어트 레시피]✨오이토마토샐러드✨#오이 #토마토 #샐러드 #초간단요리 #다이어트레시피 #다이어트식단 #다이어트 #다이어트샐러드",
             "link": "https://www.youtube.com/watch?v=Z5mGBtQzDEQ",
             "ingredients": [
-                "chickpeas",
+                "병아리콩",
                 "코코넛밀크",
                 "토마토",
-                "spinach",
-                "parsley"
+                "시금치",
+                "파슬리"
             ]
         },
         {
@@ -1935,9 +1913,9 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "닭고기",
                 "오이",
-                "pineapple",
+                "파인애플",
                 "고춧가루",
-                "basil"
+                "바질"
             ]
         },
         {
@@ -2007,13 +1985,13 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=ObIbXEUu4_E",
             "ingredients": [
                 "돼지고기",
-                "돼지고기 Chop",
+                "돼지고기",
                 "옥수수콘",
-                "kimchi fried rice noodles",
-                "새우 skewers",
-                "lemongrass",
+                "김치볶음밥용 쌀국수",
+                "새우꼬치",
+                "레몬그라스",
                 "레몬즙",
-                "chili flakes"
+                "고추 플레이크"
             ]
         },
         {
@@ -2021,10 +1999,10 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=0qHkolJuuIo",
             "ingredients": [
                 "돼지고기",
-                "돼지고기 Chop",
+                "돼지고기",
                 "옥수수콘",
-                "kimchi fried rice noodles",
-                "새우 skewers"
+                "김치볶음밥용 쌀국수",
+                "새우꼬치"
             ]
         },
         {
@@ -2334,55 +2312,55 @@ window.RECIPE_DATA = {
             "title": "이렇게 큰데 살이 안 찐다고?",
             "link": "https://www.youtube.com/watch?v=Qainy0nGvH8",
             "ingredients": [
-                "pork belly",
-                "onions",
-                "garlic",
-                "carrots",
-                "tomatoes",
-                "kimchi",
-                "soy sauce"
+                "돼지고기(삼겹살)",
+                "양파",
+                "마늘",
+                "당근",
+                "토마토",
+                "김치",
+                "간장"
             ]
         },
         {
             "title": "살 빠지는 신전치즈김밥",
             "link": "https://www.youtube.com/watch?v=DMfxeICUKII",
             "ingredients": [
-                "shrimp cocktail",
-                "broccoli florets",
-                "cucumber slices",
-                "chili flakes"
+                "새우 칵테일",
+                "브로콜리 꽃",
+                "오이 슬라이스",
+                "고추 플레이크"
             ]
         },
         {
             "title": "살 안 찌는 마라샹궈",
             "link": "https://www.youtube.com/watch?v=a2O0ETFRTOI",
             "ingredients": [
-                "tofu",
-                "bell peppers",
-                "mushrooms",
-                "bamboo shoots",
-                "ginger",
-                "sesame oil"
+                "두부",
+                "피망",
+                "버섯",
+                "죽순",
+                "생강",
+                "참기름"
             ]
         },
         {
             "title": "NO밀가루 다이어트 고구마빵 꼭 만들어보세요!!",
             "link": "https://www.youtube.com/watch?v=Lb4sVv3P-5U",
             "ingredients": [
-                "eggs",
-                "rice noodles",
-                "garlic",
-                "scallions",
-                "fish sauce"
+                "계란",
+                "쌀국수",
+                "마늘",
+                "쪽파",
+                "피시소스"
             ]
         },
         {
             "title": "8년동안 개발한 크림소스레시피",
             "link": "https://www.youtube.com/watch?v=0Y6HiMq02fU",
             "ingredients": [
-                "sweet potato cubes",
-                "spinach",
-                "pickled radish"
+                "고구마 큐브",
+                "시금치",
+                "피클 무"
             ]
         },
         {
@@ -2429,7 +2407,7 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=yskX_Fh1aYo",
             "ingredients": [
                 "돼지고기",
-                "kimchi",
+                "김치",
                 "마늘",
                 "생강",
                 "당근",
@@ -2481,7 +2459,7 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "돼지고기",
                 "콩나물",
-                "bacon"
+                "베이컨"
             ]
         },
         {
@@ -2556,8 +2534,8 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "돼지고기",
                 "돼지고기불고기양념",
-                "채소류( spinach",
-                "tofu",
+                "채소류(시금치)",
+                "두부",
                 "김치"
             ]
         },
