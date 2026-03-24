@@ -319,7 +319,7 @@
                 // Search Listener
                 document.getElementById('searchInput').addEventListener('input', (e) => {
                     state.searchTerm = e.target.value.toLowerCase();
-                    renderIngredients(state); // Pass state
+                    updateUI(state); // Update both chips and recipes
                 });
 
                 // Global functions for onclick handlers need access to state
@@ -372,20 +372,23 @@
             const matchCountEl = document.getElementById('matchCount');
             container.innerHTML = '';
 
-            let displayRecipes = [];
+            // 1. First Filter: Title Search
+            let titleFiltered = state.recipes.filter(recipe =>
+                recipe.title.toLowerCase().includes(state.searchTerm)
+            );
 
             if (state.selected.size === 0) {
-                displayRecipes = state.recipes;
+                displayRecipes = titleFiltered;
             } else {
                 const selectedArray = Array.from(state.selected);
 
-                // 1. Filter: OR condition (at least one ingredient matches)
-                displayRecipes = state.recipes.filter(recipe => {
+                // 2. Second Filter: OR condition (at least one selected ingredient matches)
+                displayRecipes = titleFiltered.filter(recipe => {
                     const rIngs = new Set(recipe.ingredients);
                     return selectedArray.some(sel => rIngs.has(sel));
                 });
 
-                // 2. Sort: By number of matching ingredients (Descending)
+                // 3. Sort: By number of matching ingredients (Descending)
                 displayRecipes.sort((a, b) => {
                     const aIngs = new Set(a.ingredients);
                     const bIngs = new Set(b.ingredients);
