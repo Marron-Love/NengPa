@@ -1,212 +1,97 @@
 window.RECIPE_DATA = {
     "ingredients": [
-        "가루육수",
-        "가지",
-        "간장",
-        "감자",
-        "건포도",
-        "게맛살(크래미)",
-        "고구마 큐브",
-        "견과류",
-        "견과류(아몬드/호두)",
-        "계란",
-        "계피가루",
-        "고구마 프라이",
-        "고기",
-        "고추",
-        "고추가루",
-        "고추장",
-        "고춧가루",
-        "굴소스",
-        "그래놀라",
-        "김",
-        "김치",
-        "김치찌개",
-        "깔루아",
-        "깨",
-        "깻잎",
-        "꿀",
-        "날치알",
-        "녹차가루(말차)",
-        "다시마",
-        "다이제",
-        "단백질파우더",
-        "단호박",
-        "닭고기",
-        "당근",
-        "당면",
-        "대파",
-        "돈까스",
-        "돈까스/스테이크소스",
         "돼지고기",
-        "돼지고기(삼겹살)",
-        "돼지고기불고기양념",
-        "된장",
-        "두부",
-        "두부 김치",
-        "두유",
-        "들기름",
-        "딸기",
-        "땅콩버터",
-        "떡",
-        "또띠아",
-        "라면",
-        "라이스페이퍼",
-        "럼",
-        "레몬",
-        "레몬그라스",
-        "레몬(레몬즙)",
-        "레몬즙",
-        "렌틸콩",
-        "마늘",
-        "마요네즈",
-        "만두",
-        "맛술",
-        "망고",
-        "매실",
-        "매실청",
-        "머스터드",
-        "메추리알",
+        "소고기",
+        "닭고기",
+        "베이컨",
+        "소시지",
+        "스팸(햄)",
+        "새우",
+        "참치",
+        "연어",
         "멸치",
         "명란",
-        "무",
-        "물엿",
-        "미나리",
-        "미역",
-        "밀가루",
-        "바나나",
-        "바닐라 추출물",
-        "바닐라엑스트랙",
-        "바베큐소스",
-        "바질",
-        "바질페스토",
-        "밥",
-        "밥(쌀)",
-        "배추",
-        "버거소스",
-        "버섯",
-        "버터",
-        "베이글",
-        "베이컨",
-        "베이킹파우더",
-        "병아리콩",
-        "부추",
-        "부침/튀김가루",
-        "불고기소스",
-        "불향소스",
-        "브로콜리",
-        "브로콜리 꽃",
-        "블루베리",
-        "빨간고추",
-        "살사",
-        "상추",
-        "새우",
-        "새우꼬치",
-        "새우전",
-        "생강",
-        "생선",
-        "생채소",
-        "생크림",
-        "설탕",
-        "소고기",
-        "소금",
-        "소면",
-        "소시지",
-        "수박",
-        "술",
-        "스테비아",
-        "스팸",
-        "스팸(햄)",
-        "스프링클",
-        "시금치",
-        "식빵",
-        "식용유",
-        "식초",
-        "쌀국수",
-        "쌈채소",
-        "쑥",
-        "쑥가루",
-        "아몬드가루",
-        "아몬드유",
-        "아보카도",
-        "알룰로스",
-        "애호박",
-        "야채",
-        "야채믹스",
-        "양배추",
-        "양파",
+        "조개",
+        "게맛살(크래미)",
         "어묵",
-        "얼그레이",
-        "연두",
-        "연어",
-        "오리",
-        "오이",
-        "오징어",
-        "오징어 페이스트",
-        "오트밀",
-        "옥수수콘",
-        "옥수수콘(스위트콘)",
-        "올리고당",
-        "올리브",
-        "와사비",
-        "요거트",
-        "우동면",
-        "우유",
-        "유자청",
-        "음료수",
-        "자몽",
-        "잼",
-        "전분가루",
-        "제누와즈",
-        "젤라틴",
-        "짜장면",
-        "죽순",
+        "미역",
+        "다시마",
+        "김",
+        "양파",
+        "마늘",
+        "대파",
         "쪽파",
-        "참기름",
-        "참깨",
-        "참치",
-        "참치액",
-        "찹쌀가루",
-        "채소류",
-        "채소류(시금치)",
-        "청양고추",
-        "청포묵",
-        "초콜릿",
-        "치아씨드",
-        "치즈",
-        "치킨스톡",
-        "칠리소스",
-        "카람저바",
-        "카레",
-        "카레가루",
-        "카스테라",
-        "커피",
-        "케첩",
-        "코코넛가루",
-        "코코넛밀크",
-        "코코넛워터",
-        "코코넛유",
-        "코코넛크림",
-        "코코아파우더",
-        "콩가루",
-        "콩나물",
-        "콩나물/숙주",
-        "토르티야",
+        "당근",
+        "감자",
+        "고구마",
+        "양배추",
+        "김치",
+        "무",
+        "애호박",
+        "단호박",
+        "오이",
+        "가지",
         "토마토",
-        "파스타면",
-        "파스타소스",
-        "파슬리",
-        "파인애플",
-        "파프리카",
-        "패션후르츠",
-        "피망",
-        "피시소스",
-        "피클",
-        "피클 무",
-        "해산물",
-        "햄",
+        "깻잎",
+        "청양고추",
         "홍고추",
-        "후추"
+        "파프리카",
+        "버섯",
+        "콩나물/숙주",
+        "시금치",
+        "부추",
+        "상추",
+        "미나리",
+        "사과",
+        "바나나",
+        "레몬(레몬즙)",
+        "블루베리",
+        "딸기",
+        "옥수수콘(스위트콘)",
+        "견과류(아몬드/호두)",
+        "두부",
+        "계란",
+        "우유",
+        "치즈",
+        "버터",
+        "생크림",
+        "요거트",
+        "밥(쌀)",
+        "밀가루",
+        "부침/튀김가루",
+        "전분가루",
+        "소면",
+        "당면",
+        "파스타면",
+        "라면",
+        "떡",
+        "만두",
+        "식빵",
+        "또띠아",
+        "라이스페이퍼",
+        "초콜릿",
+        "코코아파우더",
+        "녹차가루(말차)",
+        "카레가루(카레)",
+        "간장",
+        "고추장",
+        "된장",
+        "소금",
+        "설탕",
+        "고춧가루",
+        "식용유",
+        "참기름",
+        "식초",
+        "맛술",
+        "굴소스",
+        "마요네즈",
+        "케첩",
+        "머스터드",
+        "칠리소스",
+        "돈까스/스테이크소스",
+        "잼",
+        "후추",
+        "깨"
     ],
     "recipes": [
         {
@@ -214,24 +99,21 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=InfTYbsHhDo",
             "ingredients": [
                 "버섯",
-                "식용유",
                 "버터",
-                "쪽파",
                 "마늘",
+                "식용유",
+                "쪽파",
                 "간장",
-                "설탕",
                 "굴소스",
-                "맛술",
-                "밥(쌀)"
+                "맛술"
             ]
         },
         {
             "title": "얼큰함과 바삭함의 끝판왕 '돈까스김치전골'",
             "link": "https://www.youtube.com/watch?v=mYHUYoyS8Oo",
             "ingredients": [
+                "돼지고기",
                 "김치",
-                "돈까스",
-                "우동면",
                 "식용유",
                 "설탕",
                 "고춧가루",
@@ -245,10 +127,8 @@ window.RECIPE_DATA = {
             "title": "초딩입맛인 어른들은 무조건 좋아하실 겁니다.",
             "link": "https://www.youtube.com/watch?v=Q3TCfRJFQRE",
             "ingredients": [
-                "메추리알",
                 "소시지",
-                "치즈",
-                "돈까스"
+                "돼지고기"
             ]
         },
         {
@@ -263,30 +143,27 @@ window.RECIPE_DATA = {
                 "마요네즈",
                 "참기름",
                 "김",
-                "식용유",
-                "소금"
+                "식용유"
             ]
         },
         {
             "title": "와… 진작 이렇게 먹을 걸!😋 월남쌈은 이렇게 드세요!",
             "link": "https://www.youtube.com/watch?v=NIbf2FOygwo",
             "ingredients": [
-                "고기",
+                "라이스페이퍼",
                 "새우",
-                "땅콩버터",
-                "설탕",
+                "버터",
                 "레몬(레몬즙)",
                 "간장",
                 "마늘",
-                "마요네즈",
-                "라이스페이퍼"
+                "마요네즈"
             ]
         },
         {
             "title": "무조건 살 안찌는 가성비 스테이크 🥬자기전까지 생각나요(진짜)",
             "link": "https://www.youtube.com/watch?v=akSDX9Nq3Y0",
             "ingredients": [
-                "배추",
+                "양배추",
                 "소금",
                 "후추",
                 "치즈",
@@ -317,13 +194,11 @@ window.RECIPE_DATA = {
             "title": "홈베이킹할 때 끝까지 포기하면 안되는 이유",
             "link": "https://www.youtube.com/watch?v=QPWElsrbx78",
             "ingredients": [
-                "다이제",
                 "버터",
                 "초콜릿",
                 "생크림",
                 "녹차가루(말차)",
                 "계란",
-                "젤라틴",
                 "딸기"
             ]
         },
@@ -331,14 +206,11 @@ window.RECIPE_DATA = {
             "title": "크리스마스 케이크 만드는데 도파민이 터지는 이유",
             "link": "https://www.youtube.com/watch?v=8KIUiIx5_NY",
             "ingredients": [
-                "제누와즈",
-                "카스테라",
                 "생크림",
                 "녹차가루(말차)",
                 "설탕",
                 "딸기",
-                "초콜릿",
-                "스프링클"
+                "초콜릿"
             ]
         },
         {
@@ -346,13 +218,12 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=UPI-hRGC6uM",
             "ingredients": [
                 "또띠아",
-                "소고기",
+                "돼지고기",
                 "소금",
                 "후추",
                 "치즈",
                 "양파",
-                "토마토",
-                "버거소스"
+                "토마토"
             ]
         },
         {
@@ -360,10 +231,7 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=uzd60M9iaFI",
             "ingredients": [
                 "요거트",
-                "설탕",
                 "레몬(레몬즙)",
-                "자몽",
-                "그래놀라",
                 "블루베리",
                 "초콜릿",
                 "바나나"
@@ -380,18 +248,16 @@ window.RECIPE_DATA = {
                 "식초",
                 "소금",
                 "후추",
-                "고춧가루",
-                "계란",
-                "식빵"
+                "계란"
             ]
         },
         {
             "title": "이제 치킨 시켜 먹지 마세요! 집에서 10분이면 끝🍗| Don’t Order Grilled Chicken Again!  Make This at Home in 10 Minutes!",
             "link": "https://www.youtube.com/watch?v=Qm8e8QIXo1Y",
             "ingredients": [
-                "닭고기",
                 "버터",
-                "간장"
+                "간장",
+                "닭고기"
             ]
         },
         {
@@ -401,7 +267,6 @@ window.RECIPE_DATA = {
                 "소면",
                 "고춧가루",
                 "간장",
-                "참치액",
                 "대파",
                 "청양고추",
                 "김",
@@ -412,14 +277,12 @@ window.RECIPE_DATA = {
             "title": "겨울 알배추를 최고로 건강하게!",
             "link": "https://www.youtube.com/watch?v=hgWlBE14cTU",
             "ingredients": [
-                "배추",
-                "병아리콩",
+                "양배추",
                 "계란",
                 "두부",
                 "양파",
                 "토마토",
                 "깻잎",
-                "견과류",
                 "식용유",
                 "소금"
             ]
@@ -432,7 +295,6 @@ window.RECIPE_DATA = {
                 "대파",
                 "양파",
                 "마늘",
-                "생강",
                 "소금",
                 "후추",
                 "맛술",
@@ -445,7 +307,7 @@ window.RECIPE_DATA = {
                 "참기름",
                 "깨",
                 "깻잎",
-                "배추"
+                "양배추"
             ]
         },
         {
@@ -455,9 +317,8 @@ window.RECIPE_DATA = {
                 "간장",
                 "식초",
                 "설탕",
-                "양파",
                 "돼지고기",
-                "와사비"
+                "양파"
             ]
         },
         {
@@ -472,12 +333,7 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=V1RGmePA30o",
             "ingredients": [
                 "딸기",
-                "설탕",
                 "생크림",
-                "럼",
-                "깔루아",
-                "커피",
-                "코코넛워터",
                 "소금"
             ]
         },
@@ -485,31 +341,22 @@ window.RECIPE_DATA = {
             "title": "저당 초코 딸기 생크림 케이크 #shorts",
             "link": "https://www.youtube.com/watch?v=spnMvSr9GWA",
             "ingredients": [
-                "돼지고기",
-                "새우",
-                "오징어",
-                "마늘",
-                "대파"
-            ]
-        },
-        {
-            "title": "자취방 보조선반 조미료보관 가성비 꿀팁",
-            "link": "https://www.youtube.com/watch?v=NNb_FpyHZxI",
-            "ingredients": [
-                "시금치",
-                "치즈",
-                "콩나물",
-                "고춧가루",
-                "고추장"
+                "초콜릿",
+                "딸기",
+                "생크림",
+                "계란",
+                "견과류(아몬드/호두)",
+                "코코아파우더",
+                "소금"
             ]
         },
         {
             "title": "살 안찌는 버터링이 있다고.? #shorts",
             "link": "https://www.youtube.com/watch?v=alDqzeZMbEI",
             "ingredients": [
-                "바나나",
-                "블루베리",
-                "요거트"
+                "버터",
+                "계란",
+                "견과류(아몬드/호두)"
             ]
         },
         {
@@ -533,68 +380,80 @@ window.RECIPE_DATA = {
                 "청양고추",
                 "양파",
                 "식용유",
-                "들기름",
                 "고춧가루",
                 "마늘",
                 "고추장",
-                "후추",
                 "간장",
-                "소금"
+                "소금",
+                "후추"
             ]
         },
         {
             "title": "땅콩버터 새우 비빔면 2탄",
             "link": "https://www.youtube.com/watch?v=e_MMXxsOVBs",
             "ingredients": [
-                "돼지고기",
-                "콩나물",
-                "스팸"
-            ]
-        },
-        {
-            "title": "-10kg 다이어터의 일주일 점심 도시락 🍱",
-            "link": "https://www.youtube.com/watch?v=oH79eDtDQVs",
-            "ingredients": [
+                "버터",
                 "새우",
-                "파프리카",
-                "고추장"
+                "파스타면",
+                "식용유",
+                "고춧가루",
+                "간장",
+                "대파",
+                "소금",
+                "마늘",
+                "식초",
+                "레몬(레몬즙)"
             ]
         },
         {
             "title": "⭐1990만⭐요즘 난리난 밥도둑 극락 캔참치 레시피",
             "link": "https://www.youtube.com/watch?v=MWJumz6syok",
             "ingredients": [
-                "브로콜리",
-                "당근",
-                "고추장",
-                "고춧가루"
+                "참치",
+                "간장",
+                "소금",
+                "후추",
+                "마늘",
+                "청양고추",
+                "참기름",
+                "깨",
+                "밥(쌀)",
+                "상추",
+                "양배추"
             ]
         },
         {
             "title": "5분이면 만드는 초간단 갈비탕🤎",
             "link": "https://www.youtube.com/watch?v=AImzCH4NOj4",
             "ingredients": [
-                "바나나",
-                "레몬"
+                "소고기",
+                "굴소스",
+                "간장",
+                "당면",
+                "대파"
             ]
         },
         {
             "title": "베이킹초보도 무조건 성공하는 레시피 #카스테라만들기 #빵만들기 #카스테라",
             "link": "https://www.youtube.com/watch?v=8d_5Eyc4TPg",
             "ingredients": [
-                "돼지고기(삼겹살)",
-                "두부 김치",
-                "마늘",
-                "시금치"
+                "계란",
+                "밀가루",
+                "설탕",
+                "코코아파우더"
             ]
         },
         {
             "title": "전자레인지로 10분만에 만드는 초간단 수육🤍 꼭 해보세요!!🤤",
             "link": "https://www.youtube.com/watch?v=06mcFI-_gTU",
             "ingredients": [
-                "닭고기",
-                "고구마 프라이",
-                "옥수수콘"
+                "돼지고기",
+                "양파",
+                "마늘",
+                "대파",
+                "소금",
+                "맛술",
+                "후추"
             ]
         },
         {
@@ -614,18 +473,16 @@ window.RECIPE_DATA = {
                 "소고기",
                 "후추",
                 "맛술",
-                "식용유",
                 "간장",
                 "참기름",
                 "깨",
-                "알룰로스",
                 "쪽파",
                 "마늘",
+                "연어",
                 "밥(쌀)",
                 "양파",
                 "버섯",
                 "고춧가루",
-                "연어",
                 "버터",
                 "파스타면",
                 "소금",
@@ -639,25 +496,21 @@ window.RECIPE_DATA = {
             "title": "유일하게 좋아하는 알배추 파스타 🥬 #집밥 #알배추 #베이컨 #파스타 #알배추구이 #주말아침 #제철요리 #건강식단 #간단요리 #먹방 #브이로그",
             "link": "https://www.youtube.com/watch?v=L8MJFH7JnxI",
             "ingredients": [
-                "배추",
                 "파스타면",
+                "양배추",
                 "베이컨",
                 "마늘",
                 "굴소스",
-                "참치",
                 "후추",
                 "쪽파",
                 "간장",
-                "설탕",
-                "식초",
-                "식용유"
+                "식초"
             ]
         },
         {
             "title": "밀가루❌설탕❌ 전자렌지로 만드는 렌틸단호박빵 🎃",
             "link": "https://www.youtube.com/watch?v=TT9AwMrh2yo",
             "ingredients": [
-                "렌틸콩",
                 "단호박"
             ]
         },
@@ -671,12 +524,10 @@ window.RECIPE_DATA = {
                 "마늘",
                 "소금",
                 "당면",
-                "참치",
                 "후추",
                 "간장",
                 "식초",
                 "설탕",
-                "머스터드",
                 "식용유"
             ]
         },
@@ -685,12 +536,10 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=ukvsfVxFiAg",
             "ingredients": [
                 "견과류(아몬드/호두)",
-                "설탕",
                 "식용유",
                 "요거트",
                 "소금",
                 "계란",
-                "쑥가루",
                 "버터"
             ]
         },
@@ -715,9 +564,7 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=cr3avBNRTLU",
             "ingredients": [
                 "두부",
-                "전분가루",
-                "콩가루",
-                "설탕"
+                "전분가루"
             ]
         },
         {
@@ -728,11 +575,10 @@ window.RECIPE_DATA = {
                 "청양고추",
                 "무",
                 "어묵",
-                "콩나물/숙주",
                 "양파",
+                "마늘",
                 "대파",
                 "당근",
-                "마늘",
                 "식용유",
                 "멸치",
                 "참치",
@@ -743,15 +589,12 @@ window.RECIPE_DATA = {
                 "김",
                 "소면",
                 "고춧가루",
-                "들기름",
-                "새우",
-                "설탕",
                 "쪽파",
                 "부추",
                 "고추장",
+                "설탕",
                 "굴소스",
-                "후추",
-                "우동면"
+                "후추"
             ]
         },
         {
@@ -773,15 +616,13 @@ window.RECIPE_DATA = {
             "title": "바삭바삭 다이어트 초코칩 쿠키",
             "link": "https://www.youtube.com/watch?v=_O9mnvdtOlw",
             "ingredients": [
-                "초콜릿",
-                "설탕"
+                "초콜릿"
             ]
         },
         {
             "title": "계란이 있다면 무조건 먹어봐야 할 레시피",
             "link": "https://www.youtube.com/watch?v=AsZbOlHMNf4",
             "ingredients": [
-                "밥(쌀)",
                 "계란",
                 "고추장",
                 "케첩",
@@ -808,9 +649,7 @@ window.RECIPE_DATA = {
             "title": "연말 다이어트 얼그레이 마들렌💗 평생레시피⭐️",
             "link": "https://www.youtube.com/watch?v=lus9IdlVr1M",
             "ingredients": [
-                "견과류",
-                "얼그레이",
-                "설탕",
+                "견과류(아몬드/호두)",
                 "우유",
                 "계란",
                 "소금",
@@ -823,7 +662,7 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "돼지고기",
                 "마늘",
-                "밥",
+                "밥(쌀)",
                 "상추"
             ]
         },
@@ -840,7 +679,7 @@ window.RECIPE_DATA = {
             "title": "어릴 때 먹던 그 꾸덕쫀득한 초코쿠키레시피 #다이어트쿠키 #다이어트디저트 #쿠키레시피 #초간단베이킹",
             "link": "https://www.youtube.com/watch?v=25Z3mRsRZYk",
             "ingredients": [
-                "설탕",
+                "초콜릿",
                 "소금",
                 "견과류(아몬드/호두)"
             ]
@@ -849,12 +688,10 @@ window.RECIPE_DATA = {
             "title": "전자렌지 2분❗노밀가루 다이어트 도너츠💯#shorts #초간단 #전자렌지 #빵",
             "link": "https://www.youtube.com/watch?v=XT7LH-OQifA",
             "ingredients": [
-                "병아리콩",
                 "견과류(아몬드/호두)",
-                "설탕",
                 "계란",
-                "두유",
-                "땅콩버터",
+                "우유",
+                "버터",
                 "식용유",
                 "초콜릿",
                 "당근"
@@ -864,36 +701,27 @@ window.RECIPE_DATA = {
             "title": "두부말차빵 NO밀가루, 설탕레시피",
             "link": "https://www.youtube.com/watch?v=dKFjU60_fE8",
             "ingredients": [
-                "소고기",
-                "돼지고기",
-                "대파",
-                "당근",
-                "토마토",
-                "양파",
-                "마늘",
-                "콩나물"
+                "두부",
+                "계란",
+                "밥(쌀)",
+                "녹차가루(말차)"
             ]
         },
         {
             "title": "미친 다이어트 떡을 만들어버렸습니다🍡",
             "link": "https://www.youtube.com/watch?v=BNjcep4dIF0",
             "ingredients": [
-                "오징어",
-                "마늘",
-                "고춧가루",
-                "고추장",
-                "배추",
-                "돼지고기"
+                "떡"
             ]
         },
         {
             "title": "입터짐방지 혈당방어 다이어트 카스테라💗 평생레시피⭐️",
             "link": "https://www.youtube.com/watch?v=zrqKba2BXoo",
             "ingredients": [
-                "블루베리",
-                "딸기",
-                "생크림",
-                "코코넛크림"
+                "견과류(아몬드/호두)",
+                "코코아파우더",
+                "소금",
+                "계란"
             ]
         },
         {
@@ -902,9 +730,7 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "계란",
                 "견과류(아몬드/호두)",
-                "설탕",
-                "블루베리",
-                "식용유"
+                "블루베리"
             ]
         },
         {
@@ -912,7 +738,6 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=NjuRaLUVKuU",
             "ingredients": [
                 "버터",
-                "설탕",
                 "소금",
                 "계란",
                 "견과류(아몬드/호두)",
@@ -924,7 +749,6 @@ window.RECIPE_DATA = {
             "title": "효율추구 전자렌지 명절요리4가지",
             "link": "https://www.youtube.com/watch?v=WQLgFd8rz3o",
             "ingredients": [
-                "생선",
                 "소금",
                 "후추",
                 "맛술",
@@ -972,7 +796,6 @@ window.RECIPE_DATA = {
                 "참기름",
                 "소금",
                 "후추",
-                "설탕",
                 "깨",
                 "마늘"
             ]
@@ -985,8 +808,6 @@ window.RECIPE_DATA = {
                 "버섯",
                 "새우",
                 "마늘",
-                "홍고추",
-                "식용유",
                 "소금",
                 "후추",
                 "굴소스"
@@ -996,8 +817,7 @@ window.RECIPE_DATA = {
             "title": "다이어트 쿠키의 최종진화😎",
             "link": "https://www.youtube.com/watch?v=cdRCcqkdKeg",
             "ingredients": [
-                "견과류",
-                "설탕"
+                "견과류(아몬드/호두)"
             ]
         },
         {
@@ -1005,9 +825,9 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=M5thrWqdhI4",
             "ingredients": [
                 "단호박",
+                "치즈",
                 "전분가루",
                 "소금",
-                "치즈",
                 "설탕",
                 "식용유"
             ]
@@ -1017,11 +837,10 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=mzbtBWykhn4",
             "ingredients": [
                 "연어",
-                "야채믹스",
-                "밥(쌀)",
                 "식용유",
                 "소금",
-                "후추"
+                "후추",
+                "밥(쌀)"
             ]
         },
         {
@@ -1039,12 +858,10 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=MZqSSbGEUwE",
             "ingredients": [
                 "버섯",
-                "찹쌀가루",
-                "식용유",
                 "버터",
                 "마늘",
                 "간장",
-                "올리고당"
+                "식용유"
             ]
         },
         {
@@ -1056,11 +873,9 @@ window.RECIPE_DATA = {
                 "간장",
                 "굴소스",
                 "맛술",
-                "매실청",
                 "설탕",
                 "후추",
-                "참기름",
-                "가루육수"
+                "참기름"
             ]
         },
         {
@@ -1070,10 +885,8 @@ window.RECIPE_DATA = {
                 "계란",
                 "우유",
                 "생크림",
-                "설탕",
                 "견과류(아몬드/호두)",
                 "코코아파우더",
-                "베이킹파우더",
                 "초콜릿"
             ]
         },
@@ -1081,7 +894,6 @@ window.RECIPE_DATA = {
             "title": "병아리콩 과자 전자레인지 초간단 레시피! 고단백 다이어트 스댁",
             "link": "https://www.youtube.com/watch?v=Z_Z-9Hvzr6I",
             "ingredients": [
-                "병아리콩",
                 "소금",
                 "치즈",
                 "식용유",
@@ -1099,7 +911,6 @@ window.RECIPE_DATA = {
                 "간장",
                 "식초",
                 "설탕",
-                "꿀",
                 "마늘"
             ]
         },
@@ -1122,49 +933,66 @@ window.RECIPE_DATA = {
             "title": "후다닥 끓이는 무근본 갈비없는 갈비탕맛탕 #자취요리 #집밥 Beef Soup with Thinly Sliced Brisket",
             "link": "https://www.youtube.com/watch?v=kSRON_uQD-k",
             "ingredients": [
-                "돼지고기",
-                "대파"
+                "소고기"
             ]
         },
         {
             "title": "[신혼수업 4탄] 만능한식 공식과 100g의 법칙 #고정댓글",
             "link": "https://www.youtube.com/watch?v=sgliEQ5VQV0",
             "ingredients": [
-                "새우",
-                "옥수수콘"
+                "소고기",
+                "닭고기",
+                "시금치",
+                "마늘",
+                "대파",
+                "간장",
+                "고추장",
+                "소금",
+                "설탕",
+                "참기름",
+                "후추",
+                "깨"
             ]
         },
         {
             "title": "다 때려넣고 끓이면 끝",
             "link": "https://www.youtube.com/watch?v=oWpcBXzFti0",
             "ingredients": [
-                "치즈",
-                "야채"
+                "돼지고기"
             ]
         },
         {
             "title": "초간단 콜라수육 여러가지 방법중 최고👍딱 3가지만 넣어 주세요",
             "link": "https://www.youtube.com/watch?v=XkSeB-mlGg0",
             "ingredients": [
-                "전분가루"
+                "돼지고기",
+                "계란",
+                "간장",
+                "깨"
             ]
         },
         {
             "title": "시골쥐 부부의 최애 안주 #레시피",
             "link": "https://www.youtube.com/watch?v=zwBcJYC_0og",
             "ingredients": [
-                "고추장"
+                "돼지고기",
+                "김치",
+                "양파",
+                "마늘",
+                "간장",
+                "참기름",
+                "맛술",
+                "굴소스",
+                "깨"
             ]
         },
         {
             "title": "초딩입맛을 위한 최고의 계란밥",
             "link": "https://www.youtube.com/watch?v=6_FgwdGuN3o",
             "ingredients": [
-                "불고기소스",
                 "버터",
                 "식용유",
-                "계란",
-                "밥(쌀)"
+                "계란"
             ]
         },
         {
@@ -1174,7 +1002,6 @@ window.RECIPE_DATA = {
                 "라이스페이퍼",
                 "치즈",
                 "식용유",
-                "설탕",
                 "케첩",
                 "고추장"
             ]
@@ -1184,7 +1011,6 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=x9J91ju97VE",
             "ingredients": [
                 "견과류(아몬드/호두)",
-                "설탕",
                 "계란",
                 "전분가루",
                 "소금",
@@ -1196,11 +1022,16 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=sjXIThjHIb8",
             "ingredients": [
                 "견과류(아몬드/호두)",
-                "단백질파우더",
                 "녹차가루(말차)",
                 "식용유",
-                "설탕",
                 "두부"
+            ]
+        },
+        {
+            "title": "다이소 천원 꿀템으로 초간단 그릭요거트 만드는 방법🤍",
+            "link": "https://www.youtube.com/watch?v=sObmzxz6DP4",
+            "ingredients": [
+                "요거트"
             ]
         },
         {
@@ -1215,7 +1046,7 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=h_H2nbSO0y0",
             "ingredients": [
                 "두부",
-                "견과류",
+                "견과류(아몬드/호두)",
                 "소금",
                 "계란",
                 "설탕",
@@ -1234,12 +1065,10 @@ window.RECIPE_DATA = {
             "title": "초간단 다이어트 초코 케이크 #shorts",
             "link": "https://www.youtube.com/watch?v=N_JMw1H1fOI",
             "ingredients": [
-                "우유",
-                "설탕",
                 "소금",
                 "초콜릿",
                 "계란",
-                "견과류",
+                "견과류(아몬드/호두)",
                 "코코아파우더"
             ]
         },
@@ -1247,9 +1076,8 @@ window.RECIPE_DATA = {
             "title": "2분컷 다이어트 초코 컵케이크",
             "link": "https://www.youtube.com/watch?v=Zsph3FV1RdM",
             "ingredients": [
-                "땅콩버터",
+                "버터",
                 "코코아파우더",
-                "설탕",
                 "계란"
             ]
         },
@@ -1274,8 +1102,7 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=qrBc3JY212A",
             "ingredients": [
                 "견과류(아몬드/호두)",
-                "버터",
-                "설탕"
+                "버터"
             ]
         },
         {
@@ -1283,12 +1110,11 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=1PLVrEMn17Q",
             "ingredients": [
                 "소고기",
-                "오리",
                 "깻잎",
                 "콩나물/숙주",
                 "버섯",
                 "계란",
-                "배추",
+                "양배추",
                 "대파",
                 "김",
                 "고추장",
@@ -1300,7 +1126,6 @@ window.RECIPE_DATA = {
                 "참기름",
                 "후추",
                 "깨",
-                "유자청",
                 "레몬(레몬즙)",
                 "청양고추",
                 "밥(쌀)",
@@ -1315,7 +1140,6 @@ window.RECIPE_DATA = {
                 "깻잎",
                 "김",
                 "간장",
-                "들기름",
                 "식초",
                 "깨",
                 "소금"
@@ -1340,12 +1164,10 @@ window.RECIPE_DATA = {
             "title": "6가지 재료 속세맛 초코 아이스크림 3종 #shorts",
             "link": "https://www.youtube.com/watch?v=KK0pGn9frPQ",
             "ingredients": [
-                "생크림",
-                "땅콩버터",
-                "설탕",
                 "견과류(아몬드/호두)",
-                "초콜릿",
-                "소금"
+                "설탕",
+                "소금",
+                "초콜릿"
             ]
         },
         {
@@ -1371,11 +1193,9 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "돼지고기",
                 "대파",
-                "생강",
                 "간장",
                 "맛술",
                 "설탕",
-                "청양고추",
                 "계란"
             ]
         },
@@ -1387,7 +1207,6 @@ window.RECIPE_DATA = {
                 "새우",
                 "식용유",
                 "마늘",
-                "홍고추",
                 "굴소스",
                 "소금",
                 "계란"
@@ -1397,9 +1216,8 @@ window.RECIPE_DATA = {
             "title": "노밀가루 전자레인지 땅콩빵",
             "link": "https://www.youtube.com/watch?v=L1Azg_FYo-k",
             "ingredients": [
-                "땅콩버터",
+                "버터",
                 "계란",
-                "설탕",
                 "소금",
                 "견과류(아몬드/호두)",
                 "초콜릿",
@@ -1418,10 +1236,9 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=ZlrLyzwPcGg",
             "ingredients": [
                 "초콜릿",
-                "땅콩버터",
+                "버터",
                 "계란",
                 "코코아파우더",
-                "설탕",
                 "소금"
             ]
         },
@@ -1429,31 +1246,26 @@ window.RECIPE_DATA = {
             "title": "라면만큼 쉬운 레시피",
             "link": "https://www.youtube.com/watch?v=eU6VoHNUTlM",
             "ingredients": [
-                "돼지고기",
-                "간장",
-                "참기름",
-                "쌀국수",
-                "돼지고기(삼겹살)",
-                "쪽파"
+                "돼지고기"
             ]
         },
         {
             "title": "[초간단 다이어트 레시피]✨오이토마토샐러드✨#오이 #토마토 #샐러드 #초간단요리 #다이어트레시피 #다이어트식단 #다이어트 #다이어트샐러드",
             "link": "https://www.youtube.com/watch?v=Z5mGBtQzDEQ",
             "ingredients": [
-                "병아리콩",
-                "코코넛밀크",
+                "오이",
                 "토마토",
-                "시금치",
-                "파슬리"
+                "레몬(레몬즙)",
+                "식초",
+                "소금",
+                "후추"
             ]
         },
         {
             "title": "2가지 재료로 만드는 다이어트 마가렛트",
             "link": "https://www.youtube.com/watch?v=HIrxbY0i0Zk",
             "ingredients": [
-                "땅콩버터",
-                "설탕"
+                "버터"
             ]
         },
         {
@@ -1462,7 +1274,6 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "토마토",
                 "마늘",
-                "식용유",
                 "소금",
                 "후추",
                 "식빵",
@@ -1472,7 +1283,6 @@ window.RECIPE_DATA = {
                 "양배추",
                 "간장",
                 "식초",
-                "설탕",
                 "닭고기",
                 "두부",
                 "계란"
@@ -1484,7 +1294,7 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "부추",
                 "계란",
-                "카레",
+                "카레가루(카레)",
                 "맛술",
                 "식용유",
                 "간장"
@@ -1530,7 +1340,7 @@ window.RECIPE_DATA = {
             "title": "불 쓰기 귀찮을 때 만드는 양푼이 참치비빔밥",
             "link": "https://www.youtube.com/watch?v=5DhHNXKnKCk",
             "ingredients": [
-                "밥",
+                "밥(쌀)",
                 "참치",
                 "상추",
                 "깻잎",
@@ -1563,38 +1373,30 @@ window.RECIPE_DATA = {
             "title": "여름엔 무조건 이렇게 드세요",
             "link": "https://www.youtube.com/watch?v=kfKD67y2VHY",
             "ingredients": [
-                "소면",
-                "닭고기"
+                "소면"
             ]
         },
         {
             "title": "대파만 듬뿍~넣으세요! 파개장! #koreanfood #cooking #korean #recipe",
             "link": "https://www.youtube.com/watch?v=TTUDf92qh9g",
             "ingredients": [
-                "돼지고기",
-                "베이컨",
-                "김치",
-                "마늘",
-                "참깨"
+                "대파"
             ]
         },
         {
             "title": "원팬파스타 알리오올리오 요것만 알면 대성공😆👍🏻",
             "link": "https://www.youtube.com/watch?v=shBNgI6h-CI",
             "ingredients": [
-                "새우전",
-                "오징어 paste",
-                "두부",
-                "밥"
+                "파스타면"
             ]
         },
         {
             "title": "정희원 교수님의 저당 디저트 레시피. 비건 말고 키토식으로 해석했어요 #레시피 #숏츠 #쇼츠 #다이어트",
             "link": "https://www.youtube.com/watch?v=CeMAPYQ7Eq0",
             "ingredients": [
-                "견과류",
+                "견과류(아몬드/호두)",
                 "코코아파우더",
-                "땅콩버터"
+                "버터"
             ]
         },
         {
@@ -1614,7 +1416,6 @@ window.RECIPE_DATA = {
                 "애호박",
                 "가지",
                 "버섯",
-                "토마토",
                 "치즈",
                 "계란",
                 "후추",
@@ -1625,12 +1426,8 @@ window.RECIPE_DATA = {
             "title": "쑥 젤라또로 만든 아포가토",
             "link": "https://www.youtube.com/watch?v=2nVgN9SyoX4",
             "ingredients": [
-                "쑥",
-                "커피",
-                "패션후르츠",
                 "초콜릿",
-                "녹차가루(말차)",
-                "견과류(아몬드/호두)"
+                "녹차가루(말차)"
             ]
         },
         {
@@ -1639,7 +1436,7 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "초콜릿",
                 "요거트",
-                "그래놀라"
+                "설탕"
             ]
         },
         {
@@ -1664,11 +1461,7 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=Zv-s8mHq720",
             "ingredients": [
                 "바나나",
-                "오트밀",
-                "꿀",
-                "계피가루",
                 "계란",
-                "베이킹파우더",
                 "소금"
             ]
         },
@@ -1690,9 +1483,16 @@ window.RECIPE_DATA = {
                 "후추",
                 "간장",
                 "맛술",
-                "생강",
                 "설탕",
                 "식용유"
+            ]
+        },
+        {
+            "title": "똑똑한 사람들이 에그마요도 잘 만드는 이유",
+            "link": "https://www.youtube.com/watch?v=Jx6gRoWuneE",
+            "ingredients": [
+                "계란",
+                "마요네즈"
             ]
         },
         {
@@ -1721,16 +1521,15 @@ window.RECIPE_DATA = {
             "title": "전자레인지 45초 초코 오트밀 쿠키",
             "link": "https://www.youtube.com/watch?v=NV3ODoBYwwA",
             "ingredients": [
-                "땅콩버터",
-                "코코아파우더",
-                "알룰로스",
-                "오트밀"
+                "버터",
+                "코코아파우더"
             ]
         },
         {
             "title": "땅콩버터 다이어트 레시피",
             "link": "https://www.youtube.com/watch?v=idBud-UkCIE",
             "ingredients": [
+                "버터",
                 "우유"
             ]
         },
@@ -1738,7 +1537,6 @@ window.RECIPE_DATA = {
             "title": "📍삼각김밥 틀없이 쉽고 빠르게 만드는 방법!! 이것만 알면 너무 쉽다",
             "link": "https://www.youtube.com/watch?v=cdJlhNzsakE",
             "ingredients": [
-                "밥(쌀)",
                 "참기름",
                 "소금",
                 "깨",
@@ -1755,14 +1553,11 @@ window.RECIPE_DATA = {
             "title": "다이어트 양념치킨 #shorts",
             "link": "https://www.youtube.com/watch?v=B4_iOX_FSXE",
             "ingredients": [
-                "오트밀",
                 "두부",
                 "계란",
                 "케첩",
                 "고추장",
                 "고춧가루",
-                "알룰로스",
-                "치킨스톡",
                 "마늘"
             ]
         },
@@ -1772,9 +1567,7 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "생크림",
                 "블루베리",
-                "스테비아",
-                "계란",
-                "바닐라엑스트랙"
+                "계란"
             ]
         },
         {
@@ -1782,11 +1575,9 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=rXOCSqEeKxM",
             "ingredients": [
                 "우유",
-                "설탕",
                 "전분가루",
                 "소금",
-                "식용유",
-                "코코넛가루"
+                "식용유"
             ]
         },
         {
@@ -1805,8 +1596,7 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "생크림",
                 "계란",
-                "설탕",
-                "땅콩버터",
+                "버터",
                 "코코아파우더"
             ]
         },
@@ -1814,9 +1604,7 @@ window.RECIPE_DATA = {
             "title": "-15kg 초코 오나오🤎모르는 사람 없게해주세요🙏 #다이어트레시피",
             "link": "https://www.youtube.com/watch?v=8JFIYnMnhFY",
             "ingredients": [
-                "오트밀",
                 "코코아파우더",
-                "두유",
                 "블루베리"
             ]
         },
@@ -1825,9 +1613,9 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=iMWsoRXMEok",
             "ingredients": [
                 "계란",
-                "치킨스톡",
                 "식용유",
                 "밥(쌀)",
+                "쪽파",
                 "대파"
             ]
         },
@@ -1857,18 +1645,14 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=Q62HUvXxY28",
             "ingredients": [
                 "바나나",
-                "오트밀",
-                "견과류(아몬드/호두)",
-                "설탕"
+                "견과류(아몬드/호두)"
             ]
         },
         {
             "title": "-10KG 가능 초코케이크 만들기🤎 #다이어트 #다이어트레시피 #오트밀레시피 #초코오트밀케이크",
             "link": "https://www.youtube.com/watch?v=yfDTAvAEgAs",
             "ingredients": [
-                "오트밀",
-                "코코아파우더",
-                "설탕"
+                "코코아파우더"
             ]
         },
         {
@@ -1876,19 +1660,16 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=XZvZV_bqX7c",
             "ingredients": [
                 "파스타면",
-                "상추",
                 "양파",
                 "토마토",
                 "닭고기",
                 "새우",
                 "옥수수콘(스위트콘)",
-                "올리브",
                 "식용유",
                 "간장",
                 "굴소스",
                 "식초",
                 "레몬(레몬즙)",
-                "설탕",
                 "머스터드",
                 "마늘",
                 "참기름",
@@ -1899,35 +1680,35 @@ window.RECIPE_DATA = {
             "title": "0칼로리 치킨 2탄",
             "link": "https://www.youtube.com/watch?v=g1rcB1qCMRw",
             "ingredients": [
-                "돼지고기",
-                "간장",
-                "마늘",
-                "당근",
-                "생강",
-                "쪽파"
+                "닭고기"
             ]
         },
         {
             "title": "마녀스프 진작 이렇게 만들걸!!",
             "link": "https://www.youtube.com/watch?v=uSaZlORlC3Y",
             "ingredients": [
+                "식용유",
+                "소고기",
+                "감자",
+                "양배추",
+                "소금",
+                "토마토",
+                "카레가루(카레)",
+                "치즈",
                 "닭고기",
-                "오이",
-                "파인애플",
-                "고춧가루",
-                "바질"
+                "버터"
             ]
         },
         {
             "title": "원팬 알리오올리오 파스타 #레시피",
             "link": "https://www.youtube.com/watch?v=rFAnlXueVRs",
             "ingredients": [
-                "밀가루",
-                "우유",
-                "계란",
-                "설탕",
-                "바닐라 추출물",
-                "건포도"
+                "마늘",
+                "식용유",
+                "파스타면",
+                "소금",
+                "후추",
+                "치즈"
             ]
         },
         {
@@ -1975,34 +1756,22 @@ window.RECIPE_DATA = {
                 "머스터드",
                 "레몬(레몬즙)",
                 "참치",
-                "고추장",
-                "된장",
-                "고춧가루"
-            ]
-        },
-        {
-            "title": "이만한 초간단 다이어트 레시피가 없음",
-            "link": "https://www.youtube.com/watch?v=ObIbXEUu4_E",
-            "ingredients": [
-                "돼지고기",
-                "돼지고기",
-                "옥수수콘",
-                "김치볶음밥용 쌀국수",
-                "새우꼬치",
-                "레몬그라스",
-                "레몬즙",
-                "고추 플레이크"
+                "고추장"
             ]
         },
         {
             "title": "전자레인지 1급 조리사의 두부 요리",
             "link": "https://www.youtube.com/watch?v=0qHkolJuuIo",
             "ingredients": [
-                "돼지고기",
-                "돼지고기",
-                "옥수수콘",
-                "김치볶음밥용 쌀국수",
-                "새우꼬치"
+                "두부",
+                "참치",
+                "계란",
+                "간장",
+                "참기름",
+                "고춧가루",
+                "마늘",
+                "대파",
+                "청양고추"
             ]
         },
         {
@@ -2031,7 +1800,6 @@ window.RECIPE_DATA = {
                 "베이컨",
                 "파스타면",
                 "소금",
-                "청양고추",
                 "양배추",
                 "새우"
             ]
@@ -2043,7 +1811,6 @@ window.RECIPE_DATA = {
                 "견과류(아몬드/호두)",
                 "코코아파우더",
                 "소금",
-                "설탕",
                 "생크림",
                 "계란",
                 "초콜릿",
@@ -2056,24 +1823,26 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "계란",
                 "견과류(아몬드/호두)",
-                "두유",
                 "우유",
                 "코코아파우더",
-                "초콜릿",
-                "설탕"
+                "초콜릿"
             ]
         },
         {
             "title": "-7kg 빠지는 블루베리 오트밀 케이크",
             "link": "https://www.youtube.com/watch?v=vMghkPxy0uc",
             "ingredients": [
-                "오트밀",
                 "바나나",
                 "계란",
-                "아몬드유",
-                "설탕",
                 "블루베리",
                 "초콜릿"
+            ]
+        },
+        {
+            "title": "쌀종이 꿔바로우",
+            "link": "https://www.youtube.com/watch?v=WnaXtQnbpT0",
+            "ingredients": [
+                "라이스페이퍼"
             ]
         },
         {
@@ -2082,19 +1851,17 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "계란",
                 "요거트",
-                "치즈",
-                "설탕"
+                "치즈"
             ]
         },
         {
             "title": "3일 연속으로 먹는중",
             "link": "https://www.youtube.com/watch?v=rTf4iPUBIjg",
             "ingredients": [
-                "돼지고기",
-                "새우",
-                "연어",
-                "당근",
-                "배추"
+                "설탕",
+                "밥(쌀)",
+                "맛술",
+                "애호박"
             ]
         },
         {
@@ -2102,10 +1869,9 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=tjw9a8UBpaA",
             "ingredients": [
                 "버섯",
-                "설탕",
                 "간장",
                 "계란",
-                "밥"
+                "밥(쌀)"
             ]
         },
         {
@@ -2119,11 +1885,10 @@ window.RECIPE_DATA = {
             "title": "초간단 다이어트 로제 떡볶이 #shorts",
             "link": "https://www.youtube.com/watch?v=LmS_UhjgsL0",
             "ingredients": [
+                "떡",
                 "대파",
                 "고춧가루",
-                "설탕",
                 "멸치",
-                "두유",
                 "라이스페이퍼",
                 "치즈",
                 "계란"
@@ -2133,7 +1898,8 @@ window.RECIPE_DATA = {
             "title": "그냥 신라면이 질린다면 신라면 알리오",
             "link": "https://www.youtube.com/watch?v=hvm5F0X3kzo",
             "ingredients": [
-                "라면"
+                "라면",
+                "마늘"
             ]
         },
         {
@@ -2141,8 +1907,7 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=bnILiNrGZLA",
             "ingredients": [
                 "오이",
-                "참치",
-                "밥"
+                "참치"
             ]
         },
         {
@@ -2153,7 +1918,6 @@ window.RECIPE_DATA = {
                 "계란",
                 "간장",
                 "굴소스",
-                "설탕",
                 "케첩"
             ]
         },
@@ -2161,7 +1925,6 @@ window.RECIPE_DATA = {
             "title": "전자레인지 2분컷 🍳이찬원 간장계란밥🍳",
             "link": "https://www.youtube.com/watch?v=NlnNkD1wHuM",
             "ingredients": [
-                "밥(쌀)",
                 "계란",
                 "간장",
                 "참기름",
@@ -2176,9 +1939,7 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "파스타면",
                 "마늘",
-                "홍고추",
                 "식용유",
-                "간장",
                 "굴소스"
             ]
         },
@@ -2188,9 +1949,7 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "두부",
                 "계란",
-                "토마토",
                 "치즈",
-                "견과류(아몬드/호두)",
                 "후추"
             ]
         },
@@ -2214,8 +1973,7 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=1j_m_AVXIJ4",
             "ingredients": [
                 "코코아파우더",
-                "설탕",
-                "견과류"
+                "초콜릿"
             ]
         },
         {
@@ -2237,7 +1995,6 @@ window.RECIPE_DATA = {
                 "새우",
                 "버섯",
                 "두부",
-                "설탕",
                 "간장",
                 "굴소스",
                 "전분가루"
@@ -2258,19 +2015,24 @@ window.RECIPE_DATA = {
             ]
         },
         {
+            "title": "#다이어트 밀가루❌ 시금치 오트밀 샌드위치 #shrots",
+            "link": "https://www.youtube.com/watch?v=901vaCfalyo",
+            "ingredients": [
+                "시금치"
+            ]
+        },
+        {
             "title": "두달 -10kg 오트밀 닭죽⭐️ #다이어트식단 #레시피 #다이어트 #오트밀 #오트밀레시피",
             "link": "https://www.youtube.com/watch?v=MroIOhV1DVE",
             "ingredients": [
-                "닭고기",
-                "오트밀"
+                "닭고기"
             ]
         },
         {
             "title": "다이어트 마라탕 순두부",
             "link": "https://www.youtube.com/watch?v=0HnSFpege-U",
             "ingredients": [
-                "두부",
-                "당면"
+                "두부"
             ]
         },
         {
@@ -2312,55 +2074,52 @@ window.RECIPE_DATA = {
             "title": "이렇게 큰데 살이 안 찐다고?",
             "link": "https://www.youtube.com/watch?v=Qainy0nGvH8",
             "ingredients": [
-                "돼지고기(삼겹살)",
-                "양파",
-                "마늘",
-                "당근",
-                "토마토",
+                "참치",
                 "김치",
-                "간장"
+                "치즈",
+                "두부",
+                "밥(쌀)",
+                "김",
+                "마요네즈",
+                "칠리소스",
+                "식용유",
+                "참기름",
+                "소금"
             ]
         },
         {
             "title": "살 빠지는 신전치즈김밥",
             "link": "https://www.youtube.com/watch?v=DMfxeICUKII",
             "ingredients": [
-                "새우 칵테일",
-                "브로콜리 꽃",
-                "오이 슬라이스",
-                "고추 플레이크"
+                "치즈",
+                "김",
+                "밥(쌀)"
             ]
         },
         {
             "title": "살 안 찌는 마라샹궈",
             "link": "https://www.youtube.com/watch?v=a2O0ETFRTOI",
             "ingredients": [
-                "두부",
-                "피망",
-                "버섯",
-                "죽순",
-                "생강",
-                "참기름"
+                "버터",
+                "간장",
+                "라면"
             ]
         },
         {
             "title": "NO밀가루 다이어트 고구마빵 꼭 만들어보세요!!",
             "link": "https://www.youtube.com/watch?v=Lb4sVv3P-5U",
             "ingredients": [
-                "계란",
-                "쌀국수",
-                "마늘",
-                "쪽파",
-                "피시소스"
+                "고구마",
+                "견과류(아몬드/호두)"
             ]
         },
         {
             "title": "8년동안 개발한 크림소스레시피",
             "link": "https://www.youtube.com/watch?v=0Y6HiMq02fU",
             "ingredients": [
-                "고구마 큐브",
-                "시금치",
-                "피클 무"
+                "파스타면",
+                "밥(쌀)",
+                "돈까스/스테이크소스"
             ]
         },
         {
@@ -2371,18 +2130,20 @@ window.RECIPE_DATA = {
             ]
         },
         {
-            "title": "취하는 취화채 만들기🍉🍹",
-            "link": "https://www.youtube.com/watch?v=SsE9cN4arzk",
+            "title": "연매출 7억을 안겨주었던 가장 재방문률이 높았던 메뉴 봉골레크림파스타",
+            "link": "https://www.youtube.com/watch?v=lHTgmT50WUk",
             "ingredients": [
-                "수박",
-                "술",
-                "음료수"
+                "조개",
+                "생크림",
+                "파스타면"
             ]
         },
         {
             "title": "한국인 입맛에 맞게 만든 알리오올리오 파스타 레시피",
             "link": "https://www.youtube.com/watch?v=Uq7bVV-aMLk",
             "ingredients": [
+                "마늘",
+                "식용유",
                 "파스타면"
             ]
         },
@@ -2397,7 +2158,6 @@ window.RECIPE_DATA = {
                 "고추장",
                 "된장",
                 "마늘",
-                "설탕",
                 "참기름",
                 "깨"
             ]
@@ -2407,41 +2167,41 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=yskX_Fh1aYo",
             "ingredients": [
                 "돼지고기",
-                "김치",
+                "소금",
+                "후추",
+                "밀가루",
+                "전분가루",
+                "식용유",
+                "간장",
+                "맛술",
+                "설탕",
                 "마늘",
-                "생강",
-                "당근",
-                "양파"
+                "버터"
             ]
         },
         {
             "title": "오사카에서 말차 토스트를 주문하면 생기는 일",
             "link": "https://www.youtube.com/watch?v=XzYdgevwDpc",
             "ingredients": [
-                "새우",
-                "오징어",
-                "닭고기",
-                "바베큐소스"
+                "녹차가루(말차)",
+                "식빵",
+                "버터"
             ]
         },
         {
             "title": "오사카에서 계란 샌드위치를 주문하면 생기는 일",
             "link": "https://www.youtube.com/watch?v=QMceTG82O7c",
             "ingredients": [
-                "닭고기",
-                "토르티야",
-                "살사",
-                "토마토"
+                "계란",
+                "식빵"
             ]
         },
         {
             "title": "교토에서 도라야끼를 주문하면 생기는 일",
             "link": "https://www.youtube.com/watch?v=dN0_54Ppvuw",
             "ingredients": [
-                "아몬드가루",
-                "초콜릿",
-                "계란",
-                "우유"
+                "녹차가루(말차)",
+                "생크림"
             ]
         },
         {
@@ -2457,39 +2217,16 @@ window.RECIPE_DATA = {
             "title": "30칼로리 카다이프? 다이어트 두바이 초콜릿 오나오",
             "link": "https://www.youtube.com/watch?v=g2xjPSo_HZ4",
             "ingredients": [
-                "돼지고기",
-                "콩나물",
-                "베이컨"
+                "우유",
+                "코코아파우더",
+                "견과류(아몬드/호두)",
+                "초콜릿",
+                "녹차가루(말차)"
             ]
         },
         {
             "title": "단돈 2천원 최고급 디저트",
             "link": "https://www.youtube.com/watch?v=0PhZLz9ubIM",
-            "ingredients": [
-                "새우",
-                "오징어"
-            ]
-        },
-        {
-            "title": "[오븐멍] 몰래 춤추는 거북이 쿠키 #댄스 #wop #챌린지 #challenge #거북이쿠키 #거북이 #쿠키 #cookies #minecraft",
-            "link": "https://www.youtube.com/watch?v=GSHZH_f1Wns",
-            "ingredients": [
-                "참치",
-                "연어"
-            ]
-        },
-        {
-            "title": "[오븐멍] 👻Happy Halloween🎃 #happy #halloween #cookies #홈베이킹 #할로윈",
-            "link": "https://www.youtube.com/watch?v=FHWuVr1Kews",
-            "ingredients": [
-                "상추",
-                "당근",
-                "김치"
-            ]
-        },
-        {
-            "title": "렌틸콩 랩 샌드위치",
-            "link": "https://www.youtube.com/watch?v=cnI3ss2wO60",
             "ingredients": [
                 "치즈"
             ]
@@ -2500,13 +2237,6 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "초콜릿",
                 "코코아파우더"
-            ]
-        },
-        {
-            "title": "99% 던킨 맛  #다이어트레시피 #도넛",
-            "link": "https://www.youtube.com/watch?v=W7ICFVVFqfQ",
-            "ingredients": [
-                "식빵"
             ]
         },
         {
@@ -2522,31 +2252,29 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=IdhwC8WefBE",
             "ingredients": [
                 "참치",
-                "밥(쌀)",
-                "설탕",
                 "식초",
-                "계란"
+                "계란",
+                "밥(쌀)"
             ]
         },
         {
             "title": "3가지 재료 말차 버터 #shorts",
             "link": "https://www.youtube.com/watch?v=z1qnZiE3wgA",
             "ingredients": [
-                "돼지고기",
-                "돼지고기불고기양념",
-                "채소류(시금치)",
-                "두부",
-                "김치"
+                "녹차가루(말차)",
+                "버터"
             ]
         },
         {
             "title": "자취생 환장하는 간편식",
             "link": "https://www.youtube.com/watch?v=etr3NIZDtNw",
             "ingredients": [
-                "라면",
-                "계란",
-                "버섯",
-                "간장"
+                "돼지고기",
+                "닭고기",
+                "치즈",
+                "파스타면",
+                "소고기",
+                "밥(쌀)"
             ]
         },
         {
@@ -2564,9 +2292,7 @@ window.RECIPE_DATA = {
                 "게맛살(크래미)",
                 "소금",
                 "마요네즈",
-                "머스터드",
-                "와사비",
-                "날치알"
+                "머스터드"
             ]
         },
         {
@@ -2590,60 +2316,43 @@ window.RECIPE_DATA = {
                 "마요네즈",
                 "소시지",
                 "양파",
-                "피클",
-                "케첩",
                 "머스터드",
                 "잼",
-                "바질페스토",
                 "치즈",
-                "스팸(햄)",
-                "상추"
-            ]
-        },
-        {
-            "title": "남은 자투리 채소는 이렇게 드세요 #한국식타코 #레시피",
-            "link": "https://www.youtube.com/watch?v=PYlu5bhSvpY",
-            "ingredients": [
-                "돼지고기",
-                "소고기",
-                "새우",
-                "김치"
+                "스팸(햄)"
             ]
         },
         {
             "title": "식욕 잃은 초딩이 인생 돼지고기라고 했던 도시락 반찬😭오쿠라 묘가🥗두부밥🍚미소☺️돼지🐷심지어 두부도 귀여워야 하는 나라😅일본 #초등학생 #남편 #도시락싸기",
             "link": "https://www.youtube.com/watch?v=vrQ26D89hDg",
             "ingredients": [
-                "닭고기",
-                "옥수수콘",
-                "양배추",
-                "참깨"
+                "돼지고기",
+                "두부",
+                "된장"
             ]
         },
         {
             "title": "사과 예쁘게 깎는 방법",
             "link": "https://www.youtube.com/watch?v=C8qFgVekn_Y",
             "ingredients": [
-                "두부",
-                "토마토",
-                "시금치",
-                "빨간고추"
+                "사과"
             ]
         },
         {
             "title": "속세맛 다이어트 초코 테린느 #shorts",
             "link": "https://www.youtube.com/watch?v=SPEgzi44sjg",
             "ingredients": [
-                "닭고기",
-                "당근",
-                "고추",
-                "코코넛유"
+                "초콜릿",
+                "우유",
+                "계란",
+                "소금"
             ]
         },
         {
             "title": "짬뽕보다 건강한 해장파스타",
             "link": "https://www.youtube.com/watch?v=plfofG14hoo",
             "ingredients": [
+                "파스타면",
                 "참치",
                 "김치",
                 "두부"
@@ -2673,7 +2382,6 @@ window.RECIPE_DATA = {
                 "참치",
                 "마요네즈",
                 "옥수수콘(스위트콘)",
-                "해산물",
                 "버터"
             ]
         },
@@ -2686,7 +2394,6 @@ window.RECIPE_DATA = {
                 "간장",
                 "맛술",
                 "마늘",
-                "생강",
                 "식용유"
             ]
         },
@@ -2708,13 +2415,10 @@ window.RECIPE_DATA = {
                 "밥(쌀)",
                 "식초",
                 "간장",
-                "머스터드",
-                "설탕",
                 "깨",
                 "김",
                 "두부",
                 "식용유",
-                "쌈채소",
                 "양배추",
                 "마늘",
                 "고추장",
@@ -2733,11 +2437,10 @@ window.RECIPE_DATA = {
             "title": "정승제의 치즈롤식빵을 가장 맛있게 먹는 법",
             "link": "https://www.youtube.com/watch?v=8jCUO-z9WGw",
             "ingredients": [
-                "식빵",
                 "치즈",
-                "땅콩버터",
+                "식빵",
+                "버터",
                 "생크림",
-                "딸기",
                 "잼"
             ]
         },
@@ -2752,10 +2455,23 @@ window.RECIPE_DATA = {
             "title": "의외로 모르는 베이글 꿀조합",
             "link": "https://www.youtube.com/watch?v=GO8SuZ7LoJg",
             "ingredients": [
-                "매실",
-                "베이글",
-                "마늘",
-                "생크림"
+                "우유",
+                "생크림",
+                "마늘"
+            ]
+        },
+        {
+            "title": "살 빠지는 고깃집 볶음밥",
+            "link": "https://www.youtube.com/watch?v=Mi0_KPTyZok",
+            "ingredients": [
+                "밥(쌀)"
+            ]
+        },
+        {
+            "title": "다이어트 엽떡",
+            "link": "https://www.youtube.com/watch?v=3iv7WdJgk2U",
+            "ingredients": [
+                "떡"
             ]
         },
         {
@@ -2765,52 +2481,40 @@ window.RECIPE_DATA = {
                 "닭고기",
                 "라이스페이퍼",
                 "간장",
-                "설탕",
                 "굴소스",
                 "마늘",
-                "식용유"
+                "식용유",
+                "카레가루(카레)",
+                "김",
+                "밥(쌀)",
+                "김치",
+                "참치",
+                "스팸(햄)",
+                "계란"
             ]
         },
         {
             "title": "3000원으로 100번 만들기",
             "link": "https://www.youtube.com/watch?v=ZD8eVepJKsA",
             "ingredients": [
-                "돼지고기",
-                "닭고기",
-                "콩나물",
-                "당근",
-                "대파",
-                "고춧가루"
+                "요거트"
             ]
         },
         {
             "title": "쫀득한 노른자 파워 #초코 #젤라또 #아이스크림",
             "link": "https://www.youtube.com/watch?v=AKIEwIrHfdg",
             "ingredients": [
-                "새우",
-                "오징어",
-                "참치",
-                "계란"
-            ]
-        },
-        {
-            "title": "역대급 다이어트 간식",
-            "link": "https://www.youtube.com/watch?v=D9iq8wSLZrM",
-            "ingredients": [
-                "배추",
-                "고춧가루",
-                "떡",
-                "간장"
+                "계란",
+                "초콜릿"
             ]
         },
         {
             "title": "밀가루 없이 극락가는 법",
             "link": "https://www.youtube.com/watch?v=nAbawua8RXo",
             "ingredients": [
-                "밥(쌀)",
+                "또띠아",
                 "고추장",
                 "케첩",
-                "칠리소스",
                 "버섯"
             ]
         },
@@ -2826,11 +2530,6 @@ window.RECIPE_DATA = {
             "title": "-7kg 빠지는 두바이 초콜릿 오나오",
             "link": "https://www.youtube.com/watch?v=xx2pMBXRm9I",
             "ingredients": [
-                "오트밀",
-                "치아씨드",
-                "설탕",
-                "땅콩버터",
-                "우유",
                 "초콜릿"
             ]
         },
@@ -2838,35 +2537,33 @@ window.RECIPE_DATA = {
             "title": "일본 편의점 컵라면 베스트 7 - 가격 정보 등 댓글 확인 #일본편의점 #일본컵라면 #일본편의점추천 #일본간식 #일본세븐일레븐 #일본패밀리마트 #일본여행 #오사카여행 #도쿄여행",
             "link": "https://www.youtube.com/watch?v=M4t-Qz4AU_k",
             "ingredients": [
-                "소고기",
-                "당근",
-                "마늘",
-                "대파"
+                "라면",
+                "마요네즈",
+                "돼지고기"
             ]
         },
         {
             "title": "The Chessboard Game! ♟ A delicious triple chocolate cake in disguise. 🍫",
             "link": "https://www.youtube.com/watch?v=BfQFBCq0G6A",
             "ingredients": [
-                "새우",
-                "버섯",
-                "고추장"
-            ]
-        },
-        {
-            "title": "국내에 몇 없는 수제 캔디 달인?! 귀여운 무당벌레 사탕 만들기 amazing handmade ladybug candy making #shorts",
-            "link": "https://www.youtube.com/watch?v=voFS-Kl_Zc0",
-            "ingredients": [
-                "치즈",
-                "아보카도"
+                "초콜릿"
             ]
         },
         {
             "title": "반찬 간식 안주까지 다 되는 쏘알볶음",
             "link": "https://www.youtube.com/watch?v=c86YeWnrZKw",
             "ingredients": [
-                "김치",
-                "돼지고기"
+                "소시지",
+                "계란",
+                "식용유",
+                "고춧가루",
+                "고추장",
+                "간장",
+                "굴소스",
+                "케첩",
+                "마늘",
+                "깨",
+                "참기름"
             ]
         },
         {
@@ -2875,9 +2572,9 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "닭고기",
                 "대파",
+                "밥(쌀)",
                 "굴소스",
-                "돈까스/스테이크소스",
-                "설탕"
+                "돈까스/스테이크소스"
             ]
         },
         {
@@ -2885,36 +2582,57 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=QrF2-IOQ8T4",
             "ingredients": [
                 "돼지고기",
-                "치즈",
-                "맛술"
+                "양파",
+                "대파",
+                "마늘",
+                "식용유",
+                "소금",
+                "후추"
             ]
         },
         {
             "title": "오늘같이 추운 날엔, 돼지감자짜글이",
             "link": "https://www.youtube.com/watch?v=NkKD_kP-zpk",
             "ingredients": [
-                "연어",
-                "옥수수콘",
-                "설탕"
+                "돼지고기",
+                "감자",
+                "밥(쌀)",
+                "대파",
+                "청양고추",
+                "된장",
+                "고추장",
+                "고춧가루",
+                "간장",
+                "맛술",
+                "설탕",
+                "마늘",
+                "후추"
             ]
         },
         {
             "title": "15분컷 반죽 안하는 치킨",
             "link": "https://www.youtube.com/watch?v=cbcxKfAg8Bs",
             "ingredients": [
-                "소고기",
-                "대파",
-                "불향소스"
+                "닭고기",
+                "전분가루",
+                "식용유",
+                "간장",
+                "마늘",
+                "소금",
+                "후추"
             ]
         },
         {
             "title": "삼겹살과 부추는 꼭 이렇게 드세요 #레시피",
             "link": "https://www.youtube.com/watch?v=DSpPPKyFClM",
             "ingredients": [
-                "생菜",
-                "채소류",
-                "카람저바",
-                "햄"
+                "부추",
+                "돼지고기",
+                "마늘",
+                "식초",
+                "소금",
+                "간장",
+                "깨"
             ]
         },
         {
@@ -2932,10 +2650,16 @@ window.RECIPE_DATA = {
                 "간장",
                 "고춧가루",
                 "고추장",
-                "파스타소스",
                 "소금",
                 "후추",
                 "청양고추",
+                "치즈"
+            ]
+        },
+        {
+            "title": "안돼 치즈 굳어",
+            "link": "https://www.youtube.com/watch?v=8RHTeRZyAms",
+            "ingredients": [
                 "치즈"
             ]
         },
@@ -2950,7 +2674,6 @@ window.RECIPE_DATA = {
                 "굴소스",
                 "버터",
                 "식용유",
-                "꿀",
                 "참기름",
                 "깨"
             ]
@@ -2963,7 +2686,6 @@ window.RECIPE_DATA = {
                 "참치",
                 "밥(쌀)",
                 "식용유",
-                "간장",
                 "참기름",
                 "깨"
             ]
@@ -2974,20 +2696,11 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "닭고기",
                 "소금",
-                "생강",
                 "마늘",
                 "대파",
                 "설탕",
                 "간장",
-                "굴소스",
-                "물엿"
-            ]
-        },
-        {
-            "title": "최화정 깜놀한 너무쉬운 ‘나물양념법’",
-            "link": "https://www.youtube.com/watch?v=xY5vCMI0MfI",
-            "ingredients": [
-                "연두"
+                "굴소스"
             ]
         },
         {
@@ -2995,7 +2708,8 @@ window.RECIPE_DATA = {
             "link": "https://www.youtube.com/watch?v=uYhaNGnUKI0",
             "ingredients": [
                 "계란",
-                "소금"
+                "소금",
+                "설탕"
             ]
         },
         {
@@ -3009,10 +2723,10 @@ window.RECIPE_DATA = {
                 "고추장",
                 "맛술",
                 "파스타면",
-                "해산물",
                 "청양고추",
                 "소금",
-                "식용유"
+                "식용유",
+                "새우"
             ]
         },
         {
@@ -3023,10 +2737,8 @@ window.RECIPE_DATA = {
                 "파스타면",
                 "마늘",
                 "식용유",
-                "홍고추",
                 "간장",
                 "굴소스",
-                "설탕",
                 "소금",
                 "후추",
                 "치즈"
@@ -3036,51 +2748,50 @@ window.RECIPE_DATA = {
             "title": "코인육수보다 활용도 좋은 시오콘부 한식용 레시피",
             "link": "https://www.youtube.com/watch?v=ZK9-bqwcY5Y",
             "ingredients": [
-                "계란",
                 "다시마",
-                "두부",
-                "김",
-                "청포묵"
+                "계란",
+                "김"
             ]
         },
         {
             "title": "밥 3공기 뚝딱 어남선생 류수영님의 스팸 순두부찌개 따라해봤습니다! #레시피",
             "link": "https://www.youtube.com/watch?v=jYZQJzXDtkk",
             "ingredients": [
-                "연어",
-                "쪽파",
-                "소고기",
-                "양배추",
-                "아몬드유"
+                "밥(쌀)",
+                "스팸(햄)",
+                "두부"
             ]
         },
         {
             "title": "고급진 곳엔 언제나 있는 참깨드레싱‼️😆 #레시피 #샐러드 #드레싱 #한정식",
             "link": "https://www.youtube.com/watch?v=q3bwyjM1P-0",
             "ingredients": [
-                "토마토",
-                "병아리콩",
-                "카레가루",
-                "파슬리"
+                "깨",
+                "간장",
+                "식초",
+                "참기름",
+                "마요네즈",
+                "양배추"
             ]
         },
         {
             "title": "얼큰한 초간단 떡 만둣국",
             "link": "https://www.youtube.com/watch?v=MX4n_nQrVQc",
             "ingredients": [
-                "망고",
-                "생크림",
-                "초콜릿"
+                "양파",
+                "대파",
+                "마늘",
+                "고추장",
+                "간장",
+                "떡",
+                "만두"
             ]
         },
         {
             "title": "박은영 셰프의 진하고 시원한 3분 계란국 #레시피 #오늘도요리 #음식 #요리로그 #자취러",
             "link": "https://www.youtube.com/watch?v=nz22bBNQ3_I",
             "ingredients": [
-                "당근",
-                "파프리카",
-                "두부",
-                "간장"
+                "계란"
             ]
         },
         {
@@ -3094,35 +2805,305 @@ window.RECIPE_DATA = {
             "title": "아메리칸 셰프 파스타 [34일 차]",
             "link": "https://www.youtube.com/watch?v=M52cSzE3VUU",
             "ingredients": [
-                "파슬리"
+                "파스타면"
+            ]
+        },
+        {
+            "title": "많은 분들이 질문을 주셨던 솥밥 레시피 설명드립니다 #Shorts",
+            "link": "https://www.youtube.com/watch?v=36PsTZRK__E",
+            "ingredients": [
+                "소고기",
+                "밥(쌀)"
+            ]
+        },
+        {
+            "title": "서가앤쿡 느낌 그대로, 집에서 만드는 목살 스테이크|🥩 Pork Neck Steak – SEOGA&COOK Style, Made at Home",
+            "link": "https://www.youtube.com/watch?v=1uDNoAzBWwY",
+            "ingredients": [
+                "돼지고기",
+                "소금",
+                "식용유",
+                "마늘",
+                "돈까스/스테이크소스",
+                "굴소스",
+                "설탕",
+                "맛술",
+                "버터"
+            ]
+        },
+        {
+            "title": "요알못도 금손 되는 초간단 봄동 김밥 🍙🧡 #집밥 #김밥 #봄동 #건강식단 #집김밥 #먹방 #브이로그",
+            "link": "https://www.youtube.com/watch?v=a4F8jWWsX5E",
+            "ingredients": [
+                "소금",
+                "된장",
+                "마늘",
+                "참기름",
+                "김",
+                "밥(쌀)"
+            ]
+        },
+        {
+            "title": "계란볶음밥, 2배 업그레이드 레시피!",
+            "link": "https://www.youtube.com/watch?v=5OUP7acZKOE",
+            "ingredients": [
+                "계란",
+                "밥(쌀)"
             ]
         },
         {
             "title": "이거 간이 딱 좋아요 #우삼겹 숙주볶음",
             "link": "https://www.youtube.com/watch?v=FPIWgyCshrQ",
             "ingredients": [
-                "돼지고기",
-                "김치찌개",
-                "콩나물",
-                "대파"
+                "소고기",
+                "콩나물/숙주"
             ]
         },
         {
             "title": "한끼 2000원 불고기 대량생산 #바싹불고기 #언양불고기 #방학메뉴 #메인요리",
             "link": "https://www.youtube.com/watch?v=IPaYY_bL5GM",
             "ingredients": [
-                "새우",
-                "짜장면",
-                "고추가루",
-                "고춧가루"
+                "소고기",
+                "대파",
+                "간장",
+                "설탕",
+                "굴소스",
+                "참기름",
+                "마늘",
+                "맛술"
             ]
         },
         {
             "title": "강레오셰프님의 크림치킨스튜",
             "link": "https://www.youtube.com/watch?v=eilhaGtynV4",
             "ingredients": [
-                "김치",
-                "두부"
+                "닭고기",
+                "생크림"
+            ]
+        },
+        {
+            "title": "셰프 정호영의 초간단 밥도둑 차돌된장술밥",
+            "link": "https://www.youtube.com/watch?v=QFdYGsxeFHU",
+            "ingredients": [
+                "소고기",
+                "두부",
+                "애호박",
+                "양파",
+                "대파",
+                "마늘",
+                "된장",
+                "고추장",
+                "고춧가루",
+                "굴소스",
+                "밥(쌀)"
+            ]
+        },
+        {
+            "title": "시오콘부 공식 레시피👩🏻‍🍳 2분 치즈 양배추🧀🥬 #양배추 #치즈 #시오콘부 #염장다시마 #일본가정식 #일본쇼핑",
+            "link": "https://www.youtube.com/watch?v=7F_9IuaGBGc",
+            "ingredients": [
+                "양배추",
+                "치즈",
+                "다시마",
+                "참기름"
+            ]
+        },
+        {
+            "title": "도쿄에서 랍스터 라멘을 주문하면 생기는 일",
+            "link": "https://www.youtube.com/watch?v=56sKBAbu8vw",
+            "ingredients": [
+                "라면",
+                "치즈",
+                "계란",
+                "밥(쌀)"
+            ]
+        },
+        {
+            "title": "5분이면 충분해요 류수영 콘치즈",
+            "link": "https://www.youtube.com/watch?v=HSmod4SiWb0",
+            "ingredients": [
+                "마요네즈",
+                "마늘",
+                "옥수수콘(스위트콘)",
+                "치즈"
+            ]
+        },
+        {
+            "title": "재료 4가지면 완성이라는 류수영 원팬크림파스타",
+            "link": "https://www.youtube.com/watch?v=NJOjG9sBGtE",
+            "ingredients": [
+                "생크림",
+                "파스타면"
+            ]
+        },
+        {
+            "title": "라면보다 더 빨리 만드는 강레오 알리오올리오",
+            "link": "https://www.youtube.com/watch?v=u7dhz159XMg",
+            "ingredients": [
+                "라면"
+            ]
+        },
+        {
+            "title": "이건 진짜 제 인생 버섯밥입니다…",
+            "link": "https://www.youtube.com/watch?v=GD7e8eLCOzE",
+            "ingredients": [
+                "버섯",
+                "밥(쌀)"
+            ]
+        },
+        {
+            "title": "노밀가루 저당 초코 머핀 레시피 #shorts",
+            "link": "https://www.youtube.com/watch?v=vOjUzUMxvdg",
+            "ingredients": [
+                "견과류(아몬드/호두)",
+                "코코아파우더",
+                "계란",
+                "초콜릿",
+                "버터",
+                "식용유"
+            ]
+        },
+        {
+            "title": "고물가 시대에 2천원으로 스초생st 초콜릿 무스 만들기",
+            "link": "https://www.youtube.com/watch?v=KBqvfwFfJ_I",
+            "ingredients": [
+                "초콜릿",
+                "우유"
+            ]
+        },
+        {
+            "title": "대용량 다짐육으로 방학메뉴 돌려막기!!!",
+            "link": "https://www.youtube.com/watch?v=Fku3d1BK1Vg",
+            "ingredients": [
+                "소고기",
+                "간장",
+                "설탕",
+                "맛술",
+                "양파",
+                "대파",
+                "버섯",
+                "다시마",
+                "식용유",
+                "마늘",
+                "굴소스",
+                "부추",
+                "후추",
+                "깨",
+                "김",
+                "계란",
+                "당근",
+                "감자",
+                "카레가루(카레)",
+                "케첩",
+                "돈까스/스테이크소스",
+                "고춧가루",
+                "버터",
+                "또띠아",
+                "치즈"
+            ]
+        },
+        {
+            "title": "멈출 수 없는 스팸 땡초 김밥",
+            "link": "https://www.youtube.com/watch?v=l-hZeDs4cDE",
+            "ingredients": [
+                "밥(쌀)",
+                "스팸(햄)",
+                "청양고추",
+                "간장",
+                "굴소스",
+                "설탕",
+                "김",
+                "참기름",
+                "깨"
+            ]
+        },
+        {
+            "title": "-27kg! 밀가루 없이 오븐 없이 5분 만에 완성되는 초간단 다이어트 땅콩버터빵 케이크 만들기",
+            "link": "https://www.youtube.com/watch?v=QgCvC2N0NJw",
+            "ingredients": [
+                "계란",
+                "버터",
+                "소금",
+                "우유",
+                "식용유"
+            ]
+        },
+        {
+            "title": "중독적인 매운어묵김밥",
+            "link": "https://www.youtube.com/watch?v=IRDIkjQL90s",
+            "ingredients": [
+                "김",
+                "밥(쌀)",
+                "깻잎",
+                "어묵",
+                "간장",
+                "고춧가루",
+                "마늘",
+                "참기름",
+                "청양고추",
+                "식용유",
+                "소금",
+                "깨"
+            ]
+        },
+        {
+            "title": "감자탕 사장님 죄송합니다",
+            "link": "https://www.youtube.com/watch?v=pqYWdE849U0",
+            "ingredients": [
+                "소고기",
+                "감자",
+                "깻잎",
+                "청양고추",
+                "된장",
+                "고춧가루",
+                "마늘",
+                "간장",
+                "후추",
+                "김치"
+            ]
+        },
+        {
+            "title": "맛있어서 3일 연속으로 먹은 차돌 양배추 파스타💛 요즘 만들어 먹은 음식 중 1등 👑 #집밥 #차돌박이 #양배추 #양배추요리 #파스타 #집밥레시피 #야식추천 #먹방 #브이로그",
+            "link": "https://www.youtube.com/watch?v=vXADiYQThVs",
+            "ingredients": [
+                "소고기",
+                "양배추",
+                "파스타면",
+                "대파",
+                "참치",
+                "마늘",
+                "후추"
+            ]
+        },
+        {
+            "title": "극락 직행😇 다이어트 디저트",
+            "link": "https://www.youtube.com/watch?v=RPU8AAh8WWU",
+            "ingredients": [
+                "견과류(아몬드/호두)",
+                "버터",
+                "소금",
+                "초콜릿"
+            ]
+        },
+        {
+            "title": "윤남노 셰프님의 양배추 스테이크",
+            "link": "https://www.youtube.com/watch?v=ychzRurSdKI",
+            "ingredients": [
+                "양배추",
+                "식용유",
+                "소금",
+                "후추",
+                "버터"
+            ]
+        },
+        {
+            "title": "된장국 50인분 밀프랩 #된장국밀프랩 #유부된장국 #국밀프렙",
+            "link": "https://www.youtube.com/watch?v=RzDFu8kbtiI",
+            "ingredients": [
+                "대파",
+                "버섯",
+                "미역",
+                "된장"
             ]
         }
     ]
