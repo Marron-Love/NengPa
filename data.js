@@ -3283,6 +3283,194 @@ window.HOUSEWORK_DATA = {
         {
             "title": "청소업체 사장이 사용하는 줄눈청소 꿀템",
             "link": "https://www.youtube.com/watch?v=6p-CggqOE9w"
+        },
+        {
+            "title": "누가 이렇게 하면 뜯어 말려야 해요😂 #후회하는 #주방인테리어 #kitchen  #kitcheninterior",
+            "link": "https://www.youtube.com/watch?v=Y_xbT5Y5KKo"
+        },
+        {
+            "title": "튼튼한 행거_진짜최종_찐최최최종.mov",
+            "link": "https://www.youtube.com/watch?v=rqROBjgILeQ"
+        },
+        {
+            "title": "다이소 칫솔꽂이를 화병에 넣으면,, #다이소#다이소추천템#다이소diy#다이소화병#다이소꿀템#화병만들기#나타나라",
+            "link": "https://www.youtube.com/watch?v=gja-cnkRzZs"
+        },
+        {
+            "title": "1.5룸 오피스텔 화장실청소 2주 루틴",
+            "link": "https://www.youtube.com/watch?v=I_rMEHUEJrA"
+        },
+        {
+            "title": "1.5룸 오피스텔 셀프입주청소 몇시간 걸리나요?",
+            "link": "https://www.youtube.com/watch?v=U059cf1aGOI"
+        },
+        {
+            "title": "저장필수!📌 밥솥 청소 루틴! 밥에서 쉰내가 나거나 예전같지 않다면!? #살림 #살림꿀팁 #밥솥 #밥솥청소",
+            "link": "https://www.youtube.com/watch?v=EbRMm-tnZ9o"
+        },
+        {
+            "title": "자취방 청소 하루컷으로 끝내는 미친 효율 루틴",
+            "link": "https://www.youtube.com/watch?v=Hy6YseX92Ts"
+        },
+        {
+            "title": "🤔이건 냉동실에 꼭 쟁여놓으세요.",
+            "link": "https://www.youtube.com/watch?v=MsZ-c0eTY-g"
+        },
+        {
+            "title": "손님오기 10분전 욕실청소! #핑크스터프#화장실#청소템",
+            "link": "https://www.youtube.com/watch?v=RNZbnKZlKyw"
+        },
+        {
+            "title": "한 번 사면 무조건 남는 거",
+            "link": "https://www.youtube.com/watch?v=U6NHeTpnzkw"
+        },
+        {
+            "title": "난각1번유정란",
+            "link": "https://www.youtube.com/watch?v=haARKkqa5bQ"
+        },
+        {
+            "title": "섬유전공자가 추천하는 겨울옷 관리템 Best 2",
+            "link": "https://www.youtube.com/watch?v=ub6Lz0awFgs"
+        },
+        {
+            "title": "대충 했는데 의외로 완벽했던 냉동 보관 BEST 5! #살림템 #신혼부부",
+            "link": "https://www.youtube.com/watch?v=KF-jqYtnrEw"
+        },
+        {
+            "title": "좋다던 베란다 데크타일, 6개월 쓰고 뒤집어본 후기",
+            "link": "https://www.youtube.com/watch?v=YwLaRmf1-SM"
+        },
+        {
+            "title": "펜션 청소 알바할때 쓰던 청소용품 추천",
+            "link": "https://www.youtube.com/watch?v=nn-Niat9kUs"
+        },
+        {
+            "title": "기본템이라 무시했던 이케아 조명의 변신 #이케아조명 #이케아 #조명맛집 #인테리어 #집꾸미기 #조명",
+            "link": "https://www.youtube.com/watch?v=5IdGRWVnhdw"
+        },
+        {
+            "title": "버튼 한 번에 침대로 변신?! #슬라이딩소파 #리클라이너소파 #신혼집인테리어",
+            "link": "https://www.youtube.com/watch?v=g7pmi_Fqdl4"
+        },
+        {
+            "title": "⭐️150만뷰⭐️안보면 후회하는 셀프밀키트 추천템 best3",
+            "link": "https://www.youtube.com/watch?v=1Gt-boPV-Zc"
+        },
+        {
+            "title": "5인가족 삼남매엄마의 코스트코 장바구니 정리하는 법#코스트코#costco",
+            "link": "https://www.youtube.com/watch?v=8R5ZjaZg-lc"
+        },
+        {
+            "title": "1인 가구의 식재료 소분 법✨",
+            "link": "https://www.youtube.com/watch?v=du6PxfOdWe8"
+        },
+        {
+            "title": "노벨정리상 받아 마땅합니다",
+            "link": "https://www.youtube.com/watch?v=QGd81jR9WNI"
+        },
+        {
+            "title": "바퀴벌레랑 아이컨택 안하고 잡는법",
+            "link": "https://www.youtube.com/watch?v=_uhhdBjhWeo"
+        },
+        {
+            "title": "청소업체 사장도 집에서 사용하는 세제 2가지 #입주청소 #청소업체",
+            "link": "https://www.youtube.com/watch?v=hMeRqYSdFgU"
+        },
+        {
+            "title": "집수리 남편없이 전문가 필요 없습니다. 현관문 싱크대문 들뜬벽지 이 영상으로 해결됩니다. #집수리팁 #살림꿀팁 #생활정보",
+            "link": "https://www.youtube.com/watch?v=itQWZVIQPtU"
+        },
+        {
+            "title": "딱! 10분! 일주일에 한번 욕실 청소🚿🩵 #욕실청소 #신혼살림",
+            "link": "https://www.youtube.com/watch?v=8vpDbUyPJk8"
+        },
+        {
+            "title": "청소업체에서 알려준 치트키 두 가지 (설명란 참고!!)",
+            "link": "https://www.youtube.com/watch?v=dt34AMnw4Tg"
+        },
+        {
+            "title": "바르기만 하면 방수가 된다!",
+            "link": "https://www.youtube.com/watch?v=-vFvCD_EG9k"
+        },
+        {
+            "title": "우리집 냉동실 구원템",
+            "link": "https://www.youtube.com/watch?v=mw-nLm_UFPk"
+        },
+        {
+            "title": "손 안 더럽히고 창틀 청소하는 꿀팁",
+            "link": "https://www.youtube.com/watch?v=J4yRpHUWy6c"
+        },
+        {
+            "title": "맨날 청소하는 펜션 사장 추천 쿠팡 청소템 3가지",
+            "link": "https://www.youtube.com/watch?v=Jc0UaSE53Vs"
+        },
+        {
+            "title": "코스트코에서 이 치즈 꼭! 사와요 #코스트코 #살림 #어퍼하우스",
+            "link": "https://www.youtube.com/watch?v=ZBwosHAHxO0"
+        },
+        {
+            "title": "밥 먹을 때마다 흘리는 사람들 무조건 보십쇼",
+            "link": "https://www.youtube.com/watch?v=PLfO3oQVIFE"
+        },
+        {
+            "title": "지속적인 정리를 위해 딱 3가지만 지켜요 ✨ #살림 #집정리 #home",
+            "link": "https://www.youtube.com/watch?v=Xj2YM4zJpus"
+        },
+        {
+            "title": "화장실 청소 영업비밀 🧙🏻‍♀️",
+            "link": "https://www.youtube.com/watch?v=e_8lFWcgxPQ"
+        },
+        {
+            "title": "볼 때 마다 만족스러운 우리 집 틈새수납법 대공개🙌🏻 #리블리홈",
+            "link": "https://www.youtube.com/watch?v=jV0ciza9SkA"
+        },
+        {
+            "title": "⭐️50만뷰⭐️냉동실에서 꺼내먹어요",
+            "link": "https://www.youtube.com/watch?v=N_meUuW1tDE"
+        },
+        {
+            "title": "자취 10년차가 추천하는 효율템",
+            "link": "https://www.youtube.com/watch?v=iX_Im1AQUhc"
+        },
+        {
+            "title": "결벽증 친구 극찬 청소템 3가지(고정댓글📌)",
+            "link": "https://www.youtube.com/watch?v=SsiecbJX4cs"
+        },
+        {
+            "title": "친구가 따라샀던 주방용품 세가지",
+            "link": "https://www.youtube.com/watch?v=5T3BE08Fq80"
+        },
+        {
+            "title": "3달간 묵혀둔 곰팡이 물때 브이로그라가스옥스옥",
+            "link": "https://www.youtube.com/watch?v=Ecr3lDRKtuI"
+        },
+        {
+            "title": "찐고수들은 이렇게 씁니다  #스꿀팁#스칼렛꿀팁",
+            "link": "https://www.youtube.com/watch?v=fNpwzlvP1P4"
+        },
+        {
+            "title": "니네집 10평이라며~?작은집 넓게보이는 마법같은 꿀팁3가지‼️",
+            "link": "https://www.youtube.com/watch?v=3Zp0zvN21lQ"
+        },
+        {
+            "title": "써보고 감탄한 살림이 쉬워지는 꿀템 4가지✨#신박한 살림템",
+            "link": "https://www.youtube.com/watch?v=eVV9CnULg1c"
+        },
+        {
+            "title": "간단한 운동화 세탁법|세탁기에 운동화세탁#살림#꿀팁#청소",
+            "link": "https://www.youtube.com/watch?v=4wg3W4jGVlo"
+        },
+        {
+            "title": "노하우 대방출! 아무도 몰랐던 필살기 자취템 5가지",
+            "link": "https://www.youtube.com/watch?v=KefarcBq2rA"
+        },
+        {
+            "title": "멀티쿠커 최악의 단점. 을 해결했습니다 ㄷㄷ",
+            "link": "https://www.youtube.com/watch?v=2_f5TNVoNKQ"
+        },
+        {
+            "title": "주인이 원상 복구 하고 가래요 #살림팁 #인테리어",
+            "link": "https://www.youtube.com/watch?v=CPzWyylBJG4"
         }
     ]
 };
