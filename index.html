@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>냉장고 파먹기 레시피 찾기</title>
+    <title>냉장고 파먹기</title>
     <!-- Premium Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -245,6 +245,97 @@
             border: 1px dashed var(--border-color);
         }
 
+        /* Tab Navigation */
+        .tab-nav {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 2rem;
+            justify-content: center;
+        }
+
+        .tab-btn {
+            padding: 10px 28px;
+            background: var(--card-bg);
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-family: inherit;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .tab-btn:hover {
+            border-color: var(--accent-color);
+            color: var(--text-primary);
+        }
+
+        .tab-btn.active {
+            background: var(--accent-color);
+            color: white;
+            border-color: var(--accent-color);
+            box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Housework Section */
+        .housework-search-box {
+            width: 100%;
+            padding: 1rem 1.5rem;
+            background: var(--bg-color);
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            color: var(--text-primary);
+            font-size: 1.1rem;
+            font-family: inherit;
+            margin-bottom: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .housework-search-box:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.2);
+        }
+
+        .housework-card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            border: 1px solid var(--border-color);
+            padding: 1.5rem;
+        }
+
+        .housework-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            border-color: var(--accent-color);
+        }
+
+        .housework-card .card-title {
+            font-size: 1.1rem;
+            font-weight: 500;
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
         @media (max-width: 768px) {
             h1 {
                 font-size: 2rem;
@@ -269,24 +360,50 @@
             <p class="subtitle">요리를 합시다 👌</p>
         </header>
 
-        <div class="filter-section">
-            <input type="text" id="searchInput" class="search-box" placeholder="재료나 요리 검색">
+        <div class="tab-nav">
+            <button class="tab-btn active" data-tab="recipe" onclick="switchTab('recipe')">요리 레시피</button>
+            <button class="tab-btn" data-tab="housework" onclick="switchTab('housework')">집안일</button>
+        </div>
 
-            <div id="ingredientsContainer" class="ingredients-grid">
-                <!-- Chips injected by JS -->
+        <!-- Recipe Tab -->
+        <div id="tab-recipe" class="tab-content active">
+            <div class="filter-section">
+                <input type="text" id="searchInput" class="search-box" placeholder="재료나 요리 검색">
+
+                <div id="ingredientsContainer" class="ingredients-grid">
+                    <!-- Chips injected by JS -->
+                </div>
+
+                <div class="control-bar">
+                    <span class="selected-count">Selected: <span id="countValue">0</span></span>
+                    <button class="btn-clear" onclick="clearSelection()">Reset Selection</button>
+                </div>
             </div>
 
-            <div class="control-bar">
-                <span class="selected-count">Selected: <span id="countValue">0</span></span>
-                <button class="btn-clear" onclick="clearSelection()">Reset Selection</button>
+            <div class="results-section">
+                <h2>Matching Recipes <span id="matchCount"
+                        style="font-size: 0.8em; color: var(--text-secondary); font-weight: normal;"></span></h2>
+                <div id="recipesContainer" class="recipes-grid">
+                    <!-- Recipe Cards injected by JS -->
+                </div>
             </div>
         </div>
 
-        <div class="results-section">
-            <h2>Matching Recipes <span id="matchCount"
-                    style="font-size: 0.8em; color: var(--text-secondary); font-weight: normal;"></span></h2>
-            <div id="recipesContainer" class="recipes-grid">
-                <!-- Recipe Cards injected by JS -->
+        <!-- Housework Tab -->
+        <div id="tab-housework" class="tab-content">
+            <div class="filter-section">
+                <input type="text" id="houseworkSearchInput" class="housework-search-box" placeholder="집안일 영상 검색">
+                <div class="control-bar">
+                    <span class="selected-count">영상 <span id="houseworkCount">0</span>개</span>
+                </div>
+            </div>
+
+            <div class="results-section">
+                <h2>집안일 영상 <span id="houseworkMatchCount"
+                        style="font-size: 0.8em; color: var(--text-secondary); font-weight: normal;"></span></h2>
+                <div id="houseworkContainer" class="recipes-grid">
+                    <!-- Housework Cards injected by JS -->
+                </div>
             </div>
         </div>
     </div>
@@ -303,6 +420,12 @@
                 allIngredients: [],
                 recipes: [],
                 selected: new Set(),
+                searchTerm: ''
+            };
+
+            // Housework State
+            const hwState = {
+                videos: [],
                 searchTerm: ''
             };
 
@@ -339,6 +462,26 @@
             } else {
                 alert('Error: data.js not found or empty.');
             }
+
+            // Initialize Housework
+            if (window.HOUSEWORK_DATA) {
+                hwState.videos = window.HOUSEWORK_DATA.videos || [];
+                document.getElementById('houseworkCount').textContent = hwState.videos.length;
+                renderHousework(hwState);
+
+                document.getElementById('houseworkSearchInput').addEventListener('input', (e) => {
+                    hwState.searchTerm = e.target.value.toLowerCase();
+                    renderHousework(hwState);
+                });
+            }
+        };
+
+        // Tab switching
+        window.switchTab = (tabName) => {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            document.getElementById('tab-' + tabName).classList.add('active');
+            document.querySelector(`.tab-btn[data-tab="${tabName}"]`).classList.add('active');
         };
 
         // UI Functions (Moved outside or adapted to accept state)
@@ -425,6 +568,33 @@
                     </div>
                 </div>
             `;
+                container.appendChild(card);
+            });
+        }
+
+        // Render Housework Videos
+        function renderHousework(hwState) {
+            const container = document.getElementById('houseworkContainer');
+            const matchCountEl = document.getElementById('houseworkMatchCount');
+            container.innerHTML = '';
+
+            const filtered = hwState.videos.filter(v =>
+                v.title.toLowerCase().includes(hwState.searchTerm)
+            );
+
+            matchCountEl.textContent = `(${filtered.length})`;
+
+            if (filtered.length === 0) {
+                container.innerHTML = `<div class="empty-state">집안일 영상이 없습니다.</div>`;
+                return;
+            }
+
+            filtered.forEach(video => {
+                const card = document.createElement('a');
+                card.href = video.link;
+                card.className = 'housework-card';
+                card.target = "_blank";
+                card.innerHTML = `<div class="card-title">${video.title}</div>`;
                 container.appendChild(card);
             });
         }

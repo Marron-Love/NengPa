@@ -38,6 +38,7 @@ window.RECIPE_DATA = {
         "파프리카",
         "버섯",
         "콩나물/숙주",
+        "브로콜리",
         "시금치",
         "부추",
         "상추",
@@ -2852,6 +2853,54 @@ window.RECIPE_DATA = {
             ]
         },
         {
+            "title": "손님들 칭찬 폭발한 그 김밥",
+            "link": "https://www.youtube.com/watch?v=dsKEKEZfFgQ",
+            "ingredients": [
+                "김",
+                "밥(쌀)"
+            ]
+        },
+        {
+            "title": "코리안 저격 파스타",
+            "link": "https://www.youtube.com/watch?v=x_FY_NtSWXU",
+            "ingredients": [
+                "파스타면",
+                "고추장",
+                "케첩",
+                "간장",
+                "굴소스",
+                "후추"
+            ]
+        },
+        {
+            "title": "(3/18 오픈) 구운채소가 이렇게 맛있을 일?",
+            "link": "https://www.youtube.com/watch?v=1aCdIJZFUOw",
+            "ingredients": [
+                "소금",
+                "식용유",
+                "카레가루(카레)",
+                "밥(쌀)",
+                "토마토",
+                "파스타면",
+                "소고기"
+            ]
+        },
+        {
+            "title": "오늘은 간장불고기 먹을거에요",
+            "link": "https://www.youtube.com/watch?v=o633fvSO4JA",
+            "ingredients": [
+                "간장",
+                "소고기"
+            ]
+        },
+        {
+            "title": "많은 분들이 좋아해주신 제육볶음 레시피",
+            "link": "https://www.youtube.com/watch?v=PlLBBlFEmLg",
+            "ingredients": [
+                "돼지고기"
+            ]
+        },
+        {
             "title": "이거 간이 딱 좋아요 #우삼겹 숙주볶음",
             "link": "https://www.youtube.com/watch?v=FPIWgyCshrQ",
             "ingredients": [
@@ -3105,6 +3154,135 @@ window.RECIPE_DATA = {
                 "미역",
                 "된장"
             ]
+        },
+        {
+            "title": "멀쩡한 토마토를 왜 짜?",
+            "link": "https://www.youtube.com/watch?v=_1F6Lk7v6ZY",
+            "ingredients": [
+                "토마토",
+                "계란"
+            ]
+        },
+        {
+            "title": "초코지만 초코로 불릴 수 없다는 이것?",
+            "link": "https://www.youtube.com/watch?v=TYqEBKBiz0o",
+            "ingredients": [
+                "초콜릿"
+            ]
+        },
+        {
+            "title": "8시 전에는 절대 못 먹는 초콜릿",
+            "link": "https://www.youtube.com/watch?v=EpRfJxzaOg8",
+            "ingredients": [
+                "초콜릿"
+            ]
+        },
+        {
+            "title": "강주은st 유명한 스테이크집 맛의 비밀 '버터 쯔유 스테이크'",
+            "link": "https://www.youtube.com/watch?v=g8YpoJf5yRU",
+            "ingredients": [
+                "소고기",
+                "버터"
+            ]
+        },
+        {
+            "title": "에어프라이어에 통목살을 굽는 완벽한 시간은?",
+            "link": "https://www.youtube.com/watch?v=D523p6vCejA",
+            "ingredients": [
+                "돼지고기"
+            ]
+        },
+        {
+            "title": "일본 사람들의 밥도둑",
+            "link": "https://www.youtube.com/watch?v=O6-y-Wyo2zs",
+            "ingredients": [
+                "돼지고기",
+                "계란",
+                "대파",
+                "마늘",
+                "간장",
+                "맛술",
+                "설탕"
+            ]
+        },
+        {
+            "title": "치킨집 사장님 저를 미워하지 마세요.",
+            "link": "https://www.youtube.com/watch?v=U05GqXtQWRw",
+            "ingredients": [
+                "닭고기"
+            ]
+        },
+        {
+            "title": "흑백요리사 당근 지옥 미션 이걸로 나가면 무조건 우승입니다",
+            "link": "https://www.youtube.com/watch?v=G-QVTaCRVKw",
+            "ingredients": [
+                "당근",
+                "식용유",
+                "소금"
+            ]
+        },
+        {
+            "title": "아직 식빵 사서 드세요? 딱 4가지 재료로 10분 완성! 노밀가루 당뇨빵 브로콜리 식빵 만들기",
+            "link": "https://www.youtube.com/watch?v=fiH5k54QgRg",
+            "ingredients": [
+                "브로콜리",
+                "견과류(아몬드/호두)",
+                "계란",
+                "소금",
+                "식용유",
+                "요거트"
+            ]
+        },
+        {
+            "title": "내가 레몬 마들렌 밖에서 절대 안사먹는 이유🙊",
+            "link": "https://www.youtube.com/watch?v=tSi6p37_aus",
+            "ingredients": [
+                "견과류(아몬드/호두)",
+                "소금",
+                "버터",
+                "계란",
+                "레몬(레몬즙)"
+            ]
+        },
+        {
+            "title": "솔직히 육회는 사먹을 필요가 없어요",
+            "link": "https://www.youtube.com/watch?v=PLTMsE4MumA",
+            "ingredients": [
+                "소고기"
+            ]
+        }
+    ]
+};
+
+window.HOUSEWORK_DATA = {
+    "videos": [
+        {
+            "title": "나만 알려다가 알려주는 주방팁",
+            "link": "https://www.youtube.com/watch?v=WyrSdywu1O8"
+        },
+        {
+            "title": "청소솔에 머리카락 안끼게 하는 초간단 꼼수 #cleaninghacks",
+            "link": "https://www.youtube.com/watch?v=iv1J3Nr7TEU"
+        },
+        {
+            "title": "청소알바 경력자가 딱 정해드리는 욕실브러쉬",
+            "link": "https://www.youtube.com/watch?v=TRp_fGkVpoA"
+        },
+        {
+            "title": "살림이 쉬워지는 5가지 꼼수! 집안일 시간이 반으로 줄어듭니다 #살림꿀팁 #정리노하우 #생활꿀팁",
+            "link": "https://www.youtube.com/watch?v=3fypB2Ya5yI"
+        },
+        {
+            "title": "청소알바만 60곳 넘게 한 경력자가 딱 정해드리는 욕실세제 3",
+            "link": "https://www.youtube.com/watch?v=Ti_cQ22Llk0"
+        },
+        {
+            "title": "백만원 아낀 좁은주방 가구 추천!",
+            "link": "https://www.youtube.com/watch?v=RZDw2v_-uEI"
+        },
+        {
+            "title": "청소업체 사장이 사용하는 줄눈청소 꿀템",
+            "link": "https://www.youtube.com/watch?v=6p-CggqOE9w"
         }
     ]
 };
