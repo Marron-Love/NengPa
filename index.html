@@ -363,6 +363,7 @@
         <div class="tab-nav">
             <button class="tab-btn active" data-tab="recipe" onclick="switchTab('recipe')">요리 레시피</button>
             <button class="tab-btn" data-tab="housework" onclick="switchTab('housework')">집안일</button>
+            <button class="tab-btn" data-tab="beauty" onclick="switchTab('beauty')">뷰티</button>
         </div>
 
         <!-- Recipe Tab -->
@@ -406,6 +407,24 @@
                 </div>
             </div>
         </div>
+
+        <!-- Beauty Tab -->
+        <div id="tab-beauty" class="tab-content">
+            <div class="filter-section">
+                <input type="text" id="beautySearchInput" class="housework-search-box" placeholder="뷰티 영상 검색">
+                <div class="control-bar">
+                    <span class="selected-count">영상 <span id="beautyCount">0</span>개</span>
+                </div>
+            </div>
+
+            <div class="results-section">
+                <h2>뷰티 영상 <span id="beautyMatchCount"
+                        style="font-size: 0.8em; color: var(--text-secondary); font-weight: normal;"></span></h2>
+                <div id="beautyContainer" class="recipes-grid">
+                    <!-- Beauty Cards injected by JS -->
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Load Data Dynamically to prevent caching -->
@@ -425,6 +444,12 @@
 
             // Housework State
             const hwState = {
+                videos: [],
+                searchTerm: ''
+            };
+
+            // Beauty State
+            const beautyState = {
                 videos: [],
                 searchTerm: ''
             };
@@ -472,6 +497,18 @@
                 document.getElementById('houseworkSearchInput').addEventListener('input', (e) => {
                     hwState.searchTerm = e.target.value.toLowerCase();
                     renderHousework(hwState);
+                });
+            }
+
+            // Initialize Beauty
+            if (window.BEAUTY_DATA) {
+                beautyState.videos = window.BEAUTY_DATA.videos || [];
+                document.getElementById('beautyCount').textContent = beautyState.videos.length;
+                renderBeauty(beautyState);
+
+                document.getElementById('beautySearchInput').addEventListener('input', (e) => {
+                    beautyState.searchTerm = e.target.value.toLowerCase();
+                    renderBeauty(beautyState);
                 });
             }
         };
@@ -586,6 +623,33 @@
 
             if (filtered.length === 0) {
                 container.innerHTML = `<div class="empty-state">집안일 영상이 없습니다.</div>`;
+                return;
+            }
+
+            filtered.forEach(video => {
+                const card = document.createElement('a');
+                card.href = video.link;
+                card.className = 'housework-card';
+                card.target = "_blank";
+                card.innerHTML = `<div class="card-title">${video.title}</div>`;
+                container.appendChild(card);
+            });
+        }
+
+        // Render Beauty Videos
+        function renderBeauty(beautyState) {
+            const container = document.getElementById('beautyContainer');
+            const matchCountEl = document.getElementById('beautyMatchCount');
+            container.innerHTML = '';
+
+            const filtered = beautyState.videos.filter(v =>
+                v.title.toLowerCase().includes(beautyState.searchTerm)
+            );
+
+            matchCountEl.textContent = `(${filtered.length})`;
+
+            if (filtered.length === 0) {
+                container.innerHTML = `<div class="empty-state">뷰티 영상이 없습니다.</div>`;
                 return;
             }
 

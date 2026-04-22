@@ -3257,6 +3257,14 @@ window.RECIPE_DATA = {
 window.HOUSEWORK_DATA = {
     "videos": [
         {
+            "title": "매월 초 하는 #살림 루틴",
+            "link": "https://www.youtube.com/watch?v=d6J6UqSBwCU"
+        },
+        {
+            "title": "매월 초 하는 살림 #청소루틴",
+            "link": "https://www.youtube.com/watch?v=jdolP8z1nVE"
+        },
+        {
             "title": "나만 알려다가 알려주는 주방팁",
             "link": "https://www.youtube.com/watch?v=WyrSdywu1O8"
         },
@@ -3301,6 +3309,10 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=I_rMEHUEJrA"
         },
         {
+            "title": "이 샤워부스는 이사갈 때도 가져갈 거예요!",
+            "link": "https://www.youtube.com/watch?v=qEm4BgpWZl4"
+        },
+        {
             "title": "1.5룸 오피스텔 셀프입주청소 몇시간 걸리나요?",
             "link": "https://www.youtube.com/watch?v=U059cf1aGOI"
         },
@@ -3323,6 +3335,10 @@ window.HOUSEWORK_DATA = {
         {
             "title": "한 번 사면 무조건 남는 거",
             "link": "https://www.youtube.com/watch?v=U6NHeTpnzkw"
+        },
+        {
+            "title": "대부분 이 방법 모를걸요?",
+            "link": "https://www.youtube.com/watch?v=JD4iJVY8HEA"
         },
         {
             "title": "난각1번유정란",
@@ -3393,6 +3409,14 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=-vFvCD_EG9k"
         },
         {
+            "title": "자동냄비 롤팬 1년 써봄",
+            "link": "https://www.youtube.com/watch?v=Qgn8Vv__tog"
+        },
+        {
+            "title": "와라잇 튀김기 청소하는 날",
+            "link": "https://www.youtube.com/watch?v=q1N_5o-DRa0"
+        },
+        {
             "title": "우리집 냉동실 구원템",
             "link": "https://www.youtube.com/watch?v=mw-nLm_UFPk"
         },
@@ -3421,6 +3445,10 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=e_8lFWcgxPQ"
         },
         {
+            "title": "모두가 탐내는 신박한 쿠팡추천템 세 가지",
+            "link": "https://www.youtube.com/watch?v=63wr0SAlCG0"
+        },
+        {
             "title": "볼 때 마다 만족스러운 우리 집 틈새수납법 대공개🙌🏻 #리블리홈",
             "link": "https://www.youtube.com/watch?v=jV0ciza9SkA"
         },
@@ -3435,6 +3463,10 @@ window.HOUSEWORK_DATA = {
         {
             "title": "결벽증 친구 극찬 청소템 3가지(고정댓글📌)",
             "link": "https://www.youtube.com/watch?v=SsiecbJX4cs"
+        },
+        {
+            "title": "안쓰면 정말 손해인 쿠팡 꿀템 세 가지",
+            "link": "https://www.youtube.com/watch?v=vlPCswDiriI"
         },
         {
             "title": "친구가 따라샀던 주방용품 세가지",
@@ -3471,6 +3503,475 @@ window.HOUSEWORK_DATA = {
         {
             "title": "주인이 원상 복구 하고 가래요 #살림팁 #인테리어",
             "link": "https://www.youtube.com/watch?v=CPzWyylBJG4"
+        },
+        {
+            "title": "나만 알기 아까운 만능 캐니스터!",
+            "link": "https://www.youtube.com/watch?v=fwYU0HVzhvI"
+        },
+        {
+            "title": "⚡️삶의 질 수직상승 꿀템 TOP3",
+            "link": "https://www.youtube.com/watch?v=YtZ6uOa-Ya4"
+        }
+    ]
+};
+
+window.BEAUTY_DATA = {
+    "videos": [
+        {
+            "title": "와.. 작은 눈도 확 트이는 뒤트임 밑트임 메이크업! 요즘 뒤밑트임 메컵은 이렇게 해요",
+            "link": "https://www.youtube.com/watch?v=TE6E9AAQ-Uo"
+        },
+        {
+            "title": "스크런치 대충묶어도 이런느낌나게 하려면⁉️ #헤어마실 #박하원장 #긴머리펌 #긴머리스타일 #로우번 #가시번 #셀프스타일링",
+            "link": "https://www.youtube.com/watch?v=-zjafelob5o"
+        },
+        {
+            "title": "이것 안하면 곱슬머리 절대 예쁘게 안말라요‼️",
+            "link": "https://www.youtube.com/watch?v=5ZrGkM1lv3A"
+        },
+        {
+            "title": "파마 매직말고 컬크림요 #곱슬머리 #헤어스타일 #curlyhair #curlyhairtutorial",
+            "link": "https://www.youtube.com/watch?v=M6AP7JGCVWI"
+        },
+        {
+            "title": "두피 가렵고 뾰루지 날 때 해결법",
+            "link": "https://www.youtube.com/watch?v=Vh65dXqgqCE"
+        },
+        {
+            "title": "다크서클처럼 안 보이는 애교살 그리는법",
+            "link": "https://www.youtube.com/watch?v=0Ks41NQH9bE"
+        },
+        {
+            "title": "시드물에 700만원쓴 여자의 여드름 추천템 BEST3 #여드름관리",
+            "link": "https://www.youtube.com/watch?v=EtV0Mc-G85I"
+        },
+        {
+            "title": "장원영 언더 밑트임법 2가지!✨한끝차이로  사로잡는 분위기 평생 써먹기🔥",
+            "link": "https://www.youtube.com/watch?v=lk92x9m3IbA"
+        },
+        {
+            "title": "넓고 납작한 코 예뻐 보이는 쉐딩 위치",
+            "link": "https://www.youtube.com/watch?v=EMn6rK8ZhJo"
+        },
+        {
+            "title": "평생 써먹는 눈밑 뒷트임 완벽 정리🔥일진 눈 당장 드루와👋🏻",
+            "link": "https://www.youtube.com/watch?v=Zsq6Tp7FKa0"
+        },
+        {
+            "title": "화장이 안어울리는 사람?!🥹대추천메이크업🫶",
+            "link": "https://www.youtube.com/watch?v=Xl1-mty2Pg0"
+        },
+        {
+            "title": "브러쉬 쓰지마 2000원 3초컷 쉐딩 (feat.메이크업샵)",
+            "link": "https://www.youtube.com/watch?v=Dpi0jzgJsdo"
+        },
+        {
+            "title": "피부 고민별 약사 추천템 30초 요약zip📚 #kbeautyskincare #korean #kbeauty",
+            "link": "https://www.youtube.com/watch?v=QBZaYk2axfk"
+        },
+        {
+            "title": "앞머리만 내리면 확신의 엔화 싹쓸이상 되는 원하늘",
+            "link": "https://www.youtube.com/watch?v=rua461vAEiI"
+        },
+        {
+            "title": "경락샵에서 배워온 괄사법 3탄! 다음엔 얼굴 작아지는 괄사법이랑 중안부 짧아지는 괄사법도 들고올게요 ! #경락 #괄사 #홈케어 #팔자주름",
+            "link": "https://www.youtube.com/watch?v=K5gA1IeIRt4"
+        },
+        {
+            "title": "파우더만 하면 모공이 다시 생겨요🥲 모공 커버 해결법!",
+            "link": "https://www.youtube.com/watch?v=6y_FotBovYE"
+        },
+        {
+            "title": "10초면 끝나는 아이돌샵 블러셔🫢￼",
+            "link": "https://www.youtube.com/watch?v=S3MDjbdOYYw"
+        },
+        {
+            "title": "중요한 날 꼭!하는 여쿨라~페일톤 데일리 메이크업🍧",
+            "link": "https://www.youtube.com/watch?v=YPrpnIi04zw"
+        },
+        {
+            "title": "청담샵 쌤이 알려주는 눈썹 그리는법",
+            "link": "https://www.youtube.com/watch?v=eu9N_slHsFY"
+        },
+        {
+            "title": "힘들게 한 머리 고정하는 스프레이 꿀팁 #shorts",
+            "link": "https://www.youtube.com/watch?v=Gb4paSIoF3k"
+        },
+        {
+            "title": "퍼스널컬러 제일 많이 하는 실수 (+해결법)  #퍼스널컬러#여쿨#여름쿨톤",
+            "link": "https://www.youtube.com/watch?v=xOiHfOjNZkU"
+        },
+        {
+            "title": "올영보다 좋아서 쓰는 다이소 찐인생템! 품절되기 전에 당장 고고! #다이소 #다이소추천템",
+            "link": "https://www.youtube.com/watch?v=L5WUze8Omeg"
+        },
+        {
+            "title": "너무 예쁜데?👀 ❝1분 눈썹❞ #킴비메이크업 #눈썹잘그리는법",
+            "link": "https://www.youtube.com/watch?v=dLIr9owUREo"
+        },
+        {
+            "title": "아이돌 똥머리 쉽게 따라하는 법 🤍 (잔머리 만들어서 얼굴 작아보이게 !)",
+            "link": "https://www.youtube.com/watch?v=XvXQxcNGRyo"
+        },
+        {
+            "title": "남자 눈썹 정리하는 법 #shorts",
+            "link": "https://www.youtube.com/watch?v=b7TVMOtA_pc"
+        },
+        {
+            "title": "일자 눈썹 고집은 그만❌전직 맥언니가 알려주는 자연스럽게 브로우 메이크업 고수 되는 방법✨#똥손탈출",
+            "link": "https://www.youtube.com/watch?v=uWbzzHHtcRI"
+        },
+        {
+            "title": "#코쉐딩하는법 진짜 쉽게 알려드림💡",
+            "link": "https://www.youtube.com/watch?v=iU7SBBxsa-M"
+        },
+        {
+            "title": "미간 줄이겠다고 과한 앞트임은 그만❌전직 맥언니의 넓은 미간 자연스럽게 줄여주는 방법!! #똥손탈출",
+            "link": "https://www.youtube.com/watch?v=XcM5n6d_Z2g"
+        },
+        {
+            "title": "화장품 테스트 이렇게 해보세요✔️ #올리브영 #올리브영틴트 #올리브영추천템 #kbeauty",
+            "link": "https://www.youtube.com/watch?v=TCf6t82wASc"
+        },
+        {
+            "title": "립스틱 하나로 도톰립 만들기",
+            "link": "https://www.youtube.com/watch?v=GCnBQd754JI"
+        },
+        {
+            "title": "종아리는 알 말고 ‘여기’를 풀어야 해요",
+            "link": "https://www.youtube.com/watch?v=Tp8DvosqT2Y"
+        },
+        {
+            "title": "초보도 실패없는 아이메이크업 꿀팁ㅣ전문가가 알려주는 눈화장 법 #아이메이크업 #노글루속눈썹 #아이섀도우추천",
+            "link": "https://www.youtube.com/watch?v=osghPA5IB2w"
+        },
+        {
+            "title": "피치핑크 사랑하는사람 다 모여",
+            "link": "https://www.youtube.com/watch?v=e11e6VtRfEk"
+        },
+        {
+            "title": "뉴트럴 핑크 블러셔중에 제일예쁨;",
+            "link": "https://www.youtube.com/watch?v=udMWPxEncY4"
+        },
+        {
+            "title": "뉴월드 손녀도 쓰는 다이소 브러쉬 추천템",
+            "link": "https://www.youtube.com/watch?v=1D_6UYxzRig"
+        },
+        {
+            "title": "거지존 앞머리 티안나게 기른척 넘기는법 #shorts",
+            "link": "https://www.youtube.com/watch?v=12ZKHIjqHF8"
+        },
+        {
+            "title": "지금 트렌디한 투명룩은 이런 느낌🕊️ 고능한 신상 색조템들로만 메이크업🫧",
+            "link": "https://www.youtube.com/watch?v=bPk6M1j0Feo"
+        },
+        {
+            "title": "얼태기 오게 만드는 거지존 앞머리 예쁘게 넘기는법 #shorts",
+            "link": "https://www.youtube.com/watch?v=DfnKEbvuN7M"
+        },
+        {
+            "title": "다이서 헤어롤 무조건 성공 꿀팁 (옆머리 ,사이드뱅) #셀프스타일링 #헤어꿀팁 #hair #다이소 #셀프헤어 #드라이",
+            "link": "https://www.youtube.com/watch?v=RhzI5GYCUO0"
+        },
+        {
+            "title": "#앞머리 #사이드뱅 그루프 #헤어꿀팁 🎀 #koreanbeauty #koreanhairstyles #셀프스타일링 #셀프드라이 #koreangirls #shorts #short",
+            "link": "https://www.youtube.com/watch?v=SHzllSwbpuo"
+        },
+        {
+            "title": "10배는 개운해지는 인생 목욕꿀템 BEST8",
+            "link": "https://www.youtube.com/watch?v=fqiW8-3oC-c"
+        },
+        {
+            "title": "얼굴 길어보이는 코쉐딩은 그만❌전직 맥언니의 코 2배 높아보이는 3D코쉐딩 방법!! #똥손탈출",
+            "link": "https://www.youtube.com/watch?v=mctxcX6CDMw"
+        },
+        {
+            "title": "복코 쉐딩 잘하는 법🌟",
+            "link": "https://www.youtube.com/watch?v=fwHmu5eBSPM"
+        },
+        {
+            "title": "(고대기x) 똥손도 가능한 옆볼륨 살리기🪽",
+            "link": "https://www.youtube.com/watch?v=h1OAoWmrBJI"
+        },
+        {
+            "title": "애교살+삼각존 세트✨ 눈매 또렷해지는 아이메이크업 꿀팁",
+            "link": "https://www.youtube.com/watch?v=VYndtYTiixs"
+        },
+        {
+            "title": "올영에서 찾은 뷰티과 코덕의 도자기 피부 문신템 (여름버전!)🏺🔥",
+            "link": "https://www.youtube.com/watch?v=kwKDpDUrCyw"
+        },
+        {
+            "title": "뷰티과 코덕의 올영에서 안 파는 쿠팡 진또배기템🤤💕",
+            "link": "https://www.youtube.com/watch?v=lWSuc9_--Qs"
+        },
+        {
+            "title": "남자친구한테 예쁨 받는 스타일링🩵#헤어 #헤어스타일 #데이트 #뷰티 #메이크업 #꿀팁 #hair #hairstyle #kbeauty #makeup #发型 #韩国",
+            "link": "https://www.youtube.com/watch?v=uAqkpDwvfOQ"
+        },
+        {
+            "title": "Face slimming contour hack #makeup #makeuptips #makeuphacks #contour #contouring  #makeuptutorial",
+            "link": "https://www.youtube.com/watch?v=m0GOU_Q67wQ"
+        },
+        {
+            "title": "파데 브러쉬에 바세린 먹이는 방법✨ #브러쉬 #바세린 #메이크업",
+            "link": "https://www.youtube.com/watch?v=km77k7HJaKk"
+        },
+        {
+            "title": "고윤정 이거 따라 하면 얼굴 짧아 보임",
+            "link": "https://www.youtube.com/watch?v=7mYlLa0Km-U"
+        },
+        {
+            "title": "#다이소 에서 이 퍼프는 젭알 꼭 사세유!!! | #다이소템 #추천템",
+            "link": "https://www.youtube.com/watch?v=2nzLxUsf_BE"
+        },
+        {
+            "title": "얼굴 2배 작아보이는 옆볼륨 만드는 법 💗(오래 오래 유지 가능한 건 물롬 ! 중안부 짧아보이는 것은 덤 ,,)",
+            "link": "https://www.youtube.com/watch?v=-vJh_XHEm5c"
+        },
+        {
+            "title": "직각어깨 만들고 승모근 없애는 괄사 비법",
+            "link": "https://www.youtube.com/watch?v=hyezeInd414"
+        },
+        {
+            "title": "고데기가 이렇게 쉽다고?? #헤어 #헤어스타일링 #뷰티 #머리손질 #머리묶는법 #머리스타일 #금손 #스타일링 #꿀팁 #생활팁 #레이어드컷 #레이어드펌",
+            "link": "https://www.youtube.com/watch?v=nxYzglYaPxE"
+        },
+        {
+            "title": "쿠션은 죄가없어요! 들뜨지않는 쿠션 사용법 (feat. 메이크업 아티스트)",
+            "link": "https://www.youtube.com/watch?v=w_-cQmjtVWg"
+        },
+        {
+            "title": "일반인 98%가 모르는 요즘 윈터 코가 달라진 이유 #코쉐딩하는법",
+            "link": "https://www.youtube.com/watch?v=O-A7t8jrbic"
+        },
+        {
+            "title": "뒤집어지게 쉬운 봉고데기하는 법",
+            "link": "https://www.youtube.com/watch?v=8xaZU2lBzCI"
+        },
+        {
+            "title": "다크서클 깔끔하게 커버하는 팁",
+            "link": "https://www.youtube.com/watch?v=3gj_sFfOftA"
+        },
+        {
+            "title": "귀뒤 고정 한 끗 차이로 예쁜 머리 하는 법👩‍🦰",
+            "link": "https://www.youtube.com/watch?v=tTum_D5J2Hs"
+        },
+        {
+            "title": "내 눈화장이 어색했던 이유?! 아이라인 올려? ↗️내려? ↘️ 빼?➡️나한테 맞는 아이라인 도저히 모르겠는 스동이들!딱 정리해줄게! #아이라인 #아이라인그리는법",
+            "link": "https://www.youtube.com/watch?v=OFYBeYY8AqE"
+        },
+        {
+            "title": "포니테일 묶을때 뒷통수 볼륨 없는 사람???#스타일링 #스타일링팁 #포니테일 #셀프헤어 #셀프스타일링 #웨딩영상 #반묶음 #꿀팁 #꿀팁공유",
+            "link": "https://www.youtube.com/watch?v=PJgRl_vNeyo"
+        },
+        {
+            "title": "앗싸 쉐딩값 굳었다🔥 입체감 없는 얼굴 주목! 요즘 바뀐 메이크업 꿀팁 5가지는 👆풀영상 👆ㄱㄱ#쉐딩꿀팁#하이라이터",
+            "link": "https://www.youtube.com/watch?v=QZIn1xoP2hg"
+        },
+        {
+            "title": "최근 에스파 카리나가 바꾼 이것, 섀도우 하나로 GO #올리브영추천템 #메이크업",
+            "link": "https://www.youtube.com/watch?v=y-8kK0Ibx38"
+        },
+        {
+            "title": "섀도우 바르는 법 무쌍이 말아줌:)무지하게쉬움😘",
+            "link": "https://www.youtube.com/watch?v=aQ_BTsFdeBU"
+        },
+        {
+            "title": "Cute Korean Makeup Trend Aeygo Sal Tutorial Cute Natural Makeup #shorts #cute #makeuptutorial",
+            "link": "https://www.youtube.com/watch?v=kjgbZyq7OS4"
+        },
+        {
+            "title": "립 그라데이션 진짜 개 쉽게 하는 방법",
+            "link": "https://www.youtube.com/watch?v=xT71yXbUpYs"
+        },
+        {
+            "title": "제니의 고양이 상 아이라인 방법",
+            "link": "https://www.youtube.com/watch?v=pjz7DJasn1c"
+        },
+        {
+            "title": "얼굴 3배 작아보이는 반묶음 묶는 법 💗 추노 저리가 ,, 아이돌처럼 예쁘게 묶어보자구요 😗🎀",
+            "link": "https://www.youtube.com/watch?v=elXEk_1Fg1Q"
+        },
+        {
+            "title": "턱살 빼는법",
+            "link": "https://www.youtube.com/watch?v=KfN1ny5ZmSA"
+        },
+        {
+            "title": "피부 고민별 약국 꿀템 9가지",
+            "link": "https://www.youtube.com/watch?v=TSOtH7YcZXA"
+        },
+        {
+            "title": "시험기간 30초컷 꾸안꾸 하이번 #3분까진필요없어 #hairtok #shorts",
+            "link": "https://www.youtube.com/watch?v=lAQOKJ_Ge3A"
+        },
+        {
+            "title": "얼굴 2배 작아지는 여리 포니테일 묶는 법🎀 #헤어꿀팁 #포니테일",
+            "link": "https://www.youtube.com/watch?v=J8mqACp7owM"
+        },
+        {
+            "title": "이렇게 화장하면 못생겨집니다(경험담) #메이크업",
+            "link": "https://www.youtube.com/watch?v=RuRS41vc69s"
+        },
+        {
+            "title": "둥근얼굴 각진얼굴 다 잘 어울리는 레이어드 고데기 방법 #꿀팁",
+            "link": "https://www.youtube.com/watch?v=Fn77PYERMLs"
+        },
+        {
+            "title": "메이크업 전후 너무 다른데요..(+구독자 이벤트 🎁♥️)",
+            "link": "https://www.youtube.com/watch?v=XCjF8X_v04U"
+        },
+        {
+            "title": "피부증상별 약국템 추천 best 10👍🏻❤️",
+            "link": "https://www.youtube.com/watch?v=1LmSSuYIWMo"
+        },
+        {
+            "title": "팔뚝살 빨리 빼고 싶으시면 꼭 보세요 (초간단 림프 마사지 3종 세트)",
+            "link": "https://www.youtube.com/watch?v=0Ske5V55Cbg"
+        },
+        {
+            "title": "중단발도 가능한 mz세대 반묶음 묶는법",
+            "link": "https://www.youtube.com/watch?v=XqChe2lKEwc"
+        },
+        {
+            "title": "청순하면서 절대 안처지는 포니테일 예쁘게 묶는법",
+            "link": "https://www.youtube.com/watch?v=JtfS47FoUn8"
+        },
+        {
+            "title": "두피보이는 포니테일 싫은 사람!! #셀프스타일링 #스타일링 #스타일링팁 #꿀팁 #꿀팁공유 #hair #hairstyle #헤어스타일",
+            "link": "https://www.youtube.com/watch?v=wYazPEI_qfY"
+        },
+        {
+            "title": "98%가 모르는 자연스러운데 화려한 코 되는 꿀팁 #뷰티꿀팁",
+            "link": "https://www.youtube.com/watch?v=nWR9zalWH4k"
+        },
+        {
+            "title": "복코 쉐딩, 이렇게 하면 2배 더 쉬워요 #둥근코쉐딩 #큰코쉐딩 #쉐딩하는법",
+            "link": "https://www.youtube.com/watch?v=1k9rVHUOaiM"
+        },
+        {
+            "title": "레이어드컷 2배 이뻐지는 고데기법💜#레이어드컷 #레이어드펌 #레이어드s컬 #헤어스타일 #고데기 #뷰티 #메이크업 #꿀팁 #kbeauty #hairstyle #여자머리 #发型",
+            "link": "https://www.youtube.com/watch?v=iRHr0fi2sg4"
+        },
+        {
+            "title": "무쌍 아이라인 고양이상으로 올려빼는 법👀이지🤍 #무쌍메이크업 #무쌍아이라인 [#화초들 5]",
+            "link": "https://www.youtube.com/watch?v=7ElqRXxei2s"
+        },
+        {
+            "title": "⭕️평생써먹는⭕️초간단 c컬 고데기 #레이어드컷",
+            "link": "https://www.youtube.com/watch?v=r85OJSkCgLU"
+        },
+        {
+            "title": "쿠션 안 뜨는 방법 #shorts",
+            "link": "https://www.youtube.com/watch?v=wFC-Quk77Pk"
+        },
+        {
+            "title": "턱쉐딩 자연스럽게 하는법👍🏻",
+            "link": "https://www.youtube.com/watch?v=inhMFpXdVz0"
+        },
+        {
+            "title": "초대박! 사람들 95%가 모르는 사각턱 쉐딩법?!",
+            "link": "https://www.youtube.com/watch?v=V-ko72WLuC8"
+        },
+        {
+            "title": "흔히들 섀도 바를 때 하는 실수",
+            "link": "https://www.youtube.com/watch?v=y2Uh92PFtnA"
+        },
+        {
+            "title": "여시들만 아는 헤어꿀팁👸머리 귀뒤로 꽂을때 공쥬 되는법#shorts #헤어꿀팁 #아랄라얍",
+            "link": "https://www.youtube.com/watch?v=23Jyq52IgwA"
+        },
+        {
+            "title": "섀도우 이렇게 바르면 절대 안돼요!!!🤯(+섀도우 예쁘게 바르는 비법)#shorts #쇼츠 #섀도우바르는법 #메이크업꿀팁",
+            "link": "https://www.youtube.com/watch?v=rUtFAfg92o8"
+        },
+        {
+            "title": "더 짙은 다크서클을 가진 사연자분 모셔왔습니다🫡 #다크서클 #커버브러쉬 #컨실러",
+            "link": "https://www.youtube.com/watch?v=Sv0lfQMBceM"
+        },
+        {
+            "title": "파데가 딱 달라붙는 스킨케어 방법🧴If you do skin care like this, your skin won't look flaky",
+            "link": "https://www.youtube.com/watch?v=q-axgU829Ks"
+        },
+        {
+            "title": "30초안에 중안부 짧아보이는 코 쉐딩 방법!",
+            "link": "https://www.youtube.com/watch?v=FqcB8b0hV3U"
+        },
+        {
+            "title": "뷰러 진짜 쉽게하는법 (진짜쉬운ver) 귀찮은 사람 이렇게 한번 해봐유!초간단 뷰러법 #뷰러 #쉬운메이크업 #shorts",
+            "link": "https://www.youtube.com/watch?v=GBgVdRO2vrA"
+        },
+        {
+            "title": "블러셔 절대 이렇게 바르지마세요,,,😱 #shorts",
+            "link": "https://www.youtube.com/watch?v=WpuOotQ-C6I"
+        },
+        {
+            "title": "메이크업 고수되는 다이소 뷰티템! (눈썹결 펜슬, 점막라인 브러쉬, 틴트 예쁘게 바르는법)",
+            "link": "https://www.youtube.com/watch?v=wZRGFWzx96M"
+        },
+        {
+            "title": "30초컷 중안부 축소! 스엠상 전용 블러셔 비법💖 #makeup #메이크업 #중안부축소 #에스파윈터 #태연",
+            "link": "https://www.youtube.com/watch?v=SfA9SOMgSDo"
+        },
+        {
+            "title": "아이브로우,쿠션만 들고와! 눈이 두 배 되는 고퀄리티 애교살 그리기👀",
+            "link": "https://www.youtube.com/watch?v=ekspjJdwR18"
+        },
+        {
+            "title": "컨실러..? 이렇게 하면 200% 무너짐😅 (정확한 사용법!!)",
+            "link": "https://www.youtube.com/watch?v=utooDL_zSvs"
+        },
+        {
+            "title": "컨실러로 트러블 제대로 가리는 법 #shorts",
+            "link": "https://www.youtube.com/watch?v=rNch6xUv3oU"
+        },
+        {
+            "title": "청담샵에서도 안알려준 #올리브영추천템 #스파츌라사용법",
+            "link": "https://www.youtube.com/watch?v=qmP01Re2cw4"
+        },
+        {
+            "title": "다이소 신상으로만 메이크업 한 거 맞아..? 네, 맞습니다‼️ (무쌍 쿨톤 메이크업 말아보기💗) #다이소 #다이소메이크업 #무쌍메이크업",
+            "link": "https://www.youtube.com/watch?v=RQrFexyUAmk"
+        },
+        {
+            "title": "🫢너 뭐 발랐어? 학생메이크업 치트키 알려줄게 !!! #올리브영추천템#shorts",
+            "link": "https://www.youtube.com/watch?v=ac2522Tr0wA"
+        },
+        {
+            "title": "주름,다크서클 가리는 삼각형 컨실러법! 이거 모르면 손해 #메이크업 #makeup",
+            "link": "https://www.youtube.com/watch?v=xi2cwzIrzOg"
+        },
+        {
+            "title": "나만알고싶은 하이라이터 바르는 20초 꿀팁💓✨",
+            "link": "https://www.youtube.com/watch?v=ZRHDRFdvEIc"
+        },
+        {
+            "title": "한국인이 말아주는 인도신부 메이크업🇰🇷 #shorts",
+            "link": "https://www.youtube.com/watch?v=vCjlkXQOQYs"
+        },
+        {
+            "title": "이제 알겠지? 아이라인 그리는법! | 왕초보 아이라인 그리는 법 | #아이라인 #아이라이너 #메이크업꿀팁 #shorts",
+            "link": "https://www.youtube.com/watch?v=Xz9lL6myWcs"
+        },
+        {
+            "title": "광고❌평생 써먹는 다이소 갓성비 브러쉬 Best5🔥[아이 메이크업]",
+            "link": "https://www.youtube.com/watch?v=aOHETBgTN54"
+        },
+        {
+            "title": "메이크업 아티스트 Pick‼️여쿨라 틴트8가지💕 #shorts",
+            "link": "https://www.youtube.com/watch?v=kUYKoGia9Hg"
+        },
+        {
+            "title": "간증 댓글 난리 남;;!!!! 피부 표현, 지속력 대박인 여름 베이스 루틴💛 풀영상은 무조건 보세요! #shorts",
+            "link": "https://www.youtube.com/watch?v=ZMaRu-S8UJI"
+        },
+        {
+            "title": "빵떡이 단발했네...단발메이크업 3개 해줄까? #shorts",
+            "link": "https://www.youtube.com/watch?v=mjJrR7FYSpM"
+        },
+        {
+            "title": "주변에 은근 많은 유형 😮#여자머리 #셀프스타일링 #셀프헤어 #헤어스타일 #헤어꿀팁#홈팁 #뷰티 #꿀팁 #koreanbeauty #kbeauty #hairstyle #发型 #韩国",
+            "link": "https://www.youtube.com/watch?v=kLsN7AOl0xY"
         }
     ]
 };
