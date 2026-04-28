@@ -3301,6 +3301,10 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=rqROBjgILeQ"
         },
         {
+            "title": "주방 인테리어 장단점 총정리 (3탄)",
+            "link": "https://www.youtube.com/watch?v=coauG-UB-UQ"
+        },
+        {
             "title": "다이소 칫솔꽂이를 화병에 넣으면,, #다이소#다이소추천템#다이소diy#다이소화병#다이소꿀템#화병만들기#나타나라",
             "link": "https://www.youtube.com/watch?v=gja-cnkRzZs"
         },
@@ -3433,8 +3437,16 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=ZBwosHAHxO0"
         },
         {
+            "title": "맛집 사장님들이 꼭 쓴다는 발명템ㅋㅋ",
+            "link": "https://www.youtube.com/watch?v=-YS6JwI5LBo"
+        },
+        {
             "title": "밥 먹을 때마다 흘리는 사람들 무조건 보십쇼",
             "link": "https://www.youtube.com/watch?v=PLfO3oQVIFE"
+        },
+        {
+            "title": "구질구질하다 욕먹어도 올립니다",
+            "link": "https://www.youtube.com/watch?v=kXhsV3_VT5M"
         },
         {
             "title": "지속적인 정리를 위해 딱 3가지만 지켜요 ✨ #살림 #집정리 #home",
@@ -3455,6 +3467,10 @@ window.HOUSEWORK_DATA = {
         {
             "title": "⭐️50만뷰⭐️냉동실에서 꺼내먹어요",
             "link": "https://www.youtube.com/watch?v=N_meUuW1tDE"
+        },
+        {
+            "title": "10초컷⚡️셔츠 하나로 원피스 만드는 법",
+            "link": "https://www.youtube.com/watch?v=vb5PaatY30o"
         },
         {
             "title": "자취 10년차가 추천하는 효율템",
@@ -3517,6 +3533,14 @@ window.HOUSEWORK_DATA = {
 
 window.BEAUTY_DATA = {
     "videos": [
+        {
+            "title": "옆머리 구르프 또 망했다… 왜 이러노 진짜🔥 #아랄라얍 #헤어꿀팁",
+            "link": "https://www.youtube.com/watch?v=GqivzZCa26E"
+        },
+        {
+            "title": "다른거 할 필요없음! 이것만 해도 블랙헤드 다 사라져요!",
+            "link": "https://www.youtube.com/watch?v=yW8AxPVwSJg"
+        },
         {
             "title": "와.. 작은 눈도 확 트이는 뒤트임 밑트임 메이크업! 요즘 뒤밑트임 메컵은 이렇게 해요",
             "link": "https://www.youtube.com/watch?v=TE6E9AAQ-Uo"
@@ -3644,6 +3668,14 @@ window.BEAUTY_DATA = {
         {
             "title": "초보도 실패없는 아이메이크업 꿀팁ㅣ전문가가 알려주는 눈화장 법 #아이메이크업 #노글루속눈썹 #아이섀도우추천",
             "link": "https://www.youtube.com/watch?v=osghPA5IB2w"
+        },
+        {
+            "title": "예뻐서 샀는데 이것만 써요!",
+            "link": "https://www.youtube.com/watch?v=-iXPqvAGLjk"
+        },
+        {
+            "title": "🔻다리라인&체형교정을 하시려면 발 아치부터 교정해야 합니다✅ 하루 3분만 투자해서 따라해보세요!❤️‍🔥 여자들의 로망! 일자다리 만드는 동작! 여러분도 해보세요👐🏻",
+            "link": "https://www.youtube.com/watch?v=4aHzFWbEMis"
         },
         {
             "title": "피치핑크 사랑하는사람 다 모여",
@@ -3826,6 +3858,10 @@ window.BEAUTY_DATA = {
             "link": "https://www.youtube.com/watch?v=1LmSSuYIWMo"
         },
         {
+            "title": "엄마랑 자주 갔던 동네미용실",
+            "link": "https://www.youtube.com/watch?v=UsAclDKuvUU"
+        },
+        {
             "title": "팔뚝살 빨리 빼고 싶으시면 꼭 보세요 (초간단 림프 마사지 3종 세트)",
             "link": "https://www.youtube.com/watch?v=0Ske5V55Cbg"
         },
@@ -3972,6 +4008,34 @@ window.BEAUTY_DATA = {
         {
             "title": "주변에 은근 많은 유형 😮#여자머리 #셀프스타일링 #셀프헤어 #헤어스타일 #헤어꿀팁#홈팁 #뷰티 #꿀팁 #koreanbeauty #kbeauty #hairstyle #发型 #韩国",
             "link": "https://www.youtube.com/watch?v=kLsN7AOl0xY"
+        },
+        {
+            "title": "와.. 요즘 하이라이터 필수야?!! 여배우들은 쌩얼에도 바른다는 하이라이터 잘 바르는 방법!",
+            "link": "https://www.youtube.com/watch?v=lsDbqYIxzFg"
+        },
+        {
+            "title": "일본에서만 파는 국룰 가성비 화장품? #shorts",
+            "link": "https://www.youtube.com/watch?v=s0Fltu1Rq4U"
+        },
+        {
+            "title": "성형외과 말고 집에서 30초만에 #이중턱 리프팅한 비결",
+            "link": "https://www.youtube.com/watch?v=ykkFPUgjmcA"
+        },
+        {
+            "title": "👛여름쿨톤 라이트 친구 파우치 털기💖 핵심만 딱딱! 정착한 여쿨존예립•여쿨 블러셔•탁기 없는 여쿨 팔레트는 이거로 끝~!올리브영 세일 전 보고가세요🤍",
+            "link": "https://www.youtube.com/watch?v=iMwb31bGxFc"
+        },
+        {
+            "title": "직접 만든 한국 전통혼례 새색시 화장🇰🇷",
+            "link": "https://www.youtube.com/watch?v=nhFoMsOI0tw"
+        },
+        {
+            "title": "쿠팡 일본 직구 뷰티템 베스트5 2탄",
+            "link": "https://www.youtube.com/watch?v=QKtFGP9ZHkE"
+        },
+        {
+            "title": "승모근 없애는 운동입니다! 직각어깨, 일자어깨 같이 만들어요🙆🏻‍♀️ #승모근없애는법 #승모근없애기 #일자어깨",
+            "link": "https://www.youtube.com/watch?v=nT_0u3Nz2ik"
         }
     ]
 };
