@@ -7,6 +7,7 @@ window.RECIPE_DATA = {
         "소시지",
         "스팸(햄)",
         "새우",
+        "오징어",
         "참치",
         "연어",
         "멸치",
@@ -74,6 +75,7 @@ window.RECIPE_DATA = {
         "코코아파우더",
         "녹차가루(말차)",
         "카레가루(카레)",
+        "짜장가루(춘장)",
         "간장",
         "고추장",
         "된장",
@@ -89,6 +91,7 @@ window.RECIPE_DATA = {
         "케첩",
         "머스터드",
         "칠리소스",
+        "불닭소스",
         "돈까스/스테이크소스",
         "잼",
         "후추",
@@ -212,6 +215,18 @@ window.RECIPE_DATA = {
                 "설탕",
                 "딸기",
                 "초콜릿"
+            ]
+        },
+        {
+            "title": "일본 여행 안 가도 되는 맛",
+            "link": "https://www.youtube.com/watch?v=Viq5soXmVO4",
+            "ingredients": [
+                "고추장",
+                "굴소스",
+                "마요네즈",
+                "케첩",
+                "잼",
+                "버터"
             ]
         },
         {
@@ -349,6 +364,14 @@ window.RECIPE_DATA = {
                 "견과류(아몬드/호두)",
                 "코코아파우더",
                 "소금"
+            ]
+        },
+        {
+            "title": "❤️‍🔥 다이어트 두바이 쫀득쿠키 (싱크로율 200% 장담함)",
+            "link": "https://www.youtube.com/watch?v=nUgsx2m_5Lk",
+            "ingredients": [
+                "초콜릿",
+                "코코아파우더"
             ]
         },
         {
@@ -1935,6 +1958,13 @@ window.RECIPE_DATA = {
             ]
         },
         {
+            "title": "이렇게 맛있는걸 저만 몰랐나요?",
+            "link": "https://www.youtube.com/watch?v=sM8qZf0tFcI",
+            "ingredients": [
+                "파스타면"
+            ]
+        },
+        {
             "title": "원팬파스타 알리오올리오",
             "link": "https://www.youtube.com/watch?v=pxx1NDuuW58",
             "ingredients": [
@@ -1999,6 +2029,15 @@ window.RECIPE_DATA = {
                 "간장",
                 "굴소스",
                 "전분가루"
+            ]
+        },
+        {
+            "title": "초간단,속세맛,가성비 갓벽⭐️ #shorts",
+            "link": "https://www.youtube.com/watch?v=Rl3anxoDyTo",
+            "ingredients": [
+                "견과류(아몬드/호두)",
+                "코코아파우더",
+                "설탕"
             ]
         },
         {
@@ -2069,6 +2108,14 @@ window.RECIPE_DATA = {
                 "간장",
                 "소금",
                 "후추"
+            ]
+        },
+        {
+            "title": "조회수 난리난 이연복 청경채 다이어터 버전",
+            "link": "https://www.youtube.com/watch?v=rtI6EA59uPw",
+            "ingredients": [
+                "돼지고기",
+                "새우"
             ]
         },
         {
@@ -3250,12 +3297,649 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "소고기"
             ]
+        },
+        {
+            "title": "밀프랩 마스터의 피자집 치즈오븐스파게티 밀프랩 비법 공개",
+            "link": "https://www.youtube.com/watch?v=QjGWMk5weVw",
+            "ingredients": [
+                "치즈",
+                "파스타면"
+            ]
+        },
+        {
+            "title": "4분만에 포장마차 국수 낋이기",
+            "link": "https://www.youtube.com/watch?v=Lx8AyRyCLvI",
+            "ingredients": [
+                "소면",
+                "고춧가루",
+                "간장",
+                "대파",
+                "청양고추",
+                "김",
+                "깨"
+            ]
+        },
+        {
+            "title": "태민 무브 추면서 기름떡 만들기",
+            "link": "https://www.youtube.com/watch?v=XRA1d_9C-Fs",
+            "ingredients": [
+                "떡"
+            ]
+        },
+        {
+            "title": "지코바가 이 영상을 싫어합니다",
+            "link": "https://www.youtube.com/watch?v=9IUgUe7TnuM",
+            "ingredients": [
+                "닭고기",
+                "떡",
+                "청양고추",
+                "깨",
+                "간장",
+                "설탕",
+                "고춧가루",
+                "굴소스",
+                "케첩",
+                "고추장",
+                "마늘"
+            ]
+        },
+        {
+            "title": "류수영 만원 닭도리탕 칼칼하고 진한 국물로 걸쭉한 닭볶음탕 레시피! #만원레시피 #류수영 #만원닭볶음탕",
+            "link": "https://www.youtube.com/watch?v=iFo-J-nYsvk",
+            "ingredients": [
+                "닭고기"
+            ]
+        },
+        {
+            "title": "#배달비,외식비이걸로 줄였어요#안쓰럽게컵라면먹지마#밀프랩#밀프랩용기",
+            "link": "https://www.youtube.com/watch?v=SSDUJHxo-64",
+            "ingredients": [
+                "소고기",
+                "콩나물/숙주",
+                "양배추",
+                "버섯",
+                "간장",
+                "맛술",
+                "설탕",
+                "마늘",
+                "식초",
+                "청양고추",
+                "고추장",
+                "고춧가루",
+                "애호박",
+                "김치",
+                "깨"
+            ]
+        },
+        {
+            "title": "그놈의 두쫀쿠가 뭐라고",
+            "link": "https://www.youtube.com/watch?v=sn6bI4bSYGw",
+            "ingredients": [
+                "밀가루",
+                "전분가루",
+                "우유",
+                "소금",
+                "코코아파우더",
+                "버터"
+            ]
+        },
+        {
+            "title": "요즘 알고리즘을 점령한 유리과일 ASMR 정체🔪",
+            "link": "https://www.youtube.com/watch?v=813sST3X4C0",
+            "ingredients": [
+                "사과"
+            ]
+        },
+        {
+            "title": "밀프랩 1등 메뉴 불고기브리또",
+            "link": "https://www.youtube.com/watch?v=dbZNLanRBuA",
+            "ingredients": [
+                "소고기",
+                "옥수수콘(스위트콘)",
+                "치즈",
+                "버터",
+                "간장",
+                "후추",
+                "또띠아",
+                "밥(쌀)"
+            ]
+        },
+        {
+            "title": "정말 믿을 수 없이 너무 맛있습니다.",
+            "link": "https://www.youtube.com/watch?v=SIREFCEBE_I",
+            "ingredients": [
+                "닭고기"
+            ]
+        },
+        {
+            "title": "자극적인데 건강한 거",
+            "link": "https://www.youtube.com/watch?v=GL-OJTUB7V8",
+            "ingredients": [
+                "치즈",
+                "우유",
+                "닭고기",
+                "양배추"
+            ]
+        },
+        {
+            "title": "배달비로 다섯배 먹는 음식?",
+            "link": "https://www.youtube.com/watch?v=rOquvC3CS18",
+            "ingredients": [
+                "참기름",
+                "마늘",
+                "소금",
+                "김",
+                "치즈",
+                "상추",
+                "밥(쌀)",
+                "계란",
+                "소고기",
+                "연어"
+            ]
+        },
+        {
+            "title": "이 조각상이.. 사실은 버터?!",
+            "link": "https://www.youtube.com/watch?v=AoSLilgHmPw",
+            "ingredients": [
+                "버터",
+                "마늘",
+                "레몬(레몬즙)"
+            ]
+        },
+        {
+            "title": "크림치즈계의 게임체인저",
+            "link": "https://www.youtube.com/watch?v=h9lTJB-BZ0s",
+            "ingredients": [
+                "치즈",
+                "딸기",
+                "블루베리",
+                "요거트"
+            ]
+        },
+        {
+            "title": "맛있는데 살안쪄",
+            "link": "https://www.youtube.com/watch?v=LsX0bH1VVow",
+            "ingredients": [
+                "양배추",
+                "콩나물/숙주"
+            ]
+        },
+        {
+            "title": "사장님 얼굴걸고 판매하는 쿠팡 삼겹살 진짜 맛있을까?",
+            "link": "https://www.youtube.com/watch?v=0Z7w5P-gT9A",
+            "ingredients": [
+                "돼지고기"
+            ]
+        },
+        {
+            "title": "술 먹을 때마다 이거 생각남",
+            "link": "https://www.youtube.com/watch?v=hTqYV9o3zsI",
+            "ingredients": [
+                "대파",
+                "양파",
+                "마늘",
+                "고춧가루",
+                "새우",
+                "토마토",
+                "고추장",
+                "굴소스",
+                "파스타면"
+            ]
+        },
+        {
+            "title": "전자레인지 퀄 맞아? #식비절약 #맛보장",
+            "link": "https://www.youtube.com/watch?v=qhyCA9f6SuQ",
+            "ingredients": [
+                "부추",
+                "대파",
+                "닭고기",
+                "돼지고기",
+                "두부",
+                "버섯",
+                "당근",
+                "김치",
+                "맛술",
+                "소금",
+                "후추",
+                "고춧가루",
+                "마늘",
+                "깨",
+                "된장",
+                "간장",
+                "굴소스",
+                "설탕",
+                "식용유",
+                "짜장가루(춘장)",
+                "당면",
+                "참기름"
+            ]
+        },
+        {
+            "title": "별거 안들어갔는데 중독성 실화?",
+            "link": "https://www.youtube.com/watch?v=w2PqDcoJmhw",
+            "ingredients": [
+                "계란",
+                "간장",
+                "설탕",
+                "식용유",
+                "김",
+                "밥(쌀)"
+            ]
+        },
+        {
+            "title": "여름에 불 쓰지 마세요",
+            "link": "https://www.youtube.com/watch?v=Sqaeh_PnM2E",
+            "ingredients": [
+                "양배추",
+                "두부",
+                "참치",
+                "참기름",
+                "소금",
+                "된장",
+                "고추장",
+                "마늘",
+                "깨",
+                "청양고추",
+                "밥(쌀)"
+            ]
+        },
+        {
+            "title": "한입에 모든 스트레스 날아가는 맛",
+            "link": "https://www.youtube.com/watch?v=yJohCFJGMxc",
+            "ingredients": [
+                "버섯",
+                "우유",
+                "고추장",
+                "불닭소스",
+                "치즈",
+                "후추"
+            ]
+        },
+        {
+            "title": "10kg 뺄때 먹은 대체음식",
+            "link": "https://www.youtube.com/watch?v=jvIJ0VDCc38",
+            "ingredients": [
+                "두부",
+                "닭고기",
+                "만두",
+                "어묵",
+                "김치"
+            ]
+        },
+        {
+            "title": "돼지고기 목살 세일하면 무조건 사오셔야합니다.",
+            "link": "https://www.youtube.com/watch?v=Md8wqavBliQ",
+            "ingredients": [
+                "돼지고기"
+            ]
+        },
+        {
+            "title": "전통맛집 뺨치는 맛",
+            "link": "https://www.youtube.com/watch?v=7LdvF6UH7xM",
+            "ingredients": [
+                "오징어",
+                "김",
+                "당근",
+                "계란",
+                "밥(쌀)",
+                "고춧가루",
+                "간장",
+                "고추장",
+                "설탕",
+                "맛술"
+            ]
+        },
+        {
+            "title": "여름에도 겨울에도 계속 먹게 될",
+            "link": "https://www.youtube.com/watch?v=e_nOyQQIPaQ",
+            "ingredients": [
+                "소고기",
+                "양배추",
+                "버섯",
+                "라이스페이퍼"
+            ]
+        },
+        {
+            "title": "양배추 싫어하는 사람?",
+            "link": "https://www.youtube.com/watch?v=mNxirlKWrRU",
+            "ingredients": [
+                "양배추",
+                "당근",
+                "소금"
+            ]
+        },
+        {
+            "title": "만 오천 원 주고도 사 먹을 맛",
+            "link": "https://www.youtube.com/watch?v=Mqsr5rtISd8",
+            "ingredients": [
+                "명란",
+                "파스타면",
+                "우유",
+                "쪽파",
+                "대파",
+                "소금"
+            ]
+        },
+        {
+            "title": "라이스페이퍼 이렇게 드셔보세요",
+            "link": "https://www.youtube.com/watch?v=DF-pgXYed0U",
+            "ingredients": [
+                "마요네즈",
+                "설탕",
+                "버터",
+                "참치",
+                "대파",
+                "라이스페이퍼"
+            ]
+        },
+        {
+            "title": "📍일본인이 만드는 정통 산도인데 오픈하자마자 30분만에 품절",
+            "link": "https://www.youtube.com/watch?v=EMQ9zD_s5W0",
+            "ingredients": [
+                "바나나"
+            ]
+        },
+        {
+            "title": "다이어트 간식 맛 1티어! 극락행 보장",
+            "link": "https://www.youtube.com/watch?v=gR5Lt-qsDwA",
+            "ingredients": [
+                "버터",
+                "소금",
+                "초콜릿"
+            ]
+        },
+        {
+            "title": "소스에 진심인 일본ㄷㄷ",
+            "link": "https://www.youtube.com/watch?v=jiRd1Jd-zEY",
+            "ingredients": [
+                "양배추",
+                "된장",
+                "명란",
+                "마요네즈",
+                "계란",
+                "간장",
+                "잼",
+                "소고기",
+                "두부",
+                "미역",
+                "콩나물/숙주",
+                "밥(쌀)"
+            ]
+        },
+        {
+            "title": "이거 먹고 3kg 안빠지면 책임은 못 짐 차돌박이 들기름 막송이 모던한담",
+            "link": "https://www.youtube.com/watch?v=t5iqzggVf0M",
+            "ingredients": [
+                "소고기",
+                "버섯",
+                "쪽파",
+                "김",
+                "깨",
+                "소금"
+            ]
+        },
+        {
+            "title": "아침밥 귀찮은 날 이거 하나면 끝이에요💛 김밥집에선 절대 안파는 조합🍙 #집밥 #김밥 #집김밥 #마늘쫑 #제철요리 #아침밥 #먹방 #브이로그",
+            "link": "https://www.youtube.com/watch?v=7Fp3SOB9mXE",
+            "ingredients": [
+                "소고기",
+                "김",
+                "간장",
+                "맛술",
+                "된장",
+                "소금",
+                "계란"
+            ]
+        },
+        {
+            "title": "이거 조합 미쳤다..! 차돌박이양배추메밀면 모던한담",
+            "link": "https://www.youtube.com/watch?v=s0KfFtCe_sU",
+            "ingredients": [
+                "소고기",
+                "양배추",
+                "식초",
+                "설탕",
+                "깨",
+                "쪽파",
+                "소금"
+            ]
+        },
+        {
+            "title": "말도 안 되는 맛",
+            "link": "https://www.youtube.com/watch?v=Hwzl8IA9NH0",
+            "ingredients": [
+                "또띠아",
+                "계란",
+                "새우",
+                "마늘"
+            ]
+        },
+        {
+            "title": "손 하나 까딱안하는 음식",
+            "link": "https://www.youtube.com/watch?v=VOmd9R6PoYg",
+            "ingredients": [
+                "옥수수콘(스위트콘)",
+                "밥(쌀)"
+            ]
+        },
+        {
+            "title": "식어도 맛있는 끝판왕 항정살 수육 레시피",
+            "link": "https://www.youtube.com/watch?v=s4hbAhzpZeM",
+            "ingredients": [
+                "돼지고기",
+                "토마토"
+            ]
+        },
+        {
+            "title": "그냥 한번만 드셔보세요...",
+            "link": "https://www.youtube.com/watch?v=z6wxIeQA6zs",
+            "ingredients": [
+                "버섯",
+                "고추장",
+                "고춧가루",
+                "간장",
+                "마늘",
+                "참기름",
+                "깨"
+            ]
+        },
+        {
+            "title": "초간단 순두부빵⭕️진짜 맛있다니깐..",
+            "link": "https://www.youtube.com/watch?v=EQj14sKdhLs",
+            "ingredients": [
+                "두부",
+                "계란",
+                "코코아파우더",
+                "견과류(아몬드/호두)",
+                "버터",
+                "우유",
+                "잼"
+            ]
+        },
+        {
+            "title": "중독주의 대존맛 다이어트 김잼🍙",
+            "link": "https://www.youtube.com/watch?v=KnyTIvgEGec",
+            "ingredients": [
+                "김",
+                "간장",
+                "버터",
+                "밥(쌀)",
+                "소금"
+            ]
+        },
+        {
+            "title": "일본에서 돼지목살을 제일 맛있게 먹는 법",
+            "link": "https://www.youtube.com/watch?v=sN2PDeYVipw",
+            "ingredients": [
+                "양배추",
+                "마늘",
+                "돼지고기",
+                "소금",
+                "후추",
+                "전분가루",
+                "간장",
+                "굴소스",
+                "맛술"
+            ]
+        },
+        {
+            "title": "삼겹살 + 숙주 = 돈코츠 라멘",
+            "link": "https://www.youtube.com/watch?v=AOsPJNjuR-s",
+            "ingredients": [
+                "돼지고기",
+                "콩나물/숙주",
+                "라면"
+            ]
+        },
+        {
+            "title": "식이섬유 풍부한 장이 편안해지는 항산화 한끼!",
+            "link": "https://www.youtube.com/watch?v=jhk6pIDKUTs",
+            "ingredients": [
+                "블루베리",
+                "요거트",
+                "우유"
+            ]
+        },
+        {
+            "title": "요즘 매일 먹는 1분컷 계란 조합🥚 #다이어트",
+            "link": "https://www.youtube.com/watch?v=ynwDRQCCfxg",
+            "ingredients": [
+                "계란",
+                "머스터드",
+                "치즈",
+                "후추"
+            ]
+        },
+        {
+            "title": "천재 소리 들은 계란 요리 3탄🍳🖤 #다이어트",
+            "link": "https://www.youtube.com/watch?v=XObBFDDuo8c",
+            "ingredients": [
+                "계란",
+                "요거트",
+                "머스터드",
+                "김",
+                "소금"
+            ]
+        },
+        {
+            "title": "10분! NO오븐 딸기케이크🍓지금 안만들면 손해",
+            "link": "https://www.youtube.com/watch?v=KGexRpKMdZE",
+            "ingredients": [
+                "딸기",
+                "생크림",
+                "요거트",
+                "설탕"
+            ]
+        },
+        {
+            "title": "양배추는  이렇게 드세요 야채언먹는 아이들도 잘먹는 양배추피자",
+            "link": "https://www.youtube.com/watch?v=PdIo50GdI_Q",
+            "ingredients": [
+                "양배추"
+            ]
+        },
+        {
+            "title": "버터떡이고 뭐고 이게 최고입니다",
+            "link": "https://www.youtube.com/watch?v=gxYdRsfAFhI",
+            "ingredients": [
+                "버터",
+                "떡",
+                "요거트",
+                "딸기",
+                "블루베리",
+                "바나나",
+                "코코아파우더"
+            ]
+        },
+        {
+            "title": "간계밥 이탈리아 ver 파브리의 계란 프라이 파스타 #shorts",
+            "link": "https://www.youtube.com/watch?v=W1tOZw4E2IU",
+            "ingredients": [
+                "간장",
+                "계란",
+                "밥(쌀)",
+                "파스타면"
+            ]
+        },
+        {
+            "title": "라면보다 쉬운 3분컷 돼지국밥",
+            "link": "https://www.youtube.com/watch?v=8h1tBs3ExYo",
+            "ingredients": [
+                "미나리",
+                "돼지고기",
+                "밥(쌀)",
+                "식초",
+                "소금",
+                "후추"
+            ]
+        },
+        {
+            "title": "대구에서 꼭 가봐야하는 특별한 맛집 Best.5",
+            "link": "https://www.youtube.com/watch?v=pjasjIpkHcE",
+            "ingredients": [
+                "어묵",
+                "부추"
+            ]
+        },
+        {
+            "title": "최소 2번 이상 먹었던 서문시장 간식 모음집!",
+            "link": "https://www.youtube.com/watch?v=Toup_a0ZOj4",
+            "ingredients": [
+                "만두"
+            ]
+        },
+        {
+            "title": "미국 소스시장을 씹어먹은 마법의 소스",
+            "link": "https://www.youtube.com/watch?v=GPeF16iUHNo",
+            "ingredients": [
+                "닭고기",
+                "우유",
+                "케첩",
+                "머스터드"
+            ]
+        },
+        {
+            "title": "말차의 본고장 교토에서 먹었던 음식들 평점 매기기",
+            "link": "https://www.youtube.com/watch?v=Yci53U4MgwA",
+            "ingredients": [
+                "녹차가루(말차)"
+            ]
+        },
+        {
+            "title": "폭식을 막아주는 대체음식",
+            "link": "https://www.youtube.com/watch?v=lk-H_MurTds",
+            "ingredients": [
+                "짜장가루(춘장)",
+                "라면",
+                "떡",
+                "초콜릿",
+                "견과류(아몬드/호두)"
+            ]
+        },
+        {
+            "title": "#덕자네방앗간 #강남맛집 #길거리음식 #떡볶이 #밍푸디 #kfood #tteokbokki",
+            "link": "https://www.youtube.com/watch?v=a6b14wjtDxE",
+            "ingredients": [
+                "떡"
+            ]
         }
     ]
 };
 
 window.HOUSEWORK_DATA = {
     "videos": [
+        {
+            "title": "구축아파트 안하고 후회한 인테리어 2가지! #인테리어 #리모델링 #안방인테리어 #거실인테리어 #살림",
+            "link": "https://www.youtube.com/watch?v=utSbsNdELmg"
+        },
+        {
+            "title": "서울 21평 구축 아파트 인테리어 소개 🤎",
+            "link": "https://www.youtube.com/watch?v=AYSJiPblDtc"
+        },
+        {
+            "title": "한 달 내내 먹는 식재료 정리 루틴🥕🥬🍌🥒",
+            "link": "https://www.youtube.com/watch?v=qiQ60ajnRow"
+        },
         {
             "title": "매월 초 하는 #살림 루틴",
             "link": "https://www.youtube.com/watch?v=d6J6UqSBwCU"
@@ -3433,6 +4117,10 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=Jc0UaSE53Vs"
         },
         {
+            "title": "해외여행 비상식량 총정리",
+            "link": "https://www.youtube.com/watch?v=TC1GfdUHj18"
+        },
+        {
             "title": "코스트코에서 이 치즈 꼭! 사와요 #코스트코 #살림 #어퍼하우스",
             "link": "https://www.youtube.com/watch?v=ZBwosHAHxO0"
         },
@@ -3513,6 +4201,10 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=KefarcBq2rA"
         },
         {
+            "title": "신혼집 가구비용 공개! #신혼집꾸미기 #신혼인테리어 #신혼집인테리어 #신혼부부 #가성비인테리어 #신혼집 #인테리어 #집꾸미기",
+            "link": "https://www.youtube.com/watch?v=ZbYDD5upUpU"
+        },
+        {
             "title": "멀티쿠커 최악의 단점. 을 해결했습니다 ㄷㄷ",
             "link": "https://www.youtube.com/watch?v=2_f5TNVoNKQ"
         },
@@ -3527,12 +4219,44 @@ window.HOUSEWORK_DATA = {
         {
             "title": "⚡️삶의 질 수직상승 꿀템 TOP3",
             "link": "https://www.youtube.com/watch?v=YtZ6uOa-Ya4"
+        },
+        {
+            "title": "쓰레기 없이 음식포장 어디까지 해봤니? #용기정보는댓글#공동구매",
+            "link": "https://www.youtube.com/watch?v=j9ShtUbe0qg"
+        },
+        {
+            "title": "Ice Restock 🧊🧊🧊🧊🧊",
+            "link": "https://www.youtube.com/watch?v=koDBBt-xbg8"
         }
     ]
 };
 
 window.BEAUTY_DATA = {
     "videos": [
+        {
+            "title": "붕붕뜨는 곱슬머리 차분하게 말리는 꿀팁(+저녁 컬관리루틴)",
+            "link": "https://www.youtube.com/watch?v=gvW34pRdu2Y"
+        },
+        {
+            "title": "이걸 왜 아직도 안바르노!기본중에 기본이라고🔥 #shorts#아랄라얍",
+            "link": "https://www.youtube.com/watch?v=mT7x7h9CCKk"
+        },
+        {
+            "title": "다이소 찐고인물이 진짜 잘 썼던 다이소 브러쉬 총집합!! #다이소추천템",
+            "link": "https://www.youtube.com/watch?v=a1mg7feFYHM"
+        },
+        {
+            "title": "돈없어도 고급미up🔺 배우st 얼굴 뽕 살리는 꿀팁 #수지메이크업 #고윤정메이크업",
+            "link": "https://www.youtube.com/watch?v=WUNtgS7axdk"
+        },
+        {
+            "title": "(광고❌️)뷰티업계친구의 올영템 찐추천!!",
+            "link": "https://www.youtube.com/watch?v=oN_mr8cjR6U"
+        },
+        {
+            "title": "옆모습 예뻐보이는 집게핀 방법♥️#헤어 #헤어스타일 #뷰티 #꿀팁#메이크업 #hair #hairstyle #makeup #kbeauty #꾸안꾸 #美容 #发型 #fyp",
+            "link": "https://www.youtube.com/watch?v=QrxmTi4RGoo"
+        },
         {
             "title": "옆머리 구르프 또 망했다… 왜 이러노 진짜🔥 #아랄라얍 #헤어꿀팁",
             "link": "https://www.youtube.com/watch?v=GqivzZCa26E"
@@ -4036,6 +4760,26 @@ window.BEAUTY_DATA = {
         {
             "title": "승모근 없애는 운동입니다! 직각어깨, 일자어깨 같이 만들어요🙆🏻‍♀️ #승모근없애는법 #승모근없애기 #일자어깨",
             "link": "https://www.youtube.com/watch?v=nT_0u3Nz2ik"
+        },
+        {
+            "title": "한끗차이로 더 예뻐보이는 포니테일👱‍♀️",
+            "link": "https://www.youtube.com/watch?v=CNGVKjicS_U"
+        },
+        {
+            "title": "작고 낮은 코 왜 코성형 안하냐고? 👃🏻 #shorts",
+            "link": "https://www.youtube.com/watch?v=yYtbR9f104I"
+        },
+        {
+            "title": "고무줄 두개와 드라이만 있으면 되는 물결 웨이브 !!",
+            "link": "https://www.youtube.com/watch?v=cyv-4aBsvs0"
+        },
+        {
+            "title": "[인스타240만뷰] 중단발집게핀 하는방법!",
+            "link": "https://www.youtube.com/watch?v=g_dK3aaV0gA"
+        },
+        {
+            "title": "곱슬머리 롤빗으로 차분하게 드라이 하는방법",
+            "link": "https://www.youtube.com/watch?v=fEBqPbeUyBI"
         }
     ]
 };
