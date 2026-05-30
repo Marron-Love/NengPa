@@ -3715,6 +3715,14 @@ window.RECIPE_DATA = {
             ]
         },
         {
+            "title": "두번 봐야하는 버터 떡 챌린지",
+            "link": "https://www.youtube.com/watch?v=5lGg9o4vHeI",
+            "ingredients": [
+                "버터",
+                "떡"
+            ]
+        },
+        {
             "title": "손 하나 까딱안하는 음식",
             "link": "https://www.youtube.com/watch?v=VOmd9R6PoYg",
             "ingredients": [
@@ -3922,12 +3930,125 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "떡"
             ]
+        },
+        {
+            "title": "일본 돈까스 전문점 양배추의 비밀",
+            "link": "https://www.youtube.com/watch?v=NjpDOJNpv4w",
+            "ingredients": [
+                "양배추"
+            ]
+        },
+        {
+            "title": "밥솥으로 이게 가능? 올 여름 최고의 보양식",
+            "link": "https://www.youtube.com/watch?v=0TTbsjJq1MQ",
+            "ingredients": [
+                "닭고기",
+                "대파",
+                "마늘",
+                "양파",
+                "밥(쌀)",
+                "양배추",
+                "쪽파",
+                "고춧가루",
+                "참기름",
+                "깨",
+                "오이",
+                "무"
+            ]
+        },
+        {
+            "title": "만오천원으로 반찬7가지☺️",
+            "link": "https://www.youtube.com/watch?v=FRy_HZQit1g",
+            "ingredients": [
+                "대파",
+                "계란",
+                "버섯",
+                "브로콜리",
+                "오이",
+                "게맛살(크래미)",
+                "설탕",
+                "소금",
+                "식초",
+                "마늘",
+                "깨",
+                "마요네즈",
+                "후추",
+                "고추장",
+                "고춧가루",
+                "간장",
+                "김치",
+                "식용유",
+                "밀가루",
+                "맛술",
+                "굴소스",
+                "참기름",
+                "어묵",
+                "청양고추",
+                "멸치"
+            ]
+        },
+        {
+            "title": "상하이가면 꼭 먹어야되는 과일크림치즈모찌?!",
+            "link": "https://www.youtube.com/watch?v=qpxxjDeU-ig",
+            "ingredients": [
+                "초콜릿",
+                "딸기",
+                "치즈",
+                "우유",
+                "떡"
+            ]
+        },
+        {
+            "title": "비싸도 굳이 사먹는 음식ㅋㅋ",
+            "link": "https://www.youtube.com/watch?v=S28AHqduRM4",
+            "ingredients": [
+                "김",
+                "계란",
+                "참기름",
+                "소고기",
+                "멸치",
+                "연어"
+            ]
+        },
+        {
+            "title": "2년 만에 찾은 인생 덮밥",
+            "link": "https://www.youtube.com/watch?v=rX7tvm_viIA",
+            "ingredients": [
+                "소고기",
+                "양파",
+                "청양고추",
+                "계란"
+            ]
+        },
+        {
+            "title": "다양한 유리과일 잼 펴바르기 ASMR | Spreading Various Glass Fruit Jams #aiasmr #ai영상 #유리과일",
+            "link": "https://www.youtube.com/watch?v=El0iuVaXFNE",
+            "ingredients": [
+                "잼"
+            ]
+        },
+        {
+            "title": "3분에 한판씩 팔리는 피자?",
+            "link": "https://www.youtube.com/watch?v=XRrv3VKr3_g",
+            "ingredients": [
+                "치즈",
+                "감자",
+                "소고기"
+            ]
         }
     ]
 };
 
 window.HOUSEWORK_DATA = {
     "videos": [
+        {
+            "title": "마늘 소분/보관 팁 이걸로 종결! #식재료소분법 #식재료보관팁 #음식소분 #마늘보관법 #마늘소분 #다진마늘보관 #Foodstorage #FoodStorageTips #생활꿀팁",
+            "link": "https://www.youtube.com/watch?v=GUcNJX_nOrE"
+        },
+        {
+            "title": "코스트코 식재료 소분법 Costco Food Storage Tips #식재료소분법 #식재료보관법 #음식소분 #코스트코식재료 #Foodstorage #FoodStorageTips",
+            "link": "https://www.youtube.com/watch?v=0Jbr_v9lWSM"
+        },
         {
             "title": "구축아파트 안하고 후회한 인테리어 2가지! #인테리어 #리모델링 #안방인테리어 #거실인테리어 #살림",
             "link": "https://www.youtube.com/watch?v=utSbsNdELmg"
@@ -4219,6 +4340,14 @@ window.HOUSEWORK_DATA = {
         {
             "title": "⚡️삶의 질 수직상승 꿀템 TOP3",
             "link": "https://www.youtube.com/watch?v=YtZ6uOa-Ya4"
+        },
+        {
+            "title": "기름범벅 제발 그만 !!",
+            "link": "https://www.youtube.com/watch?v=uqg45tIKZFM"
+        },
+        {
+            "title": "Easy Blender Trick 🔥 #shorts #blender #tutorial",
+            "link": "https://www.youtube.com/watch?v=FLnvwgoH8RA"
         },
         {
             "title": "쓰레기 없이 음식포장 어디까지 해봤니? #용기정보는댓글#공동구매",
@@ -4760,6 +4889,10 @@ window.BEAUTY_DATA = {
         {
             "title": "승모근 없애는 운동입니다! 직각어깨, 일자어깨 같이 만들어요🙆🏻‍♀️ #승모근없애는법 #승모근없애기 #일자어깨",
             "link": "https://www.youtube.com/watch?v=nT_0u3Nz2ik"
+        },
+        {
+            "title": "짱 쉬운데  예쁨 보장👏🏻 밋밋한 묶은머리 5초만에 우아하게💕",
+            "link": "https://www.youtube.com/watch?v=cHPDVJg_v6A"
         },
         {
             "title": "한끗차이로 더 예뻐보이는 포니테일👱‍♀️",
