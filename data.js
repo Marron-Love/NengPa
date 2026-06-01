@@ -4050,14 +4050,6 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=0Jbr_v9lWSM"
         },
         {
-            "title": "구축아파트 안하고 후회한 인테리어 2가지! #인테리어 #리모델링 #안방인테리어 #거실인테리어 #살림",
-            "link": "https://www.youtube.com/watch?v=utSbsNdELmg"
-        },
-        {
-            "title": "서울 21평 구축 아파트 인테리어 소개 🤎",
-            "link": "https://www.youtube.com/watch?v=AYSJiPblDtc"
-        },
-        {
             "title": "한 달 내내 먹는 식재료 정리 루틴🥕🥬🍌🥒",
             "link": "https://www.youtube.com/watch?v=qiQ60ajnRow"
         },
@@ -4078,48 +4070,12 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=iv1J3Nr7TEU"
         },
         {
-            "title": "청소알바 경력자가 딱 정해드리는 욕실브러쉬",
-            "link": "https://www.youtube.com/watch?v=TRp_fGkVpoA"
-        },
-        {
             "title": "살림이 쉬워지는 5가지 꼼수! 집안일 시간이 반으로 줄어듭니다 #살림꿀팁 #정리노하우 #생활꿀팁",
             "link": "https://www.youtube.com/watch?v=3fypB2Ya5yI"
         },
         {
-            "title": "청소알바만 60곳 넘게 한 경력자가 딱 정해드리는 욕실세제 3",
-            "link": "https://www.youtube.com/watch?v=Ti_cQ22Llk0"
-        },
-        {
-            "title": "백만원 아낀 좁은주방 가구 추천!",
-            "link": "https://www.youtube.com/watch?v=RZDw2v_-uEI"
-        },
-        {
-            "title": "청소업체 사장이 사용하는 줄눈청소 꿀템",
-            "link": "https://www.youtube.com/watch?v=6p-CggqOE9w"
-        },
-        {
-            "title": "누가 이렇게 하면 뜯어 말려야 해요😂 #후회하는 #주방인테리어 #kitchen  #kitcheninterior",
-            "link": "https://www.youtube.com/watch?v=Y_xbT5Y5KKo"
-        },
-        {
-            "title": "튼튼한 행거_진짜최종_찐최최최종.mov",
-            "link": "https://www.youtube.com/watch?v=rqROBjgILeQ"
-        },
-        {
-            "title": "주방 인테리어 장단점 총정리 (3탄)",
-            "link": "https://www.youtube.com/watch?v=coauG-UB-UQ"
-        },
-        {
-            "title": "다이소 칫솔꽂이를 화병에 넣으면,, #다이소#다이소추천템#다이소diy#다이소화병#다이소꿀템#화병만들기#나타나라",
-            "link": "https://www.youtube.com/watch?v=gja-cnkRzZs"
-        },
-        {
             "title": "1.5룸 오피스텔 화장실청소 2주 루틴",
             "link": "https://www.youtube.com/watch?v=I_rMEHUEJrA"
-        },
-        {
-            "title": "이 샤워부스는 이사갈 때도 가져갈 거예요!",
-            "link": "https://www.youtube.com/watch?v=qEm4BgpWZl4"
         },
         {
             "title": "1.5룸 오피스텔 셀프입주청소 몇시간 걸리나요?",
@@ -4134,52 +4090,8 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=Hy6YseX92Ts"
         },
         {
-            "title": "🤔이건 냉동실에 꼭 쟁여놓으세요.",
-            "link": "https://www.youtube.com/watch?v=MsZ-c0eTY-g"
-        },
-        {
-            "title": "손님오기 10분전 욕실청소! #핑크스터프#화장실#청소템",
-            "link": "https://www.youtube.com/watch?v=RNZbnKZlKyw"
-        },
-        {
-            "title": "한 번 사면 무조건 남는 거",
-            "link": "https://www.youtube.com/watch?v=U6NHeTpnzkw"
-        },
-        {
-            "title": "대부분 이 방법 모를걸요?",
-            "link": "https://www.youtube.com/watch?v=JD4iJVY8HEA"
-        },
-        {
-            "title": "난각1번유정란",
-            "link": "https://www.youtube.com/watch?v=haARKkqa5bQ"
-        },
-        {
-            "title": "섬유전공자가 추천하는 겨울옷 관리템 Best 2",
-            "link": "https://www.youtube.com/watch?v=ub6Lz0awFgs"
-        },
-        {
-            "title": "대충 했는데 의외로 완벽했던 냉동 보관 BEST 5! #살림템 #신혼부부",
-            "link": "https://www.youtube.com/watch?v=KF-jqYtnrEw"
-        },
-        {
-            "title": "좋다던 베란다 데크타일, 6개월 쓰고 뒤집어본 후기",
-            "link": "https://www.youtube.com/watch?v=YwLaRmf1-SM"
-        },
-        {
-            "title": "펜션 청소 알바할때 쓰던 청소용품 추천",
-            "link": "https://www.youtube.com/watch?v=nn-Niat9kUs"
-        },
-        {
-            "title": "기본템이라 무시했던 이케아 조명의 변신 #이케아조명 #이케아 #조명맛집 #인테리어 #집꾸미기 #조명",
-            "link": "https://www.youtube.com/watch?v=5IdGRWVnhdw"
-        },
-        {
-            "title": "버튼 한 번에 침대로 변신?! #슬라이딩소파 #리클라이너소파 #신혼집인테리어",
-            "link": "https://www.youtube.com/watch?v=g7pmi_Fqdl4"
-        },
-        {
-            "title": "⭐️150만뷰⭐️안보면 후회하는 셀프밀키트 추천템 best3",
-            "link": "https://www.youtube.com/watch?v=1Gt-boPV-Zc"
+            "title": "안돼 치즈 굳어",
+            "link": "https://www.youtube.com/watch?v=8RHTeRZyAms"
         },
         {
             "title": "5인가족 삼남매엄마의 코스트코 장바구니 정리하는 법#코스트코#costco",
@@ -4198,10 +4110,6 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=_uhhdBjhWeo"
         },
         {
-            "title": "청소업체 사장도 집에서 사용하는 세제 2가지 #입주청소 #청소업체",
-            "link": "https://www.youtube.com/watch?v=hMeRqYSdFgU"
-        },
-        {
             "title": "집수리 남편없이 전문가 필요 없습니다. 현관문 싱크대문 들뜬벽지 이 영상으로 해결됩니다. #집수리팁 #살림꿀팁 #생활정보",
             "link": "https://www.youtube.com/watch?v=itQWZVIQPtU"
         },
@@ -4214,48 +4122,20 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=dt34AMnw4Tg"
         },
         {
-            "title": "바르기만 하면 방수가 된다!",
-            "link": "https://www.youtube.com/watch?v=-vFvCD_EG9k"
-        },
-        {
-            "title": "자동냄비 롤팬 1년 써봄",
-            "link": "https://www.youtube.com/watch?v=Qgn8Vv__tog"
-        },
-        {
             "title": "와라잇 튀김기 청소하는 날",
             "link": "https://www.youtube.com/watch?v=q1N_5o-DRa0"
-        },
-        {
-            "title": "우리집 냉동실 구원템",
-            "link": "https://www.youtube.com/watch?v=mw-nLm_UFPk"
         },
         {
             "title": "손 안 더럽히고 창틀 청소하는 꿀팁",
             "link": "https://www.youtube.com/watch?v=J4yRpHUWy6c"
         },
         {
-            "title": "맨날 청소하는 펜션 사장 추천 쿠팡 청소템 3가지",
-            "link": "https://www.youtube.com/watch?v=Jc0UaSE53Vs"
-        },
-        {
-            "title": "해외여행 비상식량 총정리",
-            "link": "https://www.youtube.com/watch?v=TC1GfdUHj18"
-        },
-        {
-            "title": "코스트코에서 이 치즈 꼭! 사와요 #코스트코 #살림 #어퍼하우스",
-            "link": "https://www.youtube.com/watch?v=ZBwosHAHxO0"
-        },
-        {
-            "title": "맛집 사장님들이 꼭 쓴다는 발명템ㅋㅋ",
-            "link": "https://www.youtube.com/watch?v=-YS6JwI5LBo"
+            "title": "은근 유용한 남편의 주방 치트키 Top3 🤦🏻‍♀️",
+            "link": "https://www.youtube.com/watch?v=j2BF7BCwKlY"
         },
         {
             "title": "밥 먹을 때마다 흘리는 사람들 무조건 보십쇼",
             "link": "https://www.youtube.com/watch?v=PLfO3oQVIFE"
-        },
-        {
-            "title": "구질구질하다 욕먹어도 올립니다",
-            "link": "https://www.youtube.com/watch?v=kXhsV3_VT5M"
         },
         {
             "title": "지속적인 정리를 위해 딱 3가지만 지켜요 ✨ #살림 #집정리 #home",
@@ -4266,64 +4146,24 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=e_8lFWcgxPQ"
         },
         {
-            "title": "모두가 탐내는 신박한 쿠팡추천템 세 가지",
-            "link": "https://www.youtube.com/watch?v=63wr0SAlCG0"
+            "title": "여름에 불 쓰지 마세요",
+            "link": "https://www.youtube.com/watch?v=Sqaeh_PnM2E"
         },
         {
             "title": "볼 때 마다 만족스러운 우리 집 틈새수납법 대공개🙌🏻 #리블리홈",
             "link": "https://www.youtube.com/watch?v=jV0ciza9SkA"
         },
         {
-            "title": "⭐️50만뷰⭐️냉동실에서 꺼내먹어요",
-            "link": "https://www.youtube.com/watch?v=N_meUuW1tDE"
-        },
-        {
-            "title": "10초컷⚡️셔츠 하나로 원피스 만드는 법",
-            "link": "https://www.youtube.com/watch?v=vb5PaatY30o"
-        },
-        {
-            "title": "자취 10년차가 추천하는 효율템",
-            "link": "https://www.youtube.com/watch?v=iX_Im1AQUhc"
-        },
-        {
-            "title": "결벽증 친구 극찬 청소템 3가지(고정댓글📌)",
-            "link": "https://www.youtube.com/watch?v=SsiecbJX4cs"
-        },
-        {
-            "title": "안쓰면 정말 손해인 쿠팡 꿀템 세 가지",
-            "link": "https://www.youtube.com/watch?v=vlPCswDiriI"
-        },
-        {
-            "title": "친구가 따라샀던 주방용품 세가지",
-            "link": "https://www.youtube.com/watch?v=5T3BE08Fq80"
-        },
-        {
             "title": "3달간 묵혀둔 곰팡이 물때 브이로그라가스옥스옥",
             "link": "https://www.youtube.com/watch?v=Ecr3lDRKtuI"
-        },
-        {
-            "title": "찐고수들은 이렇게 씁니다  #스꿀팁#스칼렛꿀팁",
-            "link": "https://www.youtube.com/watch?v=fNpwzlvP1P4"
         },
         {
             "title": "니네집 10평이라며~?작은집 넓게보이는 마법같은 꿀팁3가지‼️",
             "link": "https://www.youtube.com/watch?v=3Zp0zvN21lQ"
         },
         {
-            "title": "써보고 감탄한 살림이 쉬워지는 꿀템 4가지✨#신박한 살림템",
-            "link": "https://www.youtube.com/watch?v=eVV9CnULg1c"
-        },
-        {
             "title": "간단한 운동화 세탁법|세탁기에 운동화세탁#살림#꿀팁#청소",
             "link": "https://www.youtube.com/watch?v=4wg3W4jGVlo"
-        },
-        {
-            "title": "노하우 대방출! 아무도 몰랐던 필살기 자취템 5가지",
-            "link": "https://www.youtube.com/watch?v=KefarcBq2rA"
-        },
-        {
-            "title": "신혼집 가구비용 공개! #신혼집꾸미기 #신혼인테리어 #신혼집인테리어 #신혼부부 #가성비인테리어 #신혼집 #인테리어 #집꾸미기",
-            "link": "https://www.youtube.com/watch?v=ZbYDD5upUpU"
         },
         {
             "title": "멀티쿠커 최악의 단점. 을 해결했습니다 ㄷㄷ",
@@ -4334,28 +4174,362 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=CPzWyylBJG4"
         },
         {
+            "title": "Ice Restock 🧊🧊🧊🧊🧊",
+            "link": "https://www.youtube.com/watch?v=koDBBt-xbg8"
+        }
+    ]
+};
+
+window.GOOD_ITEM_DATA = {
+    "categories": [
+        "욕실",
+        "청소",
+        "주방",
+        "수납/정리",
+        "즉석식품",
+        "가공식품/간식",
+        "기타"
+    ],
+    "videos": [
+        {
+            "title": "다이소 찐고인물이 진짜 잘 썼던 다이소 브러쉬 총집합!! #다이소추천템",
+            "link": "https://www.youtube.com/watch?v=a1mg7feFYHM",
+            "item_category": "청소"
+        },
+        {
+            "title": "청소알바 경력자가 딱 정해드리는 욕실브러쉬",
+            "link": "https://www.youtube.com/watch?v=TRp_fGkVpoA",
+            "item_category": "욕실"
+        },
+        {
+            "title": "청소알바만 60곳 넘게 한 경력자가 딱 정해드리는 욕실세제 3",
+            "link": "https://www.youtube.com/watch?v=Ti_cQ22Llk0",
+            "item_category": "욕실"
+        },
+        {
+            "title": "백만원 아낀 좁은주방 가구 추천!",
+            "link": "https://www.youtube.com/watch?v=RZDw2v_-uEI",
+            "item_category": "수납/정리"
+        },
+        {
+            "title": "청소업체 사장이 사용하는 줄눈청소 꿀템",
+            "link": "https://www.youtube.com/watch?v=6p-CggqOE9w",
+            "item_category": "청소"
+        },
+        {
+            "title": "튼튼한 행거_진짜최종_찐최최최종.mov",
+            "link": "https://www.youtube.com/watch?v=rqROBjgILeQ",
+            "item_category": "수납/정리"
+        },
+        {
+            "title": "초코지만 초코로 불릴 수 없다는 이것?",
+            "link": "https://www.youtube.com/watch?v=TYqEBKBiz0o",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "8시 전에는 절대 못 먹는 초콜릿",
+            "link": "https://www.youtube.com/watch?v=EpRfJxzaOg8",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "일본 사람들의 밥도둑",
+            "link": "https://www.youtube.com/watch?v=O6-y-Wyo2zs",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "다이소 칫솔꽂이를 화병에 넣으면,, #다이소#다이소추천템#다이소diy#다이소화병#다이소꿀템#화병만들기#나타나라",
+            "link": "https://www.youtube.com/watch?v=gja-cnkRzZs",
+            "item_category": "욕실"
+        },
+        {
+            "title": "이 샤워부스는 이사갈 때도 가져갈 거예요!",
+            "link": "https://www.youtube.com/watch?v=qEm4BgpWZl4",
+            "item_category": "욕실"
+        },
+        {
+            "title": "🤔이건 냉동실에 꼭 쟁여놓으세요.",
+            "link": "https://www.youtube.com/watch?v=MsZ-c0eTY-g",
+            "item_category": "즉석식품"
+        },
+        {
+            "title": "#배달비,외식비이걸로 줄였어요#안쓰럽게컵라면먹지마#밀프랩#밀프랩용기",
+            "link": "https://www.youtube.com/watch?v=SSDUJHxo-64",
+            "item_category": "주방"
+        },
+        {
+            "title": "손님오기 10분전 욕실청소! #핑크스터프#화장실#청소템",
+            "link": "https://www.youtube.com/watch?v=RNZbnKZlKyw",
+            "item_category": "욕실"
+        },
+        {
+            "title": "난각1번유정란",
+            "link": "https://www.youtube.com/watch?v=haARKkqa5bQ",
+            "item_category": "기타"
+        },
+        {
+            "title": "섬유전공자가 추천하는 겨울옷 관리템 Best 2",
+            "link": "https://www.youtube.com/watch?v=ub6Lz0awFgs",
+            "item_category": "기타"
+        },
+        {
+            "title": "대충 했는데 의외로 완벽했던 냉동 보관 BEST 5! #살림템 #신혼부부",
+            "link": "https://www.youtube.com/watch?v=KF-jqYtnrEw",
+            "item_category": "수납/정리"
+        },
+        {
+            "title": "자취방 보조선반 조미료보관 가성비 꿀팁",
+            "link": "https://www.youtube.com/watch?v=NNb_FpyHZxI",
+            "item_category": "수납/정리"
+        },
+        {
+            "title": "좋다던 베란다 데크타일, 6개월 쓰고 뒤집어본 후기",
+            "link": "https://www.youtube.com/watch?v=YwLaRmf1-SM",
+            "item_category": "기타"
+        },
+        {
+            "title": "펜션 청소 알바할때 쓰던 청소용품 추천",
+            "link": "https://www.youtube.com/watch?v=nn-Niat9kUs",
+            "item_category": "청소"
+        },
+        {
+            "title": "기본템이라 무시했던 이케아 조명의 변신 #이케아조명 #이케아 #조명맛집 #인테리어 #집꾸미기 #조명",
+            "link": "https://www.youtube.com/watch?v=5IdGRWVnhdw",
+            "item_category": "기타"
+        },
+        {
+            "title": "버튼 한 번에 침대로 변신?! #슬라이딩소파 #리클라이너소파 #신혼집인테리어",
+            "link": "https://www.youtube.com/watch?v=g7pmi_Fqdl4",
+            "item_category": "기타"
+        },
+        {
+            "title": "일본 편의점 아이스크림 평점 매기기",
+            "link": "https://www.youtube.com/watch?v=ycz85qdKMEM",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "살 안찌는 버터링이 있다고.? #shorts",
+            "link": "https://www.youtube.com/watch?v=alDqzeZMbEI",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "⭐️150만뷰⭐️안보면 후회하는 셀프밀키트 추천템 best3",
+            "link": "https://www.youtube.com/watch?v=1Gt-boPV-Zc",
+            "item_category": "즉석식품"
+        },
+        {
+            "title": "크림치즈계의 게임체인저",
+            "link": "https://www.youtube.com/watch?v=h9lTJB-BZ0s",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "청소업체 사장도 집에서 사용하는 세제 2가지 #입주청소 #청소업체",
+            "link": "https://www.youtube.com/watch?v=hMeRqYSdFgU",
+            "item_category": "청소"
+        },
+        {
+            "title": "바르기만 하면 방수가 된다!",
+            "link": "https://www.youtube.com/watch?v=-vFvCD_EG9k",
+            "item_category": "기타"
+        },
+        {
+            "title": "자동냄비 롤팬 1년 써봄",
+            "link": "https://www.youtube.com/watch?v=Qgn8Vv__tog",
+            "item_category": "주방"
+        },
+        {
+            "title": "당뇨환자가 먹어도 혈당 완전 착한 \"동그랑땡\"을 찾았습니다 #당뇨 #혈당",
+            "link": "https://www.youtube.com/watch?v=QQWeZNnkxIM",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "10배는 개운해지는 인생 목욕꿀템 BEST8",
+            "link": "https://www.youtube.com/watch?v=fqiW8-3oC-c",
+            "item_category": "욕실"
+        },
+        {
+            "title": "최소 2번 이상 먹었던 서문시장 간식 모음집!",
+            "link": "https://www.youtube.com/watch?v=Toup_a0ZOj4",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "미국 소스시장을 씹어먹은 마법의 소스",
+            "link": "https://www.youtube.com/watch?v=GPeF16iUHNo",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "우리집 냉동실 구원템",
+            "link": "https://www.youtube.com/watch?v=mw-nLm_UFPk",
+            "item_category": "즉석식품"
+        },
+        {
+            "title": "맨날 청소하는 펜션 사장 추천 쿠팡 청소템 3가지",
+            "link": "https://www.youtube.com/watch?v=Jc0UaSE53Vs",
+            "item_category": "청소"
+        },
+        {
+            "title": "해외여행 비상식량 총정리",
+            "link": "https://www.youtube.com/watch?v=TC1GfdUHj18",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "자취생 환장하는 간편식",
+            "link": "https://www.youtube.com/watch?v=etr3NIZDtNw",
+            "item_category": "즉석식품"
+        },
+        {
+            "title": "코스트코에서 이 치즈 꼭! 사와요 #코스트코 #살림 #어퍼하우스",
+            "link": "https://www.youtube.com/watch?v=ZBwosHAHxO0",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "⭐️50만뷰⭐하나에 158원🤣 이 가격에 이 맛이면 사기임..",
+            "link": "https://www.youtube.com/watch?v=n7sPt0VA7rg",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "맛집 사장님들이 꼭 쓴다는 발명템ㅋㅋ",
+            "link": "https://www.youtube.com/watch?v=-YS6JwI5LBo",
+            "item_category": "주방"
+        },
+        {
+            "title": "다이어트 간식 맛 1티어! 극락행 보장",
+            "link": "https://www.youtube.com/watch?v=gR5Lt-qsDwA",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "사장님 얼굴걸고 판매하는 쿠팡 삼겹살 진짜 맛있을까?",
+            "link": "https://www.youtube.com/watch?v=0Z7w5P-gT9A",
+            "item_category": "기타"
+        },
+        {
+            "title": "외출할 때 필수!  쿠팡 가방 속 꿀템 5가지",
+            "link": "https://www.youtube.com/watch?v=DnAI-bbILeQ",
+            "item_category": "기타"
+        },
+        {
+            "title": "일본 돈키호테 칼디 가기전에 이거 안보면 후회합니다",
+            "link": "https://www.youtube.com/watch?v=NHvnLNUvzmQ",
+            "item_category": "기타"
+        },
+        {
+            "title": "모두가 탐내는 신박한 쿠팡추천템 세 가지",
+            "link": "https://www.youtube.com/watch?v=63wr0SAlCG0",
+            "item_category": "기타"
+        },
+        {
+            "title": "⭐️50만뷰⭐️냉동실에서 꺼내먹어요",
+            "link": "https://www.youtube.com/watch?v=N_meUuW1tDE",
+            "item_category": "즉석식품"
+        },
+        {
+            "title": "10kg 뺄때 먹은 대체음식",
+            "link": "https://www.youtube.com/watch?v=jvIJ0VDCc38",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "자취 10년차가 추천하는 효율템",
+            "link": "https://www.youtube.com/watch?v=iX_Im1AQUhc",
+            "item_category": "기타"
+        },
+        {
+            "title": "⭐️150만뷰⭐️ 쿠팡에서 3만원대로 외식느낌 일주일집밥! #가성비 #식비절약 #쿠팡추천",
+            "link": "https://www.youtube.com/watch?v=1PLVrEMn17Q",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "결벽증 친구 극찬 청소템 3가지(고정댓글📌)",
+            "link": "https://www.youtube.com/watch?v=SsiecbJX4cs",
+            "item_category": "청소"
+        },
+        {
+            "title": "폭식을 막아주는 대체음식",
+            "link": "https://www.youtube.com/watch?v=lk-H_MurTds",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "요리가 필요없는 캠핑음식ㅋ",
+            "link": "https://www.youtube.com/watch?v=r7BT1EldrXU",
+            "item_category": "즉석식품"
+        },
+        {
+            "title": "소스에 진심인 일본ㄷㄷ",
+            "link": "https://www.youtube.com/watch?v=jiRd1Jd-zEY",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "안쓰면 정말 손해인 쿠팡 꿀템 세 가지",
+            "link": "https://www.youtube.com/watch?v=vlPCswDiriI",
+            "item_category": "기타"
+        },
+        {
+            "title": "친구가 따라샀던 주방용품 세가지",
+            "link": "https://www.youtube.com/watch?v=5T3BE08Fq80",
+            "item_category": "주방"
+        },
+        {
+            "title": "일본 편의점 찐추천템 제발 한번만 먹어봐",
+            "link": "https://www.youtube.com/watch?v=jgFuqVTelwA",
+            "item_category": "즉석식품"
+        },
+        {
+            "title": "속세맛 저당 초코 아이스크림 #shorts",
+            "link": "https://www.youtube.com/watch?v=csWHnyeNK1o",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "써보고 감탄한 살림이 쉬워지는 꿀템 4가지✨#신박한 살림템",
+            "link": "https://www.youtube.com/watch?v=eVV9CnULg1c",
+            "item_category": "기타"
+        },
+        {
+            "title": "노브랜드 극락템 ㄷㄷ #간식",
+            "link": "https://www.youtube.com/watch?v=NmgqkuyEZ38",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "일본 편의점 디저트 30개 먹고 고른 찐추천 리스트",
+            "link": "https://www.youtube.com/watch?v=CIqn2cGvgPU",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "노하우 대방출! 아무도 몰랐던 필살기 자취템 5가지",
+            "link": "https://www.youtube.com/watch?v=KefarcBq2rA",
+            "item_category": "기타"
+        },
+        {
+            "title": "역대급 다이어트 간식",
+            "link": "https://www.youtube.com/watch?v=D9iq8wSLZrM",
+            "item_category": "가공식품/간식"
+        },
+        {
             "title": "나만 알기 아까운 만능 캐니스터!",
-            "link": "https://www.youtube.com/watch?v=fwYU0HVzhvI"
+            "link": "https://www.youtube.com/watch?v=fwYU0HVzhvI",
+            "item_category": "주방"
         },
         {
             "title": "⚡️삶의 질 수직상승 꿀템 TOP3",
-            "link": "https://www.youtube.com/watch?v=YtZ6uOa-Ya4"
+            "link": "https://www.youtube.com/watch?v=YtZ6uOa-Ya4",
+            "item_category": "기타"
         },
         {
-            "title": "기름범벅 제발 그만 !!",
-            "link": "https://www.youtube.com/watch?v=uqg45tIKZFM"
+            "title": "일본 편의점 컵라면 베스트 7 - 가격 정보 등 댓글 확인 #일본편의점 #일본컵라면 #일본편의점추천 #일본간식 #일본세븐일레븐 #일본패밀리마트 #일본여행 #오사카여행 #도쿄여행",
+            "link": "https://www.youtube.com/watch?v=M4t-Qz4AU_k",
+            "item_category": "즉석식품"
         },
         {
-            "title": "Easy Blender Trick 🔥 #shorts #blender #tutorial",
-            "link": "https://www.youtube.com/watch?v=FLnvwgoH8RA"
+            "title": "한국인도 반할 영국인 추천 🔥핫소스?! 👀 #두유노쿠팡 =3편= #댓글이벤트 #shorts",
+            "link": "https://www.youtube.com/watch?v=hr7_75aDP1Q",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "CU 다이어트 추천템 TOP4",
+            "link": "https://www.youtube.com/watch?v=wmKaMErczUY",
+            "item_category": "가공식품/간식"
         },
         {
             "title": "쓰레기 없이 음식포장 어디까지 해봤니? #용기정보는댓글#공동구매",
-            "link": "https://www.youtube.com/watch?v=j9ShtUbe0qg"
-        },
-        {
-            "title": "Ice Restock 🧊🧊🧊🧊🧊",
-            "link": "https://www.youtube.com/watch?v=koDBBt-xbg8"
+            "link": "https://www.youtube.com/watch?v=j9ShtUbe0qg",
+            "item_category": "주방"
         }
     ]
 };
@@ -4369,10 +4543,6 @@ window.BEAUTY_DATA = {
         {
             "title": "이걸 왜 아직도 안바르노!기본중에 기본이라고🔥 #shorts#아랄라얍",
             "link": "https://www.youtube.com/watch?v=mT7x7h9CCKk"
-        },
-        {
-            "title": "다이소 찐고인물이 진짜 잘 썼던 다이소 브러쉬 총집합!! #다이소추천템",
-            "link": "https://www.youtube.com/watch?v=a1mg7feFYHM"
         },
         {
             "title": "돈없어도 고급미up🔺 배우st 얼굴 뽕 살리는 꿀팁 #수지메이크업 #고윤정메이크업",
@@ -4515,20 +4685,8 @@ window.BEAUTY_DATA = {
             "link": "https://www.youtube.com/watch?v=GCnBQd754JI"
         },
         {
-            "title": "종아리는 알 말고 ‘여기’를 풀어야 해요",
-            "link": "https://www.youtube.com/watch?v=Tp8DvosqT2Y"
-        },
-        {
             "title": "초보도 실패없는 아이메이크업 꿀팁ㅣ전문가가 알려주는 눈화장 법 #아이메이크업 #노글루속눈썹 #아이섀도우추천",
             "link": "https://www.youtube.com/watch?v=osghPA5IB2w"
-        },
-        {
-            "title": "예뻐서 샀는데 이것만 써요!",
-            "link": "https://www.youtube.com/watch?v=-iXPqvAGLjk"
-        },
-        {
-            "title": "🔻다리라인&체형교정을 하시려면 발 아치부터 교정해야 합니다✅ 하루 3분만 투자해서 따라해보세요!❤️‍🔥 여자들의 로망! 일자다리 만드는 동작! 여러분도 해보세요👐🏻",
-            "link": "https://www.youtube.com/watch?v=4aHzFWbEMis"
         },
         {
             "title": "피치핑크 사랑하는사람 다 모여",
@@ -4561,10 +4719,6 @@ window.BEAUTY_DATA = {
         {
             "title": "#앞머리 #사이드뱅 그루프 #헤어꿀팁 🎀 #koreanbeauty #koreanhairstyles #셀프스타일링 #셀프드라이 #koreangirls #shorts #short",
             "link": "https://www.youtube.com/watch?v=SHzllSwbpuo"
-        },
-        {
-            "title": "10배는 개운해지는 인생 목욕꿀템 BEST8",
-            "link": "https://www.youtube.com/watch?v=fqiW8-3oC-c"
         },
         {
             "title": "얼굴 길어보이는 코쉐딩은 그만❌전직 맥언니의 코 2배 높아보이는 3D코쉐딩 방법!! #똥손탈출",
@@ -4679,10 +4833,6 @@ window.BEAUTY_DATA = {
             "link": "https://www.youtube.com/watch?v=elXEk_1Fg1Q"
         },
         {
-            "title": "턱살 빼는법",
-            "link": "https://www.youtube.com/watch?v=KfN1ny5ZmSA"
-        },
-        {
             "title": "피부 고민별 약국 꿀템 9가지",
             "link": "https://www.youtube.com/watch?v=TSOtH7YcZXA"
         },
@@ -4715,10 +4865,6 @@ window.BEAUTY_DATA = {
             "link": "https://www.youtube.com/watch?v=UsAclDKuvUU"
         },
         {
-            "title": "팔뚝살 빨리 빼고 싶으시면 꼭 보세요 (초간단 림프 마사지 3종 세트)",
-            "link": "https://www.youtube.com/watch?v=0Ske5V55Cbg"
-        },
-        {
             "title": "중단발도 가능한 mz세대 반묶음 묶는법",
             "link": "https://www.youtube.com/watch?v=XqChe2lKEwc"
         },
@@ -4749,6 +4895,26 @@ window.BEAUTY_DATA = {
         {
             "title": "⭕️평생써먹는⭕️초간단 c컬 고데기 #레이어드컷",
             "link": "https://www.youtube.com/watch?v=r85OJSkCgLU"
+        },
+        {
+            "title": "한듯 안한듯 자연스러운 #아이메이크업 #숑스뷰티 #아이라인그리는법 #트임메이크업",
+            "link": "https://www.youtube.com/watch?v=0MaP6x3rh5Y"
+        },
+        {
+            "title": "진한 다크서클엔 컨실러만 쓰면 절대 안돼요!!!🔥(+진한 다크서클 완벽히 없애는 법 3가지)",
+            "link": "https://www.youtube.com/watch?v=_H78iuOEenM"
+        },
+        {
+            "title": "고데기❌ 옆볼륨 살리는 초간단 방법!  #헤어볼륨  #뿌리펌 #고데기하는법 #뿌리볼륨 #뿌리볼륨살리는법 #koreahair #koreahairstyle",
+            "link": "https://www.youtube.com/watch?v=xRMzYi7HyGc"
+        },
+        {
+            "title": "#여자헤어스타일 옆볼륨 살리는 방법입니다!",
+            "link": "https://www.youtube.com/watch?v=GeTRGJ0A5uU"
+        },
+        {
+            "title": "#옆볼륨#긴얼굴형#긴중앙보 #shorts #셀프스타일링#여자머리스타일 #볼륨#레이어드컷 #긴머리",
+            "link": "https://www.youtube.com/watch?v=69GLnyAzy0g"
         },
         {
             "title": "쿠션 안 뜨는 방법 #shorts",
@@ -4885,10 +5051,6 @@ window.BEAUTY_DATA = {
         {
             "title": "쿠팡 일본 직구 뷰티템 베스트5 2탄",
             "link": "https://www.youtube.com/watch?v=QKtFGP9ZHkE"
-        },
-        {
-            "title": "승모근 없애는 운동입니다! 직각어깨, 일자어깨 같이 만들어요🙆🏻‍♀️ #승모근없애는법 #승모근없애기 #일자어깨",
-            "link": "https://www.youtube.com/watch?v=nT_0u3Nz2ik"
         },
         {
             "title": "짱 쉬운데  예쁨 보장👏🏻 밋밋한 묶은머리 5초만에 우아하게💕",

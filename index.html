@@ -336,6 +336,24 @@
             overflow: hidden;
         }
 
+        .good-item-categories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .item-category-tag {
+            display: inline-block;
+            width: fit-content;
+            margin-top: 1rem;
+            font-size: 0.8rem;
+            padding: 4px 10px;
+            border-radius: 999px;
+            color: var(--success-color);
+            background: rgba(0, 184, 148, 0.1);
+            border: 1px solid rgba(0, 184, 148, 0.2);
+        }
+
         @media (max-width: 768px) {
             h1 {
                 font-size: 2rem;
@@ -363,6 +381,7 @@
         <div class="tab-nav">
             <button class="tab-btn active" data-tab="recipe" onclick="switchTab('recipe')">요리 레시피</button>
             <button class="tab-btn" data-tab="housework" onclick="switchTab('housework')">집안일</button>
+            <button class="tab-btn" data-tab="goodItem" onclick="switchTab('goodItem')">꿀템</button>
             <button class="tab-btn" data-tab="beauty" onclick="switchTab('beauty')">뷰티</button>
         </div>
 
@@ -408,6 +427,28 @@
             </div>
         </div>
 
+        <!-- Good Item Tab -->
+        <div id="tab-goodItem" class="tab-content">
+            <div class="filter-section">
+                <input type="text" id="goodItemSearchInput" class="housework-search-box" placeholder="꿀템 영상 검색">
+                <div id="goodItemCategories" class="good-item-categories">
+                    <!-- Good item category chips injected by JS -->
+                </div>
+                <div class="control-bar">
+                    <span class="selected-count">영상 <span id="goodItemCount">0</span>개</span>
+                    <button class="btn-clear" onclick="clearGoodItemCategory()">소분류 초기화</button>
+                </div>
+            </div>
+
+            <div class="results-section">
+                <h2>꿀템 영상 <span id="goodItemMatchCount"
+                        style="font-size: 0.8em; color: var(--text-secondary); font-weight: normal;"></span></h2>
+                <div id="goodItemContainer" class="recipes-grid">
+                    <!-- Good item cards injected by JS -->
+                </div>
+            </div>
+        </div>
+
         <!-- Beauty Tab -->
         <div id="tab-beauty" class="tab-content">
             <div class="filter-section">
@@ -445,6 +486,14 @@
             // Housework State
             const hwState = {
                 videos: [],
+                searchTerm: ''
+            };
+
+            // Good Item State
+            const goodItemState = {
+                categories: [],
+                videos: [],
+                selectedCategory: '',
                 searchTerm: ''
             };
 
@@ -498,6 +547,32 @@
                     hwState.searchTerm = e.target.value.toLowerCase();
                     renderHousework(hwState);
                 });
+            }
+
+            // Initialize Good Items
+            if (window.GOOD_ITEM_DATA) {
+                goodItemState.categories = window.GOOD_ITEM_DATA.categories || [];
+                goodItemState.videos = window.GOOD_ITEM_DATA.videos || [];
+                document.getElementById('goodItemCount').textContent = goodItemState.videos.length;
+                renderGoodItemCategories(goodItemState);
+                renderGoodItems(goodItemState);
+
+                document.getElementById('goodItemSearchInput').addEventListener('input', (e) => {
+                    goodItemState.searchTerm = e.target.value.toLowerCase();
+                    renderGoodItems(goodItemState);
+                });
+
+                window.toggleGoodItemCategory = (category) => {
+                    goodItemState.selectedCategory = goodItemState.selectedCategory === category ? '' : category;
+                    renderGoodItemCategories(goodItemState);
+                    renderGoodItems(goodItemState);
+                };
+
+                window.clearGoodItemCategory = () => {
+                    goodItemState.selectedCategory = '';
+                    renderGoodItemCategories(goodItemState);
+                    renderGoodItems(goodItemState);
+                };
             }
 
             // Initialize Beauty
@@ -555,6 +630,7 @@
             let titleFiltered = state.recipes.filter(recipe =>
                 recipe.title.toLowerCase().includes(state.searchTerm)
             );
+            let displayRecipes;
 
             if (state.selected.size === 0) {
                 displayRecipes = titleFiltered;
@@ -632,6 +708,50 @@
                 card.className = 'housework-card';
                 card.target = "_blank";
                 card.innerHTML = `<div class="card-title">${video.title}</div>`;
+                container.appendChild(card);
+            });
+        }
+
+        function renderGoodItemCategories(goodItemState) {
+            const container = document.getElementById('goodItemCategories');
+            container.innerHTML = '';
+
+            goodItemState.categories.forEach(category => {
+                const btn = document.createElement('div');
+                btn.className = `chip ${goodItemState.selectedCategory === category ? 'selected' : ''}`;
+                btn.textContent = category;
+                btn.onclick = () => window.toggleGoodItemCategory(category);
+                container.appendChild(btn);
+            });
+        }
+
+        function renderGoodItems(goodItemState) {
+            const container = document.getElementById('goodItemContainer');
+            const matchCountEl = document.getElementById('goodItemMatchCount');
+            container.innerHTML = '';
+
+            const filtered = goodItemState.videos.filter(v => {
+                const titleMatches = v.title.toLowerCase().includes(goodItemState.searchTerm);
+                const categoryMatches = !goodItemState.selectedCategory || v.item_category === goodItemState.selectedCategory;
+                return titleMatches && categoryMatches;
+            });
+
+            matchCountEl.textContent = `(${filtered.length})`;
+
+            if (filtered.length === 0) {
+                container.innerHTML = `<div class="empty-state">꿀템 영상이 없습니다.</div>`;
+                return;
+            }
+
+            filtered.forEach(video => {
+                const card = document.createElement('a');
+                card.href = video.link;
+                card.className = 'housework-card';
+                card.target = "_blank";
+                card.innerHTML = `
+                    <div class="card-title">${video.title}</div>
+                    <span class="item-category-tag">${video.item_category || '기타'}</span>
+                `;
                 container.appendChild(card);
             });
         }
