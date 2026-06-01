@@ -4011,6 +4011,14 @@ window.RECIPE_DATA = {
             ]
         },
         {
+            "title": "AI 유리 채소 자르기 실패 모음 🥒💥 #aiasmr #shorts",
+            "link": "https://www.youtube.com/watch?v=7IT6x0vgFIE",
+            "ingredients": [
+                "오이",
+                "당근"
+            ]
+        },
+        {
             "title": "2년 만에 찾은 인생 덮밥",
             "link": "https://www.youtube.com/watch?v=rX7tvm_viIA",
             "ingredients": [
@@ -4035,12 +4043,249 @@ window.RECIPE_DATA = {
                 "감자",
                 "소고기"
             ]
+        },
+        {
+            "title": "에프로 바베큐를 만들면?",
+            "link": "https://www.youtube.com/watch?v=C_CnzUQyp3Y",
+            "ingredients": [
+                "돼지고기",
+                "소금",
+                "후추",
+                "파프리카",
+                "식초",
+                "설탕",
+                "버터"
+            ]
+        },
+        {
+            "title": "다른 반찬 필요없다",
+            "link": "https://www.youtube.com/watch?v=H5_Cy3eLK3Y",
+            "ingredients": [
+                "소고기",
+                "마늘",
+                "된장",
+                "고추장",
+                "버섯",
+                "대파",
+                "두부"
+            ]
+        },
+        {
+            "title": "육즙팡팡 겉바속촉 통삼겹구이 황금레시피",
+            "link": "https://www.youtube.com/watch?v=VHko73awqtQ",
+            "ingredients": [
+                "돼지고기",
+                "소금",
+                "후추",
+                "레몬(레몬즙)",
+                "마늘",
+                "식용유",
+                "식초",
+                "계란"
+            ]
+        },
+        {
+            "title": "원팬 제육덮밥 맛집급 레시피",
+            "link": "https://www.youtube.com/watch?v=gO80YJHrKVk",
+            "ingredients": [
+                "돼지고기",
+                "식용유",
+                "마늘",
+                "대파",
+                "양파",
+                "양배추",
+                "간장",
+                "고추장",
+                "설탕",
+                "고춧가루",
+                "참기름"
+            ]
+        },
+        {
+            "title": "뼈 쏙빠지는 등갈비찜 만드는 법",
+            "link": "https://www.youtube.com/watch?v=xyjizsgkZPA",
+            "ingredients": [
+                "돼지고기",
+                "간장",
+                "설탕",
+                "굴소스",
+                "대파",
+                "양파",
+                "마늘",
+                "참기름",
+                "청양고추",
+                "깨"
+            ]
+        },
+        {
+            "title": "찜기 없이 우삼겹찜 만들기",
+            "link": "https://www.youtube.com/watch?v=HQXZBGbjsSE",
+            "ingredients": [
+                "소고기",
+                "버섯",
+                "콩나물/숙주",
+                "후추",
+                "청양고추",
+                "간장",
+                "설탕",
+                "식초"
+            ]
+        },
+        {
+            "title": "진짜보다 맛있는 야매 팟타이",
+            "link": "https://www.youtube.com/watch?v=Z5kwxt6lwrs",
+            "ingredients": [
+                "당면",
+                "새우",
+                "계란",
+                "콩나물/숙주",
+                "부추",
+                "양파",
+                "마늘",
+                "청양고추",
+                "굴소스",
+                "간장",
+                "멸치",
+                "설탕"
+            ]
+        },
+        {
+            "title": "사 먹는 게 아깝다 🍝 10분 컷 원팬 로제파스타! 집밥 자취요리 레시피",
+            "link": "https://www.youtube.com/watch?v=cQ7JrdcPbzs",
+            "ingredients": [
+                "파스타면",
+                "치즈",
+                "요거트",
+                "고춧가루",
+                "생크림",
+                "버터",
+                "소금",
+                "후추",
+                "우유"
+            ]
+        },
+        {
+            "title": "운동하고 치킨으로 단백질 채우는 여자 #치킨레시피",
+            "link": "https://www.youtube.com/watch?v=eUAZegG8GA4",
+            "ingredients": [
+                "닭고기",
+                "굴소스",
+                "마요네즈",
+                "마늘",
+                "설탕",
+                "고춧가루",
+                "케첩",
+                "후추",
+                "전분가루"
+            ]
+        },
+        {
+            "title": "아침 시간을 줄여줄 30초 토스트 비법",
+            "link": "https://www.youtube.com/watch?v=UhXHzM2_29c",
+            "ingredients": [
+                "라면"
+            ]
+        },
+        {
+            "title": "채소 싫어해도 순삭하는 전자레인지 라따뚜이🩷",
+            "link": "https://www.youtube.com/watch?v=VdhPq_nSRvA",
+            "ingredients": [
+                "애호박",
+                "가지",
+                "토마토",
+                "버섯",
+                "마늘",
+                "소금",
+                "후추",
+                "치즈",
+                "파프리카",
+                "당근",
+                "스팸(햄)"
+            ]
+        },
+        {
+            "title": "업장용 버터 스콘 초간단 버젼 레시피(초보자도 가능)",
+            "link": "https://www.youtube.com/watch?v=nLcJtWuy6wo",
+            "ingredients": [
+                "밀가루",
+                "버터",
+                "설탕",
+                "소금",
+                "생크림",
+                "잼"
+            ]
+        },
+        {
+            "title": "사먹으면2만원 원가 3천원?!🫢",
+            "link": "https://www.youtube.com/watch?v=TJUuCHrEASg",
+            "ingredients": [
+                "돼지고기",
+                "쪽파",
+                "버섯",
+                "콩나물/숙주",
+                "라면",
+                "마늘",
+                "김",
+                "계란"
+            ]
+        },
+        {
+            "title": "20년 주방이모의 소름 돋는 초간단 요리 꿀팁",
+            "link": "https://www.youtube.com/watch?v=paK1u-XfyXQ",
+            "ingredients": [
+                "양파",
+                "감자",
+                "고구마",
+                "파프리카"
+            ]
+        },
+        {
+            "title": "1시간 들여 8끼 만들기!",
+            "link": "https://www.youtube.com/watch?v=RMxUgFzHOVQ",
+            "ingredients": [
+                "양파",
+                "닭고기",
+                "소금",
+                "또띠아",
+                "치즈"
+            ]
+        },
+        {
+            "title": "모양부터 일단 합격이래요.",
+            "link": "https://www.youtube.com/watch?v=Xl0VlewpXXY",
+            "ingredients": [
+                "계란",
+                "버터",
+                "스팸(햄)",
+                "식빵",
+                "잼"
+            ]
+        },
+        {
+            "title": "사레레 더 맛있게 먹는법",
+            "link": "https://www.youtube.com/watch?v=dAp8Y2Oo6RQ",
+            "ingredients": [
+                "닭고기",
+                "고구마"
+            ]
+        },
+        {
+            "title": "기름범벅 제발 그만 !!",
+            "link": "https://www.youtube.com/watch?v=uqg45tIKZFM",
+            "ingredients": [
+                "파스타면",
+                "소금"
+            ]
         }
     ]
 };
 
 window.HOUSEWORK_DATA = {
     "videos": [
+        {
+            "title": "쇼핑백 접었더니 뚜껑 달린 수납함이 되네요",
+            "link": "https://www.youtube.com/watch?v=oQV5F9USEac"
+        },
         {
             "title": "마늘 소분/보관 팁 이걸로 종결! #식재료소분법 #식재료보관팁 #음식소분 #마늘보관법 #마늘소분 #다진마늘보관 #Foodstorage #FoodStorageTips #생활꿀팁",
             "link": "https://www.youtube.com/watch?v=GUcNJX_nOrE"
@@ -4074,6 +4319,10 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=3fypB2Ya5yI"
         },
         {
+            "title": "주방 인테리어 장단점 총정리 (3탄)",
+            "link": "https://www.youtube.com/watch?v=coauG-UB-UQ"
+        },
+        {
             "title": "1.5룸 오피스텔 화장실청소 2주 루틴",
             "link": "https://www.youtube.com/watch?v=I_rMEHUEJrA"
         },
@@ -4090,8 +4339,12 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=Hy6YseX92Ts"
         },
         {
-            "title": "안돼 치즈 굳어",
-            "link": "https://www.youtube.com/watch?v=8RHTeRZyAms"
+            "title": "손님오기 10분전 욕실청소! #핑크스터프#화장실#청소템",
+            "link": "https://www.youtube.com/watch?v=RNZbnKZlKyw"
+        },
+        {
+            "title": "대충 했는데 의외로 완벽했던 냉동 보관 BEST 5! #살림템 #신혼부부",
+            "link": "https://www.youtube.com/watch?v=KF-jqYtnrEw"
         },
         {
             "title": "5인가족 삼남매엄마의 코스트코 장바구니 정리하는 법#코스트코#costco",
@@ -4134,20 +4387,12 @@ window.HOUSEWORK_DATA = {
             "link": "https://www.youtube.com/watch?v=j2BF7BCwKlY"
         },
         {
-            "title": "밥 먹을 때마다 흘리는 사람들 무조건 보십쇼",
-            "link": "https://www.youtube.com/watch?v=PLfO3oQVIFE"
-        },
-        {
             "title": "지속적인 정리를 위해 딱 3가지만 지켜요 ✨ #살림 #집정리 #home",
             "link": "https://www.youtube.com/watch?v=Xj2YM4zJpus"
         },
         {
             "title": "화장실 청소 영업비밀 🧙🏻‍♀️",
             "link": "https://www.youtube.com/watch?v=e_8lFWcgxPQ"
-        },
-        {
-            "title": "여름에 불 쓰지 마세요",
-            "link": "https://www.youtube.com/watch?v=Sqaeh_PnM2E"
         },
         {
             "title": "볼 때 마다 만족스러운 우리 집 틈새수납법 대공개🙌🏻 #리블리홈",
@@ -4164,10 +4409,6 @@ window.HOUSEWORK_DATA = {
         {
             "title": "간단한 운동화 세탁법|세탁기에 운동화세탁#살림#꿀팁#청소",
             "link": "https://www.youtube.com/watch?v=4wg3W4jGVlo"
-        },
-        {
-            "title": "멀티쿠커 최악의 단점. 을 해결했습니다 ㄷㄷ",
-            "link": "https://www.youtube.com/watch?v=2_f5TNVoNKQ"
         },
         {
             "title": "주인이 원상 복구 하고 가래요 #살림팁 #인테리어",
@@ -4191,6 +4432,36 @@ window.GOOD_ITEM_DATA = {
         "기타"
     ],
     "videos": [
+        {
+            "title": "식세기 있어도 허리 아픈 이유! #생활꿀템 #생활가전추천 #생활가전 #식기세척기 #식기세척기추천 #인테리어꿀템 #인테리어디자인 #주방꿀템 #주방인테리어 #주방디자인 #신박템",
+            "link": "https://www.youtube.com/watch?v=VoVN_2_aKXI",
+            "item_category": "주방"
+        },
+        {
+            "title": "와 이 꿀템을 지금 알았네요 #제품리뷰 #과즙젖병",
+            "link": "https://www.youtube.com/watch?v=f3UJvmzjhe8",
+            "item_category": "기타"
+        },
+        {
+            "title": "못생겨서 오히려 좋은 고급음식",
+            "link": "https://www.youtube.com/watch?v=7yhplsjUxe0",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "업소용 식재료의 정체",
+            "link": "https://www.youtube.com/watch?v=W0laeE5Fm-I",
+            "item_category": "기타"
+        },
+        {
+            "title": "그냥 한번만 드셔보세요...",
+            "link": "https://www.youtube.com/watch?v=z6wxIeQA6zs",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "겁나 잘쓰는 유난템",
+            "link": "https://www.youtube.com/watch?v=hmu5ykGiWSc",
+            "item_category": "기타"
+        },
         {
             "title": "다이소 찐고인물이 진짜 잘 썼던 다이소 브러쉬 총집합!! #다이소추천템",
             "link": "https://www.youtube.com/watch?v=a1mg7feFYHM",
@@ -4237,6 +4508,11 @@ window.GOOD_ITEM_DATA = {
             "item_category": "가공식품/간식"
         },
         {
+            "title": "아니..여기서 왜 까르보나라 맛이나죠..?",
+            "link": "https://www.youtube.com/watch?v=lHTncCNwmgc",
+            "item_category": "가공식품/간식"
+        },
+        {
             "title": "다이소 칫솔꽂이를 화병에 넣으면,, #다이소#다이소추천템#다이소diy#다이소화병#다이소꿀템#화병만들기#나타나라",
             "link": "https://www.youtube.com/watch?v=gja-cnkRzZs",
             "item_category": "욕실"
@@ -4257,11 +4533,6 @@ window.GOOD_ITEM_DATA = {
             "item_category": "주방"
         },
         {
-            "title": "손님오기 10분전 욕실청소! #핑크스터프#화장실#청소템",
-            "link": "https://www.youtube.com/watch?v=RNZbnKZlKyw",
-            "item_category": "욕실"
-        },
-        {
             "title": "난각1번유정란",
             "link": "https://www.youtube.com/watch?v=haARKkqa5bQ",
             "item_category": "기타"
@@ -4270,11 +4541,6 @@ window.GOOD_ITEM_DATA = {
             "title": "섬유전공자가 추천하는 겨울옷 관리템 Best 2",
             "link": "https://www.youtube.com/watch?v=ub6Lz0awFgs",
             "item_category": "기타"
-        },
-        {
-            "title": "대충 했는데 의외로 완벽했던 냉동 보관 BEST 5! #살림템 #신혼부부",
-            "link": "https://www.youtube.com/watch?v=KF-jqYtnrEw",
-            "item_category": "수납/정리"
         },
         {
             "title": "자취방 보조선반 조미료보관 가성비 꿀팁",
@@ -4359,7 +4625,7 @@ window.GOOD_ITEM_DATA = {
         {
             "title": "우리집 냉동실 구원템",
             "link": "https://www.youtube.com/watch?v=mw-nLm_UFPk",
-            "item_category": "즉석식품"
+            "item_category": "수납/정리"
         },
         {
             "title": "맨날 청소하는 펜션 사장 추천 쿠팡 청소템 3가지",
@@ -4402,18 +4668,8 @@ window.GOOD_ITEM_DATA = {
             "item_category": "기타"
         },
         {
-            "title": "외출할 때 필수!  쿠팡 가방 속 꿀템 5가지",
-            "link": "https://www.youtube.com/watch?v=DnAI-bbILeQ",
-            "item_category": "기타"
-        },
-        {
             "title": "일본 돈키호테 칼디 가기전에 이거 안보면 후회합니다",
             "link": "https://www.youtube.com/watch?v=NHvnLNUvzmQ",
-            "item_category": "기타"
-        },
-        {
-            "title": "모두가 탐내는 신박한 쿠팡추천템 세 가지",
-            "link": "https://www.youtube.com/watch?v=63wr0SAlCG0",
             "item_category": "기타"
         },
         {
@@ -4434,7 +4690,7 @@ window.GOOD_ITEM_DATA = {
         {
             "title": "⭐️150만뷰⭐️ 쿠팡에서 3만원대로 외식느낌 일주일집밥! #가성비 #식비절약 #쿠팡추천",
             "link": "https://www.youtube.com/watch?v=1PLVrEMn17Q",
-            "item_category": "가공식품/간식"
+            "item_category": "즉석식품"
         },
         {
             "title": "결벽증 친구 극찬 청소템 3가지(고정댓글📌)",
@@ -4455,6 +4711,11 @@ window.GOOD_ITEM_DATA = {
             "title": "소스에 진심인 일본ㄷㄷ",
             "link": "https://www.youtube.com/watch?v=jiRd1Jd-zEY",
             "item_category": "가공식품/간식"
+        },
+        {
+            "title": "돼지고기 목살 세일하면 무조건 사오셔야합니다.",
+            "link": "https://www.youtube.com/watch?v=Md8wqavBliQ",
+            "item_category": "기타"
         },
         {
             "title": "안쓰면 정말 손해인 쿠팡 꿀템 세 가지",
@@ -4502,6 +4763,11 @@ window.GOOD_ITEM_DATA = {
             "item_category": "가공식품/간식"
         },
         {
+            "title": "멀티쿠커 최악의 단점. 을 해결했습니다 ㄷㄷ",
+            "link": "https://www.youtube.com/watch?v=2_f5TNVoNKQ",
+            "item_category": "주방"
+        },
+        {
             "title": "나만 알기 아까운 만능 캐니스터!",
             "link": "https://www.youtube.com/watch?v=fwYU0HVzhvI",
             "item_category": "주방"
@@ -4515,6 +4781,11 @@ window.GOOD_ITEM_DATA = {
             "title": "일본 편의점 컵라면 베스트 7 - 가격 정보 등 댓글 확인 #일본편의점 #일본컵라면 #일본편의점추천 #일본간식 #일본세븐일레븐 #일본패밀리마트 #일본여행 #오사카여행 #도쿄여행",
             "link": "https://www.youtube.com/watch?v=M4t-Qz4AU_k",
             "item_category": "즉석식품"
+        },
+        {
+            "title": "빽다방의 미친 존맛탱 TOP5",
+            "link": "https://www.youtube.com/watch?v=IKEJeqTB2m0",
+            "item_category": "가공식품/간식"
         },
         {
             "title": "한국인도 반할 영국인 추천 🔥핫소스?! 👀 #두유노쿠팡 =3편= #댓글이벤트 #shorts",
@@ -4687,6 +4958,10 @@ window.BEAUTY_DATA = {
         {
             "title": "초보도 실패없는 아이메이크업 꿀팁ㅣ전문가가 알려주는 눈화장 법 #아이메이크업 #노글루속눈썹 #아이섀도우추천",
             "link": "https://www.youtube.com/watch?v=osghPA5IB2w"
+        },
+        {
+            "title": "예뻐서 샀는데 이것만 써요!",
+            "link": "https://www.youtube.com/watch?v=-iXPqvAGLjk"
         },
         {
             "title": "피치핑크 사랑하는사람 다 모여",
