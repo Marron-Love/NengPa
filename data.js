@@ -564,7 +564,7 @@ window.RECIPE_DATA = {
         {
             "title": "밀가루❌설탕❌ 전자렌지로 만드는 렌틸단호박빵 🎃",
             "link": "https://www.youtube.com/watch?v=TT9AwMrh2yo",
-            "category": "기타",
+            "category": "디저트",
             "ingredients": [
                 "단호박"
             ]
@@ -1075,7 +1075,7 @@ window.RECIPE_DATA = {
         {
             "title": "No 밀가루,아몬드가루로 만드는 다이어트빵 레시피 #다이어트레시피 #혈당조절 #다이어트빵 #다이어트식단 #마른비만",
             "link": "https://www.youtube.com/watch?v=x9J91ju97VE",
-            "category": "양식",
+            "category": "디저트",
             "ingredients": [
                 "견과류(아몬드/호두)",
                 "계란",
@@ -1173,7 +1173,7 @@ window.RECIPE_DATA = {
         {
             "title": "속세맛..노밀가루❗️아몬드 버터 베이글? #shorts #다이어트레시피 #다이어트식단 #당뇨",
             "link": "https://www.youtube.com/watch?v=qrBc3JY212A",
-            "category": "양식",
+            "category": "디저트",
             "ingredients": [
                 "견과류(아몬드/호두)",
                 "버터"
@@ -1571,7 +1571,7 @@ window.RECIPE_DATA = {
         {
             "title": "온가족이 양파를 맛있게 먹을수있는 레시피 데리야끼#삼겹도넛링",
             "link": "https://www.youtube.com/watch?v=BMPMG5DcKFg",
-            "category": "한식",
+            "category": "디저트",
             "ingredients": [
                 "돼지고기",
                 "양파",
@@ -1593,7 +1593,7 @@ window.RECIPE_DATA = {
         {
             "title": "후다닥 만들어 맛있게 먹는 마약 옥수수 토스트 Korean Corn Toast",
             "link": "https://www.youtube.com/watch?v=ccM9JazL9rk",
-            "category": "한식",
+            "category": "디저트",
             "ingredients": [
                 "옥수수콘(스위트콘)",
                 "마요네즈",
@@ -2346,7 +2346,7 @@ window.RECIPE_DATA = {
         {
             "title": "오사카에서 계란 샌드위치를 주문하면 생기는 일",
             "link": "https://www.youtube.com/watch?v=QMceTG82O7c",
-            "category": "양식",
+            "category": "디저트",
             "ingredients": [
                 "계란",
                 "식빵"
@@ -2469,7 +2469,7 @@ window.RECIPE_DATA = {
         {
             "title": "⭐️50만뷰⭐하나에 158원🤣 이 가격에 이 맛이면 사기임..",
             "link": "https://www.youtube.com/watch?v=n7sPt0VA7rg",
-            "category": "양식",
+            "category": "디저트",
             "ingredients": [
                 "감자",
                 "버터",
@@ -2624,7 +2624,7 @@ window.RECIPE_DATA = {
         {
             "title": "의외로 모르는 베이글 꿀조합",
             "link": "https://www.youtube.com/watch?v=GO8SuZ7LoJg",
-            "category": "양식",
+            "category": "디저트",
             "ingredients": [
                 "마늘"
             ]
@@ -3429,7 +3429,7 @@ window.RECIPE_DATA = {
         {
             "title": "아직 식빵 사서 드세요? 딱 4가지 재료로 10분 완성! 노밀가루 당뇨빵 브로콜리 식빵 만들기",
             "link": "https://www.youtube.com/watch?v=fiH5k54QgRg",
-            "category": "양식",
+            "category": "디저트",
             "ingredients": [
                 "브로콜리",
                 "견과류(아몬드/호두)",
@@ -4404,7 +4404,7 @@ window.RECIPE_DATA = {
         {
             "title": "아침 시간을 줄여줄 30초 토스트 비법",
             "link": "https://www.youtube.com/watch?v=UhXHzM2_29c",
-            "category": "양식",
+            "category": "디저트",
             "ingredients": [
                 "라면"
             ]
@@ -4481,7 +4481,7 @@ window.RECIPE_DATA = {
         {
             "title": "모양부터 일단 합격이래요.",
             "link": "https://www.youtube.com/watch?v=Xl0VlewpXXY",
-            "category": "기타",
+            "category": "디저트",
             "ingredients": [
                 "계란",
                 "버터",
