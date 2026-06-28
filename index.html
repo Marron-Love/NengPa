@@ -340,6 +340,7 @@
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
+            margin-bottom: 1rem;
         }
 
         .item-category-tag {
@@ -352,6 +353,10 @@
             color: var(--success-color);
             background: rgba(0, 184, 148, 0.1);
             border: 1px solid rgba(0, 184, 148, 0.2);
+        }
+
+        .recipe-card .item-category-tag {
+            margin: 0 0 1rem;
         }
 
         @media (max-width: 768px) {
@@ -389,6 +394,10 @@
         <div id="tab-recipe" class="tab-content active">
             <div class="filter-section">
                 <input type="text" id="searchInput" class="search-box" placeholder="재료나 요리 검색">
+
+                <div id="recipeCategories" class="good-item-categories">
+                    <!-- Recipe category chips injected by JS -->
+                </div>
 
                 <div id="ingredientsContainer" class="ingredients-grid">
                     <!-- Chips injected by JS -->
@@ -478,8 +487,10 @@
             // App State
             const state = {
                 allIngredients: [],
+                categories: [],
                 recipes: [],
                 selected: new Set(),
+                selectedCategory: '',
                 searchTerm: ''
             };
 
@@ -506,9 +517,11 @@
             // Initialize
             if (window.RECIPE_DATA) {
                 state.allIngredients = window.RECIPE_DATA.ingredients;
+                state.categories = window.RECIPE_DATA.categories || [];
                 state.recipes = window.RECIPE_DATA.recipes;
 
                 // Expose functions to global scope or initialize UI here
+                renderRecipeCategories(state);
                 renderIngredients(state);
                 renderRecipes(state);
 
@@ -530,6 +543,12 @@
 
                 window.clearSelection = () => {
                     state.selected.clear();
+                    state.selectedCategory = '';
+                    updateUI(state);
+                };
+
+                window.toggleRecipeCategory = (category) => {
+                    state.selectedCategory = state.selectedCategory === category ? '' : category;
                     updateUI(state);
                 };
 
@@ -614,8 +633,22 @@
             });
         }
 
+        function renderRecipeCategories(state) {
+            const container = document.getElementById('recipeCategories');
+            container.innerHTML = '';
+
+            state.categories.forEach(category => {
+                const btn = document.createElement('div');
+                btn.className = `chip ${state.selectedCategory === category ? 'selected' : ''}`;
+                btn.textContent = category;
+                btn.onclick = () => window.toggleRecipeCategory(category);
+                container.appendChild(btn);
+            });
+        }
+
         function updateUI(state) {
             document.getElementById('countValue').textContent = state.selected.size;
+            renderRecipeCategories(state);
             renderIngredients(state);
             renderRecipes(state);
         }
@@ -627,9 +660,11 @@
             container.innerHTML = '';
 
             // 1. First Filter: Title Search
-            let titleFiltered = state.recipes.filter(recipe =>
-                recipe.title.toLowerCase().includes(state.searchTerm)
-            );
+            let titleFiltered = state.recipes.filter(recipe => {
+                const titleMatches = recipe.title.toLowerCase().includes(state.searchTerm);
+                const categoryMatches = !state.selectedCategory || recipe.category === state.selectedCategory;
+                return titleMatches && categoryMatches;
+            });
             let displayRecipes;
 
             if (state.selected.size === 0) {
@@ -676,6 +711,7 @@
                 card.innerHTML = `
                 <div class="card-content">
                     <div class="card-title">${recipe.title}</div>
+                    <span class="item-category-tag">${recipe.category || '기타'}</span>
                     <div class="card-ingredients">
                         ${ingHtml}
                     </div>
