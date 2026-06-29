@@ -7,6 +7,8 @@
 # Whitelist web hosting files
 !index.html
 !data.js
+!emart_leaflet.json
+!scrape_emart_leaflet.py
 !liked_videos.json
 !cooking_recipes.json
 !housework_videos.json

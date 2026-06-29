@@ -97,22 +97,72 @@
             box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.2);
         }
 
-        .ingredients-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            max-height: 300px;
+        .ingredient-suggestions {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            margin: -0.75rem 0 1rem;
+            padding: 8px;
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            max-height: 280px;
             overflow-y: auto;
-            padding-right: 10px;
         }
 
-        .ingredients-grid::-webkit-scrollbar {
+        .ingredient-suggestions.active {
+            display: flex;
+        }
+
+        .ingredient-suggestions::-webkit-scrollbar {
             width: 8px;
         }
 
-        .ingredients-grid::-webkit-scrollbar-thumb {
+        .ingredient-suggestions::-webkit-scrollbar-thumb {
             background: var(--border-color);
             border-radius: 4px;
+        }
+
+        .suggestion-btn {
+            width: 100%;
+            padding: 10px 12px;
+            background: transparent;
+            color: var(--text-primary);
+            border: 0;
+            border-radius: 8px;
+            cursor: pointer;
+            font: inherit;
+            text-align: left;
+        }
+
+        .suggestion-btn:hover,
+        .suggestion-btn:focus {
+            outline: none;
+            background: rgba(255, 255, 255, 0.07);
+        }
+
+        .selected-ingredients {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 0 0 1.5rem;
+        }
+
+        .selected-ingredient-btn {
+            padding: 8px 12px;
+            background: var(--chip-selected);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 999px;
+            cursor: pointer;
+            font: inherit;
+            font-size: 0.9rem;
+        }
+
+        .selected-ingredient-btn:hover,
+        .selected-ingredient-btn:focus {
+            outline: none;
+            box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4);
         }
 
         .chip {
@@ -365,6 +415,63 @@
             font-weight: 600;
         }
 
+        .weekly-recommendation {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .weekly-toggle {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            background: transparent;
+            color: var(--text-primary);
+            border: 0;
+            cursor: pointer;
+            font: inherit;
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-align: left;
+        }
+
+        .weekly-toggle:focus {
+            outline: 2px solid var(--accent-color);
+            outline-offset: 4px;
+        }
+
+        .weekly-toggle-icon {
+            color: var(--text-secondary);
+        }
+
+        .weekly-content {
+            margin-top: 0.75rem;
+        }
+
+        .weekly-source {
+            margin-top: 1rem;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .weekly-source a {
+            color: var(--success-color);
+            text-decoration: none;
+        }
+
+        .weekly-items {
+            margin-left: 1.2rem;
+            color: var(--text-primary);
+        }
+
+        .weekly-items li {
+            margin: 0.25rem 0;
+        }
+
         @media (max-width: 768px) {
             h1 {
                 font-size: 2rem;
@@ -401,12 +508,30 @@
             <div class="filter-section">
                 <input type="text" id="searchInput" class="search-box" placeholder="재료나 요리 검색">
 
-                <div id="recipeCategories" class="good-item-categories">
-                    <!-- Recipe category chips injected by JS -->
+                <div id="ingredientSuggestions" class="ingredient-suggestions">
+                    <!-- Ingredient suggestions injected by JS -->
                 </div>
 
-                <div id="ingredientsContainer" class="ingredients-grid">
-                    <!-- Chips injected by JS -->
+                <div id="selectedIngredients" class="selected-ingredients">
+                    <!-- Selected ingredient buttons injected by JS -->
+                </div>
+
+                <div id="weeklyRecommendation" class="weekly-recommendation">
+                    <button type="button" id="weeklyToggle" class="weekly-toggle" aria-expanded="true"
+                        onclick="toggleWeeklyRecommendation()">
+                        <span>이번주의 재료 추천!</span>
+                        <span id="weeklyToggleIcon" class="weekly-toggle-icon">접기</span>
+                    </button>
+                    <div id="weeklyContent" class="weekly-content">
+                        <ul id="weeklyIngredientRecommendations" class="weekly-items"></ul>
+                        <div class="weekly-source">
+                            <a id="weeklyOriginalLink" href="#" target="_blank" rel="noopener">전단 원본 보기</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="recipeCategories" class="good-item-categories">
+                    <!-- Recipe category chips injected by JS -->
                 </div>
 
                 <div class="control-bar">
@@ -527,23 +652,24 @@
                 state.recipes = window.RECIPE_DATA.recipes;
 
                 // Expose functions to global scope or initialize UI here
-                renderRecipeCategories(state);
-                renderIngredients(state);
-                renderRecipes(state);
+                updateUI(state);
 
                 // Search Listener
                 document.getElementById('searchInput').addEventListener('input', (e) => {
                     state.searchTerm = e.target.value.toLowerCase();
-                    updateUI(state); // Update both chips and recipes
+                    updateUI(state);
                 });
 
                 // Global functions for onclick handlers need access to state
-                window.toggleIngredient = (ing) => {
-                    if (state.selected.has(ing)) {
-                        state.selected.delete(ing);
-                    } else {
-                        state.selected.add(ing);
-                    }
+                window.selectIngredient = (ing) => {
+                    state.selected.add(ing);
+                    state.searchTerm = '';
+                    document.getElementById('searchInput').value = '';
+                    updateUI(state);
+                };
+
+                window.removeIngredient = (ing) => {
+                    state.selected.delete(ing);
                     updateUI(state);
                 };
 
@@ -556,6 +682,16 @@
                 window.toggleRecipeCategory = (category) => {
                     state.selectedCategory = state.selectedCategory === category ? '' : category;
                     updateUI(state);
+                };
+
+                window.toggleWeeklyRecommendation = () => {
+                    const content = document.getElementById('weeklyContent');
+                    const toggle = document.getElementById('weeklyToggle');
+                    const icon = document.getElementById('weeklyToggleIcon');
+                    const isOpen = content.hidden;
+                    content.hidden = !isOpen;
+                    toggle.setAttribute('aria-expanded', String(isOpen));
+                    icon.textContent = isOpen ? '접기' : '펼치기';
                 };
 
             } else {
@@ -622,19 +758,62 @@
         };
 
         // UI Functions (Moved outside or adapted to accept state)
-        function renderIngredients(state) {
-            const container = document.getElementById('ingredientsContainer');
+        function getIngredientSuggestions(state) {
+            const term = state.searchTerm.trim();
+            if (!term) return [];
+
+            const scores = new Map();
+            const addScore = (ing, score) => {
+                if (!state.selected.has(ing)) {
+                    scores.set(ing, Math.max(scores.get(ing) || 0, score));
+                }
+            };
+
+            state.allIngredients.forEach(ing => {
+                const name = ing.toLowerCase();
+                if (name === term) {
+                    addScore(ing, 4000);
+                } else if (name.startsWith(term)) {
+                    addScore(ing, 3000);
+                } else if (name.includes(term)) {
+                    addScore(ing, 2000);
+                }
+            });
+
+            return Array.from(scores.entries())
+                .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'ko'))
+                .slice(0, 8)
+                .map(([ing]) => ing);
+        }
+
+        function renderIngredientSuggestions(state) {
+            const container = document.getElementById('ingredientSuggestions');
             container.innerHTML = '';
 
-            const filtered = state.allIngredients.filter(ing =>
-                ing.toLowerCase().includes(state.searchTerm)
-            );
+            const suggestions = getIngredientSuggestions(state);
+            container.classList.toggle('active', suggestions.length > 0);
 
-            filtered.forEach(ing => {
-                const btn = document.createElement('div');
-                btn.className = `chip ${state.selected.has(ing) ? 'selected' : ''}`;
+            suggestions.forEach(ing => {
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'suggestion-btn';
                 btn.textContent = ing;
-                btn.onclick = () => window.toggleIngredient(ing);
+                btn.onclick = () => window.selectIngredient(ing);
+                container.appendChild(btn);
+            });
+        }
+
+        function renderSelectedIngredients(state) {
+            const container = document.getElementById('selectedIngredients');
+            container.innerHTML = '';
+
+            Array.from(state.selected).forEach(ing => {
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'selected-ingredient-btn';
+                btn.textContent = ing;
+                btn.title = '클릭하면 선택 해제';
+                btn.onclick = () => window.removeIngredient(ing);
                 container.appendChild(btn);
             });
         }
@@ -654,9 +833,31 @@
 
         function updateUI(state) {
             document.getElementById('countValue').textContent = state.selected.size;
+            renderWeeklyRecommendation(state);
             renderRecipeCategories(state);
-            renderIngredients(state);
+            renderIngredientSuggestions(state);
+            renderSelectedIngredients(state);
             renderRecipes(state);
+        }
+
+        function renderWeeklyRecommendation(state) {
+            const data = window.EMART_LEAFLET_DATA || {};
+            const ingredients = data.llm_food_items || [];
+            const ingredientContainer = document.getElementById('weeklyIngredientRecommendations');
+            const originalLink = document.getElementById('weeklyOriginalLink');
+
+            ingredientContainer.innerHTML = '';
+            if (ingredients.length === 0) {
+                ingredientContainer.innerHTML = '<li>추천 재료가 아직 없습니다.</li>';
+            } else {
+                ingredients.forEach(name => {
+                    const item = document.createElement('li');
+                    item.textContent = name;
+                    ingredientContainer.appendChild(item);
+                });
+            }
+
+            originalLink.href = data.source_url || '#';
         }
 
         // Render Recipes
