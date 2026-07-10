@@ -879,10 +879,10 @@
             } else {
                 const selectedArray = Array.from(state.selected);
 
-                // 2. Second Filter: OR condition (at least one selected ingredient matches)
+                // 2. Second Filter: AND condition (all selected ingredients match)
                 displayRecipes = titleFiltered.filter(recipe => {
                     const rIngs = new Set(recipe.ingredients);
-                    return selectedArray.some(sel => rIngs.has(sel));
+                    return selectedArray.every(sel => rIngs.has(sel));
                 });
 
                 // 3. Sort: By number of matching ingredients (Descending)
