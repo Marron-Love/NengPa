@@ -91,7 +91,7 @@ def extract_food_items_with_llm(text):
     base_url = os.getenv("OPENAI_BASE_URL")
     client = OpenAI(api_key=api_key, base_url=base_url) if base_url else OpenAI(api_key=api_key)
     response = client.chat.completions.create(
-        model=os.getenv("OPENAI_MODEL", "gpt-5.4-mini"),
+        model=os.getenv("OPENAI_MODEL", "gpt-5.5"),
         messages=[
             {
                 "role": "system",
