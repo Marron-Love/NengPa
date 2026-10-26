@@ -2722,6 +2722,14 @@ window.RECIPE_DATA = {
             ]
         },
         {
+            "title": "국내에 몇 없는 수제 캔디 달인?! 귀여운 무당벌레 사탕 만들기 amazing handmade ladybug candy making #shorts",
+            "link": "https://www.youtube.com/watch?v=voFS-Kl_Zc0",
+            "category": "디저트",
+            "ingredients": [
+                "설탕"
+            ]
+        },
+        {
             "title": "반찬 간식 안주까지 다 되는 쏘알볶음",
             "link": "https://www.youtube.com/watch?v=c86YeWnrZKw",
             "category": "한식",
@@ -5258,6 +5266,41 @@ window.RECIPE_DATA = {
             "ingredients": [
                 "조개"
             ]
+        },
+        {
+            "title": "가리비는 해감을 안 해?",
+            "link": "https://www.youtube.com/watch?v=Tzwy1hxX-Y8",
+            "category": "한식",
+            "ingredients": [
+                "조개",
+                "치즈"
+            ]
+        },
+        {
+            "title": "등촌 샤브샤브 싱크로율 99% 초간단 레시피?!",
+            "link": "https://www.youtube.com/watch?v=2kkevr9pMBM",
+            "category": "한식",
+            "ingredients": [
+                "멸치",
+                "미나리",
+                "소고기"
+            ]
+        },
+        {
+            "title": "휘리릭 만드는데, 정말 맛있는 계란 만둣국",
+            "link": "https://www.youtube.com/watch?v=x8BcUorA6AI",
+            "category": "한식",
+            "ingredients": [
+                "만두",
+                "소고기",
+                "소금",
+                "간장",
+                "마늘",
+                "계란",
+                "대파",
+                "후추",
+                "참기름"
+            ]
         }
     ]
 };
@@ -5267,10 +5310,6 @@ window.HOUSEWORK_DATA = {
         {
             "title": "청소 고수들은 보면 안되는 영상 #청소알바",
             "link": "https://www.youtube.com/watch?v=OqHfDyGtjXc"
-        },
-        {
-            "title": "나만 알고있던 주방 치트키 5가지✨",
-            "link": "https://www.youtube.com/watch?v=iMiUjP-RzIE"
         },
         {
             "title": "2분 분량! 입주, 이사후 하는 #욕실 #입주청소 순서",
@@ -5323,10 +5362,6 @@ window.HOUSEWORK_DATA = {
         {
             "title": "살림이 쉬워지는 5가지 꼼수! 집안일 시간이 반으로 줄어듭니다 #살림꿀팁 #정리노하우 #생활꿀팁",
             "link": "https://www.youtube.com/watch?v=3fypB2Ya5yI"
-        },
-        {
-            "title": "1.5룸 오피스텔 화장실청소 2주 루틴",
-            "link": "https://www.youtube.com/watch?v=I_rMEHUEJrA"
         },
         {
             "title": "1.5룸 오피스텔 셀프입주청소 몇시간 걸리나요?",
@@ -5395,10 +5430,6 @@ window.HOUSEWORK_DATA = {
         {
             "title": "볼 때 마다 만족스러운 우리 집 틈새수납법 대공개🙌🏻 #리블리홈",
             "link": "https://www.youtube.com/watch?v=jV0ciza9SkA"
-        },
-        {
-            "title": "⭐️50만뷰⭐️냉동실에서 꺼내먹어요",
-            "link": "https://www.youtube.com/watch?v=N_meUuW1tDE"
         },
         {
             "title": "3달간 묵혀둔 곰팡이 물때 브이로그라가스옥스옥",
@@ -5525,6 +5556,11 @@ window.GOOD_ITEM_DATA = {
             "item_category": "욕실"
         },
         {
+            "title": "나만 알고있던 주방 치트키 5가지✨",
+            "link": "https://www.youtube.com/watch?v=iMiUjP-RzIE",
+            "item_category": "주방"
+        },
+        {
             "title": "🇺🇸미국에서 온 원조 실리콘 지퍼백 집 탑|￼쓸수록 만족하는 찐 추천템",
             "link": "https://www.youtube.com/watch?v=EEoM5m5ctWI",
             "item_category": "주방"
@@ -5642,7 +5678,7 @@ window.GOOD_ITEM_DATA = {
         {
             "title": "다이소 칫솔꽂이를 화병에 넣으면,, #다이소#다이소추천템#다이소diy#다이소화병#다이소꿀템#화병만들기#나타나라",
             "link": "https://www.youtube.com/watch?v=gja-cnkRzZs",
-            "item_category": "욕실"
+            "item_category": "기타"
         },
         {
             "title": "이 샤워부스는 이사갈 때도 가져갈 거예요!",
@@ -5777,7 +5813,7 @@ window.GOOD_ITEM_DATA = {
         {
             "title": "우리집 냉동실 구원템",
             "link": "https://www.youtube.com/watch?v=mw-nLm_UFPk",
-            "item_category": "즉석식품"
+            "item_category": "주방"
         },
         {
             "title": "맨날 청소하는 펜션 사장 추천 쿠팡 청소템 3가지",
@@ -5827,6 +5863,11 @@ window.GOOD_ITEM_DATA = {
         {
             "title": "사장님 얼굴걸고 판매하는 쿠팡 삼겹살 진짜 맛있을까?",
             "link": "https://www.youtube.com/watch?v=0Z7w5P-gT9A",
+            "item_category": "가공식품/간식"
+        },
+        {
+            "title": "외출할 때 필수!  쿠팡 가방 속 꿀템 5가지",
+            "link": "https://www.youtube.com/watch?v=DnAI-bbILeQ",
             "item_category": "기타"
         },
         {
@@ -5848,11 +5889,6 @@ window.GOOD_ITEM_DATA = {
             "title": "자취 10년차가 추천하는 효율템",
             "link": "https://www.youtube.com/watch?v=iX_Im1AQUhc",
             "item_category": "기타"
-        },
-        {
-            "title": "⭐️150만뷰⭐️ 쿠팡에서 3만원대로 외식느낌 일주일집밥! #가성비 #식비절약 #쿠팡추천",
-            "link": "https://www.youtube.com/watch?v=1PLVrEMn17Q",
-            "item_category": "즉석식품"
         },
         {
             "title": "결벽증 친구 극찬 청소템 3가지(고정댓글📌)",
@@ -5962,7 +5998,7 @@ window.GOOD_ITEM_DATA = {
         {
             "title": "CU 다이어트 추천템 TOP4",
             "link": "https://www.youtube.com/watch?v=wmKaMErczUY",
-            "item_category": "즉석식품"
+            "item_category": "가공식품/간식"
         },
         {
             "title": "쓰레기 없이 음식포장 어디까지 해봤니? #용기정보는댓글#공동구매",
@@ -5974,6 +6010,10 @@ window.GOOD_ITEM_DATA = {
 
 window.BEAUTY_DATA = {
     "videos": [
+        {
+            "title": "절대 안 갈라지는 로우 포니테일 묶는법❣️",
+            "link": "https://www.youtube.com/watch?v=r8SWNrH4N80"
+        },
         {
             "title": "얼굴 여백 줄이고 싶다면!! 블러셔 이렇게💝",
             "link": "https://www.youtube.com/watch?v=L3_VWTDXXWk"
@@ -6291,6 +6331,10 @@ window.BEAUTY_DATA = {
             "link": "https://www.youtube.com/watch?v=elXEk_1Fg1Q"
         },
         {
+            "title": "턱살 빼는법",
+            "link": "https://www.youtube.com/watch?v=KfN1ny5ZmSA"
+        },
+        {
             "title": "피부 고민별 약국 꿀템 9가지",
             "link": "https://www.youtube.com/watch?v=TSOtH7YcZXA"
         },
@@ -6543,43 +6587,40 @@ window.BEAUTY_DATA = {
 
 window.EMART_LEAFLET_DATA = {
     "source_url": "https://eapp.emart.com/leaflet/leafletView_EL.do?trcknCode=main_leaflet&referer=https%3A%2F%2Feapp.emart.com%2Fwebapp%2Fproduct%2Fflyer%3Fnull",
-    "fetched_at": "2026-10-11T20:14:29+09:00",
+    "fetched_at": "2026-10-26T23:16:14+09:00",
     "image_urls": [
-        "https://stimg.emart.com/upload/news_leaflet/20261006_0939053_046.jpg"
+        "https://stimg.emart.com/upload/news_leaflet/20261019_1118023_004.jpg"
     ],
     "pages": [
         {
             "page": 1,
-            "image_url": "https://stimg.emart.com/upload/news_leaflet/20261006_0939053_046.jpg",
-            "text": "전단 1면 [ 가을의 맛을 품다 ] 행사기간 : 10.8(목) - 10.14(수) ※이미지컷입니다 생고등어 (중/대, 마리) (각)(국산) 4,280/4,980->2,996/3,486원 신세계포인트 적립 시 30% 할인 통통하게 살오른 생새우 (100g) (국산) 3,980원->2,786원 신세계포인트 적립 시 30% 할인 가을 하우스 감귤 (2kg/박스) (국내산) 16,500원->9,900원 신세계포인트 적립 시 40% 할인 홍시 (4~6입/팩) (국내산) 1팩 구매 시 5,480원 2팩 이상 구매 시 팩당 4,384원 [ 간편하고 푸짐한 맛 peacock ] 행사기간 : 10.8(목) - 10.14(수) ※지급된 e머니는 구매 다음날부터 14일간 사용 가능 ※행사상품 결제 전 이마트회원&신세계포인트 적립 필수 ※적립시점까지 유지 필수 ※환불 시 적립된 e머니 회수 ※이미지컷입니다 피코크 푸짐한 곱창전골 (700g) (제조사 : 신세계푸드) 9,980원->7,984원 신세계포인트 적립 시 20% 할인 e머니 1천점 적립 피코크 푸짐한 김치어묵 우동전골 (675g) (제조사 : 신세계푸드) 11,980원->9,584원 신세계포인트 적립 시 20% 할인 e머니 1천점 적립 피코크 소한마리탕 (750g) (제조사 : 진한식품) 10,980원->8,784원 신세계포인트 적립 시 20% 할인 e머니 1천점 적립 피코크 대왕 감자탕 (2,510g) (제조사 : SFS(주)) 14,980원->9,980원 행사카드 전액 결제 시 5천원 할인 이마트e/삼성/KB국민/신한/현대/비씨/NH농협/우리/롯데/IBK기업은행/광주은행/Sh수협은행/전북은행JB카드 e머니 1천점 적립 피코크 푸짐한 뼈찜 (1kg) 이마트 PICK! 매콤한 특제 양념에 깊은 육수까지, 푸짐하게 즐기는 피코크 뼈찜 1kg! (제조사 : 도야지식품) 9,980원->7,984원 신세계포인트 적립 시 20% 할인 e머니 1천점 적립 < emart × KOREAN AIR > 26년 대한항공 마일리지 이벤트 행사기간 : 9.21(월) - 11.15(일) 더 풍성해진 마일리지 혜택! · 대한항공 마일리지 적립은 더 크게! 1,500원당 1마일 · 이마트 바우처로 혜택은 더욱 알뜰하게! 200마일 할인 <혜택1> 이마트에서 7만원 이상 결제 시 1,500원당 1마일리지 적립 ※신세계포인트 앱에서 대한항공 제휴 멤버십 등록 필수 ※행사기간 최대 2,000 마일리지까지 적립 가능 <혜택2> 대한항공 홈페이지에서 이마트 바우처 발급 시, 대한항공 마일리지 200M 할인 <혜택3> 행사 참여 고객 대상 추첨 후 경품 지급 ※자세한 내용은 신세계포인트앱 행사페이지에서 확인하세요"
+            "image_url": "https://stimg.emart.com/upload/news_leaflet/20261019_1118023_004.jpg",
+            "text": "전단 1면 [ 가을의 맛! 온가족 먹거리 ] 남해안 생굴 (250g/봉) (국산) 시즌 첫 출하! 행사기간 : 10.22(목) - 10.29(목) 8,280원->4,968원 신세계포인트 적립 시 40% 할인 ※이미지컷입니다 홍시 (4~6입/팩) (국내산) 행사기간 : 10.22(목) - 10.29(목) 4,980원 2팩 이상 구매 시 팩당 3,980원 ※이미지컷입니다 광어 참돔 모둠회 (360g/팩) (광어·참돔 : 국산) 행사기간 : 10.22(목) - 10.29(목) 43,980원->30,786원 신세계포인트 적립 시 30% 할인 ※이미지컷입니다 한우 전골식/언양식 소불고기 (팩/냉장) (각)(원산지 : 별도표기) 행사기간 : 10.22(목) - 10.29(목) 22,980/17,980->18,980/13,980원 신세계포인트 적립 시 4천원 할인 ※이미지컷입니다 [ 미리 맛보는 최고등급 한우데이 ] ※브랜드한우 제외 1++ (9)등급 한우 전품목 (냉장) (국내산) 행사기간 : 10.24(토) - 10.28(수), 5일간! 신세계포인트 적립 시 40% 할인 ※이미지컷입니다 올해 가장 큰! 한우세일 한우 전품목 행사카드 전액 결제 시 최대 50% 할인 ※행사카드는 점내 고지물 참조 행사기간 : 10.29(목) ~ ※전국한우협회 · 한우자조금관리위원회 공동 기획 [ 절임배추 사전예약 ] 오더픽 절임배추 사전예약은 이마트앱 오더픽으로만 주문 가능! 사전예약기간 : 10/15(목) ~ 10/28(수) 픽업기간 : 11/13(금) ~ 12/12(토) ※매장 주문 불가 ※일요일 및 휴점일 픽업불가 26년 김장준비 스타트! 절임배추 사전 예약 ※1차 행사 수량 소진 시 2차 행사로 진행됩니다. ※한정수량으로 조기품절 가능 ※이미지컷입니다 <1차> 2만 5천 박스 한정 절임배추 (20kg, 국내산) 49,800원→29,800원 행사카드 전액 결제 시 2만원 할인 이마트e/삼성/KB국민/신한/현대/비씨/NH농협/우리/롯데/IBK기업/광주/Sh수협/전북은행JB카드 <2차> 4만 박스 한정 절임배추 (20kg, 국내산) 49,800원→35,800원 행사카드 전액 결제 시 1만4천원 할인, +박스당 e머니 3,000점 적립 이마트e/삼성/KB국민/신한/현대/비씨/NH농협/우리/롯데/IBK기업/광주/Sh수협/전북은행JB카드 · 황금절임배추 (20kg, 국내산) 62,800원→52,800원 행사카드 전액 결제 시 1만원 할인, +박스당 e머니 3,000점 적립 이마트e/삼성/KB국민/신한/현대/비씨/NH농협/우리/롯데/IBK기업/광주/Sh수협/전북은행JB카드 · 김장 KIT (절임배추 7kg+양념 3kg) 55,800원→45,800원 행사카드 전액 결제 시 1만원 할인 이마트e/삼성/KB국민/신한/현대/비씨/NH농협/우리/롯데/IBK기업/광주/Sh수협/전북은행JB카드 · 중부식/남도식 김치양념 (8kg, 원산지 별도표기) 99,800원→89,800원 행사카드 전액 결제 시 1만원 할인 이마트e/삼성/KB국민/신한/현대/비씨/NH농협/우리/롯데/IBK기업/광주/Sh수협/전북은행JB카드 · 알타리김치 KIT (절임알타리 3kg+양념 1kg) 44,800원→34,800원 행사카드 전액 결제 시 1만원 할인 이마트e/삼성/KB국민/신한/현대/비씨/NH농협/우리/롯데/IBK기업/광주/Sh수협/전북은행JB카드 · 절임알타리 (5kg, 국내산) 49,800원→39,800원 행사카드 전액 결제 시 1만원 할인 이마트e/삼성/KB국민/신한/현대/비씨/NH농협/우리/롯데/IBK기업/광주/Sh수협/전북은행JB카드 ※e머니 적립일 : 12/17(목) ※사용기간 : 12/17(목)~12/30(수) ※지급된 e머니는 적립일로부터 14일간 사용 가능 ※e머니 적립은 1인 최대 15,000점 한정 ※행사상품 결제 전 이마트회원&신세계포인트 적립 필수 ※적립시점까지 유지 필수 ※환불 시 적립된 e머니 회수 ※절임배추, 알타리 : 국내산, 그외 원산지 : 별도표기 ※이미지컷입니다"
         }
     ],
     "llm_food_items": [
-        "생고등어",
-        "통통하게 살오른 생새우",
-        "가을 하우스 감귤",
+        "남해안 생굴",
         "홍시",
-        "피코크 푸짐한 곱창전골",
-        "피코크 푸짐한 김치어묵 우동전골",
-        "피코크 소한마리탕",
-        "피코크 대왕 감자탕",
-        "피코크 푸짐한 뼈찜"
+        "광어 참돔 모둠회",
+        "한우 전골식/언양식 소불고기",
+        "1++ (9)등급 한우 전품목",
+        "한우 전품목",
+        "절임배추",
+        "황금절임배추",
+        "김장 KIT",
+        "중부식/남도식 김치양념",
+        "알타리김치 KIT",
+        "절임알타리"
     ],
     "matched_ingredients": [
         {
-            "name": "새우",
+            "name": "소고기",
             "pages": [
                 1
             ]
         },
         {
-            "name": "어묵",
-            "pages": [
-                1
-            ]
-        },
-        {
-            "name": "감자",
+            "name": "배추",
             "pages": [
                 1
             ]
@@ -6593,18 +6634,11 @@ window.EMART_LEAFLET_DATA = {
     ],
     "recommended_ingredients": [
         {
-            "name": "새우",
+            "name": "소고기",
             "pages": [
                 1
             ],
-            "recipe_count": 14
-        },
-        {
-            "name": "감자",
-            "pages": [
-                1
-            ],
-            "recipe_count": 14
+            "recipe_count": 41
         },
         {
             "name": "김치",
@@ -6614,56 +6648,14 @@ window.EMART_LEAFLET_DATA = {
             "recipe_count": 11
         },
         {
-            "name": "어묵",
+            "name": "배추",
             "pages": [
                 1
             ],
-            "recipe_count": 6
+            "recipe_count": 0
         }
     ],
     "recommended_recipes": [
-        {
-            "title": "만오천원으로 일주일 반찬 만들었어요🤍 #집밥 #요리 #레시피",
-            "link": "https://www.youtube.com/watch?v=jXeMq9LME8U",
-            "category": "한식",
-            "ingredients": [
-                "양배추",
-                "어묵",
-                "버섯",
-                "소시지",
-                "파프리카",
-                "감자",
-                "게맛살(크래미)",
-                "두부",
-                "계란",
-                "설탕",
-                "간장",
-                "양파",
-                "청양고추",
-                "대파",
-                "깨",
-                "참기름",
-                "맛술",
-                "마늘",
-                "밀가루",
-                "소금",
-                "식용유",
-                "케첩",
-                "식초",
-                "마요네즈",
-                "머스터드",
-                "레몬(레몬즙)",
-                "후추",
-                "참치",
-                "고추장",
-                "고춧가루"
-            ],
-            "matched_ingredients": [
-                "어묵",
-                "감자"
-            ],
-            "match_count": 2
-        },
         {
             "title": "감자탕 사장님 죄송합니다",
             "link": "https://www.youtube.com/watch?v=pqYWdE849U0",
@@ -6681,7 +6673,34 @@ window.EMART_LEAFLET_DATA = {
                 "김치"
             ],
             "matched_ingredients": [
-                "감자",
+                "소고기",
+                "김치"
+            ],
+            "match_count": 2
+        },
+        {
+            "title": "#배달비,외식비이걸로 줄였어요#안쓰럽게컵라면먹지마#밀프랩#밀프랩용기",
+            "link": "https://www.youtube.com/watch?v=SSDUJHxo-64",
+            "category": "한식",
+            "ingredients": [
+                "소고기",
+                "콩나물/숙주",
+                "양배추",
+                "버섯",
+                "간장",
+                "맛술",
+                "설탕",
+                "마늘",
+                "식초",
+                "청양고추",
+                "고추장",
+                "고춧가루",
+                "김치",
+                "애호박",
+                "깨"
+            ],
+            "matched_ingredients": [
+                "소고기",
                 "김치"
             ],
             "match_count": 2
@@ -6706,40 +6725,18 @@ window.EMART_LEAFLET_DATA = {
             "match_count": 1
         },
         {
-            "title": "와… 진작 이렇게 먹을 걸!😋 월남쌈은 이렇게 드세요!",
-            "link": "https://www.youtube.com/watch?v=NIbf2FOygwo",
-            "category": "기타",
+            "title": "5분이면 만드는 초간단 갈비탕🤎",
+            "link": "https://www.youtube.com/watch?v=AImzCH4NOj4",
+            "category": "한식",
             "ingredients": [
-                "새우",
-                "버터",
-                "레몬(레몬즙)",
+                "소고기",
+                "굴소스",
                 "간장",
-                "마늘",
-                "마요네즈"
+                "당면",
+                "대파"
             ],
             "matched_ingredients": [
-                "새우"
-            ],
-            "match_count": 1
-        },
-        {
-            "title": "땅콩버터 새우 비빔면 2탄",
-            "link": "https://www.youtube.com/watch?v=e_MMXxsOVBs",
-            "category": "양식",
-            "ingredients": [
-                "새우",
-                "대파",
-                "버터",
-                "간장",
-                "소금",
-                "고춧가루",
-                "마늘",
-                "파스타면",
-                "식초",
-                "레몬(레몬즙)"
-            ],
-            "matched_ingredients": [
-                "새우"
+                "소고기"
             ],
             "match_count": 1
         },
@@ -6759,6 +6756,59 @@ window.EMART_LEAFLET_DATA = {
             ],
             "matched_ingredients": [
                 "김치"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "퇴근 후10분 컷 완성 !! 레시피 Best3🍚💛",
+            "link": "https://www.youtube.com/watch?v=yrOOB8uxyzw",
+            "category": "한식",
+            "ingredients": [
+                "양배추",
+                "소고기",
+                "후추",
+                "맛술",
+                "간장",
+                "참기름",
+                "깨",
+                "쪽파",
+                "마늘",
+                "연어",
+                "밥(쌀)",
+                "양파",
+                "버섯",
+                "고춧가루",
+                "버터",
+                "명란",
+                "파스타면",
+                "소금",
+                "마요네즈",
+                "계란",
+                "치즈"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "매년 먹는 우리집 보약 2탄 #레시피",
+            "link": "https://www.youtube.com/watch?v=gFv4kNK8yEw",
+            "category": "한식",
+            "ingredients": [
+                "소고기",
+                "대파",
+                "버섯",
+                "마늘",
+                "소금",
+                "당면",
+                "간장",
+                "식초",
+                "설탕",
+                "후추"
+            ],
+            "matched_ingredients": [
+                "소고기"
             ],
             "match_count": 1
         },
@@ -6783,34 +6833,6 @@ window.EMART_LEAFLET_DATA = {
             "match_count": 1
         },
         {
-            "title": "⭐️50만뷰⭐ 9천원대로 7가지반찬🧡",
-            "link": "https://www.youtube.com/watch?v=Q2-zWDl_znQ",
-            "category": "한식",
-            "ingredients": [
-                "계란",
-                "청양고추",
-                "무",
-                "어묵",
-                "양파",
-                "대파",
-                "당근",
-                "식용유",
-                "마늘",
-                "고춧가루",
-                "간장",
-                "맛술",
-                "참기름",
-                "깨",
-                "설탕",
-                "굴소스",
-                "후추"
-            ],
-            "matched_ingredients": [
-                "어묵"
-            ],
-            "match_count": 1
-        },
-        {
             "title": "코스트코 다짐육 활용 얼큰한 대파 소고기 국밥",
             "link": "https://www.youtube.com/watch?v=u5siuMHZ6bE",
             "category": "한식",
@@ -6826,25 +6848,96 @@ window.EMART_LEAFLET_DATA = {
                 "소금"
             ],
             "matched_ingredients": [
-                "감자"
+                "소고기"
             ],
             "match_count": 1
         },
         {
-            "title": "이시영님이 5키로 빠진 레시피",
-            "link": "https://www.youtube.com/watch?v=-YMfjeMkLQY",
+            "title": "효율추구 전자렌지 명절요리4가지",
+            "link": "https://www.youtube.com/watch?v=WQLgFd8rz3o",
             "category": "한식",
             "ingredients": [
-                "양배추",
-                "버섯",
-                "새우",
-                "마늘",
                 "소금",
                 "후추",
-                "굴소스"
+                "맛술",
+                "대파",
+                "간장",
+                "레몬(레몬즙)",
+                "설탕",
+                "홍고추",
+                "무",
+                "소고기",
+                "만두",
+                "식초",
+                "참기름",
+                "고춧가루",
+                "깨",
+                "양파",
+                "당면",
+                "버섯",
+                "당근",
+                "돼지고기",
+                "시금치",
+                "굴소스",
+                "마늘",
+                "식용유"
             ],
             "matched_ingredients": [
-                "새우"
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "⭐️50만뷰⭐️마늘갈비 5만원으로 7인분은 밖에서 못사먹어요ㅠㅠ #황금레시피",
+            "link": "https://www.youtube.com/watch?v=PTyyy8IcIUU",
+            "category": "한식",
+            "ingredients": [
+                "소고기",
+                "마늘",
+                "간장",
+                "굴소스",
+                "맛술",
+                "설탕",
+                "후추",
+                "참기름"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "후다닥 끓이는 무근본 갈비없는 갈비탕맛탕 #자취요리 #집밥 Beef Soup with Thinly Sliced Brisket",
+            "link": "https://www.youtube.com/watch?v=kSRON_uQD-k",
+            "category": "한식",
+            "ingredients": [
+                "소고기"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "[신혼수업 4탄] 만능한식 공식과 100g의 법칙 #고정댓글",
+            "link": "https://www.youtube.com/watch?v=sgliEQ5VQV0",
+            "category": "한식",
+            "ingredients": [
+                "간장",
+                "설탕",
+                "대파",
+                "마늘",
+                "후추",
+                "참기름",
+                "깨",
+                "소금",
+                "고추장",
+                "시금치",
+                "닭고기",
+                "소고기"
+            ],
+            "matched_ingredients": [
+                "소고기"
             ],
             "match_count": 1
         },
@@ -6883,106 +6976,49 @@ window.EMART_LEAFLET_DATA = {
             "match_count": 1
         },
         {
-            "title": "탄수 줄이는날 최고의 레시피✨",
-            "link": "https://www.youtube.com/watch?v=R5LHOLtTme8",
-            "category": "일식",
+            "title": "⭐️150만뷰⭐️ 쿠팡에서 3만원대로 외식느낌 일주일집밥! #가성비 #식비절약 #쿠팡추천",
+            "link": "https://www.youtube.com/watch?v=1PLVrEMn17Q",
+            "category": "한식",
             "ingredients": [
-                "양배추",
-                "새우",
-                "마늘",
-                "굴소스",
-                "소금",
+                "소고기",
+                "깻잎",
+                "콩나물/숙주",
+                "버섯",
                 "계란",
-                "식용유"
-            ],
-            "matched_ingredients": [
-                "새우"
-            ],
-            "match_count": 1
-        },
-        {
-            "title": "후기 반응 제일 좋은 닭도리탕",
-            "link": "https://www.youtube.com/watch?v=hK8N_mcDzXo",
-            "category": "한식",
-            "ingredients": [
-                "닭고기",
-                "간장",
-                "고춧가루",
-                "설탕",
-                "맛술",
-                "마늘",
-                "고추장",
-                "감자",
-                "양파",
-                "청양고추",
+                "양배추",
                 "대파",
-                "후추"
-            ],
-            "matched_ingredients": [
-                "감자"
-            ],
-            "match_count": 1
-        },
-        {
-            "title": "남편이 저보고 진~짜 잘한대요 #닭볶음탕",
-            "link": "https://www.youtube.com/watch?v=gDrmDXjYbfE",
-            "category": "한식",
-            "ingredients": [
-                "닭고기",
-                "대파",
-                "양파",
-                "청양고추",
-                "고춧가루",
-                "설탕",
-                "마늘",
+                "김",
                 "고추장",
-                "간장",
+                "고춧가루",
                 "맛술",
-                "후추",
-                "감자"
-            ],
-            "matched_ingredients": [
-                "감자"
-            ],
-            "match_count": 1
-        },
-        {
-            "title": "기름없이 합법적으로 바삭한 스팸 감자 튀김",
-            "link": "https://www.youtube.com/watch?v=g4YPmrgWsv8",
-            "category": "한식",
-            "ingredients": [
-                "감자",
-                "스팸(햄)",
-                "치즈",
-                "소금"
-            ],
-            "matched_ingredients": [
-                "감자"
-            ],
-            "match_count": 1
-        },
-        {
-            "title": "그동안 왜 사 먹은걸까? 모두가 극찬한 초간단 샐러드 파스타 만들기",
-            "link": "https://www.youtube.com/watch?v=XZvZV_bqX7c",
-            "category": "양식",
-            "ingredients": [
-                "파스타면",
-                "양파",
-                "토마토",
-                "닭고기",
-                "새우",
-                "옥수수콘(스위트콘)",
                 "간장",
-                "굴소스",
-                "식초",
-                "레몬(레몬즙)",
+                "설탕",
                 "마늘",
                 "참기름",
-                "머스터드",
+                "후추",
+                "깨",
+                "쪽파",
+                "청양고추",
+                "밥(쌀)",
+                "레몬(레몬즙)"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "🔥라이스 페이퍼 육전🥩",
+            "link": "https://www.youtube.com/watch?v=4XeeqEcWObI",
+            "category": "한식",
+            "ingredients": [
+                "소고기",
+                "라이스페이퍼",
+                "소금",
                 "후추"
             ],
             "matched_ingredients": [
-                "새우"
+                "소고기"
             ],
             "match_count": 1
         },
@@ -7000,70 +7036,30 @@ window.EMART_LEAFLET_DATA = {
                 "치즈"
             ],
             "matched_ingredients": [
-                "감자"
+                "소고기"
             ],
             "match_count": 1
         },
         {
-            "title": "단백질 15g 인생 알리오 올리오 #shorts",
-            "link": "https://www.youtube.com/watch?v=C31BG37xdsk",
-            "category": "양식",
-            "ingredients": [
-                "파스타면",
-                "마늘",
-                "베이컨",
-                "소금",
-                "새우",
-                "양배추"
-            ],
-            "matched_ingredients": [
-                "새우"
-            ],
-            "match_count": 1
-        },
-        {
-            "title": "요즘 인스타에서 난리 난 전자레인지 새우딤섬 레시피",
-            "link": "https://www.youtube.com/watch?v=4o9-8xYdWgM",
-            "category": "중식",
-            "ingredients": [
-                "새우"
-            ],
-            "matched_ingredients": [
-                "새우"
-            ],
-            "match_count": 1
-        },
-        {
-            "title": "조회수 난리난 이연복 다이어트 계란덮밥 저탄수 고단백질 버전",
-            "link": "https://www.youtube.com/watch?v=TK7YVI01y0w",
+            "title": "누구나 할수있는 세상 쉬운 육개장 👍가족들이 육개장 전문점 차리라고하네요. 강쉪",
+            "link": "https://www.youtube.com/watch?v=Q2yI-c4eD04",
             "category": "한식",
             "ingredients": [
-                "계란",
+                "소고기",
                 "대파",
-                "소금",
-                "새우",
                 "버섯",
-                "두부",
+                "콩나물/숙주",
+                "마늘",
+                "계란",
+                "참기름",
                 "식용유",
+                "고춧가루",
                 "간장",
-                "굴소스",
-                "전분가루"
+                "소금",
+                "후추"
             ],
             "matched_ingredients": [
-                "새우"
-            ],
-            "match_count": 1
-        },
-        {
-            "title": "조회수 난리난 이연복 청경채 다이어터 버전",
-            "link": "https://www.youtube.com/watch?v=rtI6EA59uPw",
-            "category": "중식",
-            "ingredients": [
-                "돼지고기",
-                "새우"
-            ],
-            "matched_ingredients": [
-                "새우"
+                "소고기"
             ],
             "match_count": 1
         },
@@ -7087,76 +7083,38 @@ window.EMART_LEAFLET_DATA = {
             "match_count": 1
         },
         {
-            "title": "⭐️50만뷰⭐하나에 158원🤣 이 가격에 이 맛이면 사기임..",
-            "link": "https://www.youtube.com/watch?v=n7sPt0VA7rg",
-            "category": "디저트",
-            "ingredients": [
-                "감자",
-                "버터",
-                "소금",
-                "설탕",
-                "옥수수콘(스위트콘)",
-                "마요네즈",
-                "식빵",
-                "소시지",
-                "양파",
-                "케첩",
-                "머스터드",
-                "잼",
-                "치즈",
-                "스팸(햄)"
-            ],
-            "matched_ingredients": [
-                "감자"
-            ],
-            "match_count": 1
-        },
-        {
-            "title": "오늘같이 추운 날엔, 돼지감자짜글이",
-            "link": "https://www.youtube.com/watch?v=NkKD_kP-zpk",
-            "category": "한식",
+            "title": "자취생 환장하는 간편식",
+            "link": "https://www.youtube.com/watch?v=etr3NIZDtNw",
+            "category": "기타",
             "ingredients": [
                 "돼지고기",
-                "감자",
-                "대파",
-                "청양고추",
-                "된장",
-                "고추장",
-                "고춧가루",
-                "간장",
-                "맛술",
-                "설탕",
-                "마늘",
-                "후추"
+                "닭고기",
+                "치즈",
+                "파스타면",
+                "소고기",
+                "밥(쌀)"
             ],
             "matched_ingredients": [
-                "감자"
+                "소고기"
             ],
             "match_count": 1
         },
         {
-            "title": "한입 먹는순간 몸 싹 풀립니다",
-            "link": "https://www.youtube.com/watch?v=mqO_A3P-Ej0",
+            "title": "실패 없는 n년차 주부의 필살기, 우삼겹 파스타🍝 #초간단레시피",
+            "link": "https://www.youtube.com/watch?v=VZ2FNAlu7pc",
             "category": "양식",
             "ingredients": [
-                "닭고기",
-                "양파",
-                "감자",
-                "당근",
-                "버섯",
-                "맛술",
-                "설탕",
+                "소고기",
+                "파스타면",
                 "마늘",
                 "간장",
-                "고춧가루",
-                "고추장",
+                "굴소스",
                 "소금",
                 "후추",
-                "청양고추",
                 "치즈"
             ],
             "matched_ingredients": [
-                "감자"
+                "소고기"
             ],
             "match_count": 1
         },
@@ -7169,6 +7127,60 @@ window.EMART_LEAFLET_DATA = {
             ],
             "matched_ingredients": [
                 "김치"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "이거 간이 딱 좋아요 #우삼겹 숙주볶음",
+            "link": "https://www.youtube.com/watch?v=FPIWgyCshrQ",
+            "category": "한식",
+            "ingredients": [
+                "소고기",
+                "콩나물/숙주"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "한끼 2000원 불고기 대량생산 #바싹불고기 #언양불고기 #방학메뉴 #메인요리",
+            "link": "https://www.youtube.com/watch?v=IPaYY_bL5GM",
+            "category": "한식",
+            "ingredients": [
+                "소고기",
+                "대파",
+                "간장",
+                "설탕",
+                "굴소스",
+                "참기름",
+                "마늘",
+                "맛술"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "셰프 정호영의 초간단 밥도둑 차돌된장술밥",
+            "link": "https://www.youtube.com/watch?v=QFdYGsxeFHU",
+            "category": "한식",
+            "ingredients": [
+                "소고기",
+                "두부",
+                "애호박",
+                "양파",
+                "대파",
+                "마늘",
+                "된장",
+                "고추장",
+                "고춧가루",
+                "굴소스",
+                "밥(쌀)"
+            ],
+            "matched_ingredients": [
+                "소고기"
             ],
             "match_count": 1
         },
@@ -7203,74 +7215,55 @@ window.EMART_LEAFLET_DATA = {
                 "깨"
             ],
             "matched_ingredients": [
-                "감자"
+                "소고기"
             ],
             "match_count": 1
         },
         {
-            "title": "중독적인 매운어묵김밥",
-            "link": "https://www.youtube.com/watch?v=IRDIkjQL90s",
-            "category": "한식",
-            "ingredients": [
-                "김",
-                "깻잎",
-                "어묵",
-                "간장",
-                "고춧가루",
-                "마늘",
-                "참기름",
-                "청양고추",
-                "소금",
-                "깨"
-            ],
-            "matched_ingredients": [
-                "어묵"
-            ],
-            "match_count": 1
-        },
-        {
-            "title": "#배달비,외식비이걸로 줄였어요#안쓰럽게컵라면먹지마#밀프랩#밀프랩용기",
-            "link": "https://www.youtube.com/watch?v=SSDUJHxo-64",
-            "category": "한식",
-            "ingredients": [
-                "소고기",
-                "콩나물/숙주",
-                "양배추",
-                "버섯",
-                "간장",
-                "맛술",
-                "설탕",
-                "마늘",
-                "식초",
-                "청양고추",
-                "고추장",
-                "고춧가루",
-                "김치",
-                "애호박",
-                "깨"
-            ],
-            "matched_ingredients": [
-                "김치"
-            ],
-            "match_count": 1
-        },
-        {
-            "title": "술 먹을 때마다 이거 생각남",
-            "link": "https://www.youtube.com/watch?v=hTqYV9o3zsI",
+            "title": "맛있어서 3일 연속으로 먹은 차돌 양배추 파스타💛 요즘 만들어 먹은 음식 중 1등 👑 #집밥 #차돌박이 #양배추 #양배추요리 #파스타 #집밥레시피 #야식추천 #먹방 #브이로그",
+            "link": "https://www.youtube.com/watch?v=vXADiYQThVs",
             "category": "양식",
             "ingredients": [
+                "소고기",
+                "양배추",
+                "파스타면",
                 "대파",
-                "양파",
                 "마늘",
-                "고춧가루",
-                "새우",
-                "토마토",
-                "고추장",
-                "굴소스",
-                "파스타면"
+                "후추"
             ],
             "matched_ingredients": [
-                "새우"
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "솔직히 육회는 사먹을 필요가 없어요",
+            "link": "https://www.youtube.com/watch?v=PLTMsE4MumA",
+            "category": "한식",
+            "ingredients": [
+                "소고기"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "밀프랩 1등 메뉴 불고기브리또",
+            "link": "https://www.youtube.com/watch?v=dbZNLanRBuA",
+            "category": "양식",
+            "ingredients": [
+                "소고기",
+                "옥수수콘(스위트콘)",
+                "치즈",
+                "버터",
+                "간장",
+                "후추",
+                "또띠아",
+                "밥(쌀)"
+            ],
+            "matched_ingredients": [
+                "소고기"
             ],
             "match_count": 1
         },
@@ -7307,130 +7300,192 @@ window.EMART_LEAFLET_DATA = {
             "match_count": 1
         },
         {
-            "title": "10kg 뺄때 먹은 대체음식",
-            "link": "https://www.youtube.com/watch?v=jvIJ0VDCc38",
-            "category": "기타",
-            "ingredients": [
-                "두부",
-                "닭고기",
-                "만두",
-                "어묵",
-                "치즈"
-            ],
-            "matched_ingredients": [
-                "어묵"
-            ],
-            "match_count": 1
-        },
-        {
-            "title": "말도 안 되는 맛",
-            "link": "https://www.youtube.com/watch?v=Hwzl8IA9NH0",
-            "category": "양식",
-            "ingredients": [
-                "또띠아",
-                "계란",
-                "새우",
-                "마늘"
-            ],
-            "matched_ingredients": [
-                "새우"
-            ],
-            "match_count": 1
-        },
-        {
-            "title": "대구에서 꼭 가봐야하는 특별한 맛집 Best.5",
-            "link": "https://www.youtube.com/watch?v=pjasjIpkHcE",
+            "title": "여름에도 겨울에도 계속 먹게 될",
+            "link": "https://www.youtube.com/watch?v=e_nOyQQIPaQ",
             "category": "한식",
             "ingredients": [
-                "어묵",
-                "부추"
-            ],
-            "matched_ingredients": [
-                "어묵"
-            ],
-            "match_count": 1
-        },
-        {
-            "title": "만오천원으로 반찬7가지☺️",
-            "link": "https://www.youtube.com/watch?v=FRy_HZQit1g",
-            "category": "한식",
-            "ingredients": [
-                "대파",
-                "계란",
+                "소고기",
+                "양배추",
                 "버섯",
-                "오이",
-                "게맛살(크래미)",
-                "설탕",
-                "소금",
-                "식초",
-                "마늘",
-                "깨",
+                "라이스페이퍼"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "소스에 진심인 일본ㄷㄷ",
+            "link": "https://www.youtube.com/watch?v=jiRd1Jd-zEY",
+            "category": "일식",
+            "ingredients": [
+                "양배추",
+                "된장",
+                "명란",
                 "마요네즈",
-                "후추",
-                "브로콜리",
-                "고추장",
-                "고춧가루",
-                "간장",
-                "멸치",
-                "밀가루",
-                "식용유",
-                "맛술",
-                "참기름",
-                "어묵"
-            ],
-            "matched_ingredients": [
-                "어묵"
-            ],
-            "match_count": 1
-        },
-        {
-            "title": "3분에 한판씩 팔리는 피자?",
-            "link": "https://www.youtube.com/watch?v=XRrv3VKr3_g",
-            "category": "양식",
-            "ingredients": [
-                "치즈",
-                "감자"
-            ],
-            "matched_ingredients": [
-                "감자"
-            ],
-            "match_count": 1
-        },
-        {
-            "title": "진짜보다 맛있는 야매 팟타이",
-            "link": "https://www.youtube.com/watch?v=Z5kwxt6lwrs",
-            "category": "기타",
-            "ingredients": [
-                "당면",
-                "새우",
                 "계란",
-                "콩나물/숙주",
-                "부추",
+                "밥(쌀)",
+                "간장",
+                "잼",
+                "소고기",
+                "두부",
+                "미역",
+                "콩나물/숙주"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "이거 먹고 3kg 안빠지면 책임은 못 짐 차돌박이 들기름 막송이 모던한담",
+            "link": "https://www.youtube.com/watch?v=t5iqzggVf0M",
+            "category": "한식",
+            "ingredients": [
+                "소고기",
+                "버섯",
+                "쪽파",
+                "김",
+                "깨"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "아침밥 귀찮은 날 이거 하나면 끝이에요💛 김밥집에선 절대 안파는 조합🍙 #집밥 #김밥 #집김밥 #마늘쫑 #제철요리 #아침밥 #먹방 #브이로그",
+            "link": "https://www.youtube.com/watch?v=7Fp3SOB9mXE",
+            "category": "한식",
+            "ingredients": [
+                "소고기",
+                "밥(쌀)",
+                "김",
+                "간장",
+                "맛술",
+                "된장",
+                "계란",
+                "소금"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "이거 조합 미쳤다..! 차돌박이양배추메밀면 모던한담",
+            "link": "https://www.youtube.com/watch?v=s0KfFtCe_sU",
+            "category": "일식",
+            "ingredients": [
+                "소고기",
+                "양배추",
+                "소금",
+                "쪽파",
+                "식초",
+                "설탕",
+                "깨"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "비싸도 굳이 사먹는 음식ㅋㅋ",
+            "link": "https://www.youtube.com/watch?v=S28AHqduRM4",
+            "category": "한식",
+            "ingredients": [
+                "김",
+                "계란",
+                "참기름",
+                "멸치",
+                "소고기",
+                "연어",
+                "밥(쌀)"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "2년 만에 찾은 인생 덮밥",
+            "link": "https://www.youtube.com/watch?v=rX7tvm_viIA",
+            "category": "일식",
+            "ingredients": [
+                "소고기",
                 "양파",
-                "마늘",
                 "청양고추",
-                "굴소스",
+                "계란"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "다른 반찬 필요없다",
+            "link": "https://www.youtube.com/watch?v=H5_Cy3eLK3Y",
+            "category": "한식",
+            "ingredients": [
+                "소고기",
+                "대파",
+                "양파",
+                "된장",
+                "고추장",
+                "버섯",
+                "두부",
+                "마늘",
+                "고춧가루"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "찜기 없이 우삼겹찜 만들기",
+            "link": "https://www.youtube.com/watch?v=HQXZBGbjsSE",
+            "category": "한식",
+            "ingredients": [
+                "소고기",
+                "버섯",
+                "콩나물/숙주",
+                "후추",
+                "청양고추",
                 "간장",
                 "설탕",
-                "버터"
+                "식초"
             ],
             "matched_ingredients": [
-                "새우"
+                "소고기"
             ],
             "match_count": 1
         },
         {
-            "title": "20년 주방이모의 소름 돋는 초간단 요리 꿀팁",
-            "link": "https://www.youtube.com/watch?v=paK1u-XfyXQ",
-            "category": "기타",
+            "title": "3만원대로 메뉴4가지 13인분❣️#마파두부 #떡갈비덮밥 #한그릇메뉴 #간장제육 #가지덮밥",
+            "link": "https://www.youtube.com/watch?v=w7WzS3NUXCw",
+            "category": "한식",
             "ingredients": [
+                "가지",
+                "대파",
                 "양파",
-                "감자",
-                "고구마",
-                "파프리카"
+                "소고기",
+                "돼지고기",
+                "두부",
+                "식용유",
+                "마늘",
+                "맛술",
+                "후추",
+                "굴소스",
+                "고춧가루",
+                "참기름",
+                "된장",
+                "간장",
+                "깨"
             ],
             "matched_ingredients": [
-                "감자"
+                "소고기"
             ],
             "match_count": 1
         },
@@ -7454,6 +7509,31 @@ window.EMART_LEAFLET_DATA = {
             "match_count": 1
         },
         {
+            "title": "바쁜 엄마를 위한 밀프렙볼🍙",
+            "link": "https://www.youtube.com/watch?v=I1Pmn0JNZBk",
+            "category": "한식",
+            "ingredients": [
+                "밥(쌀)",
+                "당근",
+                "무",
+                "버섯",
+                "콩나물/숙주",
+                "부추",
+                "참기름",
+                "소고기",
+                "고추장",
+                "맛술",
+                "설탕",
+                "간장",
+                "마늘",
+                "계란"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
             "title": "만원도 안되는 가격으로 13인분 만들었어요(쩌렁!!)",
             "link": "https://www.youtube.com/watch?v=B78Jbugj5v0",
             "category": "한식",
@@ -7472,37 +7552,136 @@ window.EMART_LEAFLET_DATA = {
                 "무"
             ],
             "matched_ingredients": [
-                "감자"
+                "소고기"
             ],
             "match_count": 1
         },
         {
-            "title": "밖에서 사먹지마세요",
-            "link": "https://www.youtube.com/watch?v=i8XGQdFgMXg",
-            "category": "기타",
+            "title": "초간단 1인 샤브샤브 Quick & Easy single-serve Shabu #초간단저녁메뉴 #자취요리 #국물요리 #간단요리 #간단한끼 #간식레시피 #간단한그릇요리 #미국직장인",
+            "link": "https://www.youtube.com/watch?v=Ux6z7Ca7rpM",
+            "category": "일식",
             "ingredients": [
-                "새우",
-                "떡",
-                "닭고기",
-                "청양고추",
-                "파스타면",
-                "치즈"
+                "소고기",
+                "양배추",
+                "당근",
+                "애호박",
+                "버섯",
+                "양파",
+                "간장",
+                "식초",
+                "쪽파",
+                "머스터드",
+                "깨"
             ],
             "matched_ingredients": [
-                "새우"
+                "소고기"
             ],
             "match_count": 1
         },
         {
-            "title": "생새우 제발 이렇게 손질하지마!!#생새우 #생새우회 #새우손질법 #활새우",
-            "link": "https://www.youtube.com/watch?v=1ETHmDm12bs",
+            "title": "죄책감없는 속세의 맛",
+            "link": "https://www.youtube.com/watch?v=jHG-fd55Q_I",
             "category": "한식",
             "ingredients": [
-                "새우",
-                "소금"
+                "소면",
+                "소고기",
+                "오이",
+                "양파",
+                "깨",
+                "간장",
+                "식초",
+                "설탕",
+                "고춧가루",
+                "마늘",
+                "소금",
+                "후추"
             ],
             "matched_ingredients": [
-                "새우"
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "2만원으로 장봐서 추석음식 5가지 만들기",
+            "link": "https://www.youtube.com/watch?v=bBZziustQrQ",
+            "category": "한식",
+            "ingredients": [
+                "소고기",
+                "무",
+                "돼지고기",
+                "당근",
+                "부추",
+                "파프리카",
+                "버섯",
+                "콩나물/숙주",
+                "두부",
+                "마늘",
+                "대파",
+                "다시마",
+                "후추",
+                "양파",
+                "간장",
+                "소금",
+                "계란",
+                "식용유",
+                "당면",
+                "참기름",
+                "설탕"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "요즘 저희 부부 최애 야식💛 차돌박이 참나물 파스타🍝 #집밥 #부부 #야식 #차돌박이 #파스타 #육퇴 #먹방 #브이로그",
+            "link": "https://www.youtube.com/watch?v=UkB1aB8e4u4",
+            "category": "양식",
+            "ingredients": [
+                "파스타면",
+                "소고기",
+                "대파",
+                "양배추",
+                "마늘",
+                "간장",
+                "후추"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "등촌 샤브샤브 싱크로율 99% 초간단 레시피?!",
+            "link": "https://www.youtube.com/watch?v=2kkevr9pMBM",
+            "category": "한식",
+            "ingredients": [
+                "멸치",
+                "미나리",
+                "소고기"
+            ],
+            "matched_ingredients": [
+                "소고기"
+            ],
+            "match_count": 1
+        },
+        {
+            "title": "휘리릭 만드는데, 정말 맛있는 계란 만둣국",
+            "link": "https://www.youtube.com/watch?v=x8BcUorA6AI",
+            "category": "한식",
+            "ingredients": [
+                "만두",
+                "소고기",
+                "소금",
+                "간장",
+                "마늘",
+                "계란",
+                "대파",
+                "후추",
+                "참기름"
+            ],
+            "matched_ingredients": [
+                "소고기"
             ],
             "match_count": 1
         }

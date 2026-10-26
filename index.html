@@ -386,6 +386,11 @@
             overflow: hidden;
         }
 
+        .product-card { cursor: default; }
+        .product-card:hover { transform: none; }
+        .product-sources { margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        .product-sources a { color: var(--accent-color); }
+
         .good-item-categories {
             display: flex;
             flex-wrap: wrap;
@@ -552,17 +557,17 @@
         <!-- Housework Tab -->
         <div id="tab-housework" class="tab-content">
             <div class="filter-section">
-                <input type="text" id="houseworkSearchInput" class="housework-search-box" placeholder="집안일 영상 검색">
+                <input type="text" id="houseworkSearchInput" class="housework-search-box" placeholder="상품명 또는 분야 검색">
                 <div class="control-bar">
-                    <span class="selected-count">영상 <span id="houseworkCount">0</span>개</span>
+                    <span class="selected-count">상품 <span id="houseworkCount">0</span>개</span>
                 </div>
             </div>
 
             <div class="results-section">
-                <h2>집안일 영상 <span id="houseworkMatchCount"
+                <h2>집안일 상품 목록 <span id="houseworkMatchCount"
                         style="font-size: 0.8em; color: var(--text-secondary); font-weight: normal;"></span></h2>
                 <div id="houseworkContainer" class="recipes-grid">
-                    <!-- Housework Cards injected by JS -->
+                    <!-- Product cards injected by JS -->
                 </div>
             </div>
         </div>
@@ -570,21 +575,21 @@
         <!-- Good Item Tab -->
         <div id="tab-goodItem" class="tab-content">
             <div class="filter-section">
-                <input type="text" id="goodItemSearchInput" class="housework-search-box" placeholder="꿀템 영상 검색">
+                <input type="text" id="goodItemSearchInput" class="housework-search-box" placeholder="상품명 또는 분야 검색">
                 <div id="goodItemCategories" class="good-item-categories">
                     <!-- Good item category chips injected by JS -->
                 </div>
                 <div class="control-bar">
-                    <span class="selected-count">영상 <span id="goodItemCount">0</span>개</span>
+                    <span class="selected-count">상품 <span id="goodItemCount">0</span>개</span>
                     <button class="btn-clear" onclick="clearGoodItemCategory()">소분류 초기화</button>
                 </div>
             </div>
 
             <div class="results-section">
-                <h2>꿀템 영상 <span id="goodItemMatchCount"
+                <h2>상품 목록 <span id="goodItemMatchCount"
                         style="font-size: 0.8em; color: var(--text-secondary); font-weight: normal;"></span></h2>
                 <div id="goodItemContainer" class="recipes-grid">
-                    <!-- Good item cards injected by JS -->
+                    <!-- Product cards injected by JS -->
                 </div>
             </div>
         </div>
@@ -592,17 +597,17 @@
         <!-- Beauty Tab -->
         <div id="tab-beauty" class="tab-content">
             <div class="filter-section">
-                <input type="text" id="beautySearchInput" class="housework-search-box" placeholder="뷰티 영상 검색">
+                <input type="text" id="beautySearchInput" class="housework-search-box" placeholder="상품명 또는 분야 검색">
                 <div class="control-bar">
-                    <span class="selected-count">영상 <span id="beautyCount">0</span>개</span>
+                    <span class="selected-count">상품 <span id="beautyCount">0</span>개</span>
                 </div>
             </div>
 
             <div class="results-section">
-                <h2>뷰티 영상 <span id="beautyMatchCount"
+                <h2>뷰티 상품 목록 <span id="beautyMatchCount"
                         style="font-size: 0.8em; color: var(--text-secondary); font-weight: normal;"></span></h2>
                 <div id="beautyContainer" class="recipes-grid">
-                    <!-- Beauty Cards injected by JS -->
+                    <!-- Product cards injected by JS -->
                 </div>
             </div>
         </div>
@@ -615,6 +620,344 @@
         document.body.appendChild(script);
 
         script.onload = () => {
+            // ponytail: manually curated from video descriptions and creator comments; add new videos here after checking the product name.
+            const HOUSEWORK_PRODUCTS = [
+                ['청소', '다이소 우드 페인트붓 (1057521)', 'J4yRpHUWy6c'],
+                ['수납/정리', '길이조절 신발 선반', 'jV0ciza9SkA'],
+                ['수납/정리', '롱 칸막이 약 정리함', 'jV0ciza9SkA'],
+                ['수납/정리', '머리핀 정리대', 'jV0ciza9SkA'],
+                ['공간활용', '다니엘우드 반딱 테이블', '3Zp0zvN21lQ'],
+                ['식품', '봉평촌 메밀소바', 'N_meUuW1tDE'],
+                ['인테리어', '피크 페인트', 'CPzWyylBJG4'],
+                ['인테리어', '방마다 자석 방음재', 'CPzWyylBJG4'],
+                ['인테리어', '틱택타일', 'CPzWyylBJG4'],
+                ['인테리어', '매직픽스 데코타일', 'CPzWyylBJG4'],
+                ['인테리어', '더프리그 카펫타일', 'CPzWyylBJG4']
+            ];
+            const GOOD_ITEM_PRODUCTS = [
+                ['청소', '오토모 소닉붐 청소기', '7nPkIjmohuM'],
+                ['청소', '에브리봇 침구 로봇청소기', '7nPkIjmohuM'],
+                ['청소', '스카트 유리 거울 세정 청소티슈', 'nn-Niat9kUs'],
+                ['청소', '홈스타 뿌리는 곰팡이 싹 세정제', 'nn-Niat9kUs'],
+                ['청소', '홈스타 핑크파워 샤워부스 찌든 물때 클리너', 'nn-Niat9kUs'],
+                ['청소', '코멧 홈 다용도 청소브러쉬 + 미니틈새솔 세트', 'nn-Niat9kUs'],
+                ['청소', '코멧 매직블럭 중형', 'nn-Niat9kUs'],
+                ['청소', '코멧 키친 컬러풀 극세사 행주', 'nn-Niat9kUs'],
+                ['청소', '키엘 엑손포르테', 'hMeRqYSdFgU'],
+                ['청소', '키엘 샤니칼', 'hMeRqYSdFgU'],
+                ['청소', '스테인제로 얼룩제거제', 'PLfO3oQVIFE'],
+
+                ['주방', '속이 보이는 에어프라이어', 'Cvidy-TxILY'],
+                ['주방', '달걀 까기 펀치', 'jaIzASBpRqE'],
+                ['주방', '오토플립 오일병', 'jaIzASBpRqE'],
+                ['주방', '버터 나이프', 'jaIzASBpRqE'],
+                ['주방', '모래시계 피클병', 'jaIzASBpRqE'],
+                ['주방', '햄빼', 'jaIzASBpRqE'],
+                ['주방', '클립형 봉투캡', 'jaIzASBpRqE'],
+                ['주방', '슬라이스 홀더', 'hmu5ykGiWSc'],
+                ['주방', '토마토 꼭지 제거기', 'hmu5ykGiWSc'],
+                ['주방', '자동냄비 롤팬', 'Qgn8Vv__tog'],
+                ['주방', '계란 깨기 도구', 'j2BF7BCwKlY'],
+                ['주방', '소시지 칼집 도구', 'j2BF7BCwKlY'],
+                ['주방', '뒤집개 홀더', 'j2BF7BCwKlY'],
+                ['주방', '야채 썰기 기계', '-YS6JwI5LBo'],
+                ['주방', '초밥 모양틀', '-YS6JwI5LBo'],
+                ['주방', '젓가락 정리 도구', '-YS6JwI5LBo'],
+                ['주방', '자동 이쑤시개 통', '-YS6JwI5LBo'],
+                ['주방', '1인 도자기 밥솥', 'iX_Im1AQUhc'],
+                ['주방', '즉석 라면 조리기', 'iX_Im1AQUhc'],
+                ['주방', '계란 쿠커', 'iX_Im1AQUhc'],
+                ['주방', '전자레인지 파스타 용기', 'iX_Im1AQUhc'],
+                ['주방', '약셀가위', 'eVV9CnULg1c'],
+                ['주방', '파스타캡', 'eVV9CnULg1c'],
+                ['주방', '직각버터나이프', 'eVV9CnULg1c'],
+                ['주방', '알끈제거 스틱', 'eVV9CnULg1c'],
+                ['주방', '내솥 분리 멀티쿠커', '2_f5TNVoNKQ'],
+                ['주방', '만능 캐니스터', 'fwYU0HVzhvI'],
+                ['주방', '접이식 도마', 'YtZ6uOa-Ya4'],
+
+                ['수납/정리', '공기 압축 리빙박스', 'TDRCfdellyI'],
+                ['수납/정리', '드레스룸 탱크 벙커침대', 'TDRCfdellyI'],
+                ['수납/정리', '좁은 주방 수납장', 'RZDw2v_-uEI'],
+                ['수납/정리', '스피드랙 무볼트 시스템 행거', 'rqROBjgILeQ'],
+                ['수납/정리', '다이소 2단 선반 (1048716)', 'NNb_FpyHZxI'],
+                ['수납/정리', '틈없는 베란다 데크타일', 'YwLaRmf1-SM'],
+
+                ['욕실', '엘쏘 트윈스 방수팩 WASH BAG', 'fqiW8-3oC-c'],
+                ['욕실', '도브 센서티브 크림 뷰티바', 'fqiW8-3oC-c'],
+                ['욕실', '도브 뷰티 크림 바 비누', 'fqiW8-3oC-c'],
+                ['욕실', '때르메스', 'fqiW8-3oC-c'],
+                ['욕실', '오곡 때비누', 'fqiW8-3oC-c'],
+                ['욕실', '바세린 헬디 브라이트 로션', 'fqiW8-3oC-c'],
+                ['욕실', '바세린 Gluta-Hya 바디로션', 'fqiW8-3oC-c'],
+                ['욕실', '스톤 발각질 제거기', 'fqiW8-3oC-c'],
+                ['욕실', '냄새 차단 배수구 마개', 'YtZ6uOa-Ya4'],
+                ['욕실', '문에 걸리지 않는 낮은 욕실 슬리퍼', 'YtZ6uOa-Ya4'],
+
+                ['기타', '흡착 스팀 다리미', 'TDRCfdellyI'],
+                ['기타', 'NFC 스티커', 'SM_APA_KdRg'],
+                ['기타', '테팔 핸디형 스팀 다리미', 'ub6Lz0awFgs'],
+                ['기타', '글리너 수동 보풀 제거기', 'ub6Lz0awFgs'],
+                ['기타', '슬라이딩 소파', 'g7pmi_Fqdl4'],
+                ['기타', '다용도 캔·병 오프너', '63wr0SAlCG0'],
+                ['기타', '지갑 위치 추적 카드', '63wr0SAlCG0'],
+                ['기타', '자동 책갈피', '63wr0SAlCG0'],
+
+                ['즉석식품', '발열 라면밥', 'TC1GfdUHj18'],
+                ['즉석식품', '베이컨 볶음김치', 'TC1GfdUHj18'],
+                ['즉석식품', '즉석 북어국', 'TC1GfdUHj18,r7BT1EldrXU'],
+                ['즉석식품', '휴대용 짬뽕가루', 'TC1GfdUHj18'],
+                ['즉석식품', '통등심 돈가스', 'etr3NIZDtNw'],
+                ['즉석식품', '자메이카 닭다리', 'etr3NIZDtNw'],
+                ['즉석식품', '치즈 스파게티', 'etr3NIZDtNw'],
+                ['즉석식품', '스테이크 솥밥 밀키트', 'etr3NIZDtNw'],
+                ['즉석식품', '저당 냉면 세트', 'jvIJ0VDCc38'],
+                ['즉석식품', '두부피 브리또', 'jvIJ0VDCc38'],
+                ['즉석식품', '저칼로리 비빔국수', 'jvIJ0VDCc38'],
+                ['즉석식품', '닭가슴살 만두', 'jvIJ0VDCc38'],
+                ['즉석식품', '저밀가루 어묵탕', 'jvIJ0VDCc38'],
+                ['즉석식품', '저당 짜장라면', 'lk-H_MurTds'],
+                ['즉석식품', '오트밀 라죽', 'lk-H_MurTds'],
+                ['즉석식품', '곤약 떡볶이', 'lk-H_MurTds'],
+                ['즉석식품', '치즈 새송이버섯', 'r7BT1EldrXU'],
+                ['즉석식품', '참치마요·콘마요 스틱', 'r7BT1EldrXU'],
+                ['즉석식품', '즉석 미소된장국', 'r7BT1EldrXU,jiRd1Jd-zEY'],
+                ['즉석식품', '해산불버터 키트', 'r7BT1EldrXU'],
+                ['즉석식품', '노브랜드 타코야끼', 'NmgqkuyEZ38'],
+                ['즉석식품', '노브랜드 칠리새우', 'NmgqkuyEZ38'],
+                ['즉석식품', '노브랜드 매운꼬치어묵', 'NmgqkuyEZ38'],
+                ['즉석식품', '닛신 돈베이 키츠네 우동', 'M4t-Qz4AU_k'],
+                ['즉석식품', '닛신 UFO 야끼소바', 'M4t-Qz4AU_k'],
+                ['즉석식품', '닛신 컵누들 오리지널', 'M4t-Qz4AU_k'],
+                ['즉석식품', '묘죠 잇페이짱 야끼소바 오오모리', 'M4t-Qz4AU_k'],
+                ['즉석식품', '닛신 몽고탄멘 나카모토', 'M4t-Qz4AU_k'],
+                ['즉석식품', '닛신 하카타 돈코츠 잇푸도', 'M4t-Qz4AU_k'],
+                ['즉석식품', '페양구 BIG 야끼소바', 'M4t-Qz4AU_k'],
+
+                ['가공식품/간식', '진 한우 떡갈비 스테이크 2kg', 'Q_7kc-PdvK4'],
+                ['가공식품/간식', '통오리바베큐', '_pIbHjgIU8s'],
+                ['가공식품/간식', '자숙 새우 초밥용 슬라이스', 'Cj154OM4j3k'],
+                ['가공식품/간식', '자투리 참치회', '7yhplsjUxe0'],
+                ['가공식품/간식', '순살 게살', '7yhplsjUxe0'],
+                ['가공식품/간식', '버터오징어 부스러기', '7yhplsjUxe0'],
+                ['가공식품/간식', '가루 와사비', 'W0laeE5Fm-I'],
+                ['가공식품/간식', '냉동 청대콩', 'W0laeE5Fm-I'],
+                ['가공식품/간식', '새우칩 생지', 'W0laeE5Fm-I'],
+                ['가공식품/간식', '애프터 에이트 민트 초콜릿', 'EpRfJxzaOg8'],
+                ['가공식품/간식', '고래사 어묵면', 'Jbfj8SsnOaU'],
+                ['가공식품/간식', '대림선 종이어묵', 'Jbfj8SsnOaU'],
+                ['가공식품/간식', '고추다대기 (멸치맛)', 'S28AHqduRM4'],
+                ['가공식품/간식', '연어장', 'S28AHqduRM4'],
+                ['가공식품/간식', '마이노멀 저당 딸기잼', 'Viq5soXmVO4'],
+                ['가공식품/간식', '코스트코 디너롤', 'n7sPt0VA7rg'],
+                ['가공식품/간식', '베노프 버터멜로우쿠키맛 단백질 쉐이크', 'alDqzeZMbEI'],
+                ['가공식품/간식', '일드프랑스 미니쉘 크림치즈', 'h9lTJB-BZ0s'],
+                ['가공식품/간식', "Sweet Baby Ray's 바비큐 소스", 'GPeF16iUHNo'],
+                ['가공식품/간식', '하겐다즈 천사의 유혹 (화이트 초콜릿)', 'ycz85qdKMEM'],
+                ['가공식품/간식', 'BRULEE 크렘브륄레 아이스크림', 'ycz85qdKMEM,CIqn2cGvgPU'],
+                ['가공식품/간식', '화이트 생초콜릿 아이스', 'ycz85qdKMEM'],
+                ['가공식품/간식', '판초코 아이스', 'ycz85qdKMEM'],
+                ['가공식품/간식', '하겐다즈 샌드위치 (말차 베리)', 'ycz85qdKMEM'],
+                ['가공식품/간식', '하겐다즈 모찌', 'ycz85qdKMEM,CIqn2cGvgPU'],
+                ['가공식품/간식', '하겐다즈 악마의 속삭임 (초콜릿)', 'ycz85qdKMEM'],
+                ['가공식품/간식', '하겐다즈 고구마버터 & 쿠키', 'ycz85qdKMEM'],
+                ['가공식품/간식', '하겐다즈 스푼크러쉬 (말차)', 'ycz85qdKMEM'],
+                ['가공식품/간식', '세븐일레븐 생초콜릿 아이스', 'ycz85qdKMEM,CIqn2cGvgPU'],
+                ['가공식품/간식', '생카라멜 아이스', 'ycz85qdKMEM'],
+                ['가공식품/간식', '세븐일레븐 고구마 모찌볼', 'CIqn2cGvgPU'],
+                ['가공식품/간식', '패밀리마트 후와모찌 말차크림', 'CIqn2cGvgPU'],
+                ['가공식품/간식', '초콜릿 푸딩 (ひとりでたのしくチョコプリン)', 'CIqn2cGvgPU'],
+                ['가공식품/간식', '나메라카 푸딩', 'CIqn2cGvgPU'],
+                ['가공식품/간식', '칼디 포로쇼콜라 초코 바나나 케이크', 'NHvnLNUvzmQ'],
+                ['가공식품/간식', '칼디 딸기버터 스프레드', 'NHvnLNUvzmQ'],
+                ['가공식품/간식', '칼디 마라차항노모토', 'NHvnLNUvzmQ'],
+                ['가공식품/간식', '돈키호테 연어명란후리카게 라호구시', 'NHvnLNUvzmQ'],
+                ['가공식품/간식', '줄줄이 김', 'TC1GfdUHj18'],
+                ['가공식품/간식', '고기맛 고추장', 'TC1GfdUHj18'],
+                ['가공식품/간식', '브라우니 초코바', 'lk-H_MurTds'],
+                ['가공식품/간식', '양배추 소스', 'jiRd1Jd-zEY'],
+                ['가공식품/간식', '명란마요', 'jiRd1Jd-zEY'],
+                ['가공식품/간식', '계란밥 후리가케', 'jiRd1Jd-zEY'],
+                ['가공식품/간식', '간장계란밥잼', 'jiRd1Jd-zEY'],
+                ['가공식품/간식', '와규 소스', 'jiRd1Jd-zEY'],
+                ['가공식품/간식', '프로티원 단백질 쉐이크', 'D9iq8wSLZrM'],
+                ['가공식품/간식', '난도스 페리페리 핫소스', 'hr7_75aDP1Q'],
+                ['가공식품/간식', '불닭볶음면 소스', 'hr7_75aDP1Q']
+            ];
+            const BEAUTY_PRODUCTS = [
+                ['스킨케어', '시드물 마다가스카르 수분크림', 'EtV0Mc-G85I'],
+                ['스킨케어', '시드물 클렌징밀크', 'EtV0Mc-G85I'],
+                ['스킨케어', '시드물 프로폴리스 앰플', 'EtV0Mc-G85I'],
+                ['스킨케어', '닥터엘시아 345 릴리프 크림 미스트', 'oN_mr8cjR6U'],
+                ['스킨케어', '에스네이처 아쿠아 오아시스 토너', 'q-axgU829Ks'],
+                ['스킨케어', '수페 버치 리치 오리진 앰플', 'q-axgU829Ks'],
+                ['스킨케어', '에스네이처 아쿠아 스쿠알란 수분크림', 'q-axgU829Ks'],
+
+                ['헤어', '헤드앤숄더 프로페셔널 샴푸', 'Vh65dXqgqCE'],
+                ['헤어', '클로란 두피 앰플', 'Vh65dXqgqCE'],
+                ['헤어', '보다나 봉고데기 40mm', 'r85OJSkCgLU'],
+
+                ['약국', '케라논 연고', 'QBZaYk2axfk'],
+                ['약국', '미녹시딜 5%', 'QBZaYk2axfk'],
+                ['약국', '엘크라넬', 'QBZaYk2axfk'],
+                ['약국', '디페린겔', 'QBZaYk2axfk'],
+                ['약국', '비판텐 연고', 'QBZaYk2axfk,1LmSSuYIWMo'],
+                ['약국', '에크린 외용액', 'QBZaYk2axfk'],
+                ['약국', '아젤리아 크림', 'QBZaYk2axfk,TSOtH7YcZXA'],
+                ['약국', '비가졸액', 'QBZaYk2axfk'],
+                ['약국', '유레아 크림', 'QBZaYk2axfk'],
+                ['약국', '뉴유스킨 크림', 'QBZaYk2axfk'],
+                ['약국', '다나큐어', 'QBZaYk2axfk'],
+                ['약국', '큐립 연고', 'QBZaYk2axfk'],
+                ['약국', '멜라토닝 크림', 'QBZaYk2axfk,1LmSSuYIWMo'],
+                ['약국', '세비타비 겔', 'QBZaYk2axfk,1LmSSuYIWMo'],
+                ['약국', '니조랄 샴푸', 'Vh65dXqgqCE,1LmSSuYIWMo'],
+                ['약국', '클리어틴', 'TSOtH7YcZXA,1LmSSuYIWMo'],
+                ['약국', '노스카나', 'TSOtH7YcZXA,1LmSSuYIWMo'],
+                ['약국', '더마틱스 울트라', 'TSOtH7YcZXA,1LmSSuYIWMo'],
+                ['약국', '유리아 연고', 'TSOtH7YcZXA'],
+                ['약국', '에스로반', 'TSOtH7YcZXA'],
+                ['약국', '레드엑스 크림', 'TSOtH7YcZXA'],
+                ['약국', '투앤티', '1LmSSuYIWMo'],
+                ['약국', '파티마겔', '1LmSSuYIWMo'],
+                ['약국', '애크논', '1LmSSuYIWMo'],
+                ['약국', '멜라논', '1LmSSuYIWMo'],
+
+                ['베이스', '디어에이 퍼스널 싱글 컨실러', 'oN_mr8cjR6U'],
+                ['베이스', '아뜰리에페이 마이스킨 벗 베러', 'oN_mr8cjR6U'],
+                ['베이스', '웨이크메이크 글로우 파운데이션', 'Zsq6Tp7FKa0'],
+                ['베이스', '클리오 킬커버 메쉬 블러 쿠션 19N 포슬린', 'YPrpnIi04zw'],
+                ['베이스', '보나메두사 오렌지 스킨 딜리트 톤업 미니', 'lWSuc9_--Qs'],
+                ['베이스', '토니모리 루미너스 퍼퓸 페이스 파우더 01', 'lWSuc9_--Qs'],
+                ['베이스', '세포라 컬렉션 크림 컨투어 스틱 01', 'm0GOU_Q67wQ'],
+                ['베이스', '클리오 킬커버 더뉴쿠션 패딩에디션', 'aQ_BTsFdeBU'],
+                ['베이스', '롬앤 베러 댄 컨투어 셰이딩 02 그레이쿨', 'RuRS41vc69s'],
+                ['베이스', '에스쁘아 비글로우 스틱 쉐딩 쿨그레이', 'RuRS41vc69s'],
+                ['베이스', '노베브 볼륨 디테일 쉐딩 팔레트 00 쿨그레이', 'nWR9zalWH4k'],
+                ['베이스', '루나 롱래스팅 팁 컨실러 픽싱핏', 'utooDL_zSvs'],
+                ['베이스', '비레디 마그네틱 피팅 컨실러', 'rNch6xUv3oU'],
+                ['베이스', '태그 벨벳 커버 쿠션 1호', 'RQrFexyUAmk'],
+                ['베이스', '드롭비 컬러즈 커버픽 컨실러 클리어 베이지', 'RQrFexyUAmk'],
+                ['베이스', '클리오 쉐이드 앤 쉐딩 쿨컨투어링', 'RQrFexyUAmk'],
+                ['베이스', '입큰 퍼스널 톤 코렉팅 블러 팩트 라벤더', 'RQrFexyUAmk'],
+                ['베이스', '삐아 쿨디테일', '1k9rVHUOaiM'],
+
+                ['아이', '투크 워터프루프 슬림 아이라이너 도화피그', 'oN_mr8cjR6U'],
+                ['아이', '하파크리스틴 듀이 브라운 렌즈', 'Zsq6Tp7FKa0'],
+                ['아이', '우드버리 아이브로우 펜슬 하바나 브라운', 'Zsq6Tp7FKa0'],
+                ['아이', '에스쁘아 더브로우 컬러 픽싱 카라 베이지', 'Zsq6Tp7FKa0'],
+                ['아이', '에스쁘아 아이 코어 팔레트 핑크 오트 라떼', 'Zsq6Tp7FKa0'],
+                ['아이', '클리오 샤프 쏘 심플 아이라이너', 'Zsq6Tp7FKa0,YPrpnIi04zw'],
+                ['아이', '투쿨포스쿨 프로타주 펜슬 17호', 'Zsq6Tp7FKa0'],
+                ['아이', '노베브 언더 아이 마스터', 'Zsq6Tp7FKa0'],
+                ['아이', '컬러그램 올인원 애교살 메이커 03', 'lk92x9m3IbA'],
+                ['아이', '롬앤 베러댄팔레트 06 피오니 누드 가든', 'YPrpnIi04zw'],
+                ['아이', '에뛰드 뽀용 아이메이커', 'YPrpnIi04zw'],
+                ['아이', '홀리카홀리카 젤테일 몰튼 아메리카노', 'YPrpnIi04zw'],
+                ['아이', '필리밀리 포인트 가닥 속눈썹 또렷데일리 10mm', 'YPrpnIi04zw'],
+                ['아이', '미샤 노리터치 보정카라', 'YPrpnIi04zw'],
+                ['아이', '엔트로피 브로우 블리치 애쉬브라운', 'RuRS41vc69s'],
+                ['아이', '맥 프로 브로우 디파이너 1mm 브루넷', 'uWbzzHHtcRI'],
+                ['아이', '릴리바이레드 스키니메스 브로우 마스카라 3호', 'uWbzzHHtcRI'],
+                ['아이', '아멜리 섀도 243 마카롱그레이', 'XcM5n6d_Z2g'],
+                ['아이', '캔메이크 크리미 터치 라이너 다즐링 핑크', 'XcM5n6d_Z2g'],
+                ['아이', '미샤 팔레트 페인트 젤 라이너 브라운', 'lWSuc9_--Qs'],
+                ['아이', '3CE 마이링 아이라이너 애쉬블랙', 'OFYBeYY8AqE'],
+                ['아이', '3CE 뉴테이크 아이팔레트 크리에이티브필터', 'y-8kK0Ibx38'],
+                ['아이', '웨이크메이크 철벽펜 아이라이너 블랙', 'y-8kK0Ibx38'],
+                ['아이', '낫유얼스 팔레트 글램1 속눈썹', 'y-8kK0Ibx38'],
+                ['아이', '마이피픈 오호스 포그 볼드링 렌즈', 'y-8kK0Ibx38'],
+                ['아이', '젬아워 키오네 원데이 그레이 렌즈', 'RQrFexyUAmk'],
+                ['아이', '하파크리스틴 피스풀 크리스틴 차콜 그레이 렌즈', 'aQ_BTsFdeBU'],
+                ['아이', '힌스 시그니처 브로우 06 라이트 브라운', 'aQ_BTsFdeBU'],
+                ['아이', '웨이크메이크 섀도우 팔레트 05 뮤트 코랄 블러링', 'aQ_BTsFdeBU'],
+                ['아이', '머지 더 퍼스트 젤 아이라이너 G1 블랙문', 'aQ_BTsFdeBU'],
+                ['아이', '머지 더 퍼스트 슬림 젤 아이라이너 P1 오레오', 'aQ_BTsFdeBU'],
+                ['아이', '페리페라 잉크 올 블랙 카라 01 롱컬링', 'aQ_BTsFdeBU'],
+                ['아이', '블레스문 브라운 아이라이너', 'xT71yXbUpYs'],
+                ['아이', '블레스문 02 미니 펄', 'xT71yXbUpYs'],
+                ['아이', '자빈드서울 윙크 아이 쉐이드 프라이머 16 플래쉬 로즈', 'RuRS41vc69s'],
+                ['아이', '태그 슬림 브로우 펜슬', 'wZRGFWzx96M,RQrFexyUAmk'],
+                ['아이', '트윙클팝 레이어링 무드 팔레트', 'RQrFexyUAmk'],
+                ['아이', '트윙클팝 젤리글리터 벚꽃반짝', 'RQrFexyUAmk'],
+                ['아이', '클리오 아이 팔레트 에어 8호', 'y2Uh92PFtnA'],
+                ['아이', '하파크리스틴 어도러블 크리스틴 렌즈', 'y2Uh92PFtnA'],
+                ['아이', '에뛰드 피치거베라 섀도우', 'Xz9lL6myWcs'],
+                ['아이', '노베브 듀얼 아이라이너', 'Xz9lL6myWcs'],
+                ['아이', '블랙루즈 아이디자이닝 펜슬라이너', 'Xz9lL6myWcs'],
+                ['아이', '오렌즈 비비링 베이지 렌즈', 'Xz9lL6myWcs'],
+                ['아이', '웨이크메이크 소프트 블러링 아이팔레트 18호', 'aOHETBgTN54'],
+                ['아이', '스틸라 메탈 글리터 앤 글로우 리퀴드 아이섀도우 키튼카르마', 'aOHETBgTN54'],
+                ['아이', '미문도 루시르 노체블랙 렌즈', 'ykkFPUgjmcA'],
+                ['아이', '컬러그램 음영창조라이너', 'SfA9SOMgSDo'],
+
+                ['치크/하이라이터', '네이밍 플러피 파우더 블러쉬 페이기', 'L3_VWTDXXWk'],
+                ['치크/하이라이터', '글린트 하이라이터 05 피치문', 'yiWaEhxolo4'],
+                ['치크/하이라이터', '페리페라 시럽피 톡 치크 04 무화과', 'Zsq6Tp7FKa0'],
+                ['치크/하이라이터', 'GLYF 휴 스프레드 스틱 티어링', 'YPrpnIi04zw'],
+                ['치크/하이라이터', '클리오 프리즘 하이라이터 06 바이올렛루비', 'XcM5n6d_Z2g'],
+                ['치크/하이라이터', '피브 하이퍼-핏 컬러 치크 라일락풀', 'aQ_BTsFdeBU'],
+                ['치크/하이라이터', '손앤박 아티 스프레드 컬러 밤 피오니', 'RQrFexyUAmk'],
+                ['치크/하이라이터', '입큰 퍼스널 톤 치크라이터 듀오 쿨라이터', 'RQrFexyUAmk'],
+                ['치크/하이라이터', '릴리바이레드 러브빔 치크 우아빔', 'SfA9SOMgSDo'],
+                ['치크/하이라이터', 'SANSY 일루전 루미너스 파우더 페일핑크', 'ZRHDRFdvEIc'],
+                ['치크/하이라이터', '데이지크 럭스글로우 하이라이터', 'lsDbqYIxzFg'],
+                ['치크/하이라이터', '스틸라 블러치크듀오 그레이프프룻+카라멜', 'ykkFPUgjmcA'],
+
+                ['립', '멜릭서 비건 립 트리트먼트 4 베리', 'oN_mr8cjR6U'],
+                ['립', '롬앤 쥬시 플래시 립 오일 01 포멜로 라이트', 'oN_mr8cjR6U'],
+                ['립', '롬앤 립매트 펜슬 02', 'Zsq6Tp7FKa0'],
+                ['립', '프라다 모노크롬 B107', 'Zsq6Tp7FKa0'],
+                ['립', '이글립스 듀 글레이즈 틴트 폴 인', 'YPrpnIi04zw'],
+                ['립', '누즈 리쥬 립글로스 02 버니피즈', 'YPrpnIi04zw'],
+                ['립', '누텍스처 리퀴드 립쉐이퍼 클루리스', 'bPk6M1j0Feo'],
+                ['립', '에이오유 지우개바', 'bPk6M1j0Feo'],
+                ['립', '헉슬리 립밤 리브 비하인드 03', 'aQ_BTsFdeBU'],
+                ['립', '3CE 벨벳 립 틴트 라이크 젠틀', 'aQ_BTsFdeBU'],
+                ['립', '토니모리 겟잇틴트 워터풀버터', 'aQ_BTsFdeBU,aOHETBgTN54'],
+                ['립', '블레스문 02 인 아웃 립스틱', 'xT71yXbUpYs'],
+                ['립', '자빈드서울 윙크 립 쉐이드 프라이머 10 포슬린 로즈', 'RuRS41vc69s'],
+                ['립', '트윙클팝 오버립펜슬', 'RQrFexyUAmk'],
+                ['립', '손앤박 아티 워터 블러 틴트 그레이프콜드', 'RQrFexyUAmk'],
+                ['립', '시코르 글레이즈립 볼류마이저 5호', 'aOHETBgTN54'],
+
+                ['도구', '다이소 태그 비건 플랫 파운데이션 브러쉬', 'a1mg7feFYHM'],
+                ['도구', '다이소 핑크 메탈 블렌딩 총알브러시', 'a1mg7feFYHM'],
+                ['도구', '다이소 본셉 젤 아이라이너 브러쉬', 'a1mg7feFYHM'],
+                ['도구', '다이소 숏 핸들 파우더 브러시', 'a1mg7feFYHM'],
+                ['도구', '다이소 무광 핸들 블러셔 브러시', 'a1mg7feFYHM'],
+                ['도구', '화홍 파운데이션 브러쉬', 'Zsq6Tp7FKa0'],
+                ['도구', '눈썹 정리 키트', 'b7TVMOtA_pc'],
+                ['도구', '눈썹 브러쉬·펜슬', 'b7TVMOtA_pc'],
+                ['도구', '다이소 글로우파운데이션브러시 (1018867)', '1D_6UYxzRig'],
+                ['도구', '다이소 밀착쿠션 에어퍼프 (1039628)', '1D_6UYxzRig,2nzLxUsf_BE'],
+                ['도구', '다이소 미니 파우더 퍼프 (69036)', '1D_6UYxzRig,2nzLxUsf_BE'],
+                ['도구', '다이소 핑거 에어 퍼프 (1058038)', '1D_6UYxzRig'],
+                ['도구', '다이소 포인트쉐이딩브러시301 (1035401)', '1D_6UYxzRig'],
+                ['도구', '다이소 고급파우더브러시 대 (44522)', '1D_6UYxzRig'],
+                ['도구', '다이소 클리어컨투어브러시 (1031065)', '1D_6UYxzRig'],
+                ['도구', '다이소 핑거팡팡 퍼프 (1049629)', '1D_6UYxzRig,2nzLxUsf_BE'],
+                ['도구', '다이소 포인트섀도우브러시 (1002219)', '1D_6UYxzRig'],
+                ['도구', '다이소 올리브데코족집게 (43874)', '1D_6UYxzRig'],
+                ['도구', '글래마이저 V01 솜털 블랜딩 브러시', 'mctxcX6CDMw'],
+                ['도구', '글래마이저 R02 시치미 컨실러 브러시', 'mctxcX6CDMw'],
+                ['도구', '필리밀리 포인트컬러 블렌딩 브러쉬 534', 'y-8kK0Ibx38'],
+                ['도구', '모르페 S101 앵글드 파운데이션 브러시', 'm0GOU_Q67wQ'],
+                ['도구', '다이소 마름모 스펀지 (43870)', '2nzLxUsf_BE'],
+                ['도구', '다이소 사선블렌딩퍼프 (1024246)', '2nzLxUsf_BE'],
+                ['도구', '로즈 드 자르댕 세라믹 괄사', 'hyezeInd414'],
+                ['도구', '안씨브러쉬 Ebony18', 'nWR9zalWH4k'],
+                ['도구', '다이소 태그 노즈 쉐딩 브러쉬', 'RQrFexyUAmk'],
+                ['도구', '알리익스프레스 삼각형 퍼프', 'ykkFPUgjmcA'],
+                ['도구', '다이소 아이라이너 겸용 아이섀도우 브러시', 'wZRGFWzx96M'],
+                ['도구', '다이소 블렌딩 아이섀도우 브러시', 'wZRGFWzx96M'],
+                ['도구', 'KOMO 디파이닝 아이섀도우 브러시', 'ZRHDRFdvEIc'],
+                ['도구', '엑스비지 골드 아이 메이크업 브러쉬 8종', 'lsDbqYIxzFg']
+            ];
+            console.assert([HOUSEWORK_PRODUCTS, GOOD_ITEM_PRODUCTS, BEAUTY_PRODUCTS].every(products =>
+                products.every(([category, name, ids]) => category && name && ids.split(',').every(id => /^[\w-]{11}$/.test(id))) &&
+                new Set(products.map(([, name]) => name)).size === products.length), '상품 목록에 중복 또는 잘못된 출처가 있습니다.');
+
             // App State
             const state = {
                 allIngredients: [],
@@ -627,21 +970,23 @@
 
             // Housework State
             const hwState = {
-                videos: [],
+                products: [],
+                selectedCategory: '',
                 searchTerm: ''
             };
 
             // Good Item State
             const goodItemState = {
                 categories: [],
-                videos: [],
+                products: [],
                 selectedCategory: '',
                 searchTerm: ''
             };
 
             // Beauty State
             const beautyState = {
-                videos: [],
+                products: [],
+                selectedCategory: '',
                 searchTerm: ''
             };
 
@@ -699,54 +1044,46 @@
             }
 
             // Initialize Housework
-            if (window.HOUSEWORK_DATA) {
-                hwState.videos = window.HOUSEWORK_DATA.videos || [];
-                document.getElementById('houseworkCount').textContent = hwState.videos.length;
-                renderHousework(hwState);
-
-                document.getElementById('houseworkSearchInput').addEventListener('input', (e) => {
-                    hwState.searchTerm = e.target.value.toLowerCase();
-                    renderHousework(hwState);
-                });
-            }
+            hwState.products = HOUSEWORK_PRODUCTS;
+            document.getElementById('houseworkCount').textContent = HOUSEWORK_PRODUCTS.length;
+            renderProducts(hwState, 'houseworkContainer', 'houseworkMatchCount');
+            document.getElementById('houseworkSearchInput').addEventListener('input', (e) => {
+                hwState.searchTerm = e.target.value.toLowerCase();
+                renderProducts(hwState, 'houseworkContainer', 'houseworkMatchCount');
+            });
 
             // Initialize Good Items
-            if (window.GOOD_ITEM_DATA) {
-                goodItemState.categories = window.GOOD_ITEM_DATA.categories || [];
-                goodItemState.videos = window.GOOD_ITEM_DATA.videos || [];
-                document.getElementById('goodItemCount').textContent = goodItemState.videos.length;
+            goodItemState.products = GOOD_ITEM_PRODUCTS;
+            goodItemState.categories = [...new Set(GOOD_ITEM_PRODUCTS.map(([category]) => category))];
+            document.getElementById('goodItemCount').textContent = GOOD_ITEM_PRODUCTS.length;
+            renderGoodItemCategories(goodItemState);
+            renderProducts(goodItemState, 'goodItemContainer', 'goodItemMatchCount');
+
+            document.getElementById('goodItemSearchInput').addEventListener('input', (e) => {
+                goodItemState.searchTerm = e.target.value.toLowerCase();
+                renderProducts(goodItemState, 'goodItemContainer', 'goodItemMatchCount');
+            });
+
+            window.toggleGoodItemCategory = (category) => {
+                goodItemState.selectedCategory = goodItemState.selectedCategory === category ? '' : category;
                 renderGoodItemCategories(goodItemState);
-                renderGoodItems(goodItemState);
+                renderProducts(goodItemState, 'goodItemContainer', 'goodItemMatchCount');
+            };
 
-                document.getElementById('goodItemSearchInput').addEventListener('input', (e) => {
-                    goodItemState.searchTerm = e.target.value.toLowerCase();
-                    renderGoodItems(goodItemState);
-                });
-
-                window.toggleGoodItemCategory = (category) => {
-                    goodItemState.selectedCategory = goodItemState.selectedCategory === category ? '' : category;
-                    renderGoodItemCategories(goodItemState);
-                    renderGoodItems(goodItemState);
-                };
-
-                window.clearGoodItemCategory = () => {
-                    goodItemState.selectedCategory = '';
-                    renderGoodItemCategories(goodItemState);
-                    renderGoodItems(goodItemState);
-                };
-            }
+            window.clearGoodItemCategory = () => {
+                goodItemState.selectedCategory = '';
+                renderGoodItemCategories(goodItemState);
+                renderProducts(goodItemState, 'goodItemContainer', 'goodItemMatchCount');
+            };
 
             // Initialize Beauty
-            if (window.BEAUTY_DATA) {
-                beautyState.videos = window.BEAUTY_DATA.videos || [];
-                document.getElementById('beautyCount').textContent = beautyState.videos.length;
-                renderBeauty(beautyState);
-
-                document.getElementById('beautySearchInput').addEventListener('input', (e) => {
-                    beautyState.searchTerm = e.target.value.toLowerCase();
-                    renderBeauty(beautyState);
-                });
-            }
+            beautyState.products = BEAUTY_PRODUCTS;
+            document.getElementById('beautyCount').textContent = BEAUTY_PRODUCTS.length;
+            renderProducts(beautyState, 'beautyContainer', 'beautyMatchCount');
+            document.getElementById('beautySearchInput').addEventListener('input', (e) => {
+                beautyState.searchTerm = e.target.value.toLowerCase();
+                renderProducts(beautyState, 'beautyContainer', 'beautyMatchCount');
+            });
         };
 
         // Tab switching
@@ -928,33 +1265,6 @@
             });
         }
 
-        // Render Housework Videos
-        function renderHousework(hwState) {
-            const container = document.getElementById('houseworkContainer');
-            const matchCountEl = document.getElementById('houseworkMatchCount');
-            container.innerHTML = '';
-
-            const filtered = hwState.videos.filter(v =>
-                v.title.toLowerCase().includes(hwState.searchTerm)
-            );
-
-            matchCountEl.textContent = `(${filtered.length})`;
-
-            if (filtered.length === 0) {
-                container.innerHTML = `<div class="empty-state">집안일 영상이 없습니다.</div>`;
-                return;
-            }
-
-            filtered.forEach(video => {
-                const card = document.createElement('a');
-                card.href = video.link;
-                card.className = 'housework-card';
-                card.target = "_blank";
-                card.innerHTML = `<div class="card-title">${video.title}</div>`;
-                container.appendChild(card);
-            });
-        }
-
         function renderGoodItemCategories(goodItemState) {
             const container = document.getElementById('goodItemCategories');
             container.innerHTML = '';
@@ -968,63 +1278,46 @@
             });
         }
 
-        function renderGoodItems(goodItemState) {
-            const container = document.getElementById('goodItemContainer');
-            const matchCountEl = document.getElementById('goodItemMatchCount');
+        function renderProducts(state, containerId, countId) {
+            const container = document.getElementById(containerId);
+            const matchCountEl = document.getElementById(countId);
             container.innerHTML = '';
 
-            const filtered = goodItemState.videos.filter(v => {
-                const titleMatches = v.title.toLowerCase().includes(goodItemState.searchTerm);
-                const categoryMatches = !goodItemState.selectedCategory || v.item_category === goodItemState.selectedCategory;
+            const filtered = state.products.filter(([category, name]) => {
+                const titleMatches = `${category} ${name}`.toLowerCase().includes(state.searchTerm);
+                const categoryMatches = !state.selectedCategory || category === state.selectedCategory;
                 return titleMatches && categoryMatches;
             });
 
             matchCountEl.textContent = `(${filtered.length})`;
 
             if (filtered.length === 0) {
-                container.innerHTML = `<div class="empty-state">꿀템 영상이 없습니다.</div>`;
+                container.innerHTML = `<div class="empty-state">일치하는 상품이 없습니다.</div>`;
                 return;
             }
 
-            filtered.forEach(video => {
-                const card = document.createElement('a');
-                card.href = video.link;
-                card.className = 'housework-card';
-                card.target = "_blank";
-                card.innerHTML = `
-                    <div class="card-title">${video.title}</div>
-                    <span class="item-category-tag">${video.item_category || '기타'}</span>
-                `;
+            filtered.forEach(([category, name, ids]) => {
+                const card = document.createElement('div');
+                card.className = 'housework-card product-card';
+                const title = document.createElement('div');
+                title.className = 'card-title';
+                title.textContent = `[${category}] ${name}`;
+                card.appendChild(title);
+                const sources = document.createElement('div');
+                sources.className = 'product-sources';
+                ids.split(',').forEach((id, index) => {
+                    const link = document.createElement('a');
+                    link.href = `https://www.youtube.com/watch?v=${id}`;
+                    link.target = '_blank';
+                    link.rel = 'noopener noreferrer';
+                    link.textContent = ids.includes(',') ? `출처 ${index + 1}` : '출처';
+                    sources.appendChild(link);
+                });
+                card.appendChild(sources);
                 container.appendChild(card);
             });
         }
 
-        // Render Beauty Videos
-        function renderBeauty(beautyState) {
-            const container = document.getElementById('beautyContainer');
-            const matchCountEl = document.getElementById('beautyMatchCount');
-            container.innerHTML = '';
-
-            const filtered = beautyState.videos.filter(v =>
-                v.title.toLowerCase().includes(beautyState.searchTerm)
-            );
-
-            matchCountEl.textContent = `(${filtered.length})`;
-
-            if (filtered.length === 0) {
-                container.innerHTML = `<div class="empty-state">뷰티 영상이 없습니다.</div>`;
-                return;
-            }
-
-            filtered.forEach(video => {
-                const card = document.createElement('a');
-                card.href = video.link;
-                card.className = 'housework-card';
-                card.target = "_blank";
-                card.innerHTML = `<div class="card-title">${video.title}</div>`;
-                container.appendChild(card);
-            });
-        }
     </script>
 
 </body>

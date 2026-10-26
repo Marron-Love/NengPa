@@ -1,5 +1,54 @@
 [
     {
+        "title": "'SPECIAL STAGE' CUTIE STREET - 귀엽기만 하면 안 되나요? #엠카운트다운 EP.921 | Mnet 260326 방송",
+        "link": "https://www.youtube.com/watch?v=aanKhmeCl-s",
+        "video_id": "aanKhmeCl-s",
+        "channel_id": "UCbD8EppRX3ZwJSou-TVo90A",
+        "subject": ""
+    },
+    {
+        "title": "토벌랭킹 1위 랏코의귀여운 모습 TOP5",
+        "link": "https://www.youtube.com/watch?v=JIw-mKfH330",
+        "video_id": "JIw-mKfH330",
+        "channel_id": "UCs5fFi1rjG5-rxQ-OI-8bbw",
+        "subject": ""
+    },
+    {
+        "title": "가리비는 해감을 안 해?",
+        "link": "https://www.youtube.com/watch?v=Tzwy1hxX-Y8",
+        "video_id": "Tzwy1hxX-Y8",
+        "channel_id": "UCU7CQVhzDSAGfzIYOsnLGqw",
+        "subject": "요리"
+    },
+    {
+        "title": "절대 안 갈라지는 로우 포니테일 묶는법❣️",
+        "link": "https://www.youtube.com/watch?v=r8SWNrH4N80",
+        "video_id": "r8SWNrH4N80",
+        "channel_id": "UCZ5aYt6ztpIYa9soQrkwn7A",
+        "subject": "뷰티"
+    },
+    {
+        "title": "등촌 샤브샤브 싱크로율 99% 초간단 레시피?!",
+        "link": "https://www.youtube.com/watch?v=2kkevr9pMBM",
+        "video_id": "2kkevr9pMBM",
+        "channel_id": "UCC6a8kqlMRhvCJKnBJ2u7zg",
+        "subject": "요리"
+    },
+    {
+        "title": "휘리릭 만드는데, 정말 맛있는 계란 만둣국",
+        "link": "https://www.youtube.com/watch?v=x8BcUorA6AI",
+        "video_id": "x8BcUorA6AI",
+        "channel_id": "UCokVA1lCR_ZsieE8xx5f8hw",
+        "subject": "요리"
+    },
+    {
+        "title": "내가 유행을 따라가지 않는 이유",
+        "link": "https://www.youtube.com/watch?v=dr_sQ15ZJDI",
+        "video_id": "dr_sQ15ZJDI",
+        "channel_id": "UCslni4iVQ-e784AU83eVcnQ",
+        "subject": ""
+    },
+    {
         "title": "찜기없어도돼! 가리비 찌는 법 #가리비 #조개찜 #조개전골 #조개구이",
         "link": "https://www.youtube.com/watch?v=gjLD2VOER9g",
         "video_id": "gjLD2VOER9g",
@@ -456,7 +505,8 @@
         "link": "https://www.youtube.com/watch?v=iMiUjP-RzIE",
         "video_id": "iMiUjP-RzIE",
         "channel_id": "UCqf-sIfY4zJgzoqS9G1St4g",
-        "subject": "집안일"
+        "subject": "꿀템",
+        "item_category": "주방"
     },
     {
         "title": "2분 분량! 입주, 이사후 하는 #욕실 #입주청소 순서",
@@ -1873,14 +1923,14 @@
         "video_id": "gja-cnkRzZs",
         "channel_id": "UC74HTJAomV9b3osvB9-wPpA",
         "subject": "꿀템",
-        "item_category": "욕실"
+        "item_category": "기타"
     },
     {
         "title": "1.5룸 오피스텔 화장실청소 2주 루틴",
         "link": "https://www.youtube.com/watch?v=I_rMEHUEJrA",
         "video_id": "I_rMEHUEJrA",
         "channel_id": "UC-3nOEGkzLlIduuUgkc5xWQ",
-        "subject": "집안일"
+        "subject": ""
     },
     {
         "title": "멘헤라 일본연하남",
@@ -3629,7 +3679,7 @@
         "title": "우리집 냉동실 구원템",
         "link": "https://www.youtube.com/watch?v=mw-nLm_UFPk",
         "subject": "꿀템",
-        "item_category": "즉석식품"
+        "item_category": "주방"
     },
     {
         "title": "계란이 있다면 무조건 먹어봐야 할 레시피",
@@ -4054,12 +4104,13 @@
         "title": "사장님 얼굴걸고 판매하는 쿠팡 삼겹살 진짜 맛있을까?",
         "link": "https://www.youtube.com/watch?v=0Z7w5P-gT9A",
         "subject": "꿀템",
-        "item_category": "기타"
+        "item_category": "가공식품/간식"
     },
     {
         "title": "외출할 때 필수!  쿠팡 가방 속 꿀템 5가지",
         "link": "https://www.youtube.com/watch?v=DnAI-bbILeQ",
-        "subject": ""
+        "subject": "꿀템",
+        "item_category": "기타"
     },
     {
         "title": "[신혼수업 4탄] 만능한식 공식과 100g의 법칙 #고정댓글",
@@ -4381,7 +4432,7 @@
     {
         "title": "⭐️50만뷰⭐️냉동실에서 꺼내먹어요",
         "link": "https://www.youtube.com/watch?v=N_meUuW1tDE",
-        "subject": "집안일"
+        "subject": "요리"
     },
     {
         "title": "물 한방울 없이 만드는 대파수육(feat.김치 예쁘게 써는 꿀팁)",
@@ -4463,8 +4514,7 @@
     {
         "title": "⭐️150만뷰⭐️ 쿠팡에서 3만원대로 외식느낌 일주일집밥! #가성비 #식비절약 #쿠팡추천",
         "link": "https://www.youtube.com/watch?v=1PLVrEMn17Q",
-        "subject": "꿀템",
-        "item_category": "즉석식품"
+        "subject": "요리"
     },
     {
         "title": "들기름 막국수를 파스타로 더 건강하고 맛있게",
@@ -4684,7 +4734,7 @@
     {
         "title": "턱살 빼는법",
         "link": "https://www.youtube.com/watch?v=KfN1ny5ZmSA",
-        "subject": ""
+        "subject": "뷰티"
     },
     {
         "title": "남자들 대부분이 모르는 반팔 넣입 꿀팁!",
@@ -5181,7 +5231,7 @@
     {
         "title": "말도 안 되는 맛",
         "link": "https://www.youtube.com/watch?v=Hwzl8IA9NH0",
-        "subject": ""
+        "subject": "요리"
     },
     {
         "title": "판교 사투리로 가사 쓴 아이돌",
@@ -5212,7 +5262,7 @@
     {
         "title": "3000원으로 100번 만들기",
         "link": "https://www.youtube.com/watch?v=ZD8eVepJKsA",
-        "subject": ""
+        "subject": "요리"
     },
     {
         "title": "고기들의 실체ㄷㄷ",
@@ -6676,7 +6726,7 @@
         "title": "CU 다이어트 추천템 TOP4",
         "link": "https://www.youtube.com/watch?v=wmKaMErczUY",
         "subject": "꿀템",
-        "item_category": "즉석식품"
+        "item_category": "가공식품/간식"
     },
     {
         "title": "‘키-120=몸무게’ 초등학생 몸을 동경하는 사람들ㅣ거식증ㅣ프로아나ㅣ키빼몸",
