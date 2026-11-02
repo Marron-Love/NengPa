@@ -249,6 +249,9 @@
             border-color: var(--accent-color);
         }
 
+        .recipe-thumbnail { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+        .recipe-description { margin: 0 0 1rem; color: var(--text-secondary); line-height: 1.5; }
+
         .card-content {
             padding: 1.5rem;
         }
@@ -388,6 +391,7 @@
 
         .product-card { cursor: default; }
         .product-card:hover { transform: none; }
+        .product-description { margin: 0.5rem 0 0; color: var(--text-secondary); line-height: 1.5; }
         .product-sources { margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.75rem; }
         .product-sources a { color: var(--accent-color); }
 
@@ -635,154 +639,154 @@
                 ['인테리어', '더프리그 카펫타일', 'CPzWyylBJG4']
             ];
             const GOOD_ITEM_PRODUCTS = [
-                ['청소', '오토모 소닉붐 청소기', '7nPkIjmohuM'],
-                ['청소', '에브리봇 침구 로봇청소기', '7nPkIjmohuM'],
-                ['청소', '스카트 유리 거울 세정 청소티슈', 'nn-Niat9kUs'],
-                ['청소', '홈스타 뿌리는 곰팡이 싹 세정제', 'nn-Niat9kUs'],
-                ['청소', '홈스타 핑크파워 샤워부스 찌든 물때 클리너', 'nn-Niat9kUs'],
-                ['청소', '코멧 홈 다용도 청소브러쉬 + 미니틈새솔 세트', 'nn-Niat9kUs'],
-                ['청소', '코멧 매직블럭 중형', 'nn-Niat9kUs'],
-                ['청소', '코멧 키친 컬러풀 극세사 행주', 'nn-Niat9kUs'],
-                ['청소', '키엘 엑손포르테', 'hMeRqYSdFgU'],
-                ['청소', '키엘 샤니칼', 'hMeRqYSdFgU'],
-                ['청소', '스테인제로 얼룩제거제', 'PLfO3oQVIFE'],
+                ['청소', '오토모 소닉붐 청소기', '7nPkIjmohuM', '집안 바닥과 틈새의 먼지를 빨아들이는 청소기.'],
+                ['청소', '에브리봇 침구 로봇청소기', '7nPkIjmohuM', '침구 표면의 먼지를 청소하는 기기.'],
+                ['청소', '스카트 유리 거울 세정 청소티슈', 'nn-Niat9kUs', '유리와 거울 표면을 닦는 청소티슈.'],
+                ['청소', '홈스타 뿌리는 곰팡이 싹 세정제', 'nn-Niat9kUs', '곰팡이가 생긴 곳에 뿌려 쓰는 세정제.'],
+                ['청소', '홈스타 핑크파워 샤워부스 찌든 물때 클리너', 'nn-Niat9kUs', '샤워부스에 낀 물때를 닦는 세정제.'],
+                ['청소', '코멧 홈 다용도 청소브러쉬 + 미니틈새솔 세트', 'nn-Niat9kUs', '넓은 면과 좁은 틈을 문질러 청소하는 솔 세트.'],
+                ['청소', '코멧 매직블럭 중형', 'nn-Niat9kUs', '표면의 자국과 때를 문질러 닦는 블록.'],
+                ['청소', '코멧 키친 컬러풀 극세사 행주', 'nn-Niat9kUs', '주방 조리대와 식기를 닦는 극세사 행주.'],
+                ['청소', '키엘 엑손포르테', 'hMeRqYSdFgU', '집안 오염을 닦는 데 쓰는 청소 세제.'],
+                ['청소', '키엘 샤니칼', 'hMeRqYSdFgU', '집안 청소에 쓰는 세정제.'],
+                ['청소', '스테인제로 얼룩제거제', 'PLfO3oQVIFE', '옷이나 천에 묻은 얼룩을 지우는 세제.'],
 
-                ['주방', '속이 보이는 에어프라이어', 'Cvidy-TxILY'],
-                ['주방', '달걀 까기 펀치', 'jaIzASBpRqE'],
-                ['주방', '오토플립 오일병', 'jaIzASBpRqE'],
-                ['주방', '버터 나이프', 'jaIzASBpRqE'],
-                ['주방', '모래시계 피클병', 'jaIzASBpRqE'],
-                ['주방', '햄빼', 'jaIzASBpRqE'],
-                ['주방', '클립형 봉투캡', 'jaIzASBpRqE'],
-                ['주방', '슬라이스 홀더', 'hmu5ykGiWSc'],
-                ['주방', '토마토 꼭지 제거기', 'hmu5ykGiWSc'],
-                ['주방', '자동냄비 롤팬', 'Qgn8Vv__tog'],
-                ['주방', '계란 깨기 도구', 'j2BF7BCwKlY'],
-                ['주방', '소시지 칼집 도구', 'j2BF7BCwKlY'],
-                ['주방', '뒤집개 홀더', 'j2BF7BCwKlY'],
-                ['주방', '야채 썰기 기계', '-YS6JwI5LBo'],
-                ['주방', '초밥 모양틀', '-YS6JwI5LBo'],
-                ['주방', '젓가락 정리 도구', '-YS6JwI5LBo'],
-                ['주방', '자동 이쑤시개 통', '-YS6JwI5LBo'],
-                ['주방', '1인 도자기 밥솥', 'iX_Im1AQUhc'],
-                ['주방', '즉석 라면 조리기', 'iX_Im1AQUhc'],
-                ['주방', '계란 쿠커', 'iX_Im1AQUhc'],
-                ['주방', '전자레인지 파스타 용기', 'iX_Im1AQUhc'],
-                ['주방', '약셀가위', 'eVV9CnULg1c'],
-                ['주방', '파스타캡', 'eVV9CnULg1c'],
-                ['주방', '직각버터나이프', 'eVV9CnULg1c'],
-                ['주방', '알끈제거 스틱', 'eVV9CnULg1c'],
-                ['주방', '내솥 분리 멀티쿠커', '2_f5TNVoNKQ'],
-                ['주방', '만능 캐니스터', 'fwYU0HVzhvI'],
-                ['주방', '접이식 도마', 'YtZ6uOa-Ya4'],
+                ['주방', '속이 보이는 에어프라이어', 'Cvidy-TxILY', '조리 과정을 들여다보며 음식을 굽는 기기.'],
+                ['주방', '달걀 까기 펀치', 'jaIzASBpRqE', '삶은 달걀의 껍질을 까기 쉽게 구멍을 내는 도구.'],
+                ['주방', '오토플립 오일병', 'jaIzASBpRqE', '기울이면 입구가 열려 기름을 따르는 병.'],
+                ['주방', '버터 나이프', 'jaIzASBpRqE', '버터를 덜어 빵에 펴 바르는 칼.'],
+                ['주방', '모래시계 피클병', 'jaIzASBpRqE', '절임물과 피클을 나눠 꺼내기 쉬운 병.'],
+                ['주방', '햄빼', 'jaIzASBpRqE', '캔에 든 햄을 꺼낼 때 쓰는 도구.'],
+                ['주방', '클립형 봉투캡', 'jaIzASBpRqE', '개봉한 봉투를 닫고 내용물을 따라 쓰는 뚜껑.'],
+                ['주방', '슬라이스 홀더', 'hmu5ykGiWSc', '식재료를 잡고 얇게 썰 때 쓰는 도구.'],
+                ['주방', '토마토 꼭지 제거기', 'hmu5ykGiWSc', '토마토의 꼭지 부분을 도려내는 도구.'],
+                ['주방', '자동냄비 롤팬', 'Qgn8Vv__tog', '재료를 자동으로 저으며 조리하는 냄비.'],
+                ['주방', '계란 깨기 도구', 'j2BF7BCwKlY', '달걀 껍질을 깨서 내용물을 꺼내는 도구.'],
+                ['주방', '소시지 칼집 도구', 'j2BF7BCwKlY', '소시지에 일정한 칼집을 내는 도구.'],
+                ['주방', '뒤집개 홀더', 'j2BF7BCwKlY', '조리 중 뒤집개를 잠시 올려두는 받침.'],
+                ['주방', '야채 썰기 기계', '-YS6JwI5LBo', '채소를 빠르게 자르고 모양내는 도구.'],
+                ['주방', '초밥 모양틀', '-YS6JwI5LBo', '밥을 초밥 모양으로 잡아주는 틀.'],
+                ['주방', '젓가락 정리 도구', '-YS6JwI5LBo', '젓가락을 가지런히 보관하는 도구.'],
+                ['주방', '자동 이쑤시개 통', '-YS6JwI5LBo', '이쑤시개를 한 개씩 꺼내기 쉽게 보관하는 통.'],
+                ['주방', '1인 도자기 밥솥', 'iX_Im1AQUhc', '한 사람이 먹을 분량의 밥을 짓는 도자기 솥.'],
+                ['주방', '즉석 라면 조리기', 'iX_Im1AQUhc', '라면을 간편하게 끓여 먹는 조리기.'],
+                ['주방', '계란 쿠커', 'iX_Im1AQUhc', '달걀을 간편하게 익히는 소형 조리기.'],
+                ['주방', '전자레인지 파스타 용기', 'iX_Im1AQUhc', '전자레인지로 파스타 면을 삶는 용기.'],
+                ['주방', '약셀가위', 'eVV9CnULg1c', '약 포장지를 자르고 뜯는 데 쓰는 가위.'],
+                ['주방', '파스타캡', 'eVV9CnULg1c', '남은 마른 파스타 봉지를 닫아 보관하는 뚜껑.'],
+                ['주방', '직각버터나이프', 'eVV9CnULg1c', '버터를 잘라 빵에 펴 바르는 직각형 칼.'],
+                ['주방', '알끈제거 스틱', 'eVV9CnULg1c', '달걀의 알끈을 집어내는 도구.'],
+                ['주방', '내솥 분리 멀티쿠커', '2_f5TNVoNKQ', '내솥을 꺼내 씻을 수 있는 다용도 조리기.'],
+                ['주방', '만능 캐니스터', 'fwYU0HVzhvI', '식재료를 담아 보관하는 다용도 통.'],
+                ['주방', '접이식 도마', 'YtZ6uOa-Ya4', '접어서 썬 재료를 옮기기 쉬운 도마.'],
 
-                ['수납/정리', '공기 압축 리빙박스', 'TDRCfdellyI'],
-                ['수납/정리', '드레스룸 탱크 벙커침대', 'TDRCfdellyI'],
-                ['수납/정리', '좁은 주방 수납장', 'RZDw2v_-uEI'],
-                ['수납/정리', '스피드랙 무볼트 시스템 행거', 'rqROBjgILeQ'],
-                ['수납/정리', '다이소 2단 선반 (1048716)', 'NNb_FpyHZxI'],
-                ['수납/정리', '틈없는 베란다 데크타일', 'YwLaRmf1-SM'],
+                ['수납/정리', '공기 압축 리빙박스', 'TDRCfdellyI', '옷과 이불의 부피를 줄여 보관하는 상자.'],
+                ['수납/정리', '드레스룸 탱크 벙커침대', 'TDRCfdellyI', '침대 아래 공간을 옷장처럼 쓰는 가구.'],
+                ['수납/정리', '좁은 주방 수납장', 'RZDw2v_-uEI', '좁은 주방의 빈 공간에 물건을 보관하는 수납장.'],
+                ['수납/정리', '스피드랙 무볼트 시스템 행거', 'rqROBjgILeQ', '옷을 걸어 정리하는 조립식 행거.'],
+                ['수납/정리', '다이소 2단 선반 (1048716)', 'NNb_FpyHZxI', '조미료와 작은 주방용품을 두 층으로 정리하는 선반.'],
+                ['수납/정리', '틈없는 베란다 데크타일', 'YwLaRmf1-SM', '베란다 바닥을 덮어 꾸미는 타일.'],
 
-                ['욕실', '엘쏘 트윈스 방수팩 WASH BAG', 'fqiW8-3oC-c'],
-                ['욕실', '도브 센서티브 크림 뷰티바', 'fqiW8-3oC-c'],
-                ['욕실', '도브 뷰티 크림 바 비누', 'fqiW8-3oC-c'],
-                ['욕실', '때르메스', 'fqiW8-3oC-c'],
-                ['욕실', '오곡 때비누', 'fqiW8-3oC-c'],
-                ['욕실', '바세린 헬디 브라이트 로션', 'fqiW8-3oC-c'],
-                ['욕실', '바세린 Gluta-Hya 바디로션', 'fqiW8-3oC-c'],
-                ['욕실', '스톤 발각질 제거기', 'fqiW8-3oC-c'],
-                ['욕실', '냄새 차단 배수구 마개', 'YtZ6uOa-Ya4'],
-                ['욕실', '문에 걸리지 않는 낮은 욕실 슬리퍼', 'YtZ6uOa-Ya4'],
+                ['욕실', '엘쏘 트윈스 방수팩 WASH BAG', 'fqiW8-3oC-c', '물에 젖으면 안 되는 물건을 담는 방수팩.'],
+                ['욕실', '도브 센서티브 크림 뷰티바', 'fqiW8-3oC-c', '몸을 씻는 센서티브 타입 세정바.'],
+                ['욕실', '도브 뷰티 크림 바 비누', 'fqiW8-3oC-c', '손과 몸을 씻는 고체 비누.'],
+                ['욕실', '때르메스', 'fqiW8-3oC-c', '목욕할 때 몸의 때를 밀어내는 타월.'],
+                ['욕실', '오곡 때비누', 'fqiW8-3oC-c', '목욕할 때 묵은 때를 씻어내는 비누.'],
+                ['욕실', '바세린 헬디 브라이트 로션', 'fqiW8-3oC-c', '목욕 후 몸에 발라 보습하는 바디로션.'],
+                ['욕실', '바세린 Gluta-Hya 바디로션', 'fqiW8-3oC-c', '몸 피부에 수분을 더하는 바디로션.'],
+                ['욕실', '스톤 발각질 제거기', 'fqiW8-3oC-c', '발뒤꿈치의 각질을 문질러 제거하는 도구.'],
+                ['욕실', '냄새 차단 배수구 마개', 'YtZ6uOa-Ya4', '배수구에서 올라오는 냄새를 막는 마개.'],
+                ['욕실', '문에 걸리지 않는 낮은 욕실 슬리퍼', 'YtZ6uOa-Ya4', '욕실 문에 걸리지 않게 낮게 만든 슬리퍼.'],
 
-                ['기타', '흡착 스팀 다리미', 'TDRCfdellyI'],
-                ['기타', 'NFC 스티커', 'SM_APA_KdRg'],
-                ['기타', '테팔 핸디형 스팀 다리미', 'ub6Lz0awFgs'],
-                ['기타', '글리너 수동 보풀 제거기', 'ub6Lz0awFgs'],
-                ['기타', '슬라이딩 소파', 'g7pmi_Fqdl4'],
-                ['기타', '다용도 캔·병 오프너', '63wr0SAlCG0'],
-                ['기타', '지갑 위치 추적 카드', '63wr0SAlCG0'],
-                ['기타', '자동 책갈피', '63wr0SAlCG0'],
+                ['기타', '흡착 스팀 다리미', 'TDRCfdellyI', '옷을 붙잡아 놓고 스팀으로 주름을 펴는 다리미.'],
+                ['기타', 'NFC 스티커', 'SM_APA_KdRg', '휴대폰을 대면 지정한 기능을 실행하게 하는 스티커.'],
+                ['기타', '테팔 핸디형 스팀 다리미', 'ub6Lz0awFgs', '옷을 걸어둔 채 스팀으로 주름을 펴는 다리미.'],
+                ['기타', '글리너 수동 보풀 제거기', 'ub6Lz0awFgs', '니트와 옷의 보풀을 손으로 밀어 제거하는 도구.'],
+                ['기타', '슬라이딩 소파', 'g7pmi_Fqdl4', '평소엔 소파, 펼치면 침대로 쓰는 가구.'],
+                ['기타', '다용도 캔·병 오프너', '63wr0SAlCG0', '캔과 병뚜껑을 여는 다용도 도구.'],
+                ['기타', '지갑 위치 추적 카드', '63wr0SAlCG0', '지갑에 넣어 분실 시 위치를 찾는 카드.'],
+                ['기타', '자동 책갈피', '63wr0SAlCG0', '읽던 페이지를 잃지 않게 표시하는 책갈피.'],
 
-                ['즉석식품', '발열 라면밥', 'TC1GfdUHj18'],
-                ['즉석식품', '베이컨 볶음김치', 'TC1GfdUHj18'],
-                ['즉석식품', '즉석 북어국', 'TC1GfdUHj18,r7BT1EldrXU'],
-                ['즉석식품', '휴대용 짬뽕가루', 'TC1GfdUHj18'],
-                ['즉석식품', '통등심 돈가스', 'etr3NIZDtNw'],
-                ['즉석식품', '자메이카 닭다리', 'etr3NIZDtNw'],
-                ['즉석식품', '치즈 스파게티', 'etr3NIZDtNw'],
-                ['즉석식품', '스테이크 솥밥 밀키트', 'etr3NIZDtNw'],
-                ['즉석식품', '저당 냉면 세트', 'jvIJ0VDCc38'],
-                ['즉석식품', '두부피 브리또', 'jvIJ0VDCc38'],
-                ['즉석식품', '저칼로리 비빔국수', 'jvIJ0VDCc38'],
-                ['즉석식품', '닭가슴살 만두', 'jvIJ0VDCc38'],
-                ['즉석식품', '저밀가루 어묵탕', 'jvIJ0VDCc38'],
-                ['즉석식품', '저당 짜장라면', 'lk-H_MurTds'],
-                ['즉석식품', '오트밀 라죽', 'lk-H_MurTds'],
-                ['즉석식품', '곤약 떡볶이', 'lk-H_MurTds'],
-                ['즉석식품', '치즈 새송이버섯', 'r7BT1EldrXU'],
-                ['즉석식품', '참치마요·콘마요 스틱', 'r7BT1EldrXU'],
-                ['즉석식품', '즉석 미소된장국', 'r7BT1EldrXU,jiRd1Jd-zEY'],
-                ['즉석식품', '해산불버터 키트', 'r7BT1EldrXU'],
-                ['즉석식품', '노브랜드 타코야끼', 'NmgqkuyEZ38'],
-                ['즉석식품', '노브랜드 칠리새우', 'NmgqkuyEZ38'],
-                ['즉석식품', '노브랜드 매운꼬치어묵', 'NmgqkuyEZ38'],
-                ['즉석식품', '닛신 돈베이 키츠네 우동', 'M4t-Qz4AU_k'],
-                ['즉석식품', '닛신 UFO 야끼소바', 'M4t-Qz4AU_k'],
-                ['즉석식품', '닛신 컵누들 오리지널', 'M4t-Qz4AU_k'],
-                ['즉석식품', '묘죠 잇페이짱 야끼소바 오오모리', 'M4t-Qz4AU_k'],
-                ['즉석식품', '닛신 몽고탄멘 나카모토', 'M4t-Qz4AU_k'],
-                ['즉석식품', '닛신 하카타 돈코츠 잇푸도', 'M4t-Qz4AU_k'],
-                ['즉석식품', '페양구 BIG 야끼소바', 'M4t-Qz4AU_k'],
+                ['즉석식품', '발열 라면밥', 'TC1GfdUHj18', '발열팩으로 데워 먹는 라면밥.'],
+                ['즉석식품', '베이컨 볶음김치', 'TC1GfdUHj18', '밥이나 라면에 곁들여 먹는 볶음김치.'],
+                ['즉석식품', '즉석 북어국', 'TC1GfdUHj18,r7BT1EldrXU', '간편히 데워 먹는 북어국.'],
+                ['즉석식품', '휴대용 짬뽕가루', 'TC1GfdUHj18', '국물이나 음식에 짬뽕 맛을 더하는 가루.'],
+                ['즉석식품', '통등심 돈가스', 'etr3NIZDtNw', '데워서 한 끼 반찬으로 먹는 돈가스.'],
+                ['즉석식품', '자메이카 닭다리', 'etr3NIZDtNw', '데워서 한 끼 메뉴로 먹는 양념 닭다리.'],
+                ['즉석식품', '치즈 스파게티', 'etr3NIZDtNw', '치즈 소스와 함께 간편히 먹는 스파게티.'],
+                ['즉석식품', '스테이크 솥밥 밀키트', 'etr3NIZDtNw', '재료를 조리해 스테이크 솥밥을 만드는 밀키트.'],
+                ['즉석식품', '저당 냉면 세트', 'jvIJ0VDCc38', '당류를 줄인 냉면을 만들어 먹는 세트.'],
+                ['즉석식품', '두부피 브리또', 'jvIJ0VDCc38', '두부피로 감싼 브리또를 간편히 먹는 제품.'],
+                ['즉석식품', '저칼로리 비빔국수', 'jvIJ0VDCc38', '칼로리를 낮춘 비빔국수를 간편히 먹는 제품.'],
+                ['즉석식품', '닭가슴살 만두', 'jvIJ0VDCc38', '닭가슴살을 넣은 만두를 간편히 먹는 제품.'],
+                ['즉석식품', '저밀가루 어묵탕', 'jvIJ0VDCc38', '밀가루를 줄인 어묵탕을 간편히 먹는 제품.'],
+                ['즉석식품', '저당 짜장라면', 'lk-H_MurTds', '당류를 줄인 짜장라면을 간편히 먹는 제품.'],
+                ['즉석식품', '오트밀 라죽', 'lk-H_MurTds', '오트밀을 넣은 라면죽을 간편히 먹는 제품.'],
+                ['즉석식품', '곤약 떡볶이', 'lk-H_MurTds', '곤약을 넣은 떡볶이를 간편히 먹는 제품.'],
+                ['즉석식품', '치즈 새송이버섯', 'r7BT1EldrXU', '치즈와 새송이버섯을 곁들여 먹는 간편식.'],
+                ['즉석식품', '참치마요·콘마요 스틱', 'r7BT1EldrXU', '밥이나 빵 위에 짜서 먹는 참치·콘마요 소스.'],
+                ['즉석식품', '즉석 미소된장국', 'r7BT1EldrXU,jiRd1Jd-zEY', '간편히 끓여 먹는 미소된장국.'],
+                ['즉석식품', '해산불버터 키트', 'r7BT1EldrXU', '해산물 버터 요리를 간편히 만드는 키트.'],
+                ['즉석식품', '노브랜드 타코야끼', 'NmgqkuyEZ38', '데워서 간식으로 먹는 타코야끼.'],
+                ['즉석식품', '노브랜드 칠리새우', 'NmgqkuyEZ38', '데워서 반찬이나 안주로 먹는 칠리새우.'],
+                ['즉석식품', '노브랜드 매운꼬치어묵', 'NmgqkuyEZ38', '데워서 간식이나 안주로 먹는 매운 꼬치어묵.'],
+                ['즉석식품', '닛신 돈베이 키츠네 우동', 'M4t-Qz4AU_k', '뜨거운 물을 부어 먹는 일본식 유부 우동.'],
+                ['즉석식품', '닛신 UFO 야끼소바', 'M4t-Qz4AU_k', '뜨거운 물로 조리해 먹는 일본식 컵 볶음면.'],
+                ['즉석식품', '닛신 컵누들 오리지널', 'M4t-Qz4AU_k', '뜨거운 물을 부어 먹는 기본 맛 컵라면.'],
+                ['즉석식품', '묘죠 잇페이짱 야끼소바 오오모리', 'M4t-Qz4AU_k', '큰 컵에 담긴 일본식 볶음면.'],
+                ['즉석식품', '닛신 몽고탄멘 나카모토', 'M4t-Qz4AU_k', '매운 국물맛을 즐기는 일본 컵라면.'],
+                ['즉석식품', '닛신 하카타 돈코츠 잇푸도', 'M4t-Qz4AU_k', '돈코츠 국물맛을 즐기는 일본 컵라면.'],
+                ['즉석식품', '페양구 BIG 야끼소바', 'M4t-Qz4AU_k', '큰 용량의 일본식 컵 볶음면.'],
 
-                ['가공식품/간식', '진 한우 떡갈비 스테이크 2kg', 'Q_7kc-PdvK4'],
-                ['가공식품/간식', '통오리바베큐', '_pIbHjgIU8s'],
-                ['가공식품/간식', '자숙 새우 초밥용 슬라이스', 'Cj154OM4j3k'],
-                ['가공식품/간식', '자투리 참치회', '7yhplsjUxe0'],
-                ['가공식품/간식', '순살 게살', '7yhplsjUxe0'],
-                ['가공식품/간식', '버터오징어 부스러기', '7yhplsjUxe0'],
-                ['가공식품/간식', '가루 와사비', 'W0laeE5Fm-I'],
-                ['가공식품/간식', '냉동 청대콩', 'W0laeE5Fm-I'],
-                ['가공식품/간식', '새우칩 생지', 'W0laeE5Fm-I'],
-                ['가공식품/간식', '애프터 에이트 민트 초콜릿', 'EpRfJxzaOg8'],
-                ['가공식품/간식', '고래사 어묵면', 'Jbfj8SsnOaU'],
-                ['가공식품/간식', '대림선 종이어묵', 'Jbfj8SsnOaU'],
-                ['가공식품/간식', '고추다대기 (멸치맛)', 'S28AHqduRM4'],
-                ['가공식품/간식', '연어장', 'S28AHqduRM4'],
-                ['가공식품/간식', '마이노멀 저당 딸기잼', 'Viq5soXmVO4'],
-                ['가공식품/간식', '코스트코 디너롤', 'n7sPt0VA7rg'],
-                ['가공식품/간식', '베노프 버터멜로우쿠키맛 단백질 쉐이크', 'alDqzeZMbEI'],
-                ['가공식품/간식', '일드프랑스 미니쉘 크림치즈', 'h9lTJB-BZ0s'],
-                ['가공식품/간식', "Sweet Baby Ray's 바비큐 소스", 'GPeF16iUHNo'],
-                ['가공식품/간식', '하겐다즈 천사의 유혹 (화이트 초콜릿)', 'ycz85qdKMEM'],
-                ['가공식품/간식', 'BRULEE 크렘브륄레 아이스크림', 'ycz85qdKMEM,CIqn2cGvgPU'],
-                ['가공식품/간식', '화이트 생초콜릿 아이스', 'ycz85qdKMEM'],
-                ['가공식품/간식', '판초코 아이스', 'ycz85qdKMEM'],
-                ['가공식품/간식', '하겐다즈 샌드위치 (말차 베리)', 'ycz85qdKMEM'],
-                ['가공식품/간식', '하겐다즈 모찌', 'ycz85qdKMEM,CIqn2cGvgPU'],
-                ['가공식품/간식', '하겐다즈 악마의 속삭임 (초콜릿)', 'ycz85qdKMEM'],
-                ['가공식품/간식', '하겐다즈 고구마버터 & 쿠키', 'ycz85qdKMEM'],
-                ['가공식품/간식', '하겐다즈 스푼크러쉬 (말차)', 'ycz85qdKMEM'],
-                ['가공식품/간식', '세븐일레븐 생초콜릿 아이스', 'ycz85qdKMEM,CIqn2cGvgPU'],
-                ['가공식품/간식', '생카라멜 아이스', 'ycz85qdKMEM'],
-                ['가공식품/간식', '세븐일레븐 고구마 모찌볼', 'CIqn2cGvgPU'],
-                ['가공식품/간식', '패밀리마트 후와모찌 말차크림', 'CIqn2cGvgPU'],
-                ['가공식품/간식', '초콜릿 푸딩 (ひとりでたのしくチョコプリン)', 'CIqn2cGvgPU'],
-                ['가공식품/간식', '나메라카 푸딩', 'CIqn2cGvgPU'],
-                ['가공식품/간식', '칼디 포로쇼콜라 초코 바나나 케이크', 'NHvnLNUvzmQ'],
-                ['가공식품/간식', '칼디 딸기버터 스프레드', 'NHvnLNUvzmQ'],
-                ['가공식품/간식', '칼디 마라차항노모토', 'NHvnLNUvzmQ'],
-                ['가공식품/간식', '돈키호테 연어명란후리카게 라호구시', 'NHvnLNUvzmQ'],
-                ['가공식품/간식', '줄줄이 김', 'TC1GfdUHj18'],
-                ['가공식품/간식', '고기맛 고추장', 'TC1GfdUHj18'],
-                ['가공식품/간식', '브라우니 초코바', 'lk-H_MurTds'],
-                ['가공식품/간식', '양배추 소스', 'jiRd1Jd-zEY'],
-                ['가공식품/간식', '명란마요', 'jiRd1Jd-zEY'],
-                ['가공식품/간식', '계란밥 후리가케', 'jiRd1Jd-zEY'],
-                ['가공식품/간식', '간장계란밥잼', 'jiRd1Jd-zEY'],
-                ['가공식품/간식', '와규 소스', 'jiRd1Jd-zEY'],
-                ['가공식품/간식', '프로티원 단백질 쉐이크', 'D9iq8wSLZrM'],
-                ['가공식품/간식', '난도스 페리페리 핫소스', 'hr7_75aDP1Q'],
-                ['가공식품/간식', '불닭볶음면 소스', 'hr7_75aDP1Q']
+                ['가공식품/간식', '진 한우 떡갈비 스테이크 2kg', 'Q_7kc-PdvK4', '구워서 반찬이나 메인 요리로 먹는 한우 떡갈비.'],
+                ['가공식품/간식', '통오리바베큐', '_pIbHjgIU8s', '데워서 한 끼 요리나 안주로 먹는 오리 바비큐.'],
+                ['가공식품/간식', '자숙 새우 초밥용 슬라이스', 'Cj154OM4j3k', '초밥 위에 올리기 좋은 익힌 새우 슬라이스.'],
+                ['가공식품/간식', '자투리 참치회', '7yhplsjUxe0', '회나 덮밥으로 먹는 참치 자투리 부위.'],
+                ['가공식품/간식', '순살 게살', '7yhplsjUxe0', '껍질 없이 바로 요리에 넣는 게살.'],
+                ['가공식품/간식', '버터오징어 부스러기', '7yhplsjUxe0', '간식이나 안주로 집어 먹는 버터맛 오징어.'],
+                ['가공식품/간식', '가루 와사비', 'W0laeE5Fm-I', '물에 개어 초밥이나 회에 곁들이는 와사비 분말.'],
+                ['가공식품/간식', '냉동 청대콩', 'W0laeE5Fm-I', '밥이나 반찬에 넣어 먹는 냉동 청대콩.'],
+                ['가공식품/간식', '새우칩 생지', 'W0laeE5Fm-I', '기름에 튀겨 새우칩을 만드는 재료.'],
+                ['가공식품/간식', '애프터 에이트 민트 초콜릿', 'EpRfJxzaOg8', '식후 간식으로 먹는 민트 초콜릿.'],
+                ['가공식품/간식', '고래사 어묵면', 'Jbfj8SsnOaU', '면처럼 끓이거나 볶아 먹는 어묵.'],
+                ['가공식품/간식', '대림선 종이어묵', 'Jbfj8SsnOaU', '국물 요리에 넣기 좋은 얇은 어묵.'],
+                ['가공식품/간식', '고추다대기 (멸치맛)', 'S28AHqduRM4', '국이나 면에 넣어 매운맛을 더하는 양념.'],
+                ['가공식품/간식', '연어장', 'S28AHqduRM4', '밥 위에 올려 먹는 양념 연어.'],
+                ['가공식품/간식', '마이노멀 저당 딸기잼', 'Viq5soXmVO4', '빵이나 요거트에 발라 먹는 저당 딸기잼.'],
+                ['가공식품/간식', '코스트코 디너롤', 'n7sPt0VA7rg', '샌드위치나 식사 빵으로 먹는 작은 롤빵.'],
+                ['가공식품/간식', '베노프 버터멜로우쿠키맛 단백질 쉐이크', 'alDqzeZMbEI', '물이나 우유에 타서 마시는 쿠키맛 단백질 음료.'],
+                ['가공식품/간식', '일드프랑스 미니쉘 크림치즈', 'h9lTJB-BZ0s', '빵이나 크래커에 곁들여 먹는 크림치즈.'],
+                ['가공식품/간식', "Sweet Baby Ray's 바비큐 소스", 'GPeF16iUHNo', '고기 구이에 곁들여 먹는 바비큐 소스.'],
+                ['가공식품/간식', '하겐다즈 천사의 유혹 (화이트 초콜릿)', 'ycz85qdKMEM', '화이트 초콜릿 맛을 즐기는 아이스크림.'],
+                ['가공식품/간식', 'BRULEE 크렘브륄레 아이스크림', 'ycz85qdKMEM,CIqn2cGvgPU', '크렘브륄레 풍미를 즐기는 아이스크림.'],
+                ['가공식품/간식', '화이트 생초콜릿 아이스', 'ycz85qdKMEM', '화이트 생초콜릿 맛을 즐기는 아이스크림.'],
+                ['가공식품/간식', '판초코 아이스', 'ycz85qdKMEM', '초콜릿 판이 들어간 아이스크림.'],
+                ['가공식품/간식', '하겐다즈 샌드위치 (말차 베리)', 'ycz85qdKMEM', '말차·베리 맛 아이스크림을 과자 사이에 넣은 간식.'],
+                ['가공식품/간식', '하겐다즈 모찌', 'ycz85qdKMEM,CIqn2cGvgPU', '떡과 아이스크림을 함께 먹는 디저트.'],
+                ['가공식품/간식', '하겐다즈 악마의 속삭임 (초콜릿)', 'ycz85qdKMEM', '초콜릿 맛을 즐기는 아이스크림.'],
+                ['가공식품/간식', '하겐다즈 고구마버터 & 쿠키', 'ycz85qdKMEM', '고구마·버터·쿠키 맛 아이스크림.'],
+                ['가공식품/간식', '하겐다즈 스푼크러쉬 (말차)', 'ycz85qdKMEM', '말차 맛을 숟가락으로 떠먹는 아이스크림.'],
+                ['가공식품/간식', '세븐일레븐 생초콜릿 아이스', 'ycz85qdKMEM,CIqn2cGvgPU', '생초콜릿 맛을 즐기는 편의점 아이스크림.'],
+                ['가공식품/간식', '생카라멜 아이스', 'ycz85qdKMEM', '카라멜 맛을 즐기는 아이스크림.'],
+                ['가공식품/간식', '세븐일레븐 고구마 모찌볼', 'CIqn2cGvgPU', '고구마 맛 모찌를 간식으로 먹는 디저트.'],
+                ['가공식품/간식', '패밀리마트 후와모찌 말차크림', 'CIqn2cGvgPU', '말차 크림이 든 모찌 디저트.'],
+                ['가공식품/간식', '초콜릿 푸딩 (ひとりでたのしくチョコプリン)', 'CIqn2cGvgPU', '초콜릿 맛을 즐기는 컵 푸딩.'],
+                ['가공식품/간식', '나메라카 푸딩', 'CIqn2cGvgPU', '부드러운 식감으로 먹는 일본식 푸딩.'],
+                ['가공식품/간식', '칼디 포로쇼콜라 초코 바나나 케이크', 'NHvnLNUvzmQ', '초콜릿과 바나나 맛을 함께 즐기는 케이크.'],
+                ['가공식품/간식', '칼디 딸기버터 스프레드', 'NHvnLNUvzmQ', '빵에 발라 먹는 딸기·버터 스프레드.'],
+                ['가공식품/간식', '칼디 마라차항노모토', 'NHvnLNUvzmQ', '볶음밥에 넣어 마라 맛을 내는 조미료.'],
+                ['가공식품/간식', '돈키호테 연어명란후리카게 라호구시', 'NHvnLNUvzmQ', '밥 위에 뿌려 먹는 연어·명란 후리카케.'],
+                ['가공식품/간식', '줄줄이 김', 'TC1GfdUHj18', '한 장씩 꺼내 밥에 싸 먹는 김.'],
+                ['가공식품/간식', '고기맛 고추장', 'TC1GfdUHj18', '밥이나 요리에 고기 풍미를 더하는 고추장.'],
+                ['가공식품/간식', '브라우니 초코바', 'lk-H_MurTds', '브라우니 맛을 간편히 먹는 초코바.'],
+                ['가공식품/간식', '양배추 소스', 'jiRd1Jd-zEY', '양배추 샐러드에 뿌려 먹는 소스.'],
+                ['가공식품/간식', '명란마요', 'jiRd1Jd-zEY', '밥이나 빵에 곁들이는 명란 마요네즈.'],
+                ['가공식품/간식', '계란밥 후리가케', 'jiRd1Jd-zEY', '계란밥 위에 뿌려 간을 더하는 후리카케.'],
+                ['가공식품/간식', '간장계란밥잼', 'jiRd1Jd-zEY', '간장계란밥에 곁들여 먹는 스프레드.'],
+                ['가공식품/간식', '와규 소스', 'jiRd1Jd-zEY', '고기 요리에 곁들여 먹는 소스.'],
+                ['가공식품/간식', '프로티원 단백질 쉐이크', 'D9iq8wSLZrM', '물이나 우유에 타서 마시는 단백질 쉐이크.'],
+                ['가공식품/간식', '난도스 페리페리 핫소스', 'hr7_75aDP1Q', '고기나 간식에 매운맛을 더하는 핫소스.'],
+                ['가공식품/간식', '불닭볶음면 소스', 'hr7_75aDP1Q', '요리에 불닭볶음면 맛과 매운맛을 더하는 소스.']
             ];
             const BEAUTY_PRODUCTS = [
                 ['스킨케어', '시드물 마다가스카르 수분크림', 'EtV0Mc-G85I'],
@@ -956,7 +960,8 @@
             ];
             console.assert([HOUSEWORK_PRODUCTS, GOOD_ITEM_PRODUCTS, BEAUTY_PRODUCTS].every(products =>
                 products.every(([category, name, ids]) => category && name && ids.split(',').every(id => /^[\w-]{11}$/.test(id))) &&
-                new Set(products.map(([, name]) => name)).size === products.length), '상품 목록에 중복 또는 잘못된 출처가 있습니다.');
+                new Set(products.map(([, name]) => name)).size === products.length) &&
+                GOOD_ITEM_PRODUCTS.every(([, , , description]) => description), '상품 목록에 중복, 잘못된 출처 또는 누락된 설명이 있습니다.');
 
             // App State
             const state = {
@@ -1205,7 +1210,7 @@
 
             // 1. First Filter: Title Search
             let titleFiltered = state.recipes.filter(recipe => {
-                const titleMatches = recipe.title.toLowerCase().includes(state.searchTerm);
+                const titleMatches = `${recipe.title} ${recipe.description || ''}`.toLowerCase().includes(state.searchTerm);
                 const categoryMatches = !state.selectedCategory || recipe.category === state.selectedCategory;
                 return titleMatches && categoryMatches;
             });
@@ -1261,6 +1266,24 @@
                     </div>
                 </div>
             `;
+                if (recipe.description) {
+                    const summary = document.createElement('p');
+                    summary.className = 'recipe-description';
+                    summary.textContent = recipe.description;
+                    card.querySelector('.card-title').after(summary);
+                } else {
+                    // ponytail: Title/comments may omit the dish; show its thumbnail until captions are available.
+                    const videoId = (recipe.link || '').match(/[?&]v=([\w-]{11})/)?.[1];
+                    if (videoId) {
+                        const preview = document.createElement('img');
+                        preview.className = 'recipe-thumbnail';
+                        preview.src = `https://i.ytimg.com/vi/${videoId}/mqdefault.jpg`;
+                        preview.alt = `${recipe.title} 영상 썸네일`;
+                        preview.loading = 'lazy';
+                        preview.onerror = () => preview.remove();
+                        card.prepend(preview);
+                    }
+                }
                 container.appendChild(card);
             });
         }
@@ -1283,8 +1306,8 @@
             const matchCountEl = document.getElementById(countId);
             container.innerHTML = '';
 
-            const filtered = state.products.filter(([category, name]) => {
-                const titleMatches = `${category} ${name}`.toLowerCase().includes(state.searchTerm);
+            const filtered = state.products.filter(([category, name, , description]) => {
+                const titleMatches = `${category} ${name} ${description || ''}`.toLowerCase().includes(state.searchTerm);
                 const categoryMatches = !state.selectedCategory || category === state.selectedCategory;
                 return titleMatches && categoryMatches;
             });
@@ -1296,13 +1319,19 @@
                 return;
             }
 
-            filtered.forEach(([category, name, ids]) => {
+            filtered.forEach(([category, name, ids, description]) => {
                 const card = document.createElement('div');
                 card.className = 'housework-card product-card';
                 const title = document.createElement('div');
                 title.className = 'card-title';
                 title.textContent = `[${category}] ${name}`;
                 card.appendChild(title);
+                if (description) {
+                    const summary = document.createElement('p');
+                    summary.className = 'product-description';
+                    summary.textContent = description;
+                    card.appendChild(summary);
+                }
                 const sources = document.createElement('div');
                 sources.className = 'product-sources';
                 ids.split(',').forEach((id, index) => {
