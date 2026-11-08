@@ -525,7 +525,7 @@
                     <!-- Selected ingredient buttons injected by JS -->
                 </div>
 
-                <div id="weeklyRecommendation" class="weekly-recommendation">
+                <div id="weeklyRecommendation" class="weekly-recommendation" hidden>
                     <button type="button" id="weeklyToggle" class="weekly-toggle" aria-expanded="true"
                         onclick="toggleWeeklyRecommendation()">
                         <span>이번주의 재료 추천!</span>
@@ -1175,7 +1175,7 @@
 
         function updateUI(state) {
             document.getElementById('countValue').textContent = state.selected.size;
-            renderWeeklyRecommendation(state);
+            // ponytail: Keep the leaflet dormant until the weekly section is requested again.
             renderRecipeCategories(state);
             renderIngredientSuggestions(state);
             renderSelectedIngredients(state);
